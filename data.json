@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T16:57:11.340388Z",
+  "generated_at": "2026-07-31T17:55:13.403050Z",
   "next_runs": [
     "2026-08-01T01:07:00Z",
     "2026-08-01T06:07:00Z",
     "2026-08-01T11:07:00Z"
   ],
   "summary": {
-    "videos": 12,
+    "videos": 14,
     "total_views": 4184,
     "mean_abs_pct_error": 1729.9,
     "measured_videos": 10,
@@ -90,23 +90,23 @@
   },
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-07-31T13:03:19Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30632939291",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-07-31T17:46:44Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30652500401",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 102.9,
+    "used_minutes": 103.6,
     "budget_minutes": 2000,
-    "percent_used": 5.1,
-    "runs_counted": 34,
+    "percent_used": 5.2,
+    "runs_counted": 35,
     "per_workflow_minutes": {
       "daily.yml": 93.9,
-      "followup.yml": 9.0
+      "followup.yml": 9.7
     },
     "measurement_source": "run_duration",
     "month_start": "2026-07-01"
@@ -132,7 +132,47 @@
   },
   "videos": [
     {
-      "n": 12,
+      "n": 14,
+      "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
+      "url": "https://youtube.com/watch?v=YjcpqGlcoBg",
+      "uploaded_at": "2026-07-31T17:55:13Z",
+      "topic": "Franklin's lost expedition",
+      "hook": "Two massive warships vanished in the Arctic with 129 men.",
+      "predicted_views": 1022,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v1",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 1,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "upload-velocity",
+          "detail": "11 uploads in the last 48h (elevated, threshold 11)",
+          "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
+        }
+      ]
+    },
+    {
+      "n": 13,
       "title": "The Toxic Woman Who Knocked Out an Entire ER",
       "url": "https://youtube.com/watch?v=TLxlsPYijlo",
       "uploaded_at": "2026-07-31T13:12:21Z",
@@ -154,6 +194,40 @@
         "checked": 5,
         "contradicted": 0,
         "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": []
+    },
+    {
+      "n": 12,
+      "title": "The 1908 Explosion That Destroyed a Forest Without Leaving a Trace",
+      "url": "https://youtube.com/watch?v=lbUqcseFke8",
+      "uploaded_at": "2026-07-31T09:20:45Z",
+      "topic": "Tunguska event",
+      "hook": "Eighty million trees suddenly fell outward in a perfect circle.",
+      "predicted_views": 5,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "pre-phase0",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v1",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "resolution_grounded": null
       },
       "retention": {
         "available": false,
