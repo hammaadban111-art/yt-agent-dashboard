@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T03:49:59.224646Z",
+  "generated_at": "2026-08-01T04:33:26.899062Z",
   "next_runs": [
     "2026-08-01T06:07:00Z",
     "2026-08-01T11:07:00Z",
     "2026-08-01T16:07:00Z"
   ],
   "summary": {
-    "videos": 14,
+    "videos": 15,
     "total_views": 5972,
     "mean_abs_pct_error": 4067.6,
     "measured_videos": 13,
@@ -96,25 +96,25 @@
   },
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-07-31T17:46:44Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30652500401",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-01T04:26:43Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30683955237",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 0.0,
+    "used_minutes": 0.5,
     "budget_minutes": 2000,
     "percent_used": 0.0,
-    "runs_counted": 0,
+    "runs_counted": 1,
     "per_workflow_minutes": {
       "daily.yml": 0.0,
-      "followup.yml": 0.0
+      "followup.yml": 0.5
     },
-    "measurement_source": "none",
+    "measurement_source": "run_duration",
     "month_start": "2026-08-01"
   },
   "failures": {
@@ -137,6 +137,49 @@
     ]
   },
   "videos": [
+    {
+      "n": 15,
+      "title": "The Walking Rocks of Death Valley Solved",
+      "url": "https://youtube.com/watch?v=tQ6yf7Ib22A",
+      "uploaded_at": "2026-08-01T04:33:26Z",
+      "topic": "Sailing stones",
+      "hook": "Giant boulders move across this dry lakebed all by themselves.",
+      "predicted_views": 991,
+      "predicted_range": "201-4,880",
+      "predicted_low": 201,
+      "predicted_high": 4880,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "upload-velocity",
+          "detail": "11 uploads in the last 48h (elevated, threshold 11)",
+          "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
+        }
+      ]
+    },
     {
       "n": 14,
       "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
