@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T10:48:46.705259Z",
+  "generated_at": "2026-08-01T12:15:28.212619Z",
   "next_runs": [
-    "2026-08-01T11:07:00Z",
     "2026-08-01T16:07:00Z",
-    "2026-08-02T01:07:00Z"
+    "2026-08-02T01:07:00Z",
+    "2026-08-02T06:07:00Z"
   ],
   "summary": {
-    "videos": 16,
+    "videos": 17,
     "total_views": 7077,
     "mean_abs_pct_error": 3777.8,
     "measured_videos": 14,
@@ -96,23 +96,23 @@
   },
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-01T08:32:03Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30691949300",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-01T12:07:58Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30699076500",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 15.4,
+    "used_minutes": 16.0,
     "budget_minutes": 2000,
     "percent_used": 0.8,
-    "runs_counted": 4,
+    "runs_counted": 5,
     "per_workflow_minutes": {
       "daily.yml": 14.3,
-      "followup.yml": 1.1
+      "followup.yml": 1.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -126,17 +126,53 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30619179484",
         "created_at": "2026-07-31T09:14:08Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 30472456603,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30472456603",
-        "created_at": "2026-07-29T16:48:47Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
+    {
+      "n": 17,
+      "title": "The Waterfall That Swallowed Everything\u2014And Where It Went",
+      "url": "https://youtube.com/watch?v=p2N0xOZxIUA",
+      "uploaded_at": "2026-08-01T12:15:28Z",
+      "topic": "Devil's Kettle (Minnesota)",
+      "hook": "Locals dumped ping pong balls down a waterfall and they vanished.",
+      "predicted_views": 999,
+      "predicted_range": "209-4,766",
+      "predicted_low": 209,
+      "predicted_high": 4766,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 1,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "upload-velocity",
+          "detail": "11 uploads in the last 48h (elevated, threshold 11)",
+          "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
+        }
+      ]
+    },
     {
       "n": 16,
       "title": "The Antarctic Glacier That Bleeds Bright Red",
