@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:12:57.692959Z",
+  "generated_at": "2026-08-02T16:15:59.007151Z",
   "next_runs": [
     "2026-08-03T01:07:00Z",
     "2026-08-03T06:07:00Z",
@@ -35,8 +35,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1251,
-      "measured_at": "2026-08-02T16:12:49Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:47Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": 4904,
       "likes": 18,
@@ -459,7 +459,9 @@
         "biggest_drop_size": 0.081,
         "retention_at_end": 0.4789
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     "worst": {
       "n": 6,
@@ -473,8 +475,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-02T16:12:50Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:48Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 1,
@@ -496,7 +498,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     }
   },
   "top_performers": [
@@ -518,7 +522,7 @@
     {
       "subject": "Franklin's lost expedition",
       "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
-      "views": 1151
+      "views": 1150
     },
     {
       "subject": "MV Joyita",
@@ -538,13 +542,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 64.9,
+    "used_minutes": 65.7,
     "budget_minutes": 2000,
-    "percent_used": 3.2,
-    "runs_counted": 22,
+    "percent_used": 3.3,
+    "runs_counted": 23,
     "per_workflow_minutes": {
       "daily.yml": 56.6,
-      "followup.yml": 8.3
+      "followup.yml": 9.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -604,7 +608,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 20,
@@ -617,14 +623,14 @@
       "predicted_range": "218-4,473",
       "predicted_low": 218,
       "predicted_high": 4473,
-      "actual_views": 992,
-      "measured_at": "2026-08-02T16:12:57Z",
-      "measurement_count": 4,
+      "actual_views": 1000,
+      "measured_at": "2026-08-02T16:15:59Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": 1,
       "likes": 23,
       "comments": 0,
-      "engagement_rate": 2.32,
+      "engagement_rate": 2.3,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -641,7 +647,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 19,
@@ -655,8 +663,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 782,
-      "measured_at": "2026-08-02T16:12:57Z",
-      "measurement_count": 5,
+      "measured_at": "2026-08-02T16:15:58Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -21,
       "likes": 8,
@@ -678,7 +686,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 18,
@@ -691,14 +701,14 @@
       "predicted_range": "214-4,609",
       "predicted_low": 214,
       "predicted_high": 4609,
-      "actual_views": 817,
-      "measured_at": "2026-08-02T16:12:56Z",
-      "measurement_count": 6,
+      "actual_views": 818,
+      "measured_at": "2026-08-02T16:15:57Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -18,
       "likes": 9,
       "comments": 2,
-      "engagement_rate": 1.35,
+      "engagement_rate": 1.34,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -715,7 +725,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 17,
@@ -729,8 +741,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 845,
-      "measured_at": "2026-08-02T16:12:56Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-02T16:15:56Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -15,
       "likes": 13,
@@ -758,7 +770,9 @@
           "detail": "11 uploads in the last 48h (elevated, threshold 11)",
           "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
         }
-      ]
+      ],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 16,
@@ -772,8 +786,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 941,
-      "measured_at": "2026-08-02T16:12:55Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-02T16:15:56Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 18,
@@ -801,7 +815,9 @@
           "detail": "11 uploads in the last 48h (elevated, threshold 11)",
           "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
         }
-      ]
+      ],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 15,
@@ -815,8 +831,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1205,
-      "measured_at": "2026-08-02T16:12:55Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:55Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 22,
       "likes": 19,
@@ -844,7 +860,9 @@
           "detail": "11 uploads in the last 48h (elevated, threshold 11)",
           "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
         }
-      ]
+      ],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 14,
@@ -857,9 +875,9 @@
       "predicted_range": "182-5,747",
       "predicted_low": 182,
       "predicted_high": 5747,
-      "actual_views": 1151,
-      "measured_at": "2026-08-02T16:12:54Z",
-      "measurement_count": 10,
+      "actual_views": 1150,
+      "measured_at": "2026-08-02T16:15:54Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 13,
       "likes": 17,
@@ -887,7 +905,9 @@
           "detail": "11 uploads in the last 48h (elevated, threshold 11)",
           "fallback": "proceeding - 48h volume is advisory, only the 24h ceiling blocks"
         }
-      ]
+      ],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 13,
@@ -901,8 +921,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 805,
-      "measured_at": "2026-08-02T16:12:54Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-02T16:15:53Z",
+      "measurement_count": 11,
       "system_version": "pre-phase0",
       "error_pct": 16000,
       "likes": 27,
@@ -918,13 +938,15 @@
       },
       "retention": {
         "available": false,
-        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "reason": "HttpError: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-07-31&endDate=2026-08-03&metrics=audienceWatchRatio%2CrelativeRetentionPerformance&dimensions=elapsedVideoTimeRatio&filters=video%3D%3DTLxlsPYijlo&alt=json returned \"Inte",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 12,
@@ -938,8 +960,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1239,
-      "measured_at": "2026-08-02T16:12:53Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-02T16:15:53Z",
+      "measurement_count": 11,
       "system_version": "pre-phase0",
       "error_pct": 24680,
       "likes": 31,
@@ -961,7 +983,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 11,
@@ -975,8 +999,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 514,
-      "measured_at": "2026-08-02T16:12:53Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-02T16:15:52Z",
+      "measurement_count": 11,
       "system_version": "pre-phase0",
       "error_pct": 10180,
       "likes": 14,
@@ -998,7 +1022,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 10,
@@ -1012,8 +1038,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 11,
-      "measured_at": "2026-08-02T16:12:52Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:51Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 1,
@@ -1035,7 +1061,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 9,
@@ -1048,14 +1076,14 @@
       "predicted_range": "173-6,217",
       "predicted_low": 173,
       "predicted_high": 6217,
-      "actual_views": 46,
-      "measured_at": "2026-08-02T16:12:52Z",
-      "measurement_count": 9,
+      "actual_views": 47,
+      "measured_at": "2026-08-02T16:15:50Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
-      "error_pct": -96,
+      "error_pct": -95,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 4.35,
+      "engagement_rate": 4.26,
       "top_comments": [],
       "model_version": "baseline-v1",
       "fact_check": {
@@ -1072,7 +1100,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 8,
@@ -1086,8 +1116,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 7,
-      "measured_at": "2026-08-02T16:12:51Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:49Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 1,
@@ -1109,7 +1139,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 7,
@@ -1123,8 +1155,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 3,
-      "measured_at": "2026-08-02T16:12:51Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:49Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": -100,
       "likes": 1,
@@ -1146,7 +1178,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 6,
@@ -1160,8 +1194,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-02T16:12:50Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:48Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 1,
@@ -1183,7 +1217,9 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 5,
@@ -1197,8 +1233,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1251,
-      "measured_at": "2026-08-02T16:12:49Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-02T16:15:47Z",
+      "measurement_count": 10,
       "system_version": "pre-phase0",
       "error_pct": 4904,
       "likes": 18,
@@ -1621,7 +1657,9 @@
         "biggest_drop_size": 0.081,
         "retention_at_end": 0.4789
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 4,
@@ -1635,8 +1673,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1095,
-      "measured_at": "2026-08-02T16:12:49Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-02T16:15:46Z",
+      "measurement_count": 9,
       "system_version": "pre-phase0",
       "error_pct": 4280,
       "likes": 12,
@@ -2059,7 +2097,9 @@
         "biggest_drop_size": 0.0805,
         "retention_at_end": 0.4296
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 3,
@@ -2073,8 +2113,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1060,
-      "measured_at": "2026-08-02T16:12:48Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-02T16:15:45Z",
+      "measurement_count": 8,
       "system_version": "pre-phase0",
       "error_pct": 4140,
       "likes": 12,
@@ -2497,7 +2537,9 @@
         "biggest_drop_size": 0.0834,
         "retention_at_end": 0.3333
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 2,
@@ -2511,8 +2553,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-02T16:12:47Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-02T16:15:44Z",
+      "measurement_count": 7,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 19,
@@ -2935,7 +2977,9 @@
         "biggest_drop_size": 0.0617,
         "retention_at_end": 0.3345
       },
-      "degradations": []
+      "degradations": [],
+      "final": false,
+      "finalized_at": null
     },
     {
       "n": 1,
@@ -2949,8 +2993,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1069,
-      "measured_at": "2026-08-02T16:12:47Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-02T16:15:43Z",
+      "measurement_count": 5,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 12,
@@ -3378,7 +3422,9 @@
           "stage": "backfill",
           "fallback": "reading taken days after upload during backfill on 2026-08-02, not a true 5h measurement; this video predates record-keeping"
         }
-      ]
+      ],
+      "final": false,
+      "finalized_at": null
     }
   ]
 }
