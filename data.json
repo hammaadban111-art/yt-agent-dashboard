@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T03:52:46.156558Z",
+  "generated_at": "2026-08-02T04:37:34.776133Z",
   "next_runs": [
     "2026-08-02T06:07:00Z",
     "2026-08-02T11:07:00Z",
     "2026-08-02T16:07:00Z"
   ],
   "summary": {
-    "videos": 18,
+    "videos": 19,
     "total_views": 8624,
     "mean_abs_pct_error": 3119.7,
     "measured_videos": 17,
@@ -98,23 +98,23 @@
   },
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-01T17:08:25Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30709676655",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-02T04:29:58Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30732474740",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 33.4,
+    "used_minutes": 33.8,
     "budget_minutes": 2000,
     "percent_used": 1.7,
-    "runs_counted": 11,
+    "runs_counted": 12,
     "per_workflow_minutes": {
       "daily.yml": 29.6,
-      "followup.yml": 3.8
+      "followup.yml": 4.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -132,6 +132,43 @@
     ]
   },
   "videos": [
+    {
+      "n": 19,
+      "title": "The Himalayan Lake Filled With Hundreds of Skulls",
+      "url": "https://youtube.com/watch?v=yadjS1MeRo0",
+      "uploaded_at": "2026-08-02T04:37:34Z",
+      "topic": "Roopkund",
+      "hook": "Hundreds of skulls in this frozen lake had matching round holes.",
+      "predicted_views": 987,
+      "predicted_range": "218-4,473",
+      "predicted_low": 218,
+      "predicted_high": 4473,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 6,
+        "contradicted": 1,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": []
+    },
     {
       "n": 18,
       "title": "The Silent Lake That Erased an Entire Valley Overnight",
