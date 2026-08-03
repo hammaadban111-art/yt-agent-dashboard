@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-03T10:05:51.940364Z",
+  "generated_at": "2026-08-03T13:53:28.779507Z",
   "next_runs": [
-    "2026-08-03T11:07:00Z",
     "2026-08-03T16:07:00Z",
-    "2026-08-04T01:07:00Z"
+    "2026-08-04T01:07:00Z",
+    "2026-08-04T06:07:00Z"
   ],
   "summary": {
-    "videos": 23,
-    "total_views": 17057,
-    "total_likes": 312,
+    "videos": 24,
+    "total_views": 17250,
+    "total_likes": 314,
     "total_comments": 9,
     "mean_abs_pct_error": 2251.3,
     "measured_videos": 23,
-    "days_of_history": 4,
+    "days_of_history": 5,
     "self_improve_active": false,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": false,
@@ -41,8 +41,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-03T10:05:41Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:15Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -536,6 +536,10 @@
         {
           "measured_at": "2026-08-03T10:05:41Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-03T13:53:15Z",
+          "actual_views": 1252
         }
       ]
     },
@@ -551,8 +555,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-03T10:05:41Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:16Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -645,6 +649,10 @@
         {
           "measured_at": "2026-08-03T10:05:41Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-03T13:53:16Z",
+          "actual_views": 2
         }
       ]
     }
@@ -681,20 +689,20 @@
     "status": "in_progress",
     "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-03T10:02:47Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30803947822",
+    "created_at": "2026-08-03T13:46:09Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30819489355",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 84.2,
+    "used_minutes": 93.0,
     "budget_minutes": 2000,
-    "percent_used": 4.2,
-    "runs_counted": 30,
+    "percent_used": 4.7,
+    "runs_counted": 32,
     "per_workflow_minutes": {
-      "daily.yml": 71.2,
-      "followup.yml": 13.1
+      "daily.yml": 79.2,
+      "followup.yml": 13.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -702,6 +710,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 30803947822,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30803947822",
+        "created_at": "2026-08-03T10:02:47Z",
+        "error": "Unknown error \u2014 see run logs."
+      },
       {
         "workflow": "followup.yml",
         "run_id": 30754733620,
@@ -720,6 +735,46 @@
   },
   "videos": [
     {
+      "n": 24,
+      "title": "The Deadly Mystery of the 1518 Dancing Epidemic",
+      "url": "https://youtube.com/watch?v=SP68Vfly9Qk",
+      "uploaded_at": "2026-08-03T13:53:11Z",
+      "topic": "Dancing plague of 1518",
+      "hook": "Four hundred people once danced continuously until they dropped dead.",
+      "predicted_views": 813,
+      "predicted_range": "202-3,268",
+      "predicted_low": 202,
+      "predicted_high": 3268,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "history": []
+    },
+    {
       "n": 23,
       "title": "The Loudest Sound in Human History",
       "url": "https://youtube.com/watch?v=bzB10CnJO1Q",
@@ -730,14 +785,14 @@
       "predicted_range": "201-3,310",
       "predicted_low": 201,
       "predicted_high": 3310,
-      "actual_views": 597,
-      "measured_at": "2026-08-03T10:05:51Z",
-      "measurement_count": 1,
+      "actual_views": 790,
+      "measured_at": "2026-08-03T13:53:28Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -27,
-      "likes": 17,
+      "error_pct": -3,
+      "likes": 19,
       "comments": 0,
-      "engagement_rate": 2.85,
+      "engagement_rate": 2.41,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -761,6 +816,10 @@
         {
           "measured_at": "2026-08-03T10:05:51Z",
           "actual_views": 597
+        },
+        {
+          "measured_at": "2026-08-03T13:53:28Z",
+          "actual_views": 790
         }
       ]
     },
@@ -776,8 +835,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 753,
-      "measured_at": "2026-08-03T10:05:51Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-03T13:53:27Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -9,
       "likes": 8,
@@ -814,6 +873,10 @@
         {
           "measured_at": "2026-08-03T10:05:51Z",
           "actual_views": 753
+        },
+        {
+          "measured_at": "2026-08-03T13:53:27Z",
+          "actual_views": 753
         }
       ]
     },
@@ -829,8 +892,8 @@
       "predicted_low": 191,
       "predicted_high": 3502,
       "actual_views": 783,
-      "measured_at": "2026-08-03T10:05:50Z",
-      "measurement_count": 5,
+      "measured_at": "2026-08-03T13:53:26Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -4,
       "likes": 13,
@@ -875,6 +938,10 @@
         {
           "measured_at": "2026-08-03T10:05:50Z",
           "actual_views": 783
+        },
+        {
+          "measured_at": "2026-08-03T13:53:26Z",
+          "actual_views": 783
         }
       ]
     },
@@ -890,8 +957,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 1021,
-      "measured_at": "2026-08-03T10:05:50Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-03T13:53:26Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 3,
       "likes": 24,
@@ -964,6 +1031,10 @@
         {
           "measured_at": "2026-08-03T10:05:50Z",
           "actual_views": 1021
+        },
+        {
+          "measured_at": "2026-08-03T13:53:26Z",
+          "actual_views": 1021
         }
       ]
     },
@@ -979,8 +1050,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 775,
-      "measured_at": "2026-08-03T10:05:49Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-03T13:53:25Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -21,
       "likes": 9,
@@ -1057,6 +1128,10 @@
         {
           "measured_at": "2026-08-03T10:05:49Z",
           "actual_views": 775
+        },
+        {
+          "measured_at": "2026-08-03T13:53:25Z",
+          "actual_views": 775
         }
       ]
     },
@@ -1072,8 +1147,8 @@
       "predicted_low": 214,
       "predicted_high": 4609,
       "actual_views": 808,
-      "measured_at": "2026-08-03T10:05:49Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-03T13:53:24Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 10,
@@ -1154,6 +1229,10 @@
         {
           "measured_at": "2026-08-03T10:05:49Z",
           "actual_views": 808
+        },
+        {
+          "measured_at": "2026-08-03T13:53:24Z",
+          "actual_views": 808
         }
       ]
     },
@@ -1169,8 +1248,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 843,
-      "measured_at": "2026-08-03T10:05:48Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-03T13:53:24Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -16,
       "likes": 14,
@@ -1261,6 +1340,10 @@
         {
           "measured_at": "2026-08-03T10:05:48Z",
           "actual_views": 843
+        },
+        {
+          "measured_at": "2026-08-03T13:53:24Z",
+          "actual_views": 843
         }
       ]
     },
@@ -1276,8 +1359,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 939,
-      "measured_at": "2026-08-03T10:05:48Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-03T13:53:23Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 19,
@@ -1372,6 +1455,10 @@
         {
           "measured_at": "2026-08-03T10:05:48Z",
           "actual_views": 939
+        },
+        {
+          "measured_at": "2026-08-03T13:53:23Z",
+          "actual_views": 939
         }
       ]
     },
@@ -1387,8 +1474,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1204,
-      "measured_at": "2026-08-03T10:05:47Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:23Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
       "likes": 19,
@@ -1487,6 +1574,10 @@
         {
           "measured_at": "2026-08-03T10:05:47Z",
           "actual_views": 1204
+        },
+        {
+          "measured_at": "2026-08-03T13:53:23Z",
+          "actual_views": 1204
         }
       ]
     },
@@ -1502,8 +1593,8 @@
       "predicted_low": 182,
       "predicted_high": 5747,
       "actual_views": 1142,
-      "measured_at": "2026-08-03T10:05:47Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-03T13:53:22Z",
+      "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": 12,
       "likes": 18,
@@ -1606,6 +1697,10 @@
         {
           "measured_at": "2026-08-03T10:05:47Z",
           "actual_views": 1142
+        },
+        {
+          "measured_at": "2026-08-03T13:53:22Z",
+          "actual_views": 1142
         }
       ]
     },
@@ -1621,8 +1716,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 806,
-      "measured_at": "2026-08-03T10:05:46Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-03T13:53:21Z",
+      "measurement_count": 19,
       "system_version": "pre-phase0",
       "error_pct": 16020,
       "likes": 27,
@@ -2120,6 +2215,10 @@
         {
           "measured_at": "2026-08-03T10:05:46Z",
           "actual_views": 806
+        },
+        {
+          "measured_at": "2026-08-03T13:53:21Z",
+          "actual_views": 806
         }
       ]
     },
@@ -2135,8 +2234,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1239,
-      "measured_at": "2026-08-03T10:05:45Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-03T13:53:21Z",
+      "measurement_count": 19,
       "system_version": "pre-phase0",
       "error_pct": 24680,
       "likes": 32,
@@ -2634,6 +2733,10 @@
         {
           "measured_at": "2026-08-03T10:05:45Z",
           "actual_views": 1239
+        },
+        {
+          "measured_at": "2026-08-03T13:53:21Z",
+          "actual_views": 1239
         }
       ]
     },
@@ -2649,8 +2752,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 513,
-      "measured_at": "2026-08-03T10:05:45Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-03T13:53:20Z",
+      "measurement_count": 19,
       "system_version": "pre-phase0",
       "error_pct": 10160,
       "likes": 15,
@@ -3148,6 +3251,10 @@
         {
           "measured_at": "2026-08-03T10:05:45Z",
           "actual_views": 513
+        },
+        {
+          "measured_at": "2026-08-03T13:53:20Z",
+          "actual_views": 513
         }
       ]
     },
@@ -3163,8 +3270,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 11,
-      "measured_at": "2026-08-03T10:05:44Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:19Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -3257,6 +3364,10 @@
         {
           "measured_at": "2026-08-03T10:05:44Z",
           "actual_views": 11
+        },
+        {
+          "measured_at": "2026-08-03T13:53:19Z",
+          "actual_views": 11
         }
       ]
     },
@@ -3272,8 +3383,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 48,
-      "measured_at": "2026-08-03T10:05:43Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:19Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -95,
       "likes": 3,
@@ -3767,6 +3878,10 @@
         {
           "measured_at": "2026-08-03T10:05:43Z",
           "actual_views": 48
+        },
+        {
+          "measured_at": "2026-08-03T13:53:19Z",
+          "actual_views": 48
         }
       ]
     },
@@ -3782,8 +3897,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-03T10:05:43Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:18Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -3876,6 +3991,10 @@
         {
           "measured_at": "2026-08-03T10:05:43Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-03T13:53:18Z",
+          "actual_views": 8
         }
       ]
     },
@@ -3891,8 +4010,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 4,
-      "measured_at": "2026-08-03T10:05:42Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:17Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -100,
       "likes": 2,
@@ -3985,6 +4104,10 @@
         {
           "measured_at": "2026-08-03T10:05:42Z",
           "actual_views": 4
+        },
+        {
+          "measured_at": "2026-08-03T13:53:17Z",
+          "actual_views": 4
         }
       ]
     },
@@ -4000,8 +4123,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-03T10:05:41Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:16Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -4094,6 +4217,10 @@
         {
           "measured_at": "2026-08-03T10:05:41Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-03T13:53:16Z",
+          "actual_views": 2
         }
       ]
     },
@@ -4109,8 +4236,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-03T10:05:41Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-03T13:53:15Z",
+      "measurement_count": 18,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -4604,6 +4731,10 @@
         {
           "measured_at": "2026-08-03T10:05:41Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-03T13:53:15Z",
+          "actual_views": 1252
         }
       ]
     },
@@ -4619,8 +4750,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1100,
-      "measured_at": "2026-08-03T10:05:40Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-03T13:53:15Z",
+      "measurement_count": 17,
       "system_version": "pre-phase0",
       "error_pct": 4300,
       "likes": 12,
@@ -5110,6 +5241,10 @@
         {
           "measured_at": "2026-08-03T10:05:40Z",
           "actual_views": 1100
+        },
+        {
+          "measured_at": "2026-08-03T13:53:15Z",
+          "actual_views": 1100
         }
       ]
     },
@@ -5125,8 +5260,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1059,
-      "measured_at": "2026-08-03T10:05:39Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-03T13:53:14Z",
+      "measurement_count": 16,
       "system_version": "pre-phase0",
       "error_pct": 4136,
       "likes": 12,
@@ -5612,6 +5747,10 @@
         {
           "measured_at": "2026-08-03T10:05:39Z",
           "actual_views": 1059
+        },
+        {
+          "measured_at": "2026-08-03T13:53:14Z",
+          "actual_views": 1059
         }
       ]
     },
@@ -5627,8 +5766,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-03T10:05:39Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-03T13:53:13Z",
+      "measurement_count": 15,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 20,
@@ -6110,6 +6249,10 @@
         {
           "measured_at": "2026-08-03T10:05:39Z",
           "actual_views": 1080
+        },
+        {
+          "measured_at": "2026-08-03T13:53:13Z",
+          "actual_views": 1080
         }
       ]
     },
@@ -6125,8 +6268,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1070,
-      "measured_at": "2026-08-03T10:05:38Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-03T13:53:12Z",
+      "measurement_count": 13,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 13,
@@ -6604,6 +6747,10 @@
         },
         {
           "measured_at": "2026-08-03T10:05:38Z",
+          "actual_views": 1070
+        },
+        {
+          "measured_at": "2026-08-03T13:53:12Z",
           "actual_views": 1070
         }
       ]
