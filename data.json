@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-04T04:26:11.805064Z",
+  "generated_at": "2026-08-04T09:00:39.709744Z",
   "next_runs": [
-    "2026-08-04T06:07:00Z",
     "2026-08-04T11:07:00Z",
-    "2026-08-04T16:07:00Z"
+    "2026-08-04T16:07:00Z",
+    "2026-08-05T01:07:00Z"
   ],
   "summary": {
-    "videos": 26,
-    "total_views": 18081,
+    "videos": 27,
+    "total_views": 18084,
     "total_likes": 329,
     "total_comments": 9,
     "mean_abs_pct_error": 1856.6,
@@ -41,8 +41,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-04T04:25:54Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:22Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -560,6 +560,10 @@
         {
           "measured_at": "2026-08-04T04:25:54Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-04T09:00:22Z",
+          "actual_views": 1252
         }
       ]
     },
@@ -575,8 +579,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-04T04:25:55Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:23Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -693,6 +697,10 @@
         {
           "measured_at": "2026-08-04T04:25:55Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-04T09:00:23Z",
+          "actual_views": 2
         }
       ]
     }
@@ -716,7 +724,7 @@
     {
       "subject": "Franklin's lost expedition",
       "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
-      "views": 1153
+      "views": 1156
     },
     {
       "subject": "MV Joyita",
@@ -729,19 +737,19 @@
     "status": "in_progress",
     "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-04T04:19:03Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30877315740",
+    "created_at": "2026-08-04T08:51:38Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30893747294",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 117.6,
+    "used_minutes": 125.1,
     "budget_minutes": 2000,
-    "percent_used": 5.9,
-    "runs_counted": 38,
+    "percent_used": 6.3,
+    "runs_counted": 39,
     "per_workflow_minutes": {
-      "daily.yml": 95.5,
+      "daily.yml": 103.0,
       "followup.yml": 22.1
     },
     "measurement_source": "run_duration",
@@ -774,6 +782,46 @@
     ]
   },
   "videos": [
+    {
+      "n": 27,
+      "title": "The 300-Year Orphan Tsunami Solved by Dead Trees",
+      "url": "https://youtube.com/watch?v=r4D8DQaSVX8",
+      "uploaded_at": "2026-08-04T09:00:16Z",
+      "topic": "1700 Cascadia earthquake",
+      "hook": "Six-foot waves smashed Japan out of a completely calm night.",
+      "predicted_views": 793,
+      "predicted_range": "201-3,129",
+      "predicted_low": 201,
+      "predicted_high": 3129,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 1,
+        "resolution_grounded": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "history": []
+    },
     {
       "n": 26,
       "title": "The African Lake That Turns Animals Into Stone",
@@ -826,8 +874,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 689,
-      "measured_at": "2026-08-04T04:26:11Z",
-      "measurement_count": 2,
+      "measured_at": "2026-08-04T09:00:39Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -15,
       "likes": 13,
@@ -860,6 +908,10 @@
         {
           "measured_at": "2026-08-04T04:26:11Z",
           "actual_views": 689
+        },
+        {
+          "measured_at": "2026-08-04T09:00:39Z",
+          "actual_views": 689
         }
       ]
     },
@@ -875,8 +927,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 85,
-      "measured_at": "2026-08-04T04:26:11Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-04T09:00:38Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 2,
@@ -913,6 +965,10 @@
         {
           "measured_at": "2026-08-04T04:26:11Z",
           "actual_views": 85
+        },
+        {
+          "measured_at": "2026-08-04T09:00:38Z",
+          "actual_views": 85
         }
       ]
     },
@@ -928,8 +984,8 @@
       "predicted_low": 201,
       "predicted_high": 3310,
       "actual_views": 828,
-      "measured_at": "2026-08-04T04:26:10Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-04T09:00:38Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": 2,
       "likes": 19,
@@ -982,6 +1038,10 @@
         {
           "measured_at": "2026-08-04T04:26:10Z",
           "actual_views": 828
+        },
+        {
+          "measured_at": "2026-08-04T09:00:38Z",
+          "actual_views": 828
         }
       ]
     },
@@ -997,8 +1057,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 755,
-      "measured_at": "2026-08-04T04:26:09Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-04T09:00:37Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -9,
       "likes": 8,
@@ -1059,6 +1119,10 @@
         {
           "measured_at": "2026-08-04T04:26:09Z",
           "actual_views": 755
+        },
+        {
+          "measured_at": "2026-08-04T09:00:37Z",
+          "actual_views": 755
         }
       ]
     },
@@ -1074,8 +1138,8 @@
       "predicted_low": 191,
       "predicted_high": 3502,
       "actual_views": 783,
-      "measured_at": "2026-08-04T04:26:09Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-04T09:00:36Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -4,
       "likes": 13,
@@ -1144,6 +1208,10 @@
         {
           "measured_at": "2026-08-04T04:26:09Z",
           "actual_views": 783
+        },
+        {
+          "measured_at": "2026-08-04T09:00:36Z",
+          "actual_views": 783
         }
       ]
     },
@@ -1159,8 +1227,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 1021,
-      "measured_at": "2026-08-04T04:26:08Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-04T09:00:35Z",
+      "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": 3,
       "likes": 24,
@@ -1257,6 +1325,10 @@
         {
           "measured_at": "2026-08-04T04:26:08Z",
           "actual_views": 1021
+        },
+        {
+          "measured_at": "2026-08-04T09:00:35Z",
+          "actual_views": 1021
         }
       ]
     },
@@ -1272,8 +1344,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 776,
-      "measured_at": "2026-08-04T04:26:07Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-04T09:00:35Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -21,
       "likes": 9,
@@ -1374,6 +1446,10 @@
         {
           "measured_at": "2026-08-04T04:26:07Z",
           "actual_views": 776
+        },
+        {
+          "measured_at": "2026-08-04T09:00:35Z",
+          "actual_views": 776
         }
       ]
     },
@@ -1389,8 +1465,8 @@
       "predicted_low": 214,
       "predicted_high": 4609,
       "actual_views": 808,
-      "measured_at": "2026-08-04T04:26:06Z",
-      "measurement_count": 20,
+      "measured_at": "2026-08-04T09:00:34Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 10,
@@ -1896,6 +1972,10 @@
         {
           "measured_at": "2026-08-04T04:26:06Z",
           "actual_views": 808
+        },
+        {
+          "measured_at": "2026-08-04T09:00:34Z",
+          "actual_views": 808
         }
       ]
     },
@@ -1911,8 +1991,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 843,
-      "measured_at": "2026-08-04T04:26:05Z",
-      "measurement_count": 21,
+      "measured_at": "2026-08-04T09:00:33Z",
+      "measurement_count": 22,
       "system_version": "phase1-stabilize",
       "error_pct": -16,
       "likes": 14,
@@ -2428,6 +2508,10 @@
         {
           "measured_at": "2026-08-04T04:26:05Z",
           "actual_views": 843
+        },
+        {
+          "measured_at": "2026-08-04T09:00:33Z",
+          "actual_views": 843
         }
       ]
     },
@@ -2443,8 +2527,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 941,
-      "measured_at": "2026-08-04T04:26:04Z",
-      "measurement_count": 22,
+      "measured_at": "2026-08-04T09:00:32Z",
+      "measurement_count": 23,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 19,
@@ -2964,6 +3048,10 @@
         {
           "measured_at": "2026-08-04T04:26:04Z",
           "actual_views": 941
+        },
+        {
+          "measured_at": "2026-08-04T09:00:32Z",
+          "actual_views": 941
         }
       ]
     },
@@ -2979,8 +3067,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1204,
-      "measured_at": "2026-08-04T04:26:04Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:31Z",
+      "measurement_count": 24,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
       "likes": 19,
@@ -3504,6 +3592,10 @@
         {
           "measured_at": "2026-08-04T04:26:04Z",
           "actual_views": 1204
+        },
+        {
+          "measured_at": "2026-08-04T09:00:31Z",
+          "actual_views": 1204
         }
       ]
     },
@@ -3518,9 +3610,9 @@
       "predicted_range": "182-5,747",
       "predicted_low": 182,
       "predicted_high": 5747,
-      "actual_views": 1153,
-      "measured_at": "2026-08-04T04:26:03Z",
-      "measurement_count": 24,
+      "actual_views": 1156,
+      "measured_at": "2026-08-04T09:00:30Z",
+      "measurement_count": 25,
       "system_version": "phase1-stabilize",
       "error_pct": 13,
       "likes": 18,
@@ -4048,6 +4140,10 @@
         {
           "measured_at": "2026-08-04T04:26:03Z",
           "actual_views": 1153
+        },
+        {
+          "measured_at": "2026-08-04T09:00:30Z",
+          "actual_views": 1156
         }
       ]
     },
@@ -4063,8 +4159,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 807,
-      "measured_at": "2026-08-04T04:26:02Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-04T09:00:29Z",
+      "measurement_count": 25,
       "system_version": "pre-phase0",
       "error_pct": 16040,
       "likes": 27,
@@ -4586,6 +4682,10 @@
         {
           "measured_at": "2026-08-04T04:26:02Z",
           "actual_views": 807
+        },
+        {
+          "measured_at": "2026-08-04T09:00:29Z",
+          "actual_views": 807
         }
       ]
     },
@@ -4601,8 +4701,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1240,
-      "measured_at": "2026-08-04T04:26:01Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-04T09:00:28Z",
+      "measurement_count": 25,
       "system_version": "pre-phase0",
       "error_pct": 24700,
       "likes": 32,
@@ -5124,6 +5224,10 @@
         {
           "measured_at": "2026-08-04T04:26:01Z",
           "actual_views": 1240
+        },
+        {
+          "measured_at": "2026-08-04T09:00:28Z",
+          "actual_views": 1240
         }
       ]
     },
@@ -5139,8 +5243,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 514,
-      "measured_at": "2026-08-04T04:26:00Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-04T09:00:27Z",
+      "measurement_count": 25,
       "system_version": "pre-phase0",
       "error_pct": 10180,
       "likes": 15,
@@ -5662,6 +5766,10 @@
         {
           "measured_at": "2026-08-04T04:26:00Z",
           "actual_views": 514
+        },
+        {
+          "measured_at": "2026-08-04T09:00:27Z",
+          "actual_views": 514
         }
       ]
     },
@@ -5677,8 +5785,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 11,
-      "measured_at": "2026-08-04T04:25:59Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:26Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -5795,6 +5903,10 @@
         {
           "measured_at": "2026-08-04T04:25:59Z",
           "actual_views": 11
+        },
+        {
+          "measured_at": "2026-08-04T09:00:26Z",
+          "actual_views": 11
         }
       ]
     },
@@ -5810,8 +5922,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 48,
-      "measured_at": "2026-08-04T04:25:58Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:25Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -95,
       "likes": 3,
@@ -6329,6 +6441,10 @@
         {
           "measured_at": "2026-08-04T04:25:58Z",
           "actual_views": 48
+        },
+        {
+          "measured_at": "2026-08-04T09:00:25Z",
+          "actual_views": 48
         }
       ]
     },
@@ -6344,8 +6460,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-04T04:25:57Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:24Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -6462,6 +6578,10 @@
         {
           "measured_at": "2026-08-04T04:25:57Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-04T09:00:24Z",
+          "actual_views": 8
         }
       ]
     },
@@ -6477,8 +6597,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 4,
-      "measured_at": "2026-08-04T04:25:56Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:24Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -100,
       "likes": 2,
@@ -6595,6 +6715,10 @@
         {
           "measured_at": "2026-08-04T04:25:56Z",
           "actual_views": 4
+        },
+        {
+          "measured_at": "2026-08-04T09:00:24Z",
+          "actual_views": 4
         }
       ]
     },
@@ -6610,8 +6734,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-04T04:25:55Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:23Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -6728,6 +6852,10 @@
         {
           "measured_at": "2026-08-04T04:25:55Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-04T09:00:23Z",
+          "actual_views": 2
         }
       ]
     },
@@ -6743,8 +6871,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-04T04:25:54Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-04T09:00:22Z",
+      "measurement_count": 24,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -7262,6 +7390,10 @@
         {
           "measured_at": "2026-08-04T04:25:54Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-04T09:00:22Z",
+          "actual_views": 1252
         }
       ]
     },
@@ -7277,8 +7409,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1100,
-      "measured_at": "2026-08-04T04:25:53Z",
-      "measurement_count": 22,
+      "measured_at": "2026-08-04T09:00:21Z",
+      "measurement_count": 23,
       "system_version": "pre-phase0",
       "error_pct": 4300,
       "likes": 12,
@@ -7792,6 +7924,10 @@
         {
           "measured_at": "2026-08-04T04:25:53Z",
           "actual_views": 1100
+        },
+        {
+          "measured_at": "2026-08-04T09:00:21Z",
+          "actual_views": 1100
         }
       ]
     },
@@ -7807,8 +7943,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1059,
-      "measured_at": "2026-08-04T04:25:52Z",
-      "measurement_count": 21,
+      "measured_at": "2026-08-04T09:00:20Z",
+      "measurement_count": 22,
       "system_version": "pre-phase0",
       "error_pct": 4136,
       "likes": 12,
@@ -8318,6 +8454,10 @@
         {
           "measured_at": "2026-08-04T04:25:52Z",
           "actual_views": 1059
+        },
+        {
+          "measured_at": "2026-08-04T09:00:20Z",
+          "actual_views": 1059
         }
       ]
     },
@@ -8333,8 +8473,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-04T04:25:51Z",
-      "measurement_count": 20,
+      "measured_at": "2026-08-04T09:00:19Z",
+      "measurement_count": 21,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 20,
@@ -8840,6 +8980,10 @@
         {
           "measured_at": "2026-08-04T04:25:51Z",
           "actual_views": 1080
+        },
+        {
+          "measured_at": "2026-08-04T09:00:19Z",
+          "actual_views": 1080
         }
       ]
     },
@@ -8855,8 +8999,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1070,
-      "measured_at": "2026-08-04T04:25:50Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-04T09:00:18Z",
+      "measurement_count": 19,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 13,
@@ -9358,6 +9502,10 @@
         },
         {
           "measured_at": "2026-08-04T04:25:50Z",
+          "actual_views": 1070
+        },
+        {
+          "measured_at": "2026-08-04T09:00:18Z",
           "actual_views": 1070
         }
       ]
