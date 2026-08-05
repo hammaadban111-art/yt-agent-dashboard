@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:29:39.163021Z",
+  "generated_at": "2026-08-05T14:33:27.340020Z",
   "next_runs": [
     "2026-08-05T16:07:00Z",
     "2026-08-06T01:07:00Z",
@@ -7,12 +7,12 @@
   ],
   "summary": {
     "videos": 31,
-    "total_views": 22362,
-    "total_likes": 399,
+    "total_views": 22420,
+    "total_likes": 400,
     "total_comments": 9,
-    "mean_abs_pct_error": 1837.0,
-    "measured_videos": 30,
-    "days_of_history": 6,
+    "mean_abs_pct_error": 1807.0,
+    "measured_videos": 31,
+    "days_of_history": 7,
     "self_improve_active": true,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": false,
@@ -20,10 +20,21 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 12,
-    "mean_drop_at": 0.114,
+    "n": 11,
+    "mean_drop_at": 0.11,
     "mean_drop_size": 0.08
   },
+  "quota": {
+    "units_used": 1841,
+    "daily_cap": 10000,
+    "remaining": 8159,
+    "upload_cost": 1600,
+    "delete_cost": 50,
+    "reupload_cost": 1650,
+    "can_reupload": true,
+    "next_upload_fits": true
+  },
+  "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
     "subscriber_count": 35
@@ -31,6 +42,7 @@
   "spotlight": {
     "best": {
       "n": 5,
+      "video_id": "xttaykclCGM",
       "title": "5 Children Vanished in a Fire. Then This Photo Arrived.",
       "url": "https://youtube.com/watch?v=xttaykclCGM",
       "uploaded_at": "2026-07-30T09:20:19Z",
@@ -41,8 +53,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-05T11:29:17Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:05Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -470,6 +482,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T14:32:39Z",
@@ -622,11 +635,17 @@
         {
           "measured_at": "2026-08-05T11:29:17Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-05T14:33:05Z",
+          "actual_views": 1252
         }
-      ]
+      ],
+      "reuse": null
     },
     "worst": {
       "n": 6,
+      "video_id": "qnAWjYhNlck",
       "title": "The Cold War Spy Who Never Existed",
       "url": "https://youtube.com/watch?v=qnAWjYhNlck",
       "uploaded_at": "2026-07-30T14:09:25Z",
@@ -637,8 +656,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-05T11:29:18Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:06Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -665,6 +684,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T22:19:09Z",
@@ -817,8 +837,18 @@
         {
           "measured_at": "2026-08-05T11:29:18Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-05T14:33:06Z",
+          "actual_views": 2
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": true
+      }
     }
   },
   "top_performers": [
@@ -840,7 +870,7 @@
     {
       "subject": "Franklin's lost expedition",
       "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
-      "views": 1173
+      "views": 1176
     },
     {
       "subject": "MV Joyita",
@@ -851,22 +881,22 @@
   "last_run": {
     "available": true,
     "status": "completed",
-    "conclusion": "success",
+    "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-05T08:49:18Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/30990606211",
-    "last_successful_step": "Complete job",
-    "failed_step": null
+    "created_at": "2026-08-05T12:59:41Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31008105148",
+    "last_successful_step": "Archive rendered video",
+    "failed_step": "Persist topic history and video record"
   },
   "ci": {
     "available": true,
-    "used_minutes": 186.4,
+    "used_minutes": 198.1,
     "budget_minutes": 2000,
-    "percent_used": 9.3,
-    "runs_counted": 53,
+    "percent_used": 9.9,
+    "runs_counted": 55,
     "per_workflow_minutes": {
-      "daily.yml": 153.9,
-      "followup.yml": 32.4
+      "daily.yml": 164.5,
+      "followup.yml": 33.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -874,6 +904,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31008105148,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31008105148",
+        "created_at": "2026-08-05T12:59:41Z",
+        "error": "Unknown error \u2014 see run logs."
+      },
       {
         "workflow": "followup.yml",
         "run_id": 30858077153,
@@ -893,6 +930,7 @@
   "videos": [
     {
       "n": 31,
+      "video_id": "5zSVFkP4WVM",
       "title": "The 2,000-Year-Old Computer Found at the Bottom of the Ocean",
       "url": "https://youtube.com/watch?v=5zSVFkP4WVM",
       "uploaded_at": "2026-08-05T08:56:36Z",
@@ -902,14 +940,14 @@
       "predicted_range": "184-2,701",
       "predicted_low": 184,
       "predicted_high": 2701,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 5,
+      "measured_at": "2026-08-05T14:33:27Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -99,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 20.0,
       "top_comments": [],
       "model_version": "learned-v1",
       "fact_check": {
@@ -922,7 +960,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -931,10 +969,18 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "history": []
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-05T14:33:27Z",
+          "actual_views": 5
+        }
+      ],
+      "reuse": null
     },
     {
       "n": 30,
+      "video_id": "7-F4mLwE1mI",
       "title": "The Mysterious Giant Rings Spotted on Siberia's Deepest Lake",
       "url": "https://youtube.com/watch?v=7-F4mLwE1mI",
       "uploaded_at": "2026-08-05T04:26:21Z",
@@ -944,14 +990,14 @@
       "predicted_range": "184-2,701",
       "predicted_low": 184,
       "predicted_high": 2701,
-      "actual_views": 874,
-      "measured_at": "2026-08-05T11:29:39Z",
-      "measurement_count": 1,
+      "actual_views": 919,
+      "measured_at": "2026-08-05T14:33:26Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 24,
+      "error_pct": 30,
       "likes": 17,
       "comments": 0,
-      "engagement_rate": 1.95,
+      "engagement_rate": 1.85,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -973,15 +1019,22 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-05T11:29:39Z",
           "actual_views": 874
+        },
+        {
+          "measured_at": "2026-08-05T14:33:26Z",
+          "actual_views": 919
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 29,
+      "video_id": "efMGQGVzh8Y",
       "title": "The Waterfall That Swallowed Everything\u2014And Where It Went",
       "url": "https://youtube.com/watch?v=efMGQGVzh8Y",
       "uploaded_at": "2026-08-04T18:04:18Z",
@@ -991,9 +1044,9 @@
       "predicted_range": "195-2,936",
       "predicted_low": 195,
       "predicted_high": 2936,
-      "actual_views": 929,
-      "measured_at": "2026-08-05T11:29:38Z",
-      "measurement_count": 5,
+      "actual_views": 930,
+      "measured_at": "2026-08-05T14:33:25Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": 23,
       "likes": 13,
@@ -1020,6 +1073,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-05T03:32:59Z",
@@ -1040,11 +1094,17 @@
         {
           "measured_at": "2026-08-05T11:29:38Z",
           "actual_views": 929
+        },
+        {
+          "measured_at": "2026-08-05T14:33:25Z",
+          "actual_views": 930
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 28,
+      "video_id": "AKMdkAN7uJQ",
       "title": "The 13,000-Foot Alien Antenna Found on the Ocean Floor",
       "url": "https://youtube.com/watch?v=AKMdkAN7uJQ",
       "uploaded_at": "2026-08-04T13:20:24Z",
@@ -1055,8 +1115,8 @@
       "predicted_low": 202,
       "predicted_high": 3096,
       "actual_views": 711,
-      "measured_at": "2026-08-05T11:29:37Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-05T14:33:25Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -10,
       "likes": 15,
@@ -1083,6 +1143,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-04T19:56:55Z",
@@ -1111,11 +1172,17 @@
         {
           "measured_at": "2026-08-05T11:29:37Z",
           "actual_views": 711
+        },
+        {
+          "measured_at": "2026-08-05T14:33:25Z",
+          "actual_views": 711
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 27,
+      "video_id": "r4D8DQaSVX8",
       "title": "The 300-Year Orphan Tsunami Solved by Dead Trees",
       "url": "https://youtube.com/watch?v=r4D8DQaSVX8",
       "uploaded_at": "2026-08-04T09:00:16Z",
@@ -1125,11 +1192,11 @@
       "predicted_range": "201-3,129",
       "predicted_low": 201,
       "predicted_high": 3129,
-      "actual_views": 1041,
-      "measured_at": "2026-08-05T11:29:37Z",
-      "measurement_count": 10,
+      "actual_views": 1045,
+      "measured_at": "2026-08-05T14:33:24Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
-      "error_pct": 31,
+      "error_pct": 32,
       "likes": 15,
       "comments": 0,
       "engagement_rate": 1.44,
@@ -1154,6 +1221,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-04T14:39:49Z",
@@ -1194,11 +1262,17 @@
         {
           "measured_at": "2026-08-05T11:29:37Z",
           "actual_views": 1041
+        },
+        {
+          "measured_at": "2026-08-05T14:33:24Z",
+          "actual_views": 1045
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 26,
+      "video_id": "X7-HKvMn4UA",
       "title": "The African Lake That Turns Animals Into Stone",
       "url": "https://youtube.com/watch?v=X7-HKvMn4UA",
       "uploaded_at": "2026-08-04T04:25:49Z",
@@ -1209,8 +1283,8 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 789,
-      "measured_at": "2026-08-05T11:29:36Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-05T14:33:23Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 10,
@@ -1237,6 +1311,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-04T11:33:59Z",
@@ -1289,11 +1364,17 @@
         {
           "measured_at": "2026-08-05T11:29:36Z",
           "actual_views": 789
+        },
+        {
+          "measured_at": "2026-08-05T14:33:23Z",
+          "actual_views": 789
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 25,
+      "video_id": "RjIyEWo58-Q",
       "title": "The Soviet Mistake That Has Been Burning for 50 Years",
       "url": "https://youtube.com/watch?v=RjIyEWo58-Q",
       "uploaded_at": "2026-08-03T18:06:25Z",
@@ -1304,8 +1385,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 671,
-      "measured_at": "2026-08-05T11:29:35Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-05T14:33:22Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -17,
       "likes": 13,
@@ -1332,6 +1413,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-04T03:36:58Z",
@@ -1400,11 +1482,17 @@
         {
           "measured_at": "2026-08-05T11:29:35Z",
           "actual_views": 671
+        },
+        {
+          "measured_at": "2026-08-05T14:33:22Z",
+          "actual_views": 671
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 24,
+      "video_id": "SP68Vfly9Qk",
       "title": "The Deadly Mystery of the 1518 Dancing Epidemic",
       "url": "https://youtube.com/watch?v=SP68Vfly9Qk",
       "uploaded_at": "2026-08-03T13:53:11Z",
@@ -1415,8 +1503,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 80,
-      "measured_at": "2026-08-05T11:29:35Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-05T14:33:22Z",
+      "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 2,
@@ -1443,6 +1531,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-03T19:58:28Z",
@@ -1515,11 +1604,22 @@
         {
           "measured_at": "2026-08-05T11:29:35Z",
           "actual_views": 80
+        },
+        {
+          "measured_at": "2026-08-05T14:33:22Z",
+          "actual_views": 80
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": false
+      }
     },
     {
       "n": 23,
+      "video_id": "bzB10CnJO1Q",
       "title": "The Loudest Sound in Human History",
       "url": "https://youtube.com/watch?v=bzB10CnJO1Q",
       "uploaded_at": "2026-08-03T04:43:23Z",
@@ -1530,8 +1630,8 @@
       "predicted_low": 201,
       "predicted_high": 3310,
       "actual_views": 811,
-      "measured_at": "2026-08-05T11:29:34Z",
-      "measurement_count": 22,
+      "measured_at": "2026-08-05T14:33:21Z",
+      "measurement_count": 23,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 19,
@@ -1558,6 +1658,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-03T10:05:51Z",
@@ -1646,11 +1747,17 @@
         {
           "measured_at": "2026-08-05T11:29:34Z",
           "actual_views": 811
+        },
+        {
+          "measured_at": "2026-08-05T14:33:21Z",
+          "actual_views": 811
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 22,
+      "video_id": "XWbX3WUSpdk",
       "title": "The Day the Sun Disappeared Over New England",
       "url": "https://youtube.com/watch?v=XWbX3WUSpdk",
       "uploaded_at": "2026-08-02T17:15:25Z",
@@ -1661,8 +1768,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 736,
-      "measured_at": "2026-08-05T11:29:33Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-05T14:33:20Z",
+      "measurement_count": 25,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 8,
@@ -2090,6 +2197,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-03T03:54:32Z",
@@ -2186,11 +2294,17 @@
         {
           "measured_at": "2026-08-05T11:29:33Z",
           "actual_views": 736
+        },
+        {
+          "measured_at": "2026-08-05T14:33:20Z",
+          "actual_views": 736
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 21,
+      "video_id": "35Nbcl9vOmI",
       "title": "The Mystery of Poland's 90-Degree Bent Forest",
       "url": "https://youtube.com/watch?v=35Nbcl9vOmI",
       "uploaded_at": "2026-08-02T12:19:13Z",
@@ -2201,8 +2315,8 @@
       "predicted_low": 191,
       "predicted_high": 3502,
       "actual_views": 764,
-      "measured_at": "2026-08-05T11:29:32Z",
-      "measurement_count": 26,
+      "measured_at": "2026-08-05T14:33:19Z",
+      "measurement_count": 27,
       "system_version": "phase1-stabilize",
       "error_pct": -7,
       "likes": 13,
@@ -2630,6 +2744,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-02T19:34:19Z",
@@ -2734,11 +2849,17 @@
         {
           "measured_at": "2026-08-05T11:29:32Z",
           "actual_views": 764
+        },
+        {
+          "measured_at": "2026-08-05T14:33:19Z",
+          "actual_views": 764
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 20,
+      "video_id": "mVhYmnwAZsU",
       "title": "The Blast That Flattened a Forest Without Leaving a Trace",
       "url": "https://youtube.com/watch?v=mVhYmnwAZsU",
       "uploaded_at": "2026-08-02T08:45:07Z",
@@ -2749,8 +2870,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 1015,
-      "measured_at": "2026-08-05T11:29:32Z",
-      "measurement_count": 33,
+      "measured_at": "2026-08-05T14:33:19Z",
+      "measurement_count": 34,
       "system_version": "phase1-stabilize",
       "error_pct": 3,
       "likes": 24,
@@ -3178,6 +3299,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-02T13:54:19Z",
@@ -3310,11 +3432,17 @@
         {
           "measured_at": "2026-08-05T11:29:32Z",
           "actual_views": 1015
+        },
+        {
+          "measured_at": "2026-08-05T14:33:19Z",
+          "actual_views": 1015
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 19,
+      "video_id": "yadjS1MeRo0",
       "title": "The Himalayan Lake Filled With Hundreds of Skulls",
       "url": "https://youtube.com/watch?v=yadjS1MeRo0",
       "uploaded_at": "2026-08-02T04:37:34Z",
@@ -3324,11 +3452,11 @@
       "predicted_range": "218-4,473",
       "predicted_low": 218,
       "predicted_high": 4473,
-      "actual_views": 775,
-      "measured_at": "2026-08-05T11:29:31Z",
-      "measurement_count": 34,
+      "actual_views": 774,
+      "measured_at": "2026-08-05T14:33:18Z",
+      "measurement_count": 35,
       "system_version": "phase1-stabilize",
-      "error_pct": -21,
+      "error_pct": -22,
       "likes": 9,
       "comments": 0,
       "engagement_rate": 1.16,
@@ -3754,6 +3882,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-02T10:50:51Z",
@@ -3890,11 +4019,17 @@
         {
           "measured_at": "2026-08-05T11:29:31Z",
           "actual_views": 775
+        },
+        {
+          "measured_at": "2026-08-05T14:33:18Z",
+          "actual_views": 774
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 18,
+      "video_id": "I3h9s6b1fM8",
       "title": "The Silent Lake That Erased an Entire Valley Overnight",
       "url": "https://youtube.com/watch?v=I3h9s6b1fM8",
       "uploaded_at": "2026-08-01T17:15:41Z",
@@ -3904,14 +4039,14 @@
       "predicted_range": "214-4,609",
       "predicted_low": 214,
       "predicted_high": 4609,
-      "actual_views": 808,
-      "measured_at": "2026-08-05T11:29:30Z",
-      "measurement_count": 35,
+      "actual_views": 809,
+      "measured_at": "2026-08-05T14:33:17Z",
+      "measurement_count": 36,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 10,
       "comments": 2,
-      "engagement_rate": 1.49,
+      "engagement_rate": 1.48,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -4334,6 +4469,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-02T03:52:46Z",
@@ -4474,11 +4610,17 @@
         {
           "measured_at": "2026-08-05T11:29:30Z",
           "actual_views": 808
+        },
+        {
+          "measured_at": "2026-08-05T14:33:17Z",
+          "actual_views": 809
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 17,
+      "video_id": "p2N0xOZxIUA",
       "title": "The Waterfall That Swallowed Everything\u2014And Where It Went",
       "url": "https://youtube.com/watch?v=p2N0xOZxIUA",
       "uploaded_at": "2026-08-01T12:15:28Z",
@@ -4489,8 +4631,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 842,
-      "measured_at": "2026-08-05T11:29:29Z",
-      "measurement_count": 36,
+      "measured_at": "2026-08-05T14:33:16Z",
+      "measurement_count": 37,
       "system_version": "phase1-stabilize",
       "error_pct": -16,
       "likes": 14,
@@ -4924,6 +5066,7 @@
       ],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-01T19:33:41Z",
@@ -5068,11 +5211,17 @@
         {
           "measured_at": "2026-08-05T11:29:29Z",
           "actual_views": 842
+        },
+        {
+          "measured_at": "2026-08-05T14:33:16Z",
+          "actual_views": 842
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 16,
+      "video_id": "KM3LqNuo3i4",
       "title": "The Antarctic Glacier That Bleeds Bright Red",
       "url": "https://youtube.com/watch?v=KM3LqNuo3i4",
       "uploaded_at": "2026-08-01T08:39:18Z",
@@ -5083,8 +5232,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 941,
-      "measured_at": "2026-08-05T11:29:28Z",
-      "measurement_count": 37,
+      "measured_at": "2026-08-05T14:33:15Z",
+      "measurement_count": 38,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 19,
@@ -5518,6 +5667,7 @@
       ],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-01T13:55:00Z",
@@ -5666,11 +5816,17 @@
         {
           "measured_at": "2026-08-05T11:29:28Z",
           "actual_views": 941
+        },
+        {
+          "measured_at": "2026-08-05T14:33:15Z",
+          "actual_views": 941
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 15,
+      "video_id": "tQ6yf7Ib22A",
       "title": "The Walking Rocks of Death Valley Solved",
       "url": "https://youtube.com/watch?v=tQ6yf7Ib22A",
       "uploaded_at": "2026-08-01T04:33:26Z",
@@ -5681,8 +5837,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1204,
-      "measured_at": "2026-08-05T11:29:27Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:14Z",
+      "measurement_count": 39,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
       "likes": 19,
@@ -6116,6 +6272,7 @@
       ],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-01T10:48:46Z",
@@ -6268,11 +6425,17 @@
         {
           "measured_at": "2026-08-05T11:29:27Z",
           "actual_views": 1204
+        },
+        {
+          "measured_at": "2026-08-05T14:33:14Z",
+          "actual_views": 1204
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 14,
+      "video_id": "YjcpqGlcoBg",
       "title": "The 170-Year Arctic Mystery Solved by Local Knowledge",
       "url": "https://youtube.com/watch?v=YjcpqGlcoBg",
       "uploaded_at": "2026-07-31T17:55:13Z",
@@ -6282,14 +6445,14 @@
       "predicted_range": "182-5,747",
       "predicted_low": 182,
       "predicted_high": 5747,
-      "actual_views": 1173,
-      "measured_at": "2026-08-05T11:29:26Z",
-      "measurement_count": 39,
+      "actual_views": 1176,
+      "measured_at": "2026-08-05T14:33:13Z",
+      "measurement_count": 40,
       "system_version": "phase1-stabilize",
       "error_pct": 15,
       "likes": 18,
       "comments": 2,
-      "engagement_rate": 1.71,
+      "engagement_rate": 1.7,
       "top_comments": [],
       "model_version": "baseline-v1",
       "fact_check": {
@@ -6718,6 +6881,7 @@
       ],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-01T03:49:59Z",
@@ -6874,11 +7038,17 @@
         {
           "measured_at": "2026-08-05T11:29:26Z",
           "actual_views": 1173
+        },
+        {
+          "measured_at": "2026-08-05T14:33:13Z",
+          "actual_views": 1176
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 13,
+      "video_id": "TLxlsPYijlo",
       "title": "The Toxic Woman Who Knocked Out an Entire ER",
       "url": "https://youtube.com/watch?v=TLxlsPYijlo",
       "uploaded_at": "2026-07-31T13:12:21Z",
@@ -6889,8 +7059,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 807,
-      "measured_at": "2026-08-05T11:29:25Z",
-      "measurement_count": 39,
+      "measured_at": "2026-08-05T14:33:12Z",
+      "measurement_count": 40,
       "system_version": "pre-phase0",
       "error_pct": 16040,
       "likes": 27,
@@ -7318,6 +7488,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T19:52:37Z",
@@ -7474,11 +7645,17 @@
         {
           "measured_at": "2026-08-05T11:29:25Z",
           "actual_views": 807
+        },
+        {
+          "measured_at": "2026-08-05T14:33:12Z",
+          "actual_views": 807
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 12,
+      "video_id": "lbUqcseFke8",
       "title": "The 1908 Explosion That Destroyed a Forest Without Leaving a Trace",
       "url": "https://youtube.com/watch?v=lbUqcseFke8",
       "uploaded_at": "2026-07-31T09:20:45Z",
@@ -7489,8 +7666,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1240,
-      "measured_at": "2026-08-05T11:29:24Z",
-      "measurement_count": 39,
+      "measured_at": "2026-08-05T14:33:11Z",
+      "measurement_count": 40,
       "system_version": "pre-phase0",
       "error_pct": 24700,
       "likes": 32,
@@ -7918,6 +8095,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T19:52:36Z",
@@ -8074,11 +8252,17 @@
         {
           "measured_at": "2026-08-05T11:29:24Z",
           "actual_views": 1240
+        },
+        {
+          "measured_at": "2026-08-05T14:33:11Z",
+          "actual_views": 1240
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 11,
+      "video_id": "t_D38dcRsrU",
       "title": "The Day Meat Rained From a Clear Blue Sky",
       "url": "https://youtube.com/watch?v=t_D38dcRsrU",
       "uploaded_at": "2026-07-31T04:36:49Z",
@@ -8089,8 +8273,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 515,
-      "measured_at": "2026-08-05T11:29:23Z",
-      "measurement_count": 39,
+      "measured_at": "2026-08-05T14:33:11Z",
+      "measurement_count": 40,
       "system_version": "pre-phase0",
       "error_pct": 10200,
       "likes": 15,
@@ -8518,6 +8702,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T16:57:11Z",
@@ -8674,11 +8859,17 @@
         {
           "measured_at": "2026-08-05T11:29:23Z",
           "actual_views": 515
+        },
+        {
+          "measured_at": "2026-08-05T14:33:11Z",
+          "actual_views": 515
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 10,
+      "video_id": "shVrW1NX6QA",
       "title": "The Day a 14-Inch Drill Bit Swallowed an Entire Lake",
       "url": "https://youtube.com/watch?v=shVrW1NX6QA",
       "uploaded_at": "2026-07-30T20:36:04Z",
@@ -8689,8 +8880,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 14,
-      "measured_at": "2026-08-05T11:29:22Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:10Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -8717,6 +8908,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T03:49:35Z",
@@ -8869,11 +9061,22 @@
         {
           "measured_at": "2026-08-05T11:29:22Z",
           "actual_views": 14
+        },
+        {
+          "measured_at": "2026-08-05T14:33:10Z",
+          "actual_views": 14
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": false
+      }
     },
     {
       "n": 9,
+      "video_id": "FEiE9QJ3hOQ",
       "title": "The Ocean Sound That Terrified Scientists",
       "url": "https://youtube.com/watch?v=FEiE9QJ3hOQ",
       "uploaded_at": "2026-07-30T19:34:55Z",
@@ -8884,8 +9087,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 48,
-      "measured_at": "2026-08-05T11:29:21Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:09Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -95,
       "likes": 3,
@@ -9313,6 +9516,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T03:49:34Z",
@@ -9465,11 +9669,22 @@
         {
           "measured_at": "2026-08-05T11:29:21Z",
           "actual_views": 48
+        },
+        {
+          "measured_at": "2026-08-05T14:33:09Z",
+          "actual_views": 48
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": false
+      }
     },
     {
       "n": 8,
+      "video_id": "2NiZ95wtNX0",
       "title": "The 74-Year Mystery of Australia's Somerton Man Solved",
       "url": "https://youtube.com/watch?v=2NiZ95wtNX0",
       "uploaded_at": "2026-07-30T17:47:25Z",
@@ -9480,8 +9695,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-05T11:29:20Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:08Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -9508,6 +9723,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-31T03:49:34Z",
@@ -9660,11 +9876,22 @@
         {
           "measured_at": "2026-08-05T11:29:20Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-05T14:33:08Z",
+          "actual_views": 8
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": false
+      }
     },
     {
       "n": 7,
+      "video_id": "IyUpBV7GWx4",
       "title": "The 1964 Spaceman Photo That Fooled the World",
       "url": "https://youtube.com/watch?v=IyUpBV7GWx4",
       "uploaded_at": "2026-07-30T14:50:55Z",
@@ -9675,8 +9902,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 4,
-      "measured_at": "2026-08-05T11:29:19Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:07Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -100,
       "likes": 2,
@@ -9703,6 +9930,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T22:19:09Z",
@@ -9855,11 +10083,22 @@
         {
           "measured_at": "2026-08-05T11:29:19Z",
           "actual_views": 4
+        },
+        {
+          "measured_at": "2026-08-05T14:33:07Z",
+          "actual_views": 4
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": false
+      }
     },
     {
       "n": 6,
+      "video_id": "qnAWjYhNlck",
       "title": "The Cold War Spy Who Never Existed",
       "url": "https://youtube.com/watch?v=qnAWjYhNlck",
       "uploaded_at": "2026-07-30T14:09:25Z",
@@ -9870,8 +10109,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-05T11:29:18Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:06Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -9898,6 +10137,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T22:19:09Z",
@@ -10050,11 +10290,22 @@
         {
           "measured_at": "2026-08-05T11:29:18Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-05T14:33:06Z",
+          "actual_views": 2
         }
-      ]
+      ],
+      "reuse": {
+        "exported_at": "2026-08-05T12:04:54Z",
+        "segments": 5,
+        "pexels_downloads_needed": 15,
+        "legacy_generic_queries": true
+      }
     },
     {
       "n": 5,
+      "video_id": "xttaykclCGM",
       "title": "5 Children Vanished in a Fire. Then This Photo Arrived.",
       "url": "https://youtube.com/watch?v=xttaykclCGM",
       "uploaded_at": "2026-07-30T09:20:19Z",
@@ -10065,8 +10316,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1252,
-      "measured_at": "2026-08-05T11:29:17Z",
-      "measurement_count": 38,
+      "measured_at": "2026-08-05T14:33:05Z",
+      "measurement_count": 39,
       "system_version": "pre-phase0",
       "error_pct": 4908,
       "likes": 19,
@@ -10494,6 +10745,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T14:32:39Z",
@@ -10646,11 +10898,17 @@
         {
           "measured_at": "2026-08-05T11:29:17Z",
           "actual_views": 1252
+        },
+        {
+          "measured_at": "2026-08-05T14:33:05Z",
+          "actual_views": 1252
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 4,
+      "video_id": "n7NNywDfCnY",
       "title": "The Unsinkable Ghost Ship That Lost 25 People",
       "url": "https://youtube.com/watch?v=n7NNywDfCnY",
       "uploaded_at": "2026-07-30T07:17:28Z",
@@ -10661,8 +10919,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1099,
-      "measured_at": "2026-08-05T11:29:16Z",
-      "measurement_count": 37,
+      "measured_at": "2026-08-05T14:33:04Z",
+      "measurement_count": 38,
       "system_version": "pre-phase0",
       "error_pct": 4296,
       "likes": 12,
@@ -11090,6 +11348,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T14:32:39Z",
@@ -11238,11 +11497,17 @@
         {
           "measured_at": "2026-08-05T11:29:16Z",
           "actual_views": 1099
+        },
+        {
+          "measured_at": "2026-08-05T14:33:04Z",
+          "actual_views": 1099
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 3,
+      "video_id": "K5-7-HTo38M",
       "title": "The Footprints That Led Inside: The Hinterkaifeck Murders",
       "url": "https://youtube.com/watch?v=K5-7-HTo38M",
       "uploaded_at": "2026-07-30T03:10:38Z",
@@ -11253,8 +11518,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1059,
-      "measured_at": "2026-08-05T11:29:15Z",
-      "measurement_count": 36,
+      "measured_at": "2026-08-05T14:33:03Z",
+      "measurement_count": 37,
       "system_version": "pre-phase0",
       "error_pct": 4136,
       "likes": 12,
@@ -11682,6 +11947,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-30T09:42:32Z",
@@ -11826,11 +12092,17 @@
         {
           "measured_at": "2026-08-05T11:29:15Z",
           "actual_views": 1059
+        },
+        {
+          "measured_at": "2026-08-05T14:33:03Z",
+          "actual_views": 1059
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 2,
+      "video_id": "oD2L0hBKD3k",
       "title": "The Ghost Blimp That Landed With No Pilots",
       "url": "https://youtube.com/watch?v=oD2L0hBKD3k",
       "uploaded_at": "2026-07-29T15:25:34Z",
@@ -11841,8 +12113,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-05T11:29:14Z",
-      "measurement_count": 35,
+      "measured_at": "2026-08-05T14:33:02Z",
+      "measurement_count": 36,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 20,
@@ -12270,6 +12542,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-07-29T21:12:38Z",
@@ -12410,11 +12683,17 @@
         {
           "measured_at": "2026-08-05T11:29:14Z",
           "actual_views": 1080
+        },
+        {
+          "measured_at": "2026-08-05T14:33:02Z",
+          "actual_views": 1080
         }
-      ]
+      ],
+      "reuse": null
     },
     {
       "n": 1,
+      "video_id": "6uONCytSgmA",
       "title": "The Lead Masks Case: Brazil's Most Unsettling Mystery",
       "url": "https://youtube.com/watch?v=6uONCytSgmA",
       "uploaded_at": "2026-07-29T13:37:07Z",
@@ -12425,8 +12704,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1070,
-      "measured_at": "2026-08-05T11:29:13Z",
-      "measurement_count": 33,
+      "measured_at": "2026-08-05T14:33:01Z",
+      "measurement_count": 34,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 13,
@@ -12859,6 +13138,7 @@
       ],
       "final": false,
       "finalized_at": null,
+      "replaced_by": null,
       "history": [
         {
           "measured_at": "2026-08-02T15:09:46Z",
@@ -12991,8 +13271,13 @@
         {
           "measured_at": "2026-08-05T11:29:13Z",
           "actual_views": 1070
+        },
+        {
+          "measured_at": "2026-08-05T14:33:01Z",
+          "actual_views": 1070
         }
-      ]
+      ],
+      "reuse": null
     }
   ]
 }
