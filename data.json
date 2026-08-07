@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T13:39:00.339542Z",
+  "generated_at": "2026-08-07T16:08:43.931781Z",
   "next_runs": [
-    "2026-08-07T16:07:00Z",
     "2026-08-08T01:07:00Z",
-    "2026-08-08T06:07:00Z"
+    "2026-08-08T06:07:00Z",
+    "2026-08-08T11:07:00Z"
   ],
   "summary": {
     "videos": 36,
@@ -1002,13 +1002,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 305.4,
+    "used_minutes": 306.6,
     "budget_minutes": 2000,
     "percent_used": 15.3,
-    "runs_counted": 76,
+    "runs_counted": 77,
     "per_workflow_minutes": {
       "daily.yml": 241.9,
-      "followup.yml": 63.5
+      "followup.yml": 64.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
