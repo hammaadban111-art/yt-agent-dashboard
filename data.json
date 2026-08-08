@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-08T15:45:16.625591Z",
+  "generated_at": "2026-08-08T16:53:23.742763Z",
   "next_runs": [
-    "2026-08-08T16:07:00Z",
     "2026-08-09T01:07:00Z",
-    "2026-08-09T06:07:00Z"
+    "2026-08-09T06:07:00Z",
+    "2026-08-09T11:07:00Z"
   ],
   "summary": {
-    "videos": 36,
+    "videos": 38,
     "total_views": 24976,
     "total_likes": 443,
     "total_comments": 9,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.106
   },
   "quota": {
-    "units_used": 0,
+    "units_used": 3201,
     "daily_cap": 10000,
-    "remaining": 10000,
+    "remaining": 6799,
     "upload_cost": 1600,
     "delete_cost": 50,
     "reupload_cost": 1650,
@@ -37,7 +37,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": false,
-    "reason": "RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})"
+    "reason": "RefreshError: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})"
   },
   "spotlight": {
     "best": {
@@ -995,20 +995,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-08T11:36:47Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31255369890",
+    "created_at": "2026-08-08T16:42:21Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31267596039",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 351.1,
+    "used_minutes": 360.8,
     "budget_minutes": 2000,
-    "percent_used": 17.6,
-    "runs_counted": 89,
+    "percent_used": 18.0,
+    "runs_counted": 91,
     "per_workflow_minutes": {
-      "daily.yml": 279.2,
-      "followup.yml": 71.9
+      "daily.yml": 288.2,
+      "followup.yml": 72.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1016,6 +1016,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31267596039,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31267596039",
+        "created_at": "2026-08-08T16:42:21Z",
+        "error": "Unknown error \u2014 see run logs."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31255369890,
@@ -1066,13 +1073,6 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 31121769257,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31121769257",
-        "created_at": "2026-08-06T17:00:18Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 31008105148,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31008105148",
@@ -1082,6 +1082,108 @@
     ]
   },
   "videos": [
+    {
+      "n": 38,
+      "video_id": "B3dNMYU2r4A",
+      "title": "The Day a Cornfield Turned Into a Volcano Overnight",
+      "url": "https://youtube.com/watch?v=B3dNMYU2r4A",
+      "uploaded_at": "2026-08-08T16:23:56Z",
+      "topic": "Par\u00edcutin",
+      "hook": "",
+      "predicted_views": 731,
+      "predicted_range": "197-2,712",
+      "predicted_low": 197,
+      "predicted_high": 2712,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 37,
+      "video_id": "YFDrqmn3zCE",
+      "title": "The Giant Holes Exploding Out of Frozen Siberia",
+      "url": "https://youtube.com/watch?v=YFDrqmn3zCE",
+      "uploaded_at": "2026-08-08T16:23:45Z",
+      "topic": "Yamal Peninsula",
+      "hook": "",
+      "predicted_views": 731,
+      "predicted_range": "197-2,712",
+      "predicted_low": 197,
+      "predicted_high": 2712,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 36,
       "video_id": "qPliOoK8qjs",
