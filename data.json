@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T04:28:27.511278Z",
+  "generated_at": "2026-08-08T07:14:37.307141Z",
   "next_runs": [
-    "2026-08-08T06:07:00Z",
     "2026-08-08T11:07:00Z",
-    "2026-08-08T16:07:00Z"
+    "2026-08-08T16:07:00Z",
+    "2026-08-09T01:07:00Z"
   ],
   "summary": {
     "videos": 36,
@@ -992,23 +992,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "failure",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-08T02:57:27Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31236131423",
+    "created_at": "2026-08-08T07:10:03Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31245553564",
     "last_successful_step": "Restore Pexels footage cache",
-    "failed_step": "Run agent"
+    "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 328.7,
+    "used_minutes": 329.5,
     "budget_minutes": 2000,
-    "percent_used": 16.4,
-    "runs_counted": 83,
+    "percent_used": 16.5,
+    "runs_counted": 84,
     "per_workflow_minutes": {
       "daily.yml": 261.0,
-      "followup.yml": 67.7
+      "followup.yml": 68.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
