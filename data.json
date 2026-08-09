@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-09T09:56:36.632612Z",
+  "generated_at": "2026-08-09T11:46:08.621672Z",
   "next_runs": [
-    "2026-08-09T11:07:00Z",
     "2026-08-09T16:07:00Z",
-    "2026-08-10T01:07:00Z"
+    "2026-08-10T01:07:00Z",
+    "2026-08-10T06:07:00Z"
   ],
   "summary": {
-    "videos": 39,
-    "total_views": 28484,
-    "total_likes": 501,
+    "videos": 45,
+    "total_views": 29999,
+    "total_likes": 539,
     "total_comments": 10,
-    "mean_abs_pct_error": 32.4,
-    "measured_videos": 39,
+    "mean_abs_pct_error": 32.0,
+    "measured_videos": 42,
     "days_of_history": 10,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 15,
-    "mean_drop_at": 0.108,
-    "mean_drop_size": 0.1
+    "n": 14,
+    "mean_drop_at": 0.105,
+    "mean_drop_size": 0.101
   },
   "quota": {
-    "units_used": 155,
+    "units_used": 5091,
     "daily_cap": 10000,
-    "remaining": 9845,
+    "remaining": 4909,
     "upload_cost": 1600,
     "delete_cost": 50,
     "reupload_cost": 1650,
@@ -41,7 +41,7 @@
   },
   "spotlight": {
     "best": {
-      "n": 36,
+      "n": 38,
       "video_id": "qPliOoK8qjs",
       "title": "The Sealed Cave Isolated for 5 Million Years",
       "url": "https://youtube.com/watch?v=qPliOoK8qjs",
@@ -53,8 +53,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 1269,
-      "measured_at": "2026-08-09T09:56:35Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-09T11:46:05Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": 74,
       "likes": 25,
@@ -114,6 +114,10 @@
         {
           "measured_at": "2026-08-09T09:56:35Z",
           "actual_views": 1269
+        },
+        {
+          "measured_at": "2026-08-09T11:46:05Z",
+          "actual_views": 1269
         }
       ],
       "reuse": null
@@ -131,8 +135,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-09T09:56:17Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:32Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -404,6 +408,10 @@
         {
           "measured_at": "2026-08-09T09:56:17Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-09T11:45:32Z",
+          "actual_views": 2
         }
       ],
       "reuse": {
@@ -443,23 +451,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "failure",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-09T07:11:27Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31300578850",
-    "last_successful_step": "Archive rendered video",
-    "failed_step": "Persist topic history and video record"
+    "created_at": "2026-08-09T11:38:17Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31311285601",
+    "last_successful_step": "Restore Pexels footage cache",
+    "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 391.6,
+    "used_minutes": 392.7,
     "budget_minutes": 2000,
     "percent_used": 19.6,
-    "runs_counted": 100,
+    "runs_counted": 101,
     "per_workflow_minutes": {
       "daily.yml": 309.9,
-      "followup.yml": 81.7
+      "followup.yml": 82.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -534,7 +542,154 @@
   },
   "videos": [
     {
-      "n": 39,
+      "n": 45,
+      "video_id": "ZEfgHpxY6B0",
+      "title": "The Year Summer Never Came",
+      "url": "https://youtube.com/watch?v=ZEfgHpxY6B0",
+      "uploaded_at": "2026-08-09T11:45:25Z",
+      "topic": "Year Without a Summer",
+      "hook": "Snow fell across North America in June.",
+      "predicted_views": 728,
+      "predicted_range": "199-2,658",
+      "predicted_low": 199,
+      "predicted_high": 2658,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 4,
+        "contradicted": 2,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 44,
+      "video_id": "3uRPvUI9vaI",
+      "title": "The Patagonian Lake That Vanished Overnight",
+      "url": "https://youtube.com/watch?v=3uRPvUI9vaI",
+      "uploaded_at": "2026-08-09T10:17:30Z",
+      "topic": "",
+      "hook": "",
+      "predicted_views": 728,
+      "predicted_range": "199-2,658",
+      "predicted_low": 199,
+      "predicted_high": 2658,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 43,
+      "video_id": "Ooy5CkNlnXs",
+      "title": "The French Village Driven Insane by Bread",
+      "url": "https://youtube.com/watch?v=Ooy5CkNlnXs",
+      "uploaded_at": "2026-08-09T07:20:56Z",
+      "topic": "Pont-Saint-Esprit",
+      "hook": "",
+      "predicted_views": null,
+      "predicted_range": null,
+      "predicted_low": null,
+      "predicted_high": null,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": null,
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "record-backfill",
+          "what": "the record was lost when the run's commit step failed after upload",
+          "instead": "rebuilt from YouTube; generation-time data is gone"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 42,
       "video_id": "bMvv11ACxCg",
       "title": "The Rocks That Ring Like Iron Bells",
       "url": "https://youtube.com/watch?v=bMvv11ACxCg",
@@ -545,11 +700,11 @@
       "predicted_range": "199-2,672",
       "predicted_low": 199,
       "predicted_high": 2672,
-      "actual_views": 666,
-      "measured_at": "2026-08-09T09:56:36Z",
-      "measurement_count": 1,
+      "actual_views": 669,
+      "measured_at": "2026-08-09T11:46:08Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -9,
+      "error_pct": -8,
       "likes": 6,
       "comments": 0,
       "engagement_rate": 0.9,
@@ -585,12 +740,72 @@
         {
           "measured_at": "2026-08-09T09:56:36Z",
           "actual_views": 666
+        },
+        {
+          "measured_at": "2026-08-09T11:46:08Z",
+          "actual_views": 669
         }
       ],
       "reuse": null
     },
     {
-      "n": 38,
+      "n": 41,
+      "video_id": "Iz-ULqySj2A",
+      "title": "The Patagonian Lake That Vanished Overnight",
+      "url": "https://youtube.com/watch?v=Iz-ULqySj2A",
+      "uploaded_at": "2026-08-08T20:47:48Z",
+      "topic": "",
+      "hook": "",
+      "predicted_views": 731,
+      "predicted_range": "198-2,701",
+      "predicted_low": 198,
+      "predicted_high": 2701,
+      "actual_views": 814,
+      "measured_at": "2026-08-09T11:46:07Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": 11,
+      "likes": 28,
+      "comments": 0,
+      "engagement_rate": 3.44,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-09T11:46:07Z",
+          "actual_views": 814
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "n": 40,
       "video_id": "B3dNMYU2r4A",
       "title": "The Day a Cornfield Turned Into a Volcano Overnight",
       "url": "https://youtube.com/watch?v=B3dNMYU2r4A",
@@ -602,8 +817,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 634,
-      "measured_at": "2026-08-09T09:56:36Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-09T11:46:06Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -13,
       "likes": 12,
@@ -661,12 +876,16 @@
         {
           "measured_at": "2026-08-09T09:56:36Z",
           "actual_views": 634
+        },
+        {
+          "measured_at": "2026-08-09T11:46:06Z",
+          "actual_views": 634
         }
       ],
       "reuse": null
     },
     {
-      "n": 37,
+      "n": 39,
       "video_id": "YFDrqmn3zCE",
       "title": "The Giant Holes Exploding Out of Frozen Siberia",
       "url": "https://youtube.com/watch?v=YFDrqmn3zCE",
@@ -677,14 +896,14 @@
       "predicted_range": "197-2,712",
       "predicted_low": 197,
       "predicted_high": 2712,
-      "actual_views": 874,
-      "measured_at": "2026-08-09T09:56:35Z",
-      "measurement_count": 6,
+      "actual_views": 877,
+      "measured_at": "2026-08-09T11:46:06Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 20,
       "likes": 16,
       "comments": 0,
-      "engagement_rate": 1.83,
+      "engagement_rate": 1.82,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -737,12 +956,16 @@
         {
           "measured_at": "2026-08-09T09:56:35Z",
           "actual_views": 874
+        },
+        {
+          "measured_at": "2026-08-09T11:46:06Z",
+          "actual_views": 877
         }
       ],
       "reuse": null
     },
     {
-      "n": 36,
+      "n": 38,
       "video_id": "qPliOoK8qjs",
       "title": "The Sealed Cave Isolated for 5 Million Years",
       "url": "https://youtube.com/watch?v=qPliOoK8qjs",
@@ -754,8 +977,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 1269,
-      "measured_at": "2026-08-09T09:56:35Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-09T11:46:05Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": 74,
       "likes": 25,
@@ -815,12 +1038,16 @@
         {
           "measured_at": "2026-08-09T09:56:35Z",
           "actual_views": 1269
+        },
+        {
+          "measured_at": "2026-08-09T11:46:05Z",
+          "actual_views": 1269
         }
       ],
       "reuse": null
     },
     {
-      "n": 35,
+      "n": 37,
       "video_id": "wThY4GJNSf0",
       "title": "The Strange Day Gelatinous Blobs Rained From the Sky",
       "url": "https://youtube.com/watch?v=wThY4GJNSf0",
@@ -832,8 +1059,8 @@
       "predicted_low": 200,
       "predicted_high": 2806,
       "actual_views": 707,
-      "measured_at": "2026-08-09T09:56:34Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-09T11:46:04Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -6,
       "likes": 9,
@@ -1306,12 +1533,16 @@
         {
           "measured_at": "2026-08-09T09:56:34Z",
           "actual_views": 707
+        },
+        {
+          "measured_at": "2026-08-09T11:46:04Z",
+          "actual_views": 707
         }
       ],
       "reuse": null
     },
     {
-      "n": 34,
+      "n": 36,
       "video_id": "ZEa6CseL7Zg",
       "title": "The Amazon River That Boils Without a Volcano",
       "url": "https://youtube.com/watch?v=ZEa6CseL7Zg",
@@ -1323,8 +1554,8 @@
       "predicted_low": 186,
       "predicted_high": 2639,
       "actual_views": 732,
-      "measured_at": "2026-08-09T09:56:34Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-09T11:46:03Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 4,
       "likes": 9,
@@ -1801,12 +2032,16 @@
         {
           "measured_at": "2026-08-09T09:56:34Z",
           "actual_views": 732
+        },
+        {
+          "measured_at": "2026-08-09T11:46:03Z",
+          "actual_views": 732
         }
       ],
       "reuse": null
     },
     {
-      "n": 33,
+      "n": 35,
       "video_id": "KTiqkMerz44",
       "title": "The Valley in Norway That Spontaneously Creates Glowing Fireballs",
       "url": "https://youtube.com/watch?v=KTiqkMerz44",
@@ -1818,8 +2053,8 @@
       "predicted_low": 186,
       "predicted_high": 2639,
       "actual_views": 813,
-      "measured_at": "2026-08-09T09:56:33Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-09T11:46:02Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": 16,
       "likes": 16,
@@ -1903,12 +2138,16 @@
         {
           "measured_at": "2026-08-09T09:56:33Z",
           "actual_views": 813
+        },
+        {
+          "measured_at": "2026-08-09T11:46:02Z",
+          "actual_views": 813
         }
       ],
       "reuse": null
     },
     {
-      "n": 32,
+      "n": 34,
       "video_id": "Bb1iXtqbx1I",
       "title": "The River That Gets Hit by Lightning 20,000 Times a Night",
       "url": "https://youtube.com/watch?v=Bb1iXtqbx1I",
@@ -1920,8 +2159,8 @@
       "predicted_low": 198,
       "predicted_high": 2843,
       "actual_views": 156,
-      "measured_at": "2026-08-09T09:56:33Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-09T11:46:01Z",
+      "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": -79,
       "likes": 5,
@@ -2422,12 +2661,473 @@
         {
           "measured_at": "2026-08-09T09:56:33Z",
           "actual_views": 156
+        },
+        {
+          "measured_at": "2026-08-09T11:46:01Z",
+          "actual_views": 156
         }
       ],
       "reuse": null
     },
     {
-      "n": 31,
+      "n": 33,
+      "video_id": "K2F8t86cI9Y",
+      "title": "The Earth's Eternal Lightning Storm Solved",
+      "url": "https://youtube.com/watch?v=K2F8t86cI9Y",
+      "uploaded_at": "2026-08-05T13:09:42Z",
+      "topic": "Catatumbo lightning",
+      "hook": "",
+      "predicted_views": null,
+      "predicted_range": null,
+      "predicted_low": null,
+      "predicted_high": null,
+      "actual_views": 100,
+      "measured_at": "2026-08-09T11:46:00Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 3.0,
+      "top_comments": [],
+      "model_version": null,
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": true,
+        "reason": null,
+        "curve": [
+          {
+            "position": 0.01,
+            "watch_ratio": 1.2632
+          },
+          {
+            "position": 0.02,
+            "watch_ratio": 1.2632
+          },
+          {
+            "position": 0.03,
+            "watch_ratio": 1.2368
+          },
+          {
+            "position": 0.04,
+            "watch_ratio": 1.2368
+          },
+          {
+            "position": 0.05,
+            "watch_ratio": 1.2368
+          },
+          {
+            "position": 0.06,
+            "watch_ratio": 1.1579
+          },
+          {
+            "position": 0.07,
+            "watch_ratio": 1.1842
+          },
+          {
+            "position": 0.08,
+            "watch_ratio": 1.1316
+          },
+          {
+            "position": 0.09,
+            "watch_ratio": 1.1316
+          },
+          {
+            "position": 0.1,
+            "watch_ratio": 1.1316
+          },
+          {
+            "position": 0.11,
+            "watch_ratio": 1.0789
+          },
+          {
+            "position": 0.12,
+            "watch_ratio": 1.0526
+          },
+          {
+            "position": 0.13,
+            "watch_ratio": 0.9737
+          },
+          {
+            "position": 0.14,
+            "watch_ratio": 0.9211
+          },
+          {
+            "position": 0.15,
+            "watch_ratio": 0.8947
+          },
+          {
+            "position": 0.16,
+            "watch_ratio": 0.8947
+          },
+          {
+            "position": 0.17,
+            "watch_ratio": 0.8421
+          },
+          {
+            "position": 0.18,
+            "watch_ratio": 0.8158
+          },
+          {
+            "position": 0.19,
+            "watch_ratio": 0.7895
+          },
+          {
+            "position": 0.2,
+            "watch_ratio": 0.7895
+          },
+          {
+            "position": 0.21,
+            "watch_ratio": 0.7368
+          },
+          {
+            "position": 0.22,
+            "watch_ratio": 0.7105
+          },
+          {
+            "position": 0.23,
+            "watch_ratio": 0.7105
+          },
+          {
+            "position": 0.24,
+            "watch_ratio": 0.7105
+          },
+          {
+            "position": 0.25,
+            "watch_ratio": 0.7105
+          },
+          {
+            "position": 0.26,
+            "watch_ratio": 0.6579
+          },
+          {
+            "position": 0.27,
+            "watch_ratio": 0.6579
+          },
+          {
+            "position": 0.28,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.29,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.3,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.31,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.32,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.33,
+            "watch_ratio": 0.6316
+          },
+          {
+            "position": 0.34,
+            "watch_ratio": 0.6053
+          },
+          {
+            "position": 0.35,
+            "watch_ratio": 0.5789
+          },
+          {
+            "position": 0.36,
+            "watch_ratio": 0.5789
+          },
+          {
+            "position": 0.37,
+            "watch_ratio": 0.5789
+          },
+          {
+            "position": 0.38,
+            "watch_ratio": 0.5789
+          },
+          {
+            "position": 0.39,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.4,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.41,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.42,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.43,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.44,
+            "watch_ratio": 0.5526
+          },
+          {
+            "position": 0.45,
+            "watch_ratio": 0.4737
+          },
+          {
+            "position": 0.46,
+            "watch_ratio": 0.4211
+          },
+          {
+            "position": 0.47,
+            "watch_ratio": 0.4211
+          },
+          {
+            "position": 0.48,
+            "watch_ratio": 0.4211
+          },
+          {
+            "position": 0.49,
+            "watch_ratio": 0.4211
+          },
+          {
+            "position": 0.5,
+            "watch_ratio": 0.4211
+          },
+          {
+            "position": 0.51,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.52,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.53,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.54,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.55,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.56,
+            "watch_ratio": 0.3947
+          },
+          {
+            "position": 0.57,
+            "watch_ratio": 0.3421
+          },
+          {
+            "position": 0.58,
+            "watch_ratio": 0.3421
+          },
+          {
+            "position": 0.59,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.6,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.61,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.62,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.63,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.64,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.65,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.66,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.67,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.68,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.69,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.7,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.71,
+            "watch_ratio": 0.3158
+          },
+          {
+            "position": 0.72,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.73,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.74,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.75,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.76,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.77,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.78,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.79,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.8,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.81,
+            "watch_ratio": 0.2895
+          },
+          {
+            "position": 0.82,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.83,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.84,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.85,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.86,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.87,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.88,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.89,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.9,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.91,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.92,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.93,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.94,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.95,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.96,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.97,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.98,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 0.99,
+            "watch_ratio": 0.2632
+          },
+          {
+            "position": 1.0,
+            "watch_ratio": 0.2632
+          }
+        ],
+        "biggest_drop_at": 0.06,
+        "biggest_drop_size": 0.0789,
+        "retention_at_end": 0.2632
+      },
+      "degradations": [
+        {
+          "stage": "record-backfill",
+          "what": "the record was lost when the run's commit step failed after upload",
+          "instead": "rebuilt from YouTube; generation-time data is gone"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-09T11:46:00Z",
+          "actual_views": 100
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "n": 32,
       "video_id": "5zSVFkP4WVM",
       "title": "The 2,000-Year-Old Computer Found at the Bottom of the Ocean",
       "url": "https://youtube.com/watch?v=5zSVFkP4WVM",
@@ -2439,8 +3139,8 @@
       "predicted_low": 184,
       "predicted_high": 2701,
       "actual_views": 171,
-      "measured_at": "2026-08-09T09:56:32Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-09T11:45:59Z",
+      "measurement_count": 24,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 4,
@@ -2961,12 +3661,16 @@
         {
           "measured_at": "2026-08-09T09:56:32Z",
           "actual_views": 171
+        },
+        {
+          "measured_at": "2026-08-09T11:45:59Z",
+          "actual_views": 171
         }
       ],
       "reuse": null
     },
     {
-      "n": 30,
+      "n": 31,
       "video_id": "7-F4mLwE1mI",
       "title": "The Mysterious Giant Rings Spotted on Siberia's Deepest Lake",
       "url": "https://youtube.com/watch?v=7-F4mLwE1mI",
@@ -2978,8 +3682,8 @@
       "predicted_low": 184,
       "predicted_high": 2701,
       "actual_views": 937,
-      "measured_at": "2026-08-09T09:56:31Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-09T11:45:58Z",
+      "measurement_count": 25,
       "system_version": "phase1-stabilize",
       "error_pct": 33,
       "likes": 17,
@@ -3504,12 +4208,16 @@
         {
           "measured_at": "2026-08-09T09:56:31Z",
           "actual_views": 937
+        },
+        {
+          "measured_at": "2026-08-09T11:45:58Z",
+          "actual_views": 937
         }
       ],
       "reuse": null
     },
     {
-      "n": 29,
+      "n": 30,
       "video_id": "efMGQGVzh8Y",
       "title": "The Waterfall That Swallowed Everything\u2014And Where It Went",
       "url": "https://youtube.com/watch?v=efMGQGVzh8Y",
@@ -3520,14 +4228,14 @@
       "predicted_range": "195-2,936",
       "predicted_low": 195,
       "predicted_high": 2936,
-      "actual_views": 916,
-      "measured_at": "2026-08-09T09:56:31Z",
-      "measurement_count": 28,
+      "actual_views": 910,
+      "measured_at": "2026-08-09T11:45:57Z",
+      "measurement_count": 29,
       "system_version": "phase1-stabilize",
-      "error_pct": 21,
+      "error_pct": 20,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 1.42,
+      "engagement_rate": 1.43,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -4063,12 +4771,16 @@
         {
           "measured_at": "2026-08-09T09:56:31Z",
           "actual_views": 916
+        },
+        {
+          "measured_at": "2026-08-09T11:45:57Z",
+          "actual_views": 910
         }
       ],
       "reuse": null
     },
     {
-      "n": 28,
+      "n": 29,
       "video_id": "AKMdkAN7uJQ",
       "title": "The 13,000-Foot Alien Antenna Found on the Ocean Floor",
       "url": "https://youtube.com/watch?v=AKMdkAN7uJQ",
@@ -4080,8 +4792,8 @@
       "predicted_low": 202,
       "predicted_high": 3096,
       "actual_views": 698,
-      "measured_at": "2026-08-09T09:56:30Z",
-      "measurement_count": 30,
+      "measured_at": "2026-08-09T11:45:56Z",
+      "measurement_count": 31,
       "system_version": "phase1-stabilize",
       "error_pct": -12,
       "likes": 15,
@@ -4630,12 +5342,16 @@
         {
           "measured_at": "2026-08-09T09:56:30Z",
           "actual_views": 698
+        },
+        {
+          "measured_at": "2026-08-09T11:45:56Z",
+          "actual_views": 698
         }
       ],
       "reuse": null
     },
     {
-      "n": 27,
+      "n": 28,
       "video_id": "r4D8DQaSVX8",
       "title": "The 300-Year Orphan Tsunami Solved by Dead Trees",
       "url": "https://youtube.com/watch?v=r4D8DQaSVX8",
@@ -4647,8 +5363,8 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 1039,
-      "measured_at": "2026-08-09T09:56:30Z",
-      "measurement_count": 33,
+      "measured_at": "2026-08-09T11:45:55Z",
+      "measurement_count": 34,
       "system_version": "phase1-stabilize",
       "error_pct": 31,
       "likes": 15,
@@ -5209,12 +5925,16 @@
         {
           "measured_at": "2026-08-09T09:56:30Z",
           "actual_views": 1039
+        },
+        {
+          "measured_at": "2026-08-09T11:45:55Z",
+          "actual_views": 1039
         }
       ],
       "reuse": null
     },
     {
-      "n": 26,
+      "n": 27,
       "video_id": "X7-HKvMn4UA",
       "title": "The African Lake That Turns Animals Into Stone",
       "url": "https://youtube.com/watch?v=X7-HKvMn4UA",
@@ -5225,14 +5945,14 @@
       "predicted_range": "201-3,129",
       "predicted_low": 201,
       "predicted_high": 3129,
-      "actual_views": 813,
-      "measured_at": "2026-08-09T09:56:29Z",
-      "measurement_count": 36,
+      "actual_views": 773,
+      "measured_at": "2026-08-09T11:45:54Z",
+      "measurement_count": 37,
       "system_version": "phase1-stabilize",
-      "error_pct": 3,
+      "error_pct": -3,
       "likes": 10,
       "comments": 0,
-      "engagement_rate": 1.23,
+      "engagement_rate": 1.29,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -5800,12 +6520,16 @@
         {
           "measured_at": "2026-08-09T09:56:29Z",
           "actual_views": 813
+        },
+        {
+          "measured_at": "2026-08-09T11:45:54Z",
+          "actual_views": 773
         }
       ],
       "reuse": null
     },
     {
-      "n": 25,
+      "n": 26,
       "video_id": "RjIyEWo58-Q",
       "title": "The Soviet Mistake That Has Been Burning for 50 Years",
       "url": "https://youtube.com/watch?v=RjIyEWo58-Q",
@@ -5817,8 +6541,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 671,
-      "measured_at": "2026-08-09T09:56:28Z",
-      "measurement_count": 40,
+      "measured_at": "2026-08-09T11:45:53Z",
+      "measurement_count": 41,
       "system_version": "phase1-stabilize",
       "error_pct": -17,
       "likes": 13,
@@ -6407,12 +7131,16 @@
         {
           "measured_at": "2026-08-09T09:56:28Z",
           "actual_views": 671
+        },
+        {
+          "measured_at": "2026-08-09T11:45:53Z",
+          "actual_views": 671
         }
       ],
       "reuse": null
     },
     {
-      "n": 24,
+      "n": 25,
       "video_id": "SP68Vfly9Qk",
       "title": "The Deadly Mystery of the 1518 Dancing Epidemic",
       "url": "https://youtube.com/watch?v=SP68Vfly9Qk",
@@ -6424,8 +7152,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 80,
-      "measured_at": "2026-08-09T09:56:28Z",
-      "measurement_count": 41,
+      "measured_at": "2026-08-09T11:45:52Z",
+      "measurement_count": 42,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 2,
@@ -7018,6 +7746,10 @@
         {
           "measured_at": "2026-08-09T09:56:28Z",
           "actual_views": 80
+        },
+        {
+          "measured_at": "2026-08-09T11:45:52Z",
+          "actual_views": 80
         }
       ],
       "reuse": {
@@ -7026,6 +7758,463 @@
         "pexels_downloads_needed": 15,
         "legacy_generic_queries": false
       }
+    },
+    {
+      "n": 24,
+      "video_id": "jqJ3RvlekIk",
+      "title": "The Day Gelatin Rained From the Sky in Washington",
+      "url": "https://youtube.com/watch?v=jqJ3RvlekIk",
+      "uploaded_at": "2026-08-03T10:10:32Z",
+      "topic": "Oakville, Washington",
+      "hook": "",
+      "predicted_views": null,
+      "predicted_range": null,
+      "predicted_low": null,
+      "predicted_high": null,
+      "actual_views": 641,
+      "measured_at": "2026-08-09T11:45:51Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": 7,
+      "comments": 0,
+      "engagement_rate": 1.09,
+      "top_comments": [],
+      "model_version": null,
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": true,
+        "reason": null,
+        "curve": [
+          {
+            "position": 0.01,
+            "watch_ratio": 1.419
+          },
+          {
+            "position": 0.02,
+            "watch_ratio": 1.4134
+          },
+          {
+            "position": 0.03,
+            "watch_ratio": 1.405
+          },
+          {
+            "position": 0.04,
+            "watch_ratio": 1.3603
+          },
+          {
+            "position": 0.05,
+            "watch_ratio": 1.3436
+          },
+          {
+            "position": 0.06,
+            "watch_ratio": 1.3324
+          },
+          {
+            "position": 0.07,
+            "watch_ratio": 1.3184
+          },
+          {
+            "position": 0.08,
+            "watch_ratio": 1.3128
+          },
+          {
+            "position": 0.09,
+            "watch_ratio": 1.3073
+          },
+          {
+            "position": 0.1,
+            "watch_ratio": 1.3073
+          },
+          {
+            "position": 0.11,
+            "watch_ratio": 1.2961
+          },
+          {
+            "position": 0.12,
+            "watch_ratio": 1.2961
+          },
+          {
+            "position": 0.13,
+            "watch_ratio": 1.2402
+          },
+          {
+            "position": 0.14,
+            "watch_ratio": 1.1955
+          },
+          {
+            "position": 0.15,
+            "watch_ratio": 1.1648
+          },
+          {
+            "position": 0.16,
+            "watch_ratio": 1.1285
+          },
+          {
+            "position": 0.17,
+            "watch_ratio": 1.0838
+          },
+          {
+            "position": 0.18,
+            "watch_ratio": 1.0642
+          },
+          {
+            "position": 0.19,
+            "watch_ratio": 1.0419
+          },
+          {
+            "position": 0.2,
+            "watch_ratio": 1.0112
+          },
+          {
+            "position": 0.21,
+            "watch_ratio": 0.9804
+          },
+          {
+            "position": 0.22,
+            "watch_ratio": 0.9302
+          },
+          {
+            "position": 0.23,
+            "watch_ratio": 0.9078
+          },
+          {
+            "position": 0.24,
+            "watch_ratio": 0.8883
+          },
+          {
+            "position": 0.25,
+            "watch_ratio": 0.8547
+          },
+          {
+            "position": 0.26,
+            "watch_ratio": 0.8408
+          },
+          {
+            "position": 0.27,
+            "watch_ratio": 0.824
+          },
+          {
+            "position": 0.28,
+            "watch_ratio": 0.8101
+          },
+          {
+            "position": 0.29,
+            "watch_ratio": 0.7933
+          },
+          {
+            "position": 0.3,
+            "watch_ratio": 0.7793
+          },
+          {
+            "position": 0.31,
+            "watch_ratio": 0.7654
+          },
+          {
+            "position": 0.32,
+            "watch_ratio": 0.7626
+          },
+          {
+            "position": 0.33,
+            "watch_ratio": 0.7486
+          },
+          {
+            "position": 0.34,
+            "watch_ratio": 0.743
+          },
+          {
+            "position": 0.35,
+            "watch_ratio": 0.7235
+          },
+          {
+            "position": 0.36,
+            "watch_ratio": 0.7151
+          },
+          {
+            "position": 0.37,
+            "watch_ratio": 0.7095
+          },
+          {
+            "position": 0.38,
+            "watch_ratio": 0.7067
+          },
+          {
+            "position": 0.39,
+            "watch_ratio": 0.6927
+          },
+          {
+            "position": 0.4,
+            "watch_ratio": 0.6899
+          },
+          {
+            "position": 0.41,
+            "watch_ratio": 0.6816
+          },
+          {
+            "position": 0.42,
+            "watch_ratio": 0.6676
+          },
+          {
+            "position": 0.43,
+            "watch_ratio": 0.662
+          },
+          {
+            "position": 0.44,
+            "watch_ratio": 0.6536
+          },
+          {
+            "position": 0.45,
+            "watch_ratio": 0.6397
+          },
+          {
+            "position": 0.46,
+            "watch_ratio": 0.6397
+          },
+          {
+            "position": 0.47,
+            "watch_ratio": 0.6285
+          },
+          {
+            "position": 0.48,
+            "watch_ratio": 0.6257
+          },
+          {
+            "position": 0.49,
+            "watch_ratio": 0.6201
+          },
+          {
+            "position": 0.5,
+            "watch_ratio": 0.6061
+          },
+          {
+            "position": 0.51,
+            "watch_ratio": 0.6061
+          },
+          {
+            "position": 0.52,
+            "watch_ratio": 0.6034
+          },
+          {
+            "position": 0.53,
+            "watch_ratio": 0.5978
+          },
+          {
+            "position": 0.54,
+            "watch_ratio": 0.5922
+          },
+          {
+            "position": 0.55,
+            "watch_ratio": 0.5782
+          },
+          {
+            "position": 0.56,
+            "watch_ratio": 0.5726
+          },
+          {
+            "position": 0.57,
+            "watch_ratio": 0.5642
+          },
+          {
+            "position": 0.58,
+            "watch_ratio": 0.5559
+          },
+          {
+            "position": 0.59,
+            "watch_ratio": 0.5531
+          },
+          {
+            "position": 0.6,
+            "watch_ratio": 0.5475
+          },
+          {
+            "position": 0.61,
+            "watch_ratio": 0.5447
+          },
+          {
+            "position": 0.62,
+            "watch_ratio": 0.5419
+          },
+          {
+            "position": 0.63,
+            "watch_ratio": 0.5363
+          },
+          {
+            "position": 0.64,
+            "watch_ratio": 0.5335
+          },
+          {
+            "position": 0.65,
+            "watch_ratio": 0.5223
+          },
+          {
+            "position": 0.66,
+            "watch_ratio": 0.5196
+          },
+          {
+            "position": 0.67,
+            "watch_ratio": 0.5112
+          },
+          {
+            "position": 0.68,
+            "watch_ratio": 0.5112
+          },
+          {
+            "position": 0.69,
+            "watch_ratio": 0.5028
+          },
+          {
+            "position": 0.7,
+            "watch_ratio": 0.4972
+          },
+          {
+            "position": 0.71,
+            "watch_ratio": 0.4944
+          },
+          {
+            "position": 0.72,
+            "watch_ratio": 0.4916
+          },
+          {
+            "position": 0.73,
+            "watch_ratio": 0.4888
+          },
+          {
+            "position": 0.74,
+            "watch_ratio": 0.486
+          },
+          {
+            "position": 0.75,
+            "watch_ratio": 0.4804
+          },
+          {
+            "position": 0.76,
+            "watch_ratio": 0.4804
+          },
+          {
+            "position": 0.77,
+            "watch_ratio": 0.4804
+          },
+          {
+            "position": 0.78,
+            "watch_ratio": 0.4777
+          },
+          {
+            "position": 0.79,
+            "watch_ratio": 0.4777
+          },
+          {
+            "position": 0.8,
+            "watch_ratio": 0.4749
+          },
+          {
+            "position": 0.81,
+            "watch_ratio": 0.4777
+          },
+          {
+            "position": 0.82,
+            "watch_ratio": 0.4721
+          },
+          {
+            "position": 0.83,
+            "watch_ratio": 0.4721
+          },
+          {
+            "position": 0.84,
+            "watch_ratio": 0.4721
+          },
+          {
+            "position": 0.85,
+            "watch_ratio": 0.4721
+          },
+          {
+            "position": 0.86,
+            "watch_ratio": 0.4637
+          },
+          {
+            "position": 0.87,
+            "watch_ratio": 0.4637
+          },
+          {
+            "position": 0.88,
+            "watch_ratio": 0.4581
+          },
+          {
+            "position": 0.89,
+            "watch_ratio": 0.4553
+          },
+          {
+            "position": 0.9,
+            "watch_ratio": 0.4553
+          },
+          {
+            "position": 0.91,
+            "watch_ratio": 0.4525
+          },
+          {
+            "position": 0.92,
+            "watch_ratio": 0.4525
+          },
+          {
+            "position": 0.93,
+            "watch_ratio": 0.4497
+          },
+          {
+            "position": 0.94,
+            "watch_ratio": 0.4441
+          },
+          {
+            "position": 0.95,
+            "watch_ratio": 0.4413
+          },
+          {
+            "position": 0.96,
+            "watch_ratio": 0.4413
+          },
+          {
+            "position": 0.97,
+            "watch_ratio": 0.4358
+          },
+          {
+            "position": 0.98,
+            "watch_ratio": 0.4274
+          },
+          {
+            "position": 0.99,
+            "watch_ratio": 0.4274
+          },
+          {
+            "position": 1.0,
+            "watch_ratio": 0.4274
+          }
+        ],
+        "biggest_drop_at": 0.13,
+        "biggest_drop_size": 0.0559,
+        "retention_at_end": 0.4274
+      },
+      "degradations": [
+        {
+          "stage": "record-backfill",
+          "what": "the record was lost when the run's commit step failed after upload",
+          "instead": "rebuilt from YouTube; generation-time data is gone"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-09T11:45:51Z",
+          "actual_views": 641
+        }
+      ],
+      "reuse": null
     },
     {
       "n": 23,
@@ -7040,8 +8229,8 @@
       "predicted_low": 201,
       "predicted_high": 3310,
       "actual_views": 812,
-      "measured_at": "2026-08-09T09:56:27Z",
-      "measurement_count": 45,
+      "measured_at": "2026-08-09T11:45:50Z",
+      "measurement_count": 46,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 19,
@@ -7650,6 +8839,10 @@
         {
           "measured_at": "2026-08-09T09:56:27Z",
           "actual_views": 812
+        },
+        {
+          "measured_at": "2026-08-09T11:45:50Z",
+          "actual_views": 812
         }
       ],
       "reuse": null
@@ -7667,8 +8860,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 736,
-      "measured_at": "2026-08-09T09:56:27Z",
-      "measurement_count": 47,
+      "measured_at": "2026-08-09T11:45:49Z",
+      "measurement_count": 48,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 8,
@@ -8285,6 +9478,10 @@
         {
           "measured_at": "2026-08-09T09:56:27Z",
           "actual_views": 736
+        },
+        {
+          "measured_at": "2026-08-09T11:45:49Z",
+          "actual_views": 736
         }
       ],
       "reuse": null
@@ -8302,8 +9499,8 @@
       "predicted_low": 191,
       "predicted_high": 3502,
       "actual_views": 765,
-      "measured_at": "2026-08-09T09:56:26Z",
-      "measurement_count": 49,
+      "measured_at": "2026-08-09T11:45:48Z",
+      "measurement_count": 50,
       "system_version": "phase1-stabilize",
       "error_pct": -6,
       "likes": 13,
@@ -8928,6 +10125,10 @@
         {
           "measured_at": "2026-08-09T09:56:26Z",
           "actual_views": 765
+        },
+        {
+          "measured_at": "2026-08-09T11:45:48Z",
+          "actual_views": 765
         }
       ],
       "reuse": null
@@ -8945,8 +10146,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 1015,
-      "measured_at": "2026-08-09T09:56:26Z",
-      "measurement_count": 56,
+      "measured_at": "2026-08-09T11:45:47Z",
+      "measurement_count": 57,
       "system_version": "phase1-stabilize",
       "error_pct": 3,
       "likes": 24,
@@ -9599,6 +10800,10 @@
         {
           "measured_at": "2026-08-09T09:56:26Z",
           "actual_views": 1015
+        },
+        {
+          "measured_at": "2026-08-09T11:45:47Z",
+          "actual_views": 1015
         }
       ],
       "reuse": null
@@ -9616,8 +10821,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 774,
-      "measured_at": "2026-08-09T09:56:25Z",
-      "measurement_count": 57,
+      "measured_at": "2026-08-09T11:45:46Z",
+      "measurement_count": 58,
       "system_version": "phase1-stabilize",
       "error_pct": -22,
       "likes": 9,
@@ -10274,6 +11479,10 @@
         {
           "measured_at": "2026-08-09T09:56:25Z",
           "actual_views": 774
+        },
+        {
+          "measured_at": "2026-08-09T11:45:46Z",
+          "actual_views": 774
         }
       ],
       "reuse": null
@@ -10291,8 +11500,8 @@
       "predicted_low": 214,
       "predicted_high": 4609,
       "actual_views": 809,
-      "measured_at": "2026-08-09T09:56:24Z",
-      "measurement_count": 58,
+      "measured_at": "2026-08-09T11:45:45Z",
+      "measurement_count": 59,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 10,
@@ -10953,6 +12162,10 @@
         {
           "measured_at": "2026-08-09T09:56:24Z",
           "actual_views": 809
+        },
+        {
+          "measured_at": "2026-08-09T11:45:45Z",
+          "actual_views": 809
         }
       ],
       "reuse": null
@@ -10970,8 +12183,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 842,
-      "measured_at": "2026-08-09T09:56:24Z",
-      "measurement_count": 59,
+      "measured_at": "2026-08-09T11:45:44Z",
+      "measurement_count": 60,
       "system_version": "phase1-stabilize",
       "error_pct": -16,
       "likes": 14,
@@ -11642,6 +12855,10 @@
         {
           "measured_at": "2026-08-09T09:56:24Z",
           "actual_views": 842
+        },
+        {
+          "measured_at": "2026-08-09T11:45:44Z",
+          "actual_views": 842
         }
       ],
       "reuse": null
@@ -11659,8 +12876,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 942,
-      "measured_at": "2026-08-09T09:56:23Z",
-      "measurement_count": 60,
+      "measured_at": "2026-08-09T11:45:43Z",
+      "measurement_count": 61,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 19,
@@ -12335,6 +13552,10 @@
         {
           "measured_at": "2026-08-09T09:56:23Z",
           "actual_views": 942
+        },
+        {
+          "measured_at": "2026-08-09T11:45:43Z",
+          "actual_views": 942
         }
       ],
       "reuse": null
@@ -12352,8 +13573,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1206,
-      "measured_at": "2026-08-09T09:56:23Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:41Z",
+      "measurement_count": 62,
       "system_version": "phase1-stabilize",
       "error_pct": 22,
       "likes": 19,
@@ -13032,6 +14253,10 @@
         {
           "measured_at": "2026-08-09T09:56:23Z",
           "actual_views": 1206
+        },
+        {
+          "measured_at": "2026-08-09T11:45:41Z",
+          "actual_views": 1206
         }
       ],
       "reuse": null
@@ -13049,8 +14274,8 @@
       "predicted_low": 182,
       "predicted_high": 5747,
       "actual_views": 1204,
-      "measured_at": "2026-08-09T09:56:22Z",
-      "measurement_count": 62,
+      "measured_at": "2026-08-09T11:45:41Z",
+      "measurement_count": 63,
       "system_version": "phase1-stabilize",
       "error_pct": 18,
       "likes": 18,
@@ -13733,6 +14958,10 @@
         {
           "measured_at": "2026-08-09T09:56:22Z",
           "actual_views": 1204
+        },
+        {
+          "measured_at": "2026-08-09T11:45:41Z",
+          "actual_views": 1204
         }
       ],
       "reuse": null
@@ -13750,8 +14979,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 808,
-      "measured_at": "2026-08-09T09:56:21Z",
-      "measurement_count": 62,
+      "measured_at": "2026-08-09T11:45:39Z",
+      "measurement_count": 63,
       "system_version": "pre-phase0",
       "error_pct": 16060,
       "likes": 27,
@@ -14428,6 +15657,10 @@
         {
           "measured_at": "2026-08-09T09:56:21Z",
           "actual_views": 808
+        },
+        {
+          "measured_at": "2026-08-09T11:45:39Z",
+          "actual_views": 808
         }
       ],
       "reuse": null
@@ -14445,8 +15678,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1240,
-      "measured_at": "2026-08-09T09:56:21Z",
-      "measurement_count": 62,
+      "measured_at": "2026-08-09T11:45:38Z",
+      "measurement_count": 63,
       "system_version": "pre-phase0",
       "error_pct": 24700,
       "likes": 32,
@@ -15123,6 +16356,10 @@
         {
           "measured_at": "2026-08-09T09:56:21Z",
           "actual_views": 1240
+        },
+        {
+          "measured_at": "2026-08-09T11:45:38Z",
+          "actual_views": 1240
         }
       ],
       "reuse": null
@@ -15140,8 +16377,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 515,
-      "measured_at": "2026-08-09T09:56:20Z",
-      "measurement_count": 62,
+      "measured_at": "2026-08-09T11:45:37Z",
+      "measurement_count": 63,
       "system_version": "pre-phase0",
       "error_pct": 10200,
       "likes": 15,
@@ -15818,6 +17055,10 @@
         {
           "measured_at": "2026-08-09T09:56:20Z",
           "actual_views": 515
+        },
+        {
+          "measured_at": "2026-08-09T11:45:37Z",
+          "actual_views": 515
         }
       ],
       "reuse": null
@@ -15835,8 +17076,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 14,
-      "measured_at": "2026-08-09T09:56:20Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:36Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -16108,6 +17349,10 @@
         {
           "measured_at": "2026-08-09T09:56:20Z",
           "actual_views": 14
+        },
+        {
+          "measured_at": "2026-08-09T11:45:36Z",
+          "actual_views": 14
         }
       ],
       "reuse": {
@@ -16130,8 +17375,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 48,
-      "measured_at": "2026-08-09T09:56:19Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:35Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -95,
       "likes": 3,
@@ -16804,6 +18049,10 @@
         {
           "measured_at": "2026-08-09T09:56:19Z",
           "actual_views": 48
+        },
+        {
+          "measured_at": "2026-08-09T11:45:35Z",
+          "actual_views": 48
         }
       ],
       "reuse": {
@@ -16826,8 +18075,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-09T09:56:18Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:34Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -17099,6 +18348,10 @@
         {
           "measured_at": "2026-08-09T09:56:18Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-09T11:45:34Z",
+          "actual_views": 8
         }
       ],
       "reuse": {
@@ -17121,8 +18374,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-09T09:56:18Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:33Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -17394,6 +18647,10 @@
         {
           "measured_at": "2026-08-09T09:56:18Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-09T11:45:33Z",
+          "actual_views": 8
         }
       ],
       "reuse": {
@@ -17416,8 +18673,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-09T09:56:17Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:32Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -17689,6 +18946,10 @@
         {
           "measured_at": "2026-08-09T09:56:17Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-09T11:45:32Z",
+          "actual_views": 2
         }
       ],
       "reuse": {
@@ -17711,8 +18972,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1251,
-      "measured_at": "2026-08-09T09:56:16Z",
-      "measurement_count": 61,
+      "measured_at": "2026-08-09T11:45:31Z",
+      "measurement_count": 62,
       "system_version": "pre-phase0",
       "error_pct": 4904,
       "likes": 19,
@@ -18385,6 +19646,10 @@
         {
           "measured_at": "2026-08-09T09:56:16Z",
           "actual_views": 1251
+        },
+        {
+          "measured_at": "2026-08-09T11:45:31Z",
+          "actual_views": 1251
         }
       ],
       "reuse": null
@@ -18402,8 +19667,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1099,
-      "measured_at": "2026-08-09T09:56:15Z",
-      "measurement_count": 60,
+      "measured_at": "2026-08-09T11:45:30Z",
+      "measurement_count": 61,
       "system_version": "pre-phase0",
       "error_pct": 4296,
       "likes": 12,
@@ -19072,6 +20337,10 @@
         {
           "measured_at": "2026-08-09T09:56:15Z",
           "actual_views": 1099
+        },
+        {
+          "measured_at": "2026-08-09T11:45:30Z",
+          "actual_views": 1099
         }
       ],
       "reuse": null
@@ -19089,8 +20358,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1059,
-      "measured_at": "2026-08-09T09:56:14Z",
-      "measurement_count": 59,
+      "measured_at": "2026-08-09T11:45:29Z",
+      "measurement_count": 60,
       "system_version": "pre-phase0",
       "error_pct": 4136,
       "likes": 12,
@@ -19755,6 +21024,10 @@
         {
           "measured_at": "2026-08-09T09:56:14Z",
           "actual_views": 1059
+        },
+        {
+          "measured_at": "2026-08-09T11:45:29Z",
+          "actual_views": 1059
         }
       ],
       "reuse": null
@@ -19772,8 +21045,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-09T09:56:14Z",
-      "measurement_count": 58,
+      "measured_at": "2026-08-09T11:45:28Z",
+      "measurement_count": 59,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 20,
@@ -20434,6 +21707,10 @@
         {
           "measured_at": "2026-08-09T09:56:14Z",
           "actual_views": 1080
+        },
+        {
+          "measured_at": "2026-08-09T11:45:28Z",
+          "actual_views": 1080
         }
       ],
       "reuse": null
@@ -20451,8 +21728,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1071,
-      "measured_at": "2026-08-09T09:56:13Z",
-      "measurement_count": 56,
+      "measured_at": "2026-08-09T11:45:27Z",
+      "measurement_count": 57,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 13,
@@ -21109,6 +22386,10 @@
         },
         {
           "measured_at": "2026-08-09T09:56:13Z",
+          "actual_views": 1071
+        },
+        {
+          "measured_at": "2026-08-09T11:45:27Z",
           "actual_views": 1071
         }
       ],
