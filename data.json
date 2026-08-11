@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T11:42:19.421015Z",
+  "generated_at": "2026-08-11T12:02:22.103409Z",
   "next_runs": [
     "2026-08-11T16:07:00Z",
     "2026-08-12T01:07:00Z",
     "2026-08-12T06:07:00Z"
   ],
   "summary": {
-    "videos": 50,
-    "total_views": 34338,
+    "videos": 54,
+    "total_views": 34333,
     "total_likes": 633,
     "total_comments": 10,
     "mean_abs_pct_error": 36.6,
@@ -25,13 +25,13 @@
     "mean_drop_size": 0.09
   },
   "quota": {
-    "units_used": 300,
+    "units_used": 6802,
     "daily_cap": 10000,
-    "remaining": 9700,
+    "remaining": 3198,
     "upload_cost": 1600,
     "delete_cost": 50,
     "reupload_cost": 1650,
-    "can_reupload": true,
+    "can_reupload": false,
     "next_upload_fits": true
   },
   "repo": "hammaadban111-art/my-youtube-agent",
@@ -53,8 +53,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 1269,
-      "measured_at": "2026-08-11T11:42:12Z",
-      "measurement_count": 31,
+      "measured_at": "2026-08-11T12:02:15Z",
+      "measurement_count": 32,
       "system_version": "phase1-stabilize",
       "error_pct": 74,
       "likes": 26,
@@ -607,6 +607,10 @@
         {
           "measured_at": "2026-08-11T11:42:12Z",
           "actual_views": 1269
+        },
+        {
+          "measured_at": "2026-08-11T12:02:15Z",
+          "actual_views": 1269
         }
       ],
       "reuse": null
@@ -624,8 +628,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-11T11:41:51Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:56Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -989,6 +993,10 @@
         {
           "measured_at": "2026-08-11T11:41:51Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-11T12:01:56Z",
+          "actual_views": 2
         }
       ],
       "reuse": {
@@ -1028,23 +1036,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "failure",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-11T07:32:06Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31469336810",
-    "last_successful_step": "Archive rendered video",
-    "failed_step": "Persist topic history and video record"
+    "created_at": "2026-08-11T11:51:27Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31488504090",
+    "last_successful_step": "Restore Pexels footage cache",
+    "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 499.4,
+    "used_minutes": 501.1,
     "budget_minutes": 2000,
-    "percent_used": 25.0,
-    "runs_counted": 125,
+    "percent_used": 25.1,
+    "runs_counted": 126,
     "per_workflow_minutes": {
       "daily.yml": 392.0,
-      "followup.yml": 107.4
+      "followup.yml": 109.1
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1100,17 +1108,202 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31236131423",
         "created_at": "2026-08-08T02:57:27Z",
         "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31200202160,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31200202160",
-        "created_at": "2026-08-07T16:59:39Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "videos": [
+    {
+      "n": 54,
+      "video_id": "jOj8sGZrNqo",
+      "title": "The Mystery Nuclear Blast No Country Claimed",
+      "url": "https://youtube.com/watch?v=jOj8sGZrNqo",
+      "uploaded_at": "2026-08-11T12:01:53Z",
+      "topic": "Vela Incident",
+      "hook": "A satellite recorded a nuclear explosion that no country detonated.",
+      "predicted_views": 714,
+      "predicted_range": "201-2,533",
+      "predicted_low": 201,
+      "predicted_high": 2533,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 2,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 53,
+      "video_id": "2hq3kdAblUE",
+      "title": "The 25-Mile Eye Staring Into Space",
+      "url": "https://youtube.com/watch?v=2hq3kdAblUE",
+      "uploaded_at": "2026-08-11T11:47:36Z",
+      "topic": "Richat Structure",
+      "hook": "",
+      "predicted_views": 714,
+      "predicted_range": "201-2,533",
+      "predicted_low": 201,
+      "predicted_high": 2533,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 52,
+      "video_id": "ir5B707hUcI",
+      "title": "The Ghost Light That Fooled Scientists for 50 Years",
+      "url": "https://youtube.com/watch?v=ir5B707hUcI",
+      "uploaded_at": "2026-08-11T11:47:33Z",
+      "topic": "Paulding Light",
+      "hook": "",
+      "predicted_views": 714,
+      "predicted_range": "201-2,533",
+      "predicted_low": 201,
+      "predicted_high": 2533,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 51,
+      "video_id": "8JQ9_wl-Y2k",
+      "title": "The Ancient Statue That Sang Every Morning for 200 Years",
+      "url": "https://youtube.com/watch?v=8JQ9_wl-Y2k",
+      "uploaded_at": "2026-08-11T11:47:28Z",
+      "topic": "Colossi of Memnon",
+      "hook": "",
+      "predicted_views": 714,
+      "predicted_range": "201-2,533",
+      "predicted_low": 201,
+      "predicted_high": 2533,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "parked-recovery",
+          "what": "the parked bundle predates script preservation, so segments, hook and grounding are gone",
+          "instead": "published with title, description and subject only"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 50,
       "video_id": "wUBOKZhmbUU",
@@ -1123,14 +1316,14 @@
       "predicted_range": "201-2,543",
       "predicted_low": 201,
       "predicted_high": 2543,
-      "actual_views": 394,
-      "measured_at": "2026-08-11T11:42:19Z",
-      "measurement_count": 2,
+      "actual_views": 389,
+      "measured_at": "2026-08-11T12:02:22Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -45,
+      "error_pct": -46,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.02,
+      "engagement_rate": 1.03,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1161,6 +1354,10 @@
         {
           "measured_at": "2026-08-11T11:42:19Z",
           "actual_views": 394
+        },
+        {
+          "measured_at": "2026-08-11T12:02:22Z",
+          "actual_views": 389
         }
       ],
       "reuse": null
@@ -1178,8 +1375,8 @@
       "predicted_low": 206,
       "predicted_high": 2631,
       "actual_views": 157,
-      "measured_at": "2026-08-11T11:42:18Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-11T12:02:21Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -79,
       "likes": 0,
@@ -1231,6 +1428,10 @@
         {
           "measured_at": "2026-08-11T11:42:18Z",
           "actual_views": 157
+        },
+        {
+          "measured_at": "2026-08-11T12:02:21Z",
+          "actual_views": 157
         }
       ],
       "reuse": null
@@ -1248,8 +1449,8 @@
       "predicted_low": 206,
       "predicted_high": 2631,
       "actual_views": 646,
-      "measured_at": "2026-08-11T11:42:18Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-11T12:02:21Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -12,
       "likes": 15,
@@ -1267,7 +1468,7 @@
       },
       "retention": {
         "available": false,
-        "reason": "HttpError: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-08-10&endDate=2026-08-12&metrics=audienceWatchRatio%2CrelativeRetentionPerformance&dimensions=elapsedVideoTimeRatio&filters=video%3D%3D6jmWeCUY8cI&alt=json returned \"Inte",
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1319,6 +1520,10 @@
         {
           "measured_at": "2026-08-11T11:42:18Z",
           "actual_views": 646
+        },
+        {
+          "measured_at": "2026-08-11T12:02:21Z",
+          "actual_views": 646
         }
       ],
       "reuse": null
@@ -1336,8 +1541,8 @@
       "predicted_low": 202,
       "predicted_high": 2595,
       "actual_views": 718,
-      "measured_at": "2026-08-11T11:42:17Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-11T12:02:20Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 16,
@@ -1423,6 +1628,10 @@
         {
           "measured_at": "2026-08-11T11:42:17Z",
           "actual_views": 718
+        },
+        {
+          "measured_at": "2026-08-11T12:02:20Z",
+          "actual_views": 718
         }
       ],
       "reuse": null
@@ -1440,8 +1649,8 @@
       "predicted_low": 195,
       "predicted_high": 2537,
       "actual_views": 675,
-      "measured_at": "2026-08-11T11:42:17Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-11T12:02:20Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -4,
       "likes": 24,
@@ -1537,6 +1746,10 @@
         {
           "measured_at": "2026-08-11T11:42:17Z",
           "actual_views": 675
+        },
+        {
+          "measured_at": "2026-08-11T12:02:20Z",
+          "actual_views": 675
         }
       ],
       "reuse": null
@@ -1554,8 +1767,8 @@
       "predicted_low": 199,
       "predicted_high": 2658,
       "actual_views": 792,
-      "measured_at": "2026-08-11T11:42:16Z",
-      "measurement_count": 20,
+      "measured_at": "2026-08-11T12:02:19Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": 9,
       "likes": 16,
@@ -1663,6 +1876,10 @@
         {
           "measured_at": "2026-08-11T11:42:16Z",
           "actual_views": 792
+        },
+        {
+          "measured_at": "2026-08-11T12:02:19Z",
+          "actual_views": 792
         }
       ],
       "reuse": null
@@ -1680,8 +1897,8 @@
       "predicted_low": 199,
       "predicted_high": 2658,
       "actual_views": 2,
-      "measured_at": "2026-08-11T11:42:16Z",
-      "measurement_count": 21,
+      "measured_at": "2026-08-11T12:02:19Z",
+      "measurement_count": 22,
       "system_version": "phase1-stabilize",
       "error_pct": -100,
       "likes": 1,
@@ -1799,6 +2016,10 @@
         {
           "measured_at": "2026-08-11T11:42:16Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-11T12:02:19Z",
+          "actual_views": 2
         }
       ],
       "reuse": null
@@ -1816,8 +2037,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 868,
-      "measured_at": "2026-08-11T11:42:15Z",
-      "measurement_count": 22,
+      "measured_at": "2026-08-11T12:02:18Z",
+      "measurement_count": 23,
       "system_version": "phase1-stabilize",
       "error_pct": null,
       "likes": 15,
@@ -1939,6 +2160,10 @@
         {
           "measured_at": "2026-08-11T11:42:15Z",
           "actual_views": 868
+        },
+        {
+          "measured_at": "2026-08-11T12:02:18Z",
+          "actual_views": 868
         }
       ],
       "reuse": null
@@ -1956,8 +2181,8 @@
       "predicted_low": 199,
       "predicted_high": 2672,
       "actual_views": 680,
-      "measured_at": "2026-08-11T11:42:15Z",
-      "measurement_count": 24,
+      "measured_at": "2026-08-11T12:02:17Z",
+      "measurement_count": 25,
       "system_version": "phase1-stabilize",
       "error_pct": -7,
       "likes": 6,
@@ -2087,6 +2312,10 @@
         {
           "measured_at": "2026-08-11T11:42:15Z",
           "actual_views": 680
+        },
+        {
+          "measured_at": "2026-08-11T12:02:17Z",
+          "actual_views": 680
         }
       ],
       "reuse": null
@@ -2104,8 +2333,8 @@
       "predicted_low": 198,
       "predicted_high": 2701,
       "actual_views": 884,
-      "measured_at": "2026-08-11T11:42:14Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-11T12:02:17Z",
+      "measurement_count": 24,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
       "likes": 29,
@@ -2632,6 +2861,10 @@
         {
           "measured_at": "2026-08-11T11:42:14Z",
           "actual_views": 884
+        },
+        {
+          "measured_at": "2026-08-11T12:02:17Z",
+          "actual_views": 884
         }
       ],
       "reuse": null
@@ -2649,8 +2882,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 634,
-      "measured_at": "2026-08-11T11:42:14Z",
-      "measurement_count": 29,
+      "measured_at": "2026-08-11T12:02:16Z",
+      "measurement_count": 30,
       "system_version": "phase1-stabilize",
       "error_pct": -13,
       "likes": 12,
@@ -3201,6 +3434,10 @@
         {
           "measured_at": "2026-08-11T11:42:14Z",
           "actual_views": 634
+        },
+        {
+          "measured_at": "2026-08-11T12:02:16Z",
+          "actual_views": 634
         }
       ],
       "reuse": null
@@ -3218,8 +3455,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 880,
-      "measured_at": "2026-08-11T11:42:13Z",
-      "measurement_count": 29,
+      "measured_at": "2026-08-11T12:02:16Z",
+      "measurement_count": 30,
       "system_version": "phase1-stabilize",
       "error_pct": 20,
       "likes": 16,
@@ -3770,6 +4007,10 @@
         {
           "measured_at": "2026-08-11T11:42:13Z",
           "actual_views": 880
+        },
+        {
+          "measured_at": "2026-08-11T12:02:16Z",
+          "actual_views": 880
         }
       ],
       "reuse": null
@@ -3787,8 +4028,8 @@
       "predicted_low": 197,
       "predicted_high": 2712,
       "actual_views": 1269,
-      "measured_at": "2026-08-11T11:42:12Z",
-      "measurement_count": 31,
+      "measured_at": "2026-08-11T12:02:15Z",
+      "measurement_count": 32,
       "system_version": "phase1-stabilize",
       "error_pct": 74,
       "likes": 26,
@@ -4341,6 +4582,10 @@
         {
           "measured_at": "2026-08-11T11:42:12Z",
           "actual_views": 1269
+        },
+        {
+          "measured_at": "2026-08-11T12:02:15Z",
+          "actual_views": 1269
         }
       ],
       "reuse": null
@@ -4358,8 +4603,8 @@
       "predicted_low": 200,
       "predicted_high": 2806,
       "actual_views": 708,
-      "measured_at": "2026-08-11T11:42:12Z",
-      "measurement_count": 34,
+      "measured_at": "2026-08-11T12:02:15Z",
+      "measurement_count": 35,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 9,
@@ -4924,6 +5169,10 @@
         {
           "measured_at": "2026-08-11T11:42:12Z",
           "actual_views": 708
+        },
+        {
+          "measured_at": "2026-08-11T12:02:15Z",
+          "actual_views": 708
         }
       ],
       "reuse": null
@@ -4941,8 +5190,8 @@
       "predicted_low": 186,
       "predicted_high": 2639,
       "actual_views": 732,
-      "measured_at": "2026-08-11T11:42:11Z",
-      "measurement_count": 35,
+      "measured_at": "2026-08-11T12:02:14Z",
+      "measurement_count": 36,
       "system_version": "phase1-stabilize",
       "error_pct": 4,
       "likes": 9,
@@ -5511,6 +5760,10 @@
         {
           "measured_at": "2026-08-11T11:42:11Z",
           "actual_views": 732
+        },
+        {
+          "measured_at": "2026-08-11T12:02:14Z",
+          "actual_views": 732
         }
       ],
       "reuse": null
@@ -5528,8 +5781,8 @@
       "predicted_low": 186,
       "predicted_high": 2639,
       "actual_views": 813,
-      "measured_at": "2026-08-11T11:42:10Z",
-      "measurement_count": 37,
+      "measured_at": "2026-08-11T12:02:14Z",
+      "measurement_count": 38,
       "system_version": "phase1-stabilize",
       "error_pct": 16,
       "likes": 16,
@@ -5705,6 +5958,10 @@
         {
           "measured_at": "2026-08-11T11:42:10Z",
           "actual_views": 813
+        },
+        {
+          "measured_at": "2026-08-11T12:02:14Z",
+          "actual_views": 813
         }
       ],
       "reuse": null
@@ -5722,8 +5979,8 @@
       "predicted_low": 198,
       "predicted_high": 2843,
       "actual_views": 156,
-      "measured_at": "2026-08-11T11:42:10Z",
-      "measurement_count": 41,
+      "measured_at": "2026-08-11T12:02:13Z",
+      "measurement_count": 42,
       "system_version": "phase1-stabilize",
       "error_pct": -79,
       "likes": 5,
@@ -6316,6 +6573,10 @@
         {
           "measured_at": "2026-08-11T11:42:10Z",
           "actual_views": 156
+        },
+        {
+          "measured_at": "2026-08-11T12:02:13Z",
+          "actual_views": 156
         }
       ],
       "reuse": null
@@ -6333,8 +6594,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 100,
-      "measured_at": "2026-08-11T11:42:09Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-11T12:02:13Z",
+      "measurement_count": 24,
       "system_version": "phase1-stabilize",
       "error_pct": null,
       "likes": 3,
@@ -6861,6 +7122,10 @@
         {
           "measured_at": "2026-08-11T11:42:09Z",
           "actual_views": 100
+        },
+        {
+          "measured_at": "2026-08-11T12:02:13Z",
+          "actual_views": 100
         }
       ],
       "reuse": null
@@ -6878,8 +7143,8 @@
       "predicted_low": 184,
       "predicted_high": 2701,
       "actual_views": 171,
-      "measured_at": "2026-08-11T11:42:09Z",
-      "measurement_count": 46,
+      "measured_at": "2026-08-11T12:02:12Z",
+      "measurement_count": 47,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 4,
@@ -7492,6 +7757,10 @@
         {
           "measured_at": "2026-08-11T11:42:09Z",
           "actual_views": 171
+        },
+        {
+          "measured_at": "2026-08-11T12:02:12Z",
+          "actual_views": 171
         }
       ],
       "reuse": null
@@ -7509,8 +7778,8 @@
       "predicted_low": 184,
       "predicted_high": 2701,
       "actual_views": 937,
-      "measured_at": "2026-08-11T11:42:08Z",
-      "measurement_count": 47,
+      "measured_at": "2026-08-11T12:02:12Z",
+      "measurement_count": 48,
       "system_version": "phase1-stabilize",
       "error_pct": 33,
       "likes": 18,
@@ -8127,6 +8396,10 @@
         {
           "measured_at": "2026-08-11T11:42:08Z",
           "actual_views": 937
+        },
+        {
+          "measured_at": "2026-08-11T12:02:12Z",
+          "actual_views": 937
         }
       ],
       "reuse": null
@@ -8144,8 +8417,8 @@
       "predicted_low": 195,
       "predicted_high": 2936,
       "actual_views": 910,
-      "measured_at": "2026-08-11T11:42:07Z",
-      "measurement_count": 51,
+      "measured_at": "2026-08-11T12:02:11Z",
+      "measurement_count": 52,
       "system_version": "phase1-stabilize",
       "error_pct": 20,
       "likes": 13,
@@ -8778,6 +9051,10 @@
         {
           "measured_at": "2026-08-11T11:42:07Z",
           "actual_views": 910
+        },
+        {
+          "measured_at": "2026-08-11T12:02:11Z",
+          "actual_views": 910
         }
       ],
       "reuse": null
@@ -8795,8 +9072,8 @@
       "predicted_low": 202,
       "predicted_high": 3096,
       "actual_views": 698,
-      "measured_at": "2026-08-11T11:42:07Z",
-      "measurement_count": 53,
+      "measured_at": "2026-08-11T12:02:10Z",
+      "measurement_count": 54,
       "system_version": "phase1-stabilize",
       "error_pct": -12,
       "likes": 15,
@@ -9437,6 +9714,10 @@
         {
           "measured_at": "2026-08-11T11:42:07Z",
           "actual_views": 698
+        },
+        {
+          "measured_at": "2026-08-11T12:02:10Z",
+          "actual_views": 698
         }
       ],
       "reuse": null
@@ -9454,8 +9735,8 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 1039,
-      "measured_at": "2026-08-11T11:42:06Z",
-      "measurement_count": 56,
+      "measured_at": "2026-08-11T12:02:10Z",
+      "measurement_count": 57,
       "system_version": "phase1-stabilize",
       "error_pct": 31,
       "likes": 15,
@@ -10108,6 +10389,10 @@
         {
           "measured_at": "2026-08-11T11:42:06Z",
           "actual_views": 1039
+        },
+        {
+          "measured_at": "2026-08-11T12:02:10Z",
+          "actual_views": 1039
         }
       ],
       "reuse": null
@@ -10125,8 +10410,8 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 773,
-      "measured_at": "2026-08-11T11:42:05Z",
-      "measurement_count": 59,
+      "measured_at": "2026-08-11T12:02:09Z",
+      "measurement_count": 60,
       "system_version": "phase1-stabilize",
       "error_pct": -3,
       "likes": 10,
@@ -10791,6 +11076,10 @@
         {
           "measured_at": "2026-08-11T11:42:05Z",
           "actual_views": 773
+        },
+        {
+          "measured_at": "2026-08-11T12:02:09Z",
+          "actual_views": 773
         }
       ],
       "reuse": null
@@ -10808,8 +11097,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 671,
-      "measured_at": "2026-08-11T11:42:05Z",
-      "measurement_count": 63,
+      "measured_at": "2026-08-11T12:02:08Z",
+      "measurement_count": 64,
       "system_version": "phase1-stabilize",
       "error_pct": -17,
       "likes": 13,
@@ -11490,6 +11779,10 @@
         {
           "measured_at": "2026-08-11T11:42:05Z",
           "actual_views": 671
+        },
+        {
+          "measured_at": "2026-08-11T12:02:08Z",
+          "actual_views": 671
         }
       ],
       "reuse": null
@@ -11507,8 +11800,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 80,
-      "measured_at": "2026-08-11T11:42:04Z",
-      "measurement_count": 64,
+      "measured_at": "2026-08-11T12:02:08Z",
+      "measurement_count": 65,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 2,
@@ -12193,6 +12486,10 @@
         {
           "measured_at": "2026-08-11T11:42:04Z",
           "actual_views": 80
+        },
+        {
+          "measured_at": "2026-08-11T12:02:08Z",
+          "actual_views": 80
         }
       ],
       "reuse": {
@@ -12215,8 +12512,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 641,
-      "measured_at": "2026-08-11T11:42:03Z",
-      "measurement_count": 23,
+      "measured_at": "2026-08-11T12:02:07Z",
+      "measurement_count": 24,
       "system_version": "phase1-stabilize",
       "error_pct": null,
       "likes": 7,
@@ -12743,6 +13040,10 @@
         {
           "measured_at": "2026-08-11T11:42:03Z",
           "actual_views": 641
+        },
+        {
+          "measured_at": "2026-08-11T12:02:07Z",
+          "actual_views": 641
         }
       ],
       "reuse": null
@@ -12760,8 +13061,8 @@
       "predicted_low": 201,
       "predicted_high": 3310,
       "actual_views": 812,
-      "measured_at": "2026-08-11T11:42:03Z",
-      "measurement_count": 68,
+      "measured_at": "2026-08-11T12:02:07Z",
+      "measurement_count": 69,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 19,
@@ -13462,6 +13763,10 @@
         {
           "measured_at": "2026-08-11T11:42:03Z",
           "actual_views": 812
+        },
+        {
+          "measured_at": "2026-08-11T12:02:07Z",
+          "actual_views": 812
         }
       ],
       "reuse": null
@@ -13479,8 +13784,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 736,
-      "measured_at": "2026-08-11T11:42:02Z",
-      "measurement_count": 70,
+      "measured_at": "2026-08-11T12:02:06Z",
+      "measurement_count": 71,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 8,
@@ -14189,6 +14494,10 @@
         {
           "measured_at": "2026-08-11T11:42:02Z",
           "actual_views": 736
+        },
+        {
+          "measured_at": "2026-08-11T12:02:06Z",
+          "actual_views": 736
         }
       ],
       "reuse": null
@@ -14206,8 +14515,8 @@
       "predicted_low": 191,
       "predicted_high": 3502,
       "actual_views": 766,
-      "measured_at": "2026-08-11T11:42:01Z",
-      "measurement_count": 72,
+      "measured_at": "2026-08-11T12:02:05Z",
+      "measurement_count": 73,
       "system_version": "phase1-stabilize",
       "error_pct": -6,
       "likes": 13,
@@ -14924,6 +15233,10 @@
         {
           "measured_at": "2026-08-11T11:42:01Z",
           "actual_views": 766
+        },
+        {
+          "measured_at": "2026-08-11T12:02:05Z",
+          "actual_views": 766
         }
       ],
       "reuse": null
@@ -14941,8 +15254,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 1015,
-      "measured_at": "2026-08-11T11:42:01Z",
-      "measurement_count": 79,
+      "measured_at": "2026-08-11T12:02:05Z",
+      "measurement_count": 80,
       "system_version": "phase1-stabilize",
       "error_pct": 3,
       "likes": 24,
@@ -15687,6 +16000,10 @@
         {
           "measured_at": "2026-08-11T11:42:01Z",
           "actual_views": 1015
+        },
+        {
+          "measured_at": "2026-08-11T12:02:05Z",
+          "actual_views": 1015
         }
       ],
       "reuse": null
@@ -15704,8 +16021,8 @@
       "predicted_low": 218,
       "predicted_high": 4473,
       "actual_views": 775,
-      "measured_at": "2026-08-11T11:42:00Z",
-      "measurement_count": 80,
+      "measured_at": "2026-08-11T12:02:04Z",
+      "measurement_count": 81,
       "system_version": "phase1-stabilize",
       "error_pct": -21,
       "likes": 9,
@@ -16454,6 +16771,10 @@
         {
           "measured_at": "2026-08-11T11:42:00Z",
           "actual_views": 775
+        },
+        {
+          "measured_at": "2026-08-11T12:02:04Z",
+          "actual_views": 775
         }
       ],
       "reuse": null
@@ -16471,8 +16792,8 @@
       "predicted_low": 214,
       "predicted_high": 4609,
       "actual_views": 809,
-      "measured_at": "2026-08-11T11:41:59Z",
-      "measurement_count": 81,
+      "measured_at": "2026-08-11T12:02:04Z",
+      "measurement_count": 82,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 10,
@@ -17225,6 +17546,10 @@
         {
           "measured_at": "2026-08-11T11:41:59Z",
           "actual_views": 809
+        },
+        {
+          "measured_at": "2026-08-11T12:02:04Z",
+          "actual_views": 809
         }
       ],
       "reuse": null
@@ -17242,8 +17567,8 @@
       "predicted_low": 209,
       "predicted_high": 4766,
       "actual_views": 842,
-      "measured_at": "2026-08-11T11:41:59Z",
-      "measurement_count": 82,
+      "measured_at": "2026-08-11T12:02:03Z",
+      "measurement_count": 83,
       "system_version": "phase1-stabilize",
       "error_pct": -16,
       "likes": 14,
@@ -18006,6 +18331,10 @@
         {
           "measured_at": "2026-08-11T11:41:59Z",
           "actual_views": 842
+        },
+        {
+          "measured_at": "2026-08-11T12:02:03Z",
+          "actual_views": 842
         }
       ],
       "reuse": null
@@ -18023,8 +18352,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 942,
-      "measured_at": "2026-08-11T11:41:58Z",
-      "measurement_count": 83,
+      "measured_at": "2026-08-11T12:02:02Z",
+      "measurement_count": 84,
       "system_version": "phase1-stabilize",
       "error_pct": -5,
       "likes": 19,
@@ -18791,6 +19120,10 @@
         {
           "measured_at": "2026-08-11T11:41:58Z",
           "actual_views": 942
+        },
+        {
+          "measured_at": "2026-08-11T12:02:02Z",
+          "actual_views": 942
         }
       ],
       "reuse": null
@@ -18808,8 +19141,8 @@
       "predicted_low": 201,
       "predicted_high": 4880,
       "actual_views": 1206,
-      "measured_at": "2026-08-11T11:41:57Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:02:02Z",
+      "measurement_count": 85,
       "system_version": "phase1-stabilize",
       "error_pct": 22,
       "likes": 19,
@@ -19580,6 +19913,10 @@
         {
           "measured_at": "2026-08-11T11:41:57Z",
           "actual_views": 1206
+        },
+        {
+          "measured_at": "2026-08-11T12:02:02Z",
+          "actual_views": 1206
         }
       ],
       "reuse": null
@@ -19597,8 +19934,8 @@
       "predicted_low": 182,
       "predicted_high": 5747,
       "actual_views": 1204,
-      "measured_at": "2026-08-11T11:41:57Z",
-      "measurement_count": 85,
+      "measured_at": "2026-08-11T12:02:01Z",
+      "measurement_count": 86,
       "system_version": "phase1-stabilize",
       "error_pct": 18,
       "likes": 18,
@@ -20373,6 +20710,10 @@
         {
           "measured_at": "2026-08-11T11:41:57Z",
           "actual_views": 1204
+        },
+        {
+          "measured_at": "2026-08-11T12:02:01Z",
+          "actual_views": 1204
         }
       ],
       "reuse": null
@@ -20390,8 +20731,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 808,
-      "measured_at": "2026-08-11T11:41:56Z",
-      "measurement_count": 85,
+      "measured_at": "2026-08-11T12:02:01Z",
+      "measurement_count": 86,
       "system_version": "pre-phase0",
       "error_pct": 16060,
       "likes": 27,
@@ -21160,6 +21501,10 @@
         {
           "measured_at": "2026-08-11T11:41:56Z",
           "actual_views": 808
+        },
+        {
+          "measured_at": "2026-08-11T12:02:01Z",
+          "actual_views": 808
         }
       ],
       "reuse": null
@@ -21177,8 +21522,8 @@
       "predicted_low": 1,
       "predicted_high": 50,
       "actual_views": 1240,
-      "measured_at": "2026-08-11T11:41:55Z",
-      "measurement_count": 85,
+      "measured_at": "2026-08-11T12:02:00Z",
+      "measurement_count": 86,
       "system_version": "pre-phase0",
       "error_pct": 24700,
       "likes": 32,
@@ -21947,6 +22292,10 @@
         {
           "measured_at": "2026-08-11T11:41:55Z",
           "actual_views": 1240
+        },
+        {
+          "measured_at": "2026-08-11T12:02:00Z",
+          "actual_views": 1240
         }
       ],
       "reuse": null
@@ -21964,8 +22313,8 @@
       "predicted_low": 1,
       "predicted_high": 24,
       "actual_views": 515,
-      "measured_at": "2026-08-11T11:41:54Z",
-      "measurement_count": 85,
+      "measured_at": "2026-08-11T12:01:59Z",
+      "measurement_count": 86,
       "system_version": "pre-phase0",
       "error_pct": 10200,
       "likes": 15,
@@ -22734,6 +23083,10 @@
         {
           "measured_at": "2026-08-11T11:41:54Z",
           "actual_views": 515
+        },
+        {
+          "measured_at": "2026-08-11T12:01:59Z",
+          "actual_views": 515
         }
       ],
       "reuse": null
@@ -22751,8 +23104,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 14,
-      "measured_at": "2026-08-11T11:41:54Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:59Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -23116,6 +23469,10 @@
         {
           "measured_at": "2026-08-11T11:41:54Z",
           "actual_views": 14
+        },
+        {
+          "measured_at": "2026-08-11T12:01:59Z",
+          "actual_views": 14
         }
       ],
       "reuse": {
@@ -23138,8 +23495,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 48,
-      "measured_at": "2026-08-11T11:41:53Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:58Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -95,
       "likes": 3,
@@ -23904,6 +24261,10 @@
         {
           "measured_at": "2026-08-11T11:41:53Z",
           "actual_views": 48
+        },
+        {
+          "measured_at": "2026-08-11T12:01:58Z",
+          "actual_views": 48
         }
       ],
       "reuse": {
@@ -23926,8 +24287,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-11T11:41:52Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:58Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -24291,6 +24652,10 @@
         {
           "measured_at": "2026-08-11T11:41:52Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-11T12:01:58Z",
+          "actual_views": 8
         }
       ],
       "reuse": {
@@ -24313,8 +24678,8 @@
       "predicted_low": 173,
       "predicted_high": 6217,
       "actual_views": 8,
-      "measured_at": "2026-08-11T11:41:52Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:57Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -99,
       "likes": 2,
@@ -24678,6 +25043,10 @@
         {
           "measured_at": "2026-08-11T11:41:52Z",
           "actual_views": 8
+        },
+        {
+          "measured_at": "2026-08-11T12:01:57Z",
+          "actual_views": 8
         }
       ],
       "reuse": {
@@ -24700,8 +25069,8 @@
       "predicted_low": 3,
       "predicted_high": 180,
       "actual_views": 2,
-      "measured_at": "2026-08-11T11:41:51Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:56Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": -92,
       "likes": 2,
@@ -25065,6 +25434,10 @@
         {
           "measured_at": "2026-08-11T11:41:51Z",
           "actual_views": 2
+        },
+        {
+          "measured_at": "2026-08-11T12:01:56Z",
+          "actual_views": 2
         }
       ],
       "reuse": {
@@ -25087,8 +25460,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1251,
-      "measured_at": "2026-08-11T11:41:50Z",
-      "measurement_count": 84,
+      "measured_at": "2026-08-11T12:01:56Z",
+      "measurement_count": 85,
       "system_version": "pre-phase0",
       "error_pct": 4904,
       "likes": 19,
@@ -25853,6 +26226,10 @@
         {
           "measured_at": "2026-08-11T11:41:50Z",
           "actual_views": 1251
+        },
+        {
+          "measured_at": "2026-08-11T12:01:56Z",
+          "actual_views": 1251
         }
       ],
       "reuse": null
@@ -25870,8 +26247,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1099,
-      "measured_at": "2026-08-11T11:41:49Z",
-      "measurement_count": 83,
+      "measured_at": "2026-08-11T12:01:55Z",
+      "measurement_count": 84,
       "system_version": "pre-phase0",
       "error_pct": 4296,
       "likes": 12,
@@ -26632,6 +27009,10 @@
         {
           "measured_at": "2026-08-11T11:41:49Z",
           "actual_views": 1099
+        },
+        {
+          "measured_at": "2026-08-11T12:01:55Z",
+          "actual_views": 1099
         }
       ],
       "reuse": null
@@ -26649,8 +27030,8 @@
       "predicted_low": 3,
       "predicted_high": 206,
       "actual_views": 1059,
-      "measured_at": "2026-08-11T11:41:49Z",
-      "measurement_count": 82,
+      "measured_at": "2026-08-11T12:01:55Z",
+      "measurement_count": 83,
       "system_version": "pre-phase0",
       "error_pct": 4136,
       "likes": 12,
@@ -27407,6 +27788,10 @@
         {
           "measured_at": "2026-08-11T11:41:49Z",
           "actual_views": 1059
+        },
+        {
+          "measured_at": "2026-08-11T12:01:55Z",
+          "actual_views": 1059
         }
       ],
       "reuse": null
@@ -27424,8 +27809,8 @@
       "predicted_low": 2,
       "predicted_high": 250,
       "actual_views": 1080,
-      "measured_at": "2026-08-11T11:41:48Z",
-      "measurement_count": 81,
+      "measured_at": "2026-08-11T12:01:54Z",
+      "measurement_count": 82,
       "system_version": "pre-phase0",
       "error_pct": 4220,
       "likes": 20,
@@ -28178,6 +28563,10 @@
         {
           "measured_at": "2026-08-11T11:41:48Z",
           "actual_views": 1080
+        },
+        {
+          "measured_at": "2026-08-11T12:01:54Z",
+          "actual_views": 1080
         }
       ],
       "reuse": null
@@ -28195,8 +28584,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 1071,
-      "measured_at": "2026-08-11T11:41:46Z",
-      "measurement_count": 79,
+      "measured_at": "2026-08-11T12:01:54Z",
+      "measurement_count": 80,
       "system_version": "pre-phase0",
       "error_pct": null,
       "likes": 13,
@@ -28945,6 +29334,10 @@
         },
         {
           "measured_at": "2026-08-11T11:41:46Z",
+          "actual_views": 1071
+        },
+        {
+          "measured_at": "2026-08-11T12:01:54Z",
           "actual_views": 1071
         }
       ],
