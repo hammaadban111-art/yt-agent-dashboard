@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T17:14:03.230641Z",
+  "generated_at": "2026-08-12T19:20:16.508592Z",
   "next_runs": [
     "2026-08-13T01:07:00Z",
     "2026-08-13T06:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 58,
-    "total_views": 37347,
-    "total_likes": 697,
+    "total_views": 37390,
+    "total_likes": 695,
     "total_comments": 13,
     "mean_abs_pct_error": 38.4,
     "measured_videos": 57,
@@ -25,12 +25,13 @@
     "mean_drop_size": 0.09
   },
   "quota": {
-    "units_used": 5183,
+    "units_used": 5200,
     "daily_cap": 10000,
-    "remaining": 4817,
-    "upload_cost": 1600,
+    "remaining": 4800,
+    "upload_slots_used": 3,
+    "upload_slots_cap": 100,
     "delete_cost": 50,
-    "reupload_cost": 1650,
+    "reupload_cost": 50,
     "can_reupload": true,
     "next_upload_fits": true
   },
@@ -875,22 +876,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-12T17:03:26Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31620700258",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 570.1,
+    "used_minutes": 582.1,
     "budget_minutes": 2000,
-    "percent_used": 28.5,
-    "runs_counted": 141,
+    "percent_used": 29.1,
+    "runs_counted": 142,
     "per_workflow_minutes": {
-      "daily.yml": 437.0,
+      "daily.yml": 448.9,
       "followup.yml": 133.2
     },
     "measurement_source": "run_duration",
@@ -926,6 +927,103 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31300578850",
         "created_at": "2026-08-09T07:11:27Z",
         "error": "Persist topic history and video record: Two runs overlapped and both saved video data, so the commit could not be merged. The video itself uploaded fine \u2014 only its record was at risk."
+      }
+    ]
+  },
+  "scheduled_uploads": {
+    "available": true,
+    "published_24h": 3,
+    "expected_24h": 4,
+    "slots": [
+      {
+        "started_at": "2026-08-12T17:03:26Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31620700258",
+        "title": "The English Water That Turns Anything to Stone",
+        "video_id": "wOnnKZ93AiA",
+        "url": "https://youtube.com/watch?v=wOnnKZ93AiA"
+      },
+      {
+        "started_at": "2026-08-12T11:54:48Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31593990148",
+        "title": "The Ocean That Glowed Like Milk Solved by Satellites",
+        "video_id": "L_iKcDb9xXM",
+        "url": "https://youtube.com/watch?v=L_iKcDb9xXM"
+      },
+      {
+        "started_at": "2026-08-12T07:47:13Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31575448452",
+        "title": "The Indonesian Mountain That Leaks Blue Fire",
+        "video_id": "v0x0S9UM5wI",
+        "url": "https://youtube.com/watch?v=v0x0S9UM5wI"
+      },
+      {
+        "started_at": "2026-08-12T03:26:43Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31560086796",
+        "reason": "Run agent: Skipped on purpose: not enough YouTube quota left today to publish, so the run stopped before rendering."
+      },
+      {
+        "started_at": "2026-08-11T17:04:20Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31515693304",
+        "title": "The 1,800-Year-Old Roman Mystery Solved by Knitters",
+        "video_id": "UprNHip0DOY",
+        "url": "https://youtube.com/watch?v=UprNHip0DOY"
+      },
+      {
+        "started_at": "2026-08-11T11:51:27Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31488504090",
+        "title": "The Mystery Nuclear Blast No Country Claimed",
+        "video_id": "jOj8sGZrNqo",
+        "url": "https://youtube.com/watch?v=jOj8sGZrNqo"
+      },
+      {
+        "started_at": "2026-08-11T07:32:06Z",
+        "state": "uploaded_no_record",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31469336810",
+        "reason": "The video was uploaded, but saving its record failed - it is probably live on the channel without appearing here. scripts/backfill_orphan_records.py rebuilds the record."
+      },
+      {
+        "started_at": "2026-08-11T03:07:12Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31454440994",
+        "title": "The Day a 2-Story Wave of Syrup Destroyed a City",
+        "video_id": "wUBOKZhmbUU",
+        "url": "https://youtube.com/watch?v=wUBOKZhmbUU"
+      },
+      {
+        "started_at": "2026-08-10T17:00:42Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31411877128",
+        "title": "The Kazakh Village Where Everyone Fell Asleep Mid-Sentence",
+        "video_id": "HDC-OfyTyWk",
+        "url": "https://youtube.com/watch?v=HDC-OfyTyWk"
+      },
+      {
+        "started_at": "2026-08-10T11:54:41Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31385592779",
+        "title": "The Black Lake That Spits Up Buried History",
+        "video_id": "6jmWeCUY8cI",
+        "url": "https://youtube.com/watch?v=6jmWeCUY8cI"
+      },
+      {
+        "started_at": "2026-08-10T08:00:13Z",
+        "state": "uploaded_no_record",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31368169605",
+        "reason": "The video was uploaded, but saving its record failed - it is probably live on the channel without appearing here. scripts/backfill_orphan_records.py rebuilds the record."
+      },
+      {
+        "started_at": "2026-08-10T03:15:04Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31352071750",
+        "title": "The Medieval Mystery of the Green Children Solved",
+        "video_id": "d4Z0AQm-E-A",
+        "url": "https://youtube.com/watch?v=d4Z0AQm-E-A"
       }
     ]
   },
@@ -988,14 +1086,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 116,
-      "measured_at": "2026-08-12T17:14:03Z",
-      "measurement_count": 1,
+      "actual_views": 125,
+      "measured_at": "2026-08-12T19:20:16Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -83,
-      "likes": 4,
+      "error_pct": -82,
+      "likes": 3,
       "comments": 0,
-      "engagement_rate": 3.45,
+      "engagement_rate": 2.4,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1023,6 +1121,10 @@
         {
           "measured_at": "2026-08-12T17:14:03Z",
           "actual_views": 116
+        },
+        {
+          "measured_at": "2026-08-12T19:20:16Z",
+          "actual_views": 125
         }
       ],
       "reuse": null
@@ -1039,14 +1141,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 291,
-      "measured_at": "2026-08-12T17:14:02Z",
-      "measurement_count": 3,
+      "actual_views": 309,
+      "measured_at": "2026-08-12T19:20:15Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -57,
+      "error_pct": -54,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.03,
+      "engagement_rate": 0.97,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1082,6 +1184,10 @@
         {
           "measured_at": "2026-08-12T17:14:02Z",
           "actual_views": 291
+        },
+        {
+          "measured_at": "2026-08-12T19:20:15Z",
+          "actual_views": 309
         }
       ],
       "reuse": null
@@ -1099,8 +1205,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 655,
-      "measured_at": "2026-08-12T17:14:02Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-12T19:20:15Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -8,
       "likes": 15,
@@ -1165,6 +1271,10 @@
         {
           "measured_at": "2026-08-12T17:14:02Z",
           "actual_views": 655
+        },
+        {
+          "measured_at": "2026-08-12T19:20:15Z",
+          "actual_views": 655
         }
       ],
       "reuse": null
@@ -1182,8 +1292,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 585,
-      "measured_at": "2026-08-12T17:14:01Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-12T19:20:15Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -18,
       "likes": 15,
@@ -1260,6 +1370,10 @@
         {
           "measured_at": "2026-08-12T17:14:01Z",
           "actual_views": 585
+        },
+        {
+          "measured_at": "2026-08-12T19:20:15Z",
+          "actual_views": 585
         }
       ],
       "reuse": null
@@ -1276,14 +1390,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 715,
-      "measured_at": "2026-08-12T17:14:01Z",
-      "measurement_count": 12,
+      "actual_views": 716,
+      "measured_at": "2026-08-12T19:20:14Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 15,
       "comments": 0,
-      "engagement_rate": 2.1,
+      "engagement_rate": 2.09,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1355,6 +1469,10 @@
         {
           "measured_at": "2026-08-12T17:14:01Z",
           "actual_views": 715
+        },
+        {
+          "measured_at": "2026-08-12T19:20:14Z",
+          "actual_views": 716
         }
       ],
       "reuse": null
@@ -1371,14 +1489,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 150,
-      "measured_at": "2026-08-12T17:14:00Z",
-      "measurement_count": 12,
+      "actual_views": 156,
+      "measured_at": "2026-08-12T19:20:13Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": -79,
-      "likes": 1,
+      "error_pct": -78,
+      "likes": 0,
       "comments": 0,
-      "engagement_rate": 0.67,
+      "engagement_rate": 0.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1456,6 +1574,10 @@
         {
           "measured_at": "2026-08-12T17:14:00Z",
           "actual_views": 150
+        },
+        {
+          "measured_at": "2026-08-12T19:20:13Z",
+          "actual_views": 156
         }
       ],
       "reuse": null
@@ -1472,14 +1594,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 428,
-      "measured_at": "2026-08-12T17:13:59Z",
-      "measurement_count": 12,
+      "actual_views": 437,
+      "measured_at": "2026-08-12T19:20:12Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": -40,
+      "error_pct": -39,
       "likes": 6,
       "comments": 0,
-      "engagement_rate": 1.4,
+      "engagement_rate": 1.37,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1557,6 +1679,10 @@
         {
           "measured_at": "2026-08-12T17:13:59Z",
           "actual_views": 428
+        },
+        {
+          "measured_at": "2026-08-12T19:20:12Z",
+          "actual_views": 437
         }
       ],
       "reuse": null
@@ -1574,8 +1700,8 @@
       "predicted_low": 201,
       "predicted_high": 2543,
       "actual_views": 429,
-      "measured_at": "2026-08-12T17:13:59Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-12T19:20:12Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
       "likes": 6,
@@ -1671,6 +1797,10 @@
         },
         {
           "measured_at": "2026-08-12T17:13:59Z",
+          "actual_views": 429
+        },
+        {
+          "measured_at": "2026-08-12T19:20:12Z",
           "actual_views": 429
         }
       ],
