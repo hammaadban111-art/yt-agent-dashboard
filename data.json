@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-12T16:08:54.829807Z",
+  "generated_at": "2026-08-12T17:14:03.230641Z",
   "next_runs": [
     "2026-08-13T01:07:00Z",
     "2026-08-13T06:07:00Z",
     "2026-08-13T11:07:00Z"
   ],
   "summary": {
-    "videos": 57,
-    "total_views": 37174,
-    "total_likes": 692,
+    "videos": 58,
+    "total_views": 37347,
+    "total_likes": 697,
     "total_comments": 13,
-    "mean_abs_pct_error": 35.7,
-    "measured_videos": 56,
+    "mean_abs_pct_error": 38.4,
+    "measured_videos": 57,
     "days_of_history": 14,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 8,
-    "mean_drop_at": 0.128,
-    "mean_drop_size": 0.088
+    "n": 7,
+    "mean_drop_at": 0.123,
+    "mean_drop_size": 0.09
   },
   "quota": {
-    "units_used": 3566,
+    "units_used": 5183,
     "daily_cap": 10000,
-    "remaining": 6434,
+    "remaining": 4817,
     "upload_cost": 1600,
     "delete_cost": 50,
     "reupload_cost": 1650,
@@ -875,23 +875,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-12T11:54:48Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31593990148",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-12T17:03:26Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31620700258",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 569.1,
+    "used_minutes": 570.1,
     "budget_minutes": 2000,
     "percent_used": 28.5,
-    "runs_counted": 140,
+    "runs_counted": 141,
     "per_workflow_minutes": {
       "daily.yml": 437.0,
-      "followup.yml": 132.1
+      "followup.yml": 133.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -931,17 +931,17 @@
   },
   "videos": [
     {
-      "n": 57,
-      "video_id": "L_iKcDb9xXM",
-      "title": "The Ocean That Glowed Like Milk Solved by Satellites",
-      "url": "https://youtube.com/watch?v=L_iKcDb9xXM",
-      "uploaded_at": "2026-08-12T12:02:17Z",
-      "topic": "Milky seas phenomenon",
-      "hook": "A hundred miles of ocean once glowed like milk.",
-      "predicted_views": 679,
-      "predicted_range": "193-2,384",
-      "predicted_low": 193,
-      "predicted_high": 2384,
+      "n": 58,
+      "video_id": "wOnnKZ93AiA",
+      "title": "The English Water That Turns Anything to Stone",
+      "url": "https://youtube.com/watch?v=wOnnKZ93AiA",
+      "uploaded_at": "2026-08-12T17:13:58Z",
+      "topic": "Petrifying Well",
+      "hook": "Teddy bears left in this English spring acquire a hard stone exterior.",
+      "predicted_views": 656,
+      "predicted_range": "187-2,299",
+      "predicted_low": 187,
+      "predicted_high": 2299,
       "actual_views": null,
       "measured_at": null,
       "measurement_count": 0,
@@ -955,8 +955,8 @@
       "fact_check": {
         "status": "checked",
         "checked": 5,
-        "contradicted": 1,
-        "misleading": 0,
+        "contradicted": 0,
+        "misleading": 1,
         "resolution_grounded": true,
         "unverified_source": false
       },
@@ -977,6 +977,57 @@
       "reuse": null
     },
     {
+      "n": 57,
+      "video_id": "L_iKcDb9xXM",
+      "title": "The Ocean That Glowed Like Milk Solved by Satellites",
+      "url": "https://youtube.com/watch?v=L_iKcDb9xXM",
+      "uploaded_at": "2026-08-12T12:02:17Z",
+      "topic": "Milky seas phenomenon",
+      "hook": "A hundred miles of ocean once glowed like milk.",
+      "predicted_views": 679,
+      "predicted_range": "193-2,384",
+      "predicted_low": 193,
+      "predicted_high": 2384,
+      "actual_views": 116,
+      "measured_at": "2026-08-12T17:14:03Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": -83,
+      "likes": 4,
+      "comments": 0,
+      "engagement_rate": 3.45,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 1,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-12T17:14:03Z",
+          "actual_views": 116
+        }
+      ],
+      "reuse": null
+    },
+    {
       "n": 56,
       "video_id": "v0x0S9UM5wI",
       "title": "The Indonesian Mountain That Leaks Blue Fire",
@@ -988,14 +1039,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 240,
-      "measured_at": "2026-08-12T16:08:54Z",
-      "measurement_count": 2,
+      "actual_views": 291,
+      "measured_at": "2026-08-12T17:14:02Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -65,
+      "error_pct": -57,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.25,
+      "engagement_rate": 1.03,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1027,6 +1078,10 @@
         {
           "measured_at": "2026-08-12T16:08:54Z",
           "actual_views": 240
+        },
+        {
+          "measured_at": "2026-08-12T17:14:02Z",
+          "actual_views": 291
         }
       ],
       "reuse": null
@@ -1044,8 +1099,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 655,
-      "measured_at": "2026-08-12T16:08:54Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-12T17:14:02Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -8,
       "likes": 15,
@@ -1106,6 +1161,10 @@
         {
           "measured_at": "2026-08-12T16:08:54Z",
           "actual_views": 655
+        },
+        {
+          "measured_at": "2026-08-12T17:14:02Z",
+          "actual_views": 655
         }
       ],
       "reuse": null
@@ -1122,14 +1181,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 582,
-      "measured_at": "2026-08-12T16:08:53Z",
-      "measurement_count": 11,
+      "actual_views": 585,
+      "measured_at": "2026-08-12T17:14:01Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -18,
       "likes": 15,
       "comments": 0,
-      "engagement_rate": 2.58,
+      "engagement_rate": 2.56,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1197,6 +1256,10 @@
         {
           "measured_at": "2026-08-12T16:08:53Z",
           "actual_views": 582
+        },
+        {
+          "measured_at": "2026-08-12T17:14:01Z",
+          "actual_views": 585
         }
       ],
       "reuse": null
@@ -1214,8 +1277,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 715,
-      "measured_at": "2026-08-12T16:08:52Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-12T17:14:01Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 15,
@@ -1288,6 +1351,10 @@
         {
           "measured_at": "2026-08-12T16:08:52Z",
           "actual_views": 715
+        },
+        {
+          "measured_at": "2026-08-12T17:14:01Z",
+          "actual_views": 715
         }
       ],
       "reuse": null
@@ -1304,14 +1371,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 149,
-      "measured_at": "2026-08-12T16:08:51Z",
-      "measurement_count": 11,
+      "actual_views": 150,
+      "measured_at": "2026-08-12T17:14:00Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -79,
-      "likes": 0,
+      "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.0,
+      "engagement_rate": 0.67,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1385,6 +1452,10 @@
         {
           "measured_at": "2026-08-12T16:08:51Z",
           "actual_views": 149
+        },
+        {
+          "measured_at": "2026-08-12T17:14:00Z",
+          "actual_views": 150
         }
       ],
       "reuse": null
@@ -1402,8 +1473,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 428,
-      "measured_at": "2026-08-12T16:08:50Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-12T17:13:59Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
       "likes": 6,
@@ -1482,6 +1553,10 @@
         {
           "measured_at": "2026-08-12T16:08:50Z",
           "actual_views": 428
+        },
+        {
+          "measured_at": "2026-08-12T17:13:59Z",
+          "actual_views": 428
         }
       ],
       "reuse": null
@@ -1498,14 +1573,14 @@
       "predicted_range": "201-2,543",
       "predicted_low": 201,
       "predicted_high": 2543,
-      "actual_views": 427,
-      "measured_at": "2026-08-12T16:08:50Z",
-      "measurement_count": 16,
+      "actual_views": 429,
+      "measured_at": "2026-08-12T17:13:59Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
       "likes": 6,
       "comments": 0,
-      "engagement_rate": 1.41,
+      "engagement_rate": 1.4,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1593,6 +1668,10 @@
         {
           "measured_at": "2026-08-12T16:08:50Z",
           "actual_views": 427
+        },
+        {
+          "measured_at": "2026-08-12T17:13:59Z",
+          "actual_views": 429
         }
       ],
       "reuse": null
@@ -1638,7 +1717,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
