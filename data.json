@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-13T05:04:11.925131Z",
+  "generated_at": "2026-08-13T07:56:29.740216Z",
   "next_runs": [
-    "2026-08-13T06:07:00Z",
     "2026-08-13T11:07:00Z",
-    "2026-08-13T16:07:00Z"
+    "2026-08-13T16:07:00Z",
+    "2026-08-14T01:07:00Z"
   ],
   "summary": {
-    "videos": 58,
-    "total_views": 37450,
-    "total_likes": 698,
+    "videos": 59,
+    "total_views": 37463,
+    "total_likes": 700,
     "total_comments": 13,
     "mean_abs_pct_error": 43.1,
     "measured_videos": 58,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.094
   },
   "quota": {
-    "units_used": 5253,
+    "units_used": 16,
     "daily_cap": 10000,
-    "remaining": 4747,
-    "upload_slots_used": 3,
+    "remaining": 9984,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -876,23 +876,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "failure",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-13T03:29:25Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31664074700",
+    "created_at": "2026-08-13T07:48:32Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31679312193",
     "last_successful_step": "Restore Pexels footage cache",
-    "failed_step": "Run agent"
+    "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 589.5,
+    "used_minutes": 590.4,
     "budget_minutes": 2000,
     "percent_used": 29.5,
-    "runs_counted": 146,
+    "runs_counted": 147,
     "per_workflow_minutes": {
       "daily.yml": 452.2,
-      "followup.yml": 137.3
+      "followup.yml": 138.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -905,7 +905,7 @@
         "run_id": 31664074700,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31664074700",
         "created_at": "2026-08-13T03:29:25Z",
-        "error": "Run agent: RuntimeError"
+        "error": "Run agent: The script writer could not produce a script that passed the quality checks, twice in a row, so the run stopped before rendering. No video was published for this slot."
       },
       {
         "workflow": "daily.yml",
@@ -932,14 +932,20 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-13T07:48:32Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31679312193",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-13T03:29:25Z",
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31664074700",
-        "reason": "Run agent: RuntimeError"
+        "reason": "Run agent: The script writer could not produce a script that passed the quality checks, twice in a row, so the run stopped before rendering. No video was published for this slot."
       },
       {
         "started_at": "2026-08-12T17:03:26Z",
@@ -1016,16 +1022,56 @@
         "title": "The Black Lake That Spits Up Buried History",
         "video_id": "6jmWeCUY8cI",
         "url": "https://youtube.com/watch?v=6jmWeCUY8cI"
-      },
-      {
-        "started_at": "2026-08-10T08:00:13Z",
-        "state": "uploaded_no_record",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31368169605",
-        "reason": "The video was uploaded, but saving its record failed - it is probably live on the channel without appearing here. scripts/backfill_orphan_records.py rebuilds the record."
       }
     ]
   },
   "videos": [
+    {
+      "n": 59,
+      "video_id": "SUb9OLzCDPA",
+      "title": "The 50,000-Year-Old Lake That Turned Bright Pink Overnight",
+      "url": "https://youtube.com/watch?v=SUb9OLzCDPA",
+      "uploaded_at": "2026-08-13T07:56:24Z",
+      "topic": "Lake Lonar",
+      "hook": "An ancient crater lake changed color in just two to three days.",
+      "predicted_views": 655,
+      "predicted_range": "187-2,291",
+      "predicted_low": 187,
+      "predicted_high": 2291,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 2,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 58,
       "video_id": "wOnnKZ93AiA",
@@ -1039,8 +1085,8 @@
       "predicted_low": 187,
       "predicted_high": 2299,
       "actual_views": 4,
-      "measured_at": "2026-08-13T05:04:11Z",
-      "measurement_count": 2,
+      "measured_at": "2026-08-13T07:56:29Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -99,
       "likes": 0,
@@ -1077,6 +1123,10 @@
         {
           "measured_at": "2026-08-13T05:04:11Z",
           "actual_views": 4
+        },
+        {
+          "measured_at": "2026-08-13T07:56:29Z",
+          "actual_views": 4
         }
       ],
       "reuse": null
@@ -1094,8 +1144,8 @@
       "predicted_low": 193,
       "predicted_high": 2384,
       "actual_views": 154,
-      "measured_at": "2026-08-13T05:04:11Z",
-      "measurement_count": 5,
+      "measured_at": "2026-08-13T07:56:29Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -77,
       "likes": 4,
@@ -1144,6 +1194,10 @@
         {
           "measured_at": "2026-08-13T05:04:11Z",
           "actual_views": 154
+        },
+        {
+          "measured_at": "2026-08-13T07:56:29Z",
+          "actual_views": 154
         }
       ],
       "reuse": null
@@ -1160,14 +1214,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 317,
-      "measured_at": "2026-08-13T05:04:10Z",
-      "measurement_count": 7,
+      "actual_views": 318,
+      "measured_at": "2026-08-13T07:56:28Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -53,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 0.95,
+      "engagement_rate": 0.94,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1219,6 +1273,10 @@
         {
           "measured_at": "2026-08-13T05:04:10Z",
           "actual_views": 317
+        },
+        {
+          "measured_at": "2026-08-13T07:56:28Z",
+          "actual_views": 318
         }
       ],
       "reuse": null
@@ -1236,8 +1294,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 638,
-      "measured_at": "2026-08-13T05:04:10Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-13T07:56:27Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 15,
@@ -1318,6 +1376,10 @@
         {
           "measured_at": "2026-08-13T05:04:10Z",
           "actual_views": 638
+        },
+        {
+          "measured_at": "2026-08-13T07:56:27Z",
+          "actual_views": 638
         }
       ],
       "reuse": null
@@ -1335,8 +1397,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 585,
-      "measured_at": "2026-08-13T05:04:09Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-13T07:56:26Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -18,
       "likes": 15,
@@ -1429,6 +1491,10 @@
         {
           "measured_at": "2026-08-13T05:04:09Z",
           "actual_views": 585
+        },
+        {
+          "measured_at": "2026-08-13T07:56:26Z",
+          "actual_views": 585
         }
       ],
       "reuse": null
@@ -1446,13 +1512,13 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 716,
-      "measured_at": "2026-08-13T05:04:09Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-13T07:56:26Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
-      "likes": 15,
+      "likes": 16,
       "comments": 0,
-      "engagement_rate": 2.09,
+      "engagement_rate": 2.23,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1540,6 +1606,10 @@
         {
           "measured_at": "2026-08-13T05:04:09Z",
           "actual_views": 716
+        },
+        {
+          "measured_at": "2026-08-13T07:56:26Z",
+          "actual_views": 716
         }
       ],
       "reuse": null
@@ -1556,14 +1626,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 174,
-      "measured_at": "2026-08-13T05:04:08Z",
-      "measurement_count": 16,
+      "actual_views": 183,
+      "measured_at": "2026-08-13T07:56:25Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
-      "error_pct": -76,
-      "likes": 1,
+      "error_pct": -74,
+      "likes": 2,
       "comments": 0,
-      "engagement_rate": 0.57,
+      "engagement_rate": 1.09,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1657,6 +1727,10 @@
         {
           "measured_at": "2026-08-13T05:04:08Z",
           "actual_views": 174
+        },
+        {
+          "measured_at": "2026-08-13T07:56:25Z",
+          "actual_views": 183
         }
       ],
       "reuse": null
@@ -1673,14 +1747,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 455,
-      "measured_at": "2026-08-13T05:04:07Z",
-      "measurement_count": 16,
+      "actual_views": 458,
+      "measured_at": "2026-08-13T07:56:25Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -36,
       "likes": 7,
       "comments": 0,
-      "engagement_rate": 1.54,
+      "engagement_rate": 1.53,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1774,6 +1848,10 @@
         {
           "measured_at": "2026-08-13T05:04:07Z",
           "actual_views": 455
+        },
+        {
+          "measured_at": "2026-08-13T07:56:25Z",
+          "actual_views": 458
         }
       ],
       "reuse": null
