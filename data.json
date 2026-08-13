@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-13T16:09:23.401242Z",
+  "generated_at": "2026-08-13T17:11:37.907320Z",
   "next_runs": [
     "2026-08-14T01:07:00Z",
     "2026-08-14T06:07:00Z",
     "2026-08-14T11:07:00Z"
   ],
   "summary": {
-    "videos": 60,
-    "total_views": 38062,
-    "total_likes": 714,
+    "videos": 61,
+    "total_views": 38423,
+    "total_likes": 738,
     "total_comments": 13,
-    "mean_abs_pct_error": 40.2,
-    "measured_videos": 59,
+    "mean_abs_pct_error": 41.8,
+    "measured_videos": 60,
     "days_of_history": 15,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 7,
-    "mean_drop_at": 0.116,
-    "mean_drop_size": 0.09
+    "n": 6,
+    "mean_drop_at": 0.117,
+    "mean_drop_size": 0.085
   },
   "quota": {
-    "units_used": 162,
+    "units_used": 175,
     "daily_cap": 10000,
-    "remaining": 9838,
-    "upload_slots_used": 2,
+    "remaining": 9825,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -884,23 +884,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-13T11:55:04Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31697623929",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-13T17:03:18Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31723778854",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 619.8,
+    "used_minutes": 620.9,
     "budget_minutes": 2000,
     "percent_used": 31.0,
-    "runs_counted": 150,
+    "runs_counted": 151,
     "per_workflow_minutes": {
       "daily.yml": 472.3,
-      "followup.yml": 147.5
+      "followup.yml": 148.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -940,9 +940,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-13T17:03:18Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31723778854",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-13T11:55:04Z",
         "state": "published",
@@ -1024,18 +1030,56 @@
         "title": "The Day a 2-Story Wave of Syrup Destroyed a City",
         "video_id": "wUBOKZhmbUU",
         "url": "https://youtube.com/watch?v=wUBOKZhmbUU"
-      },
-      {
-        "started_at": "2026-08-10T17:00:42Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31411877128",
-        "title": "The Kazakh Village Where Everyone Fell Asleep Mid-Sentence",
-        "video_id": "HDC-OfyTyWk",
-        "url": "https://youtube.com/watch?v=HDC-OfyTyWk"
       }
     ]
   },
   "videos": [
+    {
+      "n": 61,
+      "video_id": "OBiSVuv2Dlw",
+      "title": "The 9,000-Year-Old Wall Hidden Under Lake Huron",
+      "url": "https://youtube.com/watch?v=OBiSVuv2Dlw",
+      "uploaded_at": "2026-08-13T17:11:33Z",
+      "topic": "Alpena-Amberley Ridge",
+      "hook": "120 feet beneath Lake Huron sits an ancient stone wall.",
+      "predicted_views": 637,
+      "predicted_range": "182-2,225",
+      "predicted_low": 182,
+      "predicted_high": 2225,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "no_source_found",
+        "checked": 0,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": false,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 60,
       "video_id": "f4_a5YhUiTU",
@@ -1048,14 +1092,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 351,
+      "measured_at": "2026-08-13T17:11:37Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -46,
+      "likes": 24,
+      "comments": 0,
+      "engagement_rate": 6.84,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1068,7 +1112,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1085,7 +1129,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-13T17:11:37Z",
+          "actual_views": 351
+        }
+      ],
       "reuse": null
     },
     {
@@ -1100,14 +1149,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": 561,
-      "measured_at": "2026-08-13T16:09:23Z",
-      "measurement_count": 2,
+      "actual_views": 571,
+      "measured_at": "2026-08-13T17:11:37Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -14,
+      "error_pct": -13,
       "likes": 12,
       "comments": 0,
-      "engagement_rate": 2.14,
+      "engagement_rate": 2.1,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1139,6 +1188,10 @@
         {
           "measured_at": "2026-08-13T16:09:23Z",
           "actual_views": 561
+        },
+        {
+          "measured_at": "2026-08-13T17:11:37Z",
+          "actual_views": 571
         }
       ],
       "reuse": null
@@ -1156,8 +1209,8 @@
       "predicted_low": 187,
       "predicted_high": 2299,
       "actual_views": 7,
-      "measured_at": "2026-08-13T16:09:22Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-13T17:11:36Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -99,
       "likes": 0,
@@ -1218,6 +1271,10 @@
         {
           "measured_at": "2026-08-13T16:09:22Z",
           "actual_views": 7
+        },
+        {
+          "measured_at": "2026-08-13T17:11:36Z",
+          "actual_views": 7
         }
       ],
       "reuse": null
@@ -1235,8 +1292,8 @@
       "predicted_low": 193,
       "predicted_high": 2384,
       "actual_views": 160,
-      "measured_at": "2026-08-13T16:09:22Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-13T17:11:35Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 5,
@@ -1309,6 +1366,10 @@
         {
           "measured_at": "2026-08-13T16:09:22Z",
           "actual_views": 160
+        },
+        {
+          "measured_at": "2026-08-13T17:11:35Z",
+          "actual_views": 160
         }
       ],
       "reuse": null
@@ -1326,8 +1387,8 @@
       "predicted_low": 193,
       "predicted_high": 2384,
       "actual_views": 320,
-      "measured_at": "2026-08-13T16:09:21Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-13T17:11:35Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -53,
       "likes": 3,
@@ -1408,6 +1469,10 @@
         {
           "measured_at": "2026-08-13T16:09:21Z",
           "actual_views": 320
+        },
+        {
+          "measured_at": "2026-08-13T17:11:35Z",
+          "actual_views": 320
         }
       ],
       "reuse": null
@@ -1425,8 +1490,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 638,
-      "measured_at": "2026-08-13T16:09:20Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-13T17:11:34Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 15,
@@ -1530,6 +1595,10 @@
         },
         {
           "measured_at": "2026-08-13T16:09:20Z",
+          "actual_views": 638
+        },
+        {
+          "measured_at": "2026-08-13T17:11:34Z",
           "actual_views": 638
         }
       ],
