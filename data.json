@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-12T22:02:07.804906Z",
+  "generated_at": "2026-08-13T02:47:31.109846Z",
   "next_runs": [
-    "2026-08-13T01:07:00Z",
     "2026-08-13T06:07:00Z",
-    "2026-08-13T11:07:00Z"
+    "2026-08-13T11:07:00Z",
+    "2026-08-13T16:07:00Z"
   ],
   "summary": {
     "videos": 58,
-    "total_views": 37419,
+    "total_views": 37461,
     "total_likes": 696,
     "total_comments": 13,
-    "mean_abs_pct_error": 38.4,
-    "measured_videos": 57,
+    "mean_abs_pct_error": 43.1,
+    "measured_videos": 58,
     "days_of_history": 14,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 7,
-    "mean_drop_at": 0.123,
-    "mean_drop_size": 0.09
+    "n": 6,
+    "mean_drop_at": 0.118,
+    "mean_drop_size": 0.094
   },
   "quota": {
-    "units_used": 5217,
+    "units_used": 5236,
     "daily_cap": 10000,
-    "remaining": 4783,
+    "remaining": 4764,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -886,13 +886,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 583.4,
+    "used_minutes": 584.6,
     "budget_minutes": 2000,
     "percent_used": 29.2,
-    "runs_counted": 143,
+    "runs_counted": 144,
     "per_workflow_minutes": {
       "daily.yml": 448.9,
-      "followup.yml": 134.5
+      "followup.yml": 135.7
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1040,14 +1040,14 @@
       "predicted_range": "187-2,299",
       "predicted_low": 187,
       "predicted_high": 2299,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 4,
+      "measured_at": "2026-08-13T02:47:30Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -99,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1060,7 +1060,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1071,7 +1071,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-13T02:47:30Z",
+          "actual_views": 4
+        }
+      ],
       "reuse": null
     },
     {
@@ -1086,14 +1091,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 139,
-      "measured_at": "2026-08-12T22:02:07Z",
-      "measurement_count": 3,
+      "actual_views": 149,
+      "measured_at": "2026-08-13T02:47:29Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -80,
+      "error_pct": -78,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 2.88,
+      "engagement_rate": 2.68,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1129,6 +1134,10 @@
         {
           "measured_at": "2026-08-12T22:02:07Z",
           "actual_views": 139
+        },
+        {
+          "measured_at": "2026-08-13T02:47:29Z",
+          "actual_views": 149
         }
       ],
       "reuse": null
@@ -1145,14 +1154,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 308,
-      "measured_at": "2026-08-12T22:02:07Z",
-      "measurement_count": 5,
+      "actual_views": 317,
+      "measured_at": "2026-08-13T02:47:29Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": -55,
+      "error_pct": -53,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 0.97,
+      "engagement_rate": 0.95,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1196,6 +1205,10 @@
         {
           "measured_at": "2026-08-12T22:02:07Z",
           "actual_views": 308
+        },
+        {
+          "measured_at": "2026-08-13T02:47:29Z",
+          "actual_views": 317
         }
       ],
       "reuse": null
@@ -1213,8 +1226,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 655,
-      "measured_at": "2026-08-12T22:02:06Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-13T02:47:28Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -8,
       "likes": 15,
@@ -1287,6 +1300,10 @@
         {
           "measured_at": "2026-08-12T22:02:06Z",
           "actual_views": 655
+        },
+        {
+          "measured_at": "2026-08-13T02:47:28Z",
+          "actual_views": 655
         }
       ],
       "reuse": null
@@ -1304,8 +1321,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 585,
-      "measured_at": "2026-08-12T22:02:06Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-13T02:47:27Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -18,
       "likes": 15,
@@ -1390,6 +1407,10 @@
         {
           "measured_at": "2026-08-12T22:02:06Z",
           "actual_views": 585
+        },
+        {
+          "measured_at": "2026-08-13T02:47:27Z",
+          "actual_views": 585
         }
       ],
       "reuse": null
@@ -1407,8 +1428,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 716,
-      "measured_at": "2026-08-12T22:02:05Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-13T02:47:26Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 15,
@@ -1493,6 +1514,10 @@
         {
           "measured_at": "2026-08-12T22:02:05Z",
           "actual_views": 716
+        },
+        {
+          "measured_at": "2026-08-13T02:47:26Z",
+          "actual_views": 716
         }
       ],
       "reuse": null
@@ -1509,9 +1534,9 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 168,
-      "measured_at": "2026-08-12T22:02:04Z",
-      "measurement_count": 14,
+      "actual_views": 174,
+      "measured_at": "2026-08-13T02:47:25Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 0,
@@ -1602,6 +1627,10 @@
         {
           "measured_at": "2026-08-12T22:02:04Z",
           "actual_views": 168
+        },
+        {
+          "measured_at": "2026-08-13T02:47:25Z",
+          "actual_views": 174
         }
       ],
       "reuse": null
@@ -1618,14 +1647,14 @@
       "predicted_range": "201-2,533",
       "predicted_low": 201,
       "predicted_high": 2533,
-      "actual_views": 441,
-      "measured_at": "2026-08-12T22:02:04Z",
-      "measurement_count": 14,
+      "actual_views": 454,
+      "measured_at": "2026-08-13T02:47:24Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
-      "error_pct": -38,
+      "error_pct": -36,
       "likes": 6,
       "comments": 0,
-      "engagement_rate": 1.36,
+      "engagement_rate": 1.32,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1711,6 +1740,10 @@
         {
           "measured_at": "2026-08-12T22:02:04Z",
           "actual_views": 441
+        },
+        {
+          "measured_at": "2026-08-13T02:47:24Z",
+          "actual_views": 454
         }
       ],
       "reuse": null
@@ -1728,8 +1761,8 @@
       "predicted_low": 201,
       "predicted_high": 2543,
       "actual_views": 429,
-      "measured_at": "2026-08-12T22:02:03Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-13T02:47:24Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
       "likes": 6,
@@ -1833,6 +1866,10 @@
         },
         {
           "measured_at": "2026-08-12T22:02:03Z",
+          "actual_views": 429
+        },
+        {
+          "measured_at": "2026-08-13T02:47:24Z",
           "actual_views": 429
         }
       ],
