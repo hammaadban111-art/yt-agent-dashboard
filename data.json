@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T10:28:44.086885Z",
+  "generated_at": "2026-08-13T12:05:07.307100Z",
   "next_runs": [
-    "2026-08-13T11:07:00Z",
     "2026-08-13T16:07:00Z",
-    "2026-08-14T01:07:00Z"
+    "2026-08-14T01:07:00Z",
+    "2026-08-14T06:07:00Z"
   ],
   "summary": {
-    "videos": 59,
-    "total_views": 37493,
+    "videos": 60,
+    "total_views": 37497,
     "total_likes": 701,
     "total_comments": 13,
     "mean_abs_pct_error": 43.1,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.09
   },
   "quota": {
-    "units_used": 129,
+    "units_used": 138,
     "daily_cap": 10000,
-    "remaining": 9871,
-    "upload_slots_used": 1,
+    "remaining": 9862,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -884,23 +884,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-13T07:48:32Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31679312193",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-13T11:55:04Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31697623929",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 605.6,
+    "used_minutes": 608.0,
     "budget_minutes": 2000,
-    "percent_used": 30.3,
-    "runs_counted": 149,
+    "percent_used": 30.4,
+    "runs_counted": 150,
     "per_workflow_minutes": {
       "daily.yml": 461.2,
-      "followup.yml": 144.4
+      "followup.yml": 146.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -940,9 +940,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-13T11:55:04Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31697623929",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-13T07:48:32Z",
         "state": "published",
@@ -1024,18 +1030,62 @@
         "title": "The Kazakh Village Where Everyone Fell Asleep Mid-Sentence",
         "video_id": "HDC-OfyTyWk",
         "url": "https://youtube.com/watch?v=HDC-OfyTyWk"
-      },
-      {
-        "started_at": "2026-08-10T11:54:41Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31385592779",
-        "title": "The Black Lake That Spits Up Buried History",
-        "video_id": "6jmWeCUY8cI",
-        "url": "https://youtube.com/watch?v=6jmWeCUY8cI"
       }
     ]
   },
   "videos": [
+    {
+      "n": 60,
+      "video_id": "f4_a5YhUiTU",
+      "title": "Why Ancient Roman Concrete Never Crumbles",
+      "url": "https://youtube.com/watch?v=f4_a5YhUiTU",
+      "uploaded_at": "2026-08-13T12:05:05Z",
+      "topic": "Roman concrete",
+      "hook": "Ancient Roman concrete gets stronger every time seawater hits it.",
+      "predicted_views": 655,
+      "predicted_range": "187-2,291",
+      "predicted_low": 187,
+      "predicted_high": 2291,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "visual-query-length",
+          "detail": "1 visual query/queries were longer than 6 words: segment 4: 'modern coastal city concrete seawall ocean waves' -> 'modern coastal city concrete seawall ocean'",
+          "fallback": "trimmed to the leading words rather than losing the slot"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 59,
       "video_id": "SUb9OLzCDPA",
@@ -1094,9 +1144,9 @@
       "predicted_range": "187-2,299",
       "predicted_low": 187,
       "predicted_high": 2299,
-      "actual_views": 4,
-      "measured_at": "2026-08-13T10:28:44Z",
-      "measurement_count": 5,
+      "actual_views": 5,
+      "measured_at": "2026-08-13T12:05:07Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -99,
       "likes": 0,
@@ -1145,6 +1195,10 @@
         {
           "measured_at": "2026-08-13T10:28:44Z",
           "actual_views": 4
+        },
+        {
+          "measured_at": "2026-08-13T12:05:07Z",
+          "actual_views": 5
         }
       ],
       "reuse": null
@@ -1161,14 +1215,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 157,
-      "measured_at": "2026-08-13T10:28:43Z",
-      "measurement_count": 8,
+      "actual_views": 160,
+      "measured_at": "2026-08-13T12:05:06Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
-      "error_pct": -77,
+      "error_pct": -76,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 2.55,
+      "engagement_rate": 2.5,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1224,6 +1278,10 @@
         {
           "measured_at": "2026-08-13T10:28:43Z",
           "actual_views": 157
+        },
+        {
+          "measured_at": "2026-08-13T12:05:06Z",
+          "actual_views": 160
         }
       ],
       "reuse": null
@@ -1241,8 +1299,8 @@
       "predicted_low": 193,
       "predicted_high": 2384,
       "actual_views": 319,
-      "measured_at": "2026-08-13T10:28:42Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-13T12:05:06Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -53,
       "likes": 3,
@@ -1311,6 +1369,10 @@
         {
           "measured_at": "2026-08-13T10:28:42Z",
           "actual_views": 319
+        },
+        {
+          "measured_at": "2026-08-13T12:05:06Z",
+          "actual_views": 319
         }
       ],
       "reuse": null
@@ -1328,8 +1390,8 @@
       "predicted_low": 201,
       "predicted_high": 2533,
       "actual_views": 638,
-      "measured_at": "2026-08-13T10:28:41Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-13T12:05:05Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 15,
@@ -1422,6 +1484,10 @@
         {
           "measured_at": "2026-08-13T10:28:41Z",
           "actual_views": 638
+        },
+        {
+          "measured_at": "2026-08-13T12:05:05Z",
+          "actual_views": 638
         }
       ],
       "reuse": null
@@ -1467,7 +1533,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -1590,7 +1656,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -1719,7 +1785,7 @@
       ],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -1848,7 +1914,7 @@
       ],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
