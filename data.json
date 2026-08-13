@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T17:11:37.907320Z",
+  "generated_at": "2026-08-13T19:20:07.131174Z",
   "next_runs": [
     "2026-08-14T01:07:00Z",
     "2026-08-14T06:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 61,
-    "total_views": 38423,
-    "total_likes": 738,
+    "total_views": 38538,
+    "total_likes": 740,
     "total_comments": 13,
     "mean_abs_pct_error": 41.8,
     "measured_videos": 60,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.085
   },
   "quota": {
-    "units_used": 175,
+    "units_used": 186,
     "daily_cap": 10000,
-    "remaining": 9825,
+    "remaining": 9814,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 48
+    "subscriber_count": 50
   },
   "spotlight": {
     "best": {
@@ -884,23 +884,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-13T17:03:18Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31723778854",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 620.9,
+    "used_minutes": 629.8,
     "budget_minutes": 2000,
-    "percent_used": 31.0,
+    "percent_used": 31.5,
     "runs_counted": 151,
     "per_workflow_minutes": {
-      "daily.yml": 472.3,
-      "followup.yml": 148.6
+      "daily.yml": 481.8,
+      "followup.yml": 148.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -940,14 +940,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-13T17:03:18Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31723778854",
-        "reason": "This run is still going."
+        "title": "The 9,000-Year-Old Wall Hidden Under Lake Huron",
+        "video_id": "OBiSVuv2Dlw",
+        "url": "https://youtube.com/watch?v=OBiSVuv2Dlw"
       },
       {
         "started_at": "2026-08-13T11:55:04Z",
@@ -1092,14 +1094,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": 351,
-      "measured_at": "2026-08-13T17:11:37Z",
-      "measurement_count": 1,
+      "actual_views": 385,
+      "measured_at": "2026-08-13T19:20:07Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -46,
-      "likes": 24,
+      "error_pct": -41,
+      "likes": 26,
       "comments": 0,
-      "engagement_rate": 6.84,
+      "engagement_rate": 6.75,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1133,6 +1135,10 @@
         {
           "measured_at": "2026-08-13T17:11:37Z",
           "actual_views": 351
+        },
+        {
+          "measured_at": "2026-08-13T19:20:07Z",
+          "actual_views": 385
         }
       ],
       "reuse": null
@@ -1149,14 +1155,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": 571,
-      "measured_at": "2026-08-13T17:11:37Z",
-      "measurement_count": 3,
+      "actual_views": 647,
+      "measured_at": "2026-08-13T19:20:06Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -13,
+      "error_pct": -1,
       "likes": 12,
       "comments": 0,
-      "engagement_rate": 2.1,
+      "engagement_rate": 1.85,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1192,6 +1198,10 @@
         {
           "measured_at": "2026-08-13T17:11:37Z",
           "actual_views": 571
+        },
+        {
+          "measured_at": "2026-08-13T19:20:06Z",
+          "actual_views": 647
         }
       ],
       "reuse": null
@@ -1208,9 +1218,9 @@
       "predicted_range": "187-2,299",
       "predicted_low": 187,
       "predicted_high": 2299,
-      "actual_views": 7,
-      "measured_at": "2026-08-13T17:11:36Z",
-      "measurement_count": 9,
+      "actual_views": 8,
+      "measured_at": "2026-08-13T19:20:05Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -99,
       "likes": 0,
@@ -1275,6 +1285,10 @@
         {
           "measured_at": "2026-08-13T17:11:36Z",
           "actual_views": 7
+        },
+        {
+          "measured_at": "2026-08-13T19:20:05Z",
+          "actual_views": 8
         }
       ],
       "reuse": null
@@ -1291,14 +1305,14 @@
       "predicted_range": "193-2,384",
       "predicted_low": 193,
       "predicted_high": 2384,
-      "actual_views": 160,
-      "measured_at": "2026-08-13T17:11:35Z",
-      "measurement_count": 12,
+      "actual_views": 164,
+      "measured_at": "2026-08-13T19:20:04Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 3.12,
+      "engagement_rate": 3.05,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1370,6 +1384,10 @@
         {
           "measured_at": "2026-08-13T17:11:35Z",
           "actual_views": 160
+        },
+        {
+          "measured_at": "2026-08-13T19:20:04Z",
+          "actual_views": 164
         }
       ],
       "reuse": null
@@ -1387,8 +1405,8 @@
       "predicted_low": 193,
       "predicted_high": 2384,
       "actual_views": 320,
-      "measured_at": "2026-08-13T17:11:35Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-13T19:20:03Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -53,
       "likes": 3,
@@ -1473,6 +1491,10 @@
         {
           "measured_at": "2026-08-13T17:11:35Z",
           "actual_views": 320
+        },
+        {
+          "measured_at": "2026-08-13T19:20:03Z",
+          "actual_views": 320
         }
       ],
       "reuse": null
@@ -1518,7 +1540,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
