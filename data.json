@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:42:36.626045Z",
+  "generated_at": "2026-08-14T16:06:05.002122Z",
   "next_runs": [
     "2026-08-14T16:07:00Z",
     "2026-08-15T01:07:00Z",
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.089
   },
   "quota": {
-    "units_used": 149,
+    "units_used": 158,
     "daily_cap": 10000,
-    "remaining": 9851,
+    "remaining": 9842,
     "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -902,13 +902,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1272.6,
+    "used_minutes": 1273.2,
     "budget_minutes": 2000,
-    "percent_used": 63.6,
+    "percent_used": 63.7,
     "runs_counted": 154,
     "per_workflow_minutes": {
       "daily.yml": 857.2,
-      "followup.yml": 415.4
+      "followup.yml": 416.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1094,8 +1094,8 @@
       "predicted_low": 182,
       "predicted_high": 2225,
       "actual_views": 629,
-      "measured_at": "2026-08-14T13:42:36Z",
-      "measurement_count": 5,
+      "measured_at": "2026-08-14T16:06:05Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 9,
@@ -1144,6 +1144,10 @@
         {
           "measured_at": "2026-08-14T13:42:36Z",
           "actual_views": 629
+        },
+        {
+          "measured_at": "2026-08-14T16:06:05Z",
+          "actual_views": 629
         }
       ],
       "reuse": null
@@ -1161,8 +1165,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 510,
-      "measured_at": "2026-08-14T13:42:35Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-14T16:06:03Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -22,
       "likes": 27,
@@ -1229,6 +1233,10 @@
         {
           "measured_at": "2026-08-14T13:42:35Z",
           "actual_views": 510
+        },
+        {
+          "measured_at": "2026-08-14T16:06:03Z",
+          "actual_views": 510
         }
       ],
       "reuse": null
@@ -1246,8 +1254,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 647,
-      "measured_at": "2026-08-14T13:42:35Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-14T16:06:02Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 12,
@@ -1316,6 +1324,10 @@
         {
           "measured_at": "2026-08-14T13:42:35Z",
           "actual_views": 647
+        },
+        {
+          "measured_at": "2026-08-14T16:06:02Z",
+          "actual_views": 647
         }
       ],
       "reuse": null
@@ -1333,8 +1345,8 @@
       "predicted_low": 187,
       "predicted_high": 2299,
       "actual_views": 10,
-      "measured_at": "2026-08-14T13:42:34Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-14T16:06:01Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -98,
       "likes": 0,
@@ -1426,6 +1438,10 @@
         },
         {
           "measured_at": "2026-08-14T13:42:34Z",
+          "actual_views": 10
+        },
+        {
+          "measured_at": "2026-08-14T16:06:01Z",
           "actual_views": 10
         }
       ],
