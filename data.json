@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:13:30.401340Z",
+  "generated_at": "2026-08-14T21:40:54.296778Z",
   "next_runs": [
     "2026-08-15T01:07:00Z",
     "2026-08-15T06:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 62,
-    "total_views": 39563,
+    "total_views": 39629,
     "total_likes": 753,
     "total_comments": 13,
     "mean_abs_pct_error": 42.1,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.089
   },
   "quota": {
-    "units_used": 167,
+    "units_used": 176,
     "daily_cap": 10000,
-    "remaining": 9833,
+    "remaining": 9824,
     "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -902,13 +902,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1279.0,
+    "used_minutes": 1279.5,
     "budget_minutes": 2000,
-    "percent_used": 63.9,
+    "percent_used": 64.0,
     "runs_counted": 155,
     "per_workflow_minutes": {
       "daily.yml": 862.0,
-      "followup.yml": 417.0
+      "followup.yml": 417.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1052,14 +1052,14 @@
       "predicted_range": "174-2,113",
       "predicted_low": 174,
       "predicted_high": 2113,
-      "actual_views": 232,
-      "measured_at": "2026-08-14T19:13:30Z",
-      "measurement_count": 1,
+      "actual_views": 292,
+      "measured_at": "2026-08-14T21:40:54Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -62,
+      "error_pct": -52,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 2.16,
+      "engagement_rate": 1.71,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1087,6 +1087,10 @@
         {
           "measured_at": "2026-08-14T19:13:30Z",
           "actual_views": 232
+        },
+        {
+          "measured_at": "2026-08-14T21:40:54Z",
+          "actual_views": 292
         }
       ],
       "reuse": null
@@ -1103,9 +1107,9 @@
       "predicted_range": "182-2,225",
       "predicted_low": 182,
       "predicted_high": 2225,
-      "actual_views": 630,
-      "measured_at": "2026-08-14T19:13:29Z",
-      "measurement_count": 7,
+      "actual_views": 631,
+      "measured_at": "2026-08-14T21:40:53Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 9,
@@ -1162,6 +1166,10 @@
         {
           "measured_at": "2026-08-14T19:13:29Z",
           "actual_views": 630
+        },
+        {
+          "measured_at": "2026-08-14T21:40:53Z",
+          "actual_views": 631
         }
       ],
       "reuse": null
@@ -1178,14 +1186,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": 510,
-      "measured_at": "2026-08-14T19:13:29Z",
-      "measurement_count": 10,
+      "actual_views": 515,
+      "measured_at": "2026-08-14T21:40:52Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
-      "error_pct": -22,
+      "error_pct": -21,
       "likes": 27,
       "comments": 0,
-      "engagement_rate": 5.29,
+      "engagement_rate": 5.24,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1255,6 +1263,10 @@
         {
           "measured_at": "2026-08-14T19:13:29Z",
           "actual_views": 510
+        },
+        {
+          "measured_at": "2026-08-14T21:40:52Z",
+          "actual_views": 515
         }
       ],
       "reuse": null
@@ -1272,8 +1284,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 647,
-      "measured_at": "2026-08-14T19:13:28Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-14T21:40:51Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 12,
@@ -1349,6 +1361,10 @@
         },
         {
           "measured_at": "2026-08-14T19:13:28Z",
+          "actual_views": 647
+        },
+        {
+          "measured_at": "2026-08-14T21:40:51Z",
           "actual_views": 647
         }
       ],
