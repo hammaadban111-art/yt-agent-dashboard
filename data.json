@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-14T16:06:05.002122Z",
+  "generated_at": "2026-08-14T19:13:30.401340Z",
   "next_runs": [
-    "2026-08-14T16:07:00Z",
     "2026-08-15T01:07:00Z",
-    "2026-08-15T06:07:00Z"
+    "2026-08-15T06:07:00Z",
+    "2026-08-15T11:07:00Z"
   ],
   "summary": {
     "videos": 62,
-    "total_views": 39330,
-    "total_likes": 748,
+    "total_views": 39563,
+    "total_likes": 753,
     "total_comments": 13,
-    "mean_abs_pct_error": 39.6,
-    "measured_videos": 61,
+    "mean_abs_pct_error": 42.1,
+    "measured_videos": 62,
     "days_of_history": 16,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.089
   },
   "quota": {
-    "units_used": 158,
+    "units_used": 167,
     "daily_cap": 10000,
-    "remaining": 9842,
+    "remaining": 9833,
     "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -893,22 +893,22 @@
   "last_run": {
     "available": true,
     "status": "completed",
-    "conclusion": "success",
+    "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-14T11:52:00Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31797934065",
-    "last_successful_step": "Complete job",
-    "failed_step": null
+    "created_at": "2026-08-14T17:00:36Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31821999062",
+    "last_successful_step": "Restore Pexels footage cache",
+    "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1273.2,
+    "used_minutes": 1279.0,
     "budget_minutes": 2000,
-    "percent_used": 63.7,
-    "runs_counted": 154,
+    "percent_used": 63.9,
+    "runs_counted": 155,
     "per_workflow_minutes": {
-      "daily.yml": 857.2,
-      "followup.yml": 416.0
+      "daily.yml": 862.0,
+      "followup.yml": 417.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -916,6 +916,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31821999062,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31821999062",
+        "created_at": "2026-08-14T17:00:36Z",
+        "error": "Run agent: google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31664074700,
@@ -941,9 +948,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 1,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-14T17:00:36Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31821999062",
+        "reason": "Run agent: google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      },
       {
         "started_at": "2026-08-14T11:52:00Z",
         "state": "published",
@@ -1023,14 +1036,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31560086796",
         "reason": "Run agent: Skipped on purpose: not enough YouTube quota left today to publish, so the run stopped before rendering."
-      },
-      {
-        "started_at": "2026-08-11T17:04:20Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31515693304",
-        "title": "The 1,800-Year-Old Roman Mystery Solved by Knitters",
-        "video_id": "UprNHip0DOY",
-        "url": "https://youtube.com/watch?v=UprNHip0DOY"
       }
     ]
   },
@@ -1047,14 +1052,14 @@
       "predicted_range": "174-2,113",
       "predicted_low": 174,
       "predicted_high": 2113,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 232,
+      "measured_at": "2026-08-14T19:13:30Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -62,
+      "likes": 5,
+      "comments": 0,
+      "engagement_rate": 2.16,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1067,7 +1072,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1078,7 +1083,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-14T19:13:30Z",
+          "actual_views": 232
+        }
+      ],
       "reuse": null
     },
     {
@@ -1093,9 +1103,9 @@
       "predicted_range": "182-2,225",
       "predicted_low": 182,
       "predicted_high": 2225,
-      "actual_views": 629,
-      "measured_at": "2026-08-14T16:06:05Z",
-      "measurement_count": 6,
+      "actual_views": 630,
+      "measured_at": "2026-08-14T19:13:29Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 9,
@@ -1148,6 +1158,10 @@
         {
           "measured_at": "2026-08-14T16:06:05Z",
           "actual_views": 629
+        },
+        {
+          "measured_at": "2026-08-14T19:13:29Z",
+          "actual_views": 630
         }
       ],
       "reuse": null
@@ -1165,8 +1179,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 510,
-      "measured_at": "2026-08-14T16:06:03Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-14T19:13:29Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -22,
       "likes": 27,
@@ -1237,6 +1251,10 @@
         {
           "measured_at": "2026-08-14T16:06:03Z",
           "actual_views": 510
+        },
+        {
+          "measured_at": "2026-08-14T19:13:29Z",
+          "actual_views": 510
         }
       ],
       "reuse": null
@@ -1254,8 +1272,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 647,
-      "measured_at": "2026-08-14T16:06:02Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-14T19:13:28Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 12,
@@ -1328,6 +1346,10 @@
         {
           "measured_at": "2026-08-14T16:06:02Z",
           "actual_views": 647
+        },
+        {
+          "measured_at": "2026-08-14T19:13:28Z",
+          "actual_views": 647
         }
       ],
       "reuse": null
@@ -1373,7 +1395,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
