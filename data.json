@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:24:33.072188Z",
+  "generated_at": "2026-08-15T03:54:09.949808Z",
   "next_runs": [
     "2026-08-15T06:07:00Z",
     "2026-08-15T11:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 63,
-    "total_views": 39647,
-    "total_likes": 755,
+    "total_views": 39652,
+    "total_likes": 756,
     "total_comments": 13,
     "mean_abs_pct_error": 42.1,
     "measured_videos": 62,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.088
   },
   "quota": {
-    "units_used": 198,
+    "units_used": 207,
     "daily_cap": 10000,
-    "remaining": 9802,
+    "remaining": 9793,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -892,23 +892,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-15T02:16:24Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31858756085",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1281.8,
+    "used_minutes": 1290.5,
     "budget_minutes": 2000,
-    "percent_used": 64.1,
+    "percent_used": 64.5,
     "runs_counted": 156,
     "per_workflow_minutes": {
-      "daily.yml": 862.0,
-      "followup.yml": 419.8
+      "daily.yml": 871.2,
+      "followup.yml": 419.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -941,14 +941,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
-    "expected_24h": 5,
+    "published_24h": 2,
+    "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-15T02:16:24Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31858756085",
-        "reason": "This run is still going."
+        "title": "The Day 50 Tons of Living Cells Rained From the Sky",
+        "video_id": "96mSDl86-jc",
+        "url": "https://youtube.com/watch?v=96mSDl86-jc"
       },
       {
         "started_at": "2026-08-14T17:00:36Z",
@@ -1092,8 +1094,8 @@
       "predicted_low": 174,
       "predicted_high": 2113,
       "actual_views": 293,
-      "measured_at": "2026-08-15T02:24:33Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-15T03:54:09Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -52,
       "likes": 5,
@@ -1138,6 +1140,10 @@
         {
           "measured_at": "2026-08-15T02:24:33Z",
           "actual_views": 293
+        },
+        {
+          "measured_at": "2026-08-15T03:54:09Z",
+          "actual_views": 293
         }
       ],
       "reuse": null
@@ -1155,8 +1161,8 @@
       "predicted_low": 182,
       "predicted_high": 2225,
       "actual_views": 632,
-      "measured_at": "2026-08-15T02:24:32Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-15T03:54:09Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 9,
@@ -1225,6 +1231,10 @@
         {
           "measured_at": "2026-08-15T02:24:32Z",
           "actual_views": 632
+        },
+        {
+          "measured_at": "2026-08-15T03:54:09Z",
+          "actual_views": 632
         }
       ],
       "reuse": null
@@ -1241,14 +1251,14 @@
       "predicted_range": "187-2,291",
       "predicted_low": 187,
       "predicted_high": 2291,
-      "actual_views": 529,
-      "measured_at": "2026-08-15T02:24:31Z",
-      "measurement_count": 13,
+      "actual_views": 534,
+      "measured_at": "2026-08-15T03:54:08Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
-      "error_pct": -19,
-      "likes": 29,
+      "error_pct": -18,
+      "likes": 30,
       "comments": 0,
-      "engagement_rate": 5.48,
+      "engagement_rate": 5.62,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1330,6 +1340,10 @@
         {
           "measured_at": "2026-08-15T02:24:31Z",
           "actual_views": 529
+        },
+        {
+          "measured_at": "2026-08-15T03:54:08Z",
+          "actual_views": 534
         }
       ],
       "reuse": null
@@ -1347,8 +1361,8 @@
       "predicted_low": 187,
       "predicted_high": 2291,
       "actual_views": 647,
-      "measured_at": "2026-08-15T02:24:30Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-15T03:54:08Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 12,
@@ -1436,6 +1450,10 @@
         },
         {
           "measured_at": "2026-08-15T02:24:30Z",
+          "actual_views": 647
+        },
+        {
+          "measured_at": "2026-08-15T03:54:08Z",
           "actual_views": 647
         }
       ],
