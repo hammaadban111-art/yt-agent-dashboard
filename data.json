@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T09:42:20.676757Z",
+  "generated_at": "2026-08-16T13:00:16.644461Z",
   "next_runs": [
-    "2026-08-16T11:07:00Z",
     "2026-08-16T16:07:00Z",
-    "2026-08-17T01:07:00Z"
+    "2026-08-17T01:07:00Z",
+    "2026-08-17T06:07:00Z"
   ],
   "summary": {
     "videos": 64,
@@ -769,20 +769,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-16T06:56:08Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
+    "created_at": "2026-08-16T11:28:32Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1360.0,
+    "used_minutes": 1363.3,
     "budget_minutes": 2000,
-    "percent_used": 68.0,
-    "runs_counted": 161,
+    "percent_used": 68.2,
+    "runs_counted": 162,
     "per_workflow_minutes": {
-      "daily.yml": 919.6,
-      "followup.yml": 440.4
+      "daily.yml": 927.0,
+      "followup.yml": 436.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -790,6 +790,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31944421780,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
+        "created_at": "2026-08-16T11:28:32Z",
+        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31932620378,
@@ -853,6 +860,12 @@
     "published_24h": 0,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-16T11:28:32Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
+        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
+      },
       {
         "started_at": "2026-08-16T06:56:08Z",
         "state": "not_uploaded",
@@ -926,14 +939,6 @@
         "title": "The 9,000-Year-Old Wall Hidden Under Lake Huron",
         "video_id": "OBiSVuv2Dlw",
         "url": "https://youtube.com/watch?v=OBiSVuv2Dlw"
-      },
-      {
-        "started_at": "2026-08-13T11:55:04Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31697623929",
-        "title": "Why Ancient Roman Concrete Never Crumbles",
-        "video_id": "f4_a5YhUiTU",
-        "url": "https://youtube.com/watch?v=f4_a5YhUiTU"
       }
     ]
   },
@@ -1093,7 +1098,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
