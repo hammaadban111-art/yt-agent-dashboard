@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T01:57:16.513474Z",
+  "generated_at": "2026-08-16T03:59:16.010243Z",
   "next_runs": [
     "2026-08-16T06:07:00Z",
     "2026-08-16T11:07:00Z",
@@ -769,20 +769,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-15T16:33:03Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31895811937",
+    "created_at": "2026-08-16T02:23:50Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1333.9,
+    "used_minutes": 1343.1,
     "budget_minutes": 2000,
-    "percent_used": 66.7,
-    "runs_counted": 159,
+    "percent_used": 67.2,
+    "runs_counted": 160,
     "per_workflow_minutes": {
-      "daily.yml": 901.5,
-      "followup.yml": 432.4
+      "daily.yml": 910.0,
+      "followup.yml": 433.1
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -790,6 +790,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31921793506,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
+        "created_at": "2026-08-16T02:23:50Z",
+        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31895811937,
@@ -836,9 +843,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 1,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-16T02:23:50Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
+        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
       {
         "started_at": "2026-08-15T16:33:03Z",
         "state": "not_uploaded",
@@ -916,12 +929,6 @@
         "title": "The 50,000-Year-Old Lake That Turned Bright Pink Overnight",
         "video_id": "SUb9OLzCDPA",
         "url": "https://youtube.com/watch?v=SUb9OLzCDPA"
-      },
-      {
-        "started_at": "2026-08-13T03:29:25Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31664074700",
-        "reason": "Run agent: The script writer could not produce a script that passed the quality checks, twice in a row, so the run stopped before rendering. No video was published for this slot."
       }
     ]
   },
