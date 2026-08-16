@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T03:59:16.010243Z",
+  "generated_at": "2026-08-16T07:05:59.144336Z",
   "next_runs": [
-    "2026-08-16T06:07:00Z",
     "2026-08-16T11:07:00Z",
-    "2026-08-16T16:07:00Z"
+    "2026-08-16T16:07:00Z",
+    "2026-08-17T01:07:00Z"
   ],
   "summary": {
     "videos": 64,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.088
   },
   "quota": {
-    "units_used": 148,
+    "units_used": 0,
     "daily_cap": 10000,
-    "remaining": 9852,
-    "upload_slots_used": 1,
+    "remaining": 10000,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -769,20 +769,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-16T02:23:50Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
+    "created_at": "2026-08-16T06:56:08Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1343.1,
+    "used_minutes": 1352.8,
     "budget_minutes": 2000,
-    "percent_used": 67.2,
-    "runs_counted": 160,
+    "percent_used": 67.6,
+    "runs_counted": 161,
     "per_workflow_minutes": {
-      "daily.yml": 910.0,
-      "followup.yml": 433.1
+      "daily.yml": 919.6,
+      "followup.yml": 433.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -790,6 +790,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31932620378,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
+        "created_at": "2026-08-16T06:56:08Z",
+        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31921793506,
@@ -843,9 +850,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
+    "published_24h": 0,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-16T06:56:08Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
+        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
       {
         "started_at": "2026-08-16T02:23:50Z",
         "state": "not_uploaded",
@@ -921,14 +934,6 @@
         "title": "Why Ancient Roman Concrete Never Crumbles",
         "video_id": "f4_a5YhUiTU",
         "url": "https://youtube.com/watch?v=f4_a5YhUiTU"
-      },
-      {
-        "started_at": "2026-08-13T07:48:32Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31679312193",
-        "title": "The 50,000-Year-Old Lake That Turned Bright Pink Overnight",
-        "video_id": "SUb9OLzCDPA",
-        "url": "https://youtube.com/watch?v=SUb9OLzCDPA"
       }
     ]
   },
