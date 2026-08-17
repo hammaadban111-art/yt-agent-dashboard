@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:55:16.640179Z",
+  "generated_at": "2026-08-17T04:02:37.661833Z",
   "next_runs": [
     "2026-08-17T06:07:00Z",
     "2026-08-17T11:07:00Z",
@@ -718,7 +718,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -769,20 +769,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-16T16:33:32Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
+    "created_at": "2026-08-17T02:22:04Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1373.1,
+    "used_minutes": 1382.2,
     "budget_minutes": 2000,
-    "percent_used": 68.7,
-    "runs_counted": 163,
+    "percent_used": 69.1,
+    "runs_counted": 164,
     "per_workflow_minutes": {
-      "daily.yml": 936.7,
-      "followup.yml": 436.4
+      "daily.yml": 945.5,
+      "followup.yml": 436.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -790,6 +790,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 31987764872,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
+        "created_at": "2026-08-17T02:22:04Z",
+        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31958959073,
@@ -861,6 +868,12 @@
     "expected_24h": 4,
     "slots": [
       {
+        "started_at": "2026-08-17T02:22:04Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
+        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
+      },
+      {
         "started_at": "2026-08-16T16:33:32Z",
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
@@ -931,12 +944,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31781223061",
         "reason": "This run was cancelled before it even started, because an earlier run was still holding the shared lock. No video was published for this slot."
-      },
-      {
-        "started_at": "2026-08-14T03:27:08Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31766841885",
-        "reason": "Run agent: The run hung and GitHub killed it after 6 hours. No video was published for this slot."
       }
     ]
   },
@@ -1037,7 +1044,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
