@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:05:21.793321Z",
+  "generated_at": "2026-08-17T15:39:56.209853Z",
   "next_runs": [
     "2026-08-17T16:07:00Z",
     "2026-08-18T01:07:00Z",
@@ -12,7 +12,7 @@
     "total_comments": 14,
     "mean_abs_pct_error": 42.6,
     "measured_videos": 64,
-    "days_of_history": 18,
+    "days_of_history": 19,
     "self_improve_active": false,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": true,
@@ -776,13 +776,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1401.2,
+    "used_minutes": 1401.7,
     "budget_minutes": 2000,
     "percent_used": 70.1,
     "runs_counted": 166,
     "per_workflow_minutes": {
       "daily.yml": 960.2,
-      "followup.yml": 441.0
+      "followup.yml": 441.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
