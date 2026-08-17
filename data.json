@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T04:02:37.661833Z",
+  "generated_at": "2026-08-17T07:20:36.056975Z",
   "next_runs": [
-    "2026-08-17T06:07:00Z",
     "2026-08-17T11:07:00Z",
-    "2026-08-17T16:07:00Z"
+    "2026-08-17T16:07:00Z",
+    "2026-08-18T01:07:00Z"
   ],
   "summary": {
     "videos": 64,
@@ -769,20 +769,20 @@
     "status": "completed",
     "conclusion": "failure",
     "event": "schedule",
-    "created_at": "2026-08-17T02:22:04Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
+    "created_at": "2026-08-17T07:12:58Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": "Run agent"
   },
   "ci": {
     "available": true,
-    "used_minutes": 1382.2,
+    "used_minutes": 1389.8,
     "budget_minutes": 2000,
-    "percent_used": 69.1,
-    "runs_counted": 164,
+    "percent_used": 69.5,
+    "runs_counted": 165,
     "per_workflow_minutes": {
-      "daily.yml": 945.5,
-      "followup.yml": 436.6
+      "daily.yml": 952.9,
+      "followup.yml": 436.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -790,6 +790,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 32004825627,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
+        "created_at": "2026-08-17T07:12:58Z",
+        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 31987764872,
@@ -868,6 +875,12 @@
     "expected_24h": 4,
     "slots": [
       {
+        "started_at": "2026-08-17T07:12:58Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
+        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
+      },
+      {
         "started_at": "2026-08-17T02:22:04Z",
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
@@ -938,12 +951,6 @@
         "title": "The Desert Covered in Millions of Mystery Circles",
         "video_id": "bwUGxiS0ieU",
         "url": "https://youtube.com/watch?v=bwUGxiS0ieU"
-      },
-      {
-        "started_at": "2026-08-14T07:46:14Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31781223061",
-        "reason": "This run was cancelled before it even started, because an earlier run was still holding the shared lock. No video was published for this slot."
       }
     ]
   },
@@ -989,7 +996,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
