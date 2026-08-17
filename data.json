@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:57:24.917755Z",
+  "generated_at": "2026-08-17T21:41:00.806144Z",
   "next_runs": [
     "2026-08-18T01:07:00Z",
     "2026-08-18T06:07:00Z",
@@ -776,13 +776,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1414.4,
+    "used_minutes": 1415.3,
     "budget_minutes": 2000,
-    "percent_used": 70.7,
+    "percent_used": 70.8,
     "runs_counted": 167,
     "per_workflow_minutes": {
       "daily.yml": 968.4,
-      "followup.yml": 445.9
+      "followup.yml": 446.9
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
