@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:45:42.891876Z",
+  "generated_at": "2026-08-18T13:07:42.536164Z",
   "next_runs": [
     "2026-08-18T16:07:00Z",
     "2026-08-19T01:07:00Z",
@@ -7,11 +7,11 @@
   ],
   "summary": {
     "videos": 68,
-    "total_views": 41482,
-    "total_likes": 782,
+    "total_views": 41943,
+    "total_likes": 787,
     "total_comments": 14,
-    "mean_abs_pct_error": 46.3,
-    "measured_videos": 66,
+    "mean_abs_pct_error": 47.5,
+    "measured_videos": 67,
     "days_of_history": 19,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 12,
+    "units_used": 19,
     "daily_cap": 10000,
-    "remaining": 9988,
+    "remaining": 9981,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-18T11:34:08Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1504.2,
+    "used_minutes": 1516.9,
     "budget_minutes": 2000,
-    "percent_used": 75.2,
+    "percent_used": 75.8,
     "runs_counted": 171,
     "per_workflow_minutes": {
-      "daily.yml": 1040.7,
-      "followup.yml": 463.5
+      "daily.yml": 1054.3,
+      "followup.yml": 462.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1014,14 +1014,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 4,
     "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-08-18T11:34:08Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
-        "reason": "This run is still going."
+        "title": "The Mystery of Japan's Underwater Crop Circles",
+        "video_id": "46o1TfLNIls",
+        "url": "https://youtube.com/watch?v=46o1TfLNIls"
       },
       {
         "started_at": "2026-08-18T07:00:09Z",
@@ -1156,14 +1158,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 452,
+      "measured_at": "2026-08-18T13:07:42Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -25,
+      "likes": 5,
+      "comments": 0,
+      "engagement_rate": 1.11,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1176,7 +1178,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1187,7 +1189,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-18T13:07:42Z",
+          "actual_views": 452
+        }
+      ],
       "reuse": null
     },
     {
@@ -1202,14 +1209,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 226,
-      "measured_at": "2026-08-18T11:45:42Z",
-      "measurement_count": 2,
+      "actual_views": 225,
+      "measured_at": "2026-08-18T13:07:41Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -63,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.77,
+      "engagement_rate": 1.78,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1241,6 +1248,10 @@
         {
           "measured_at": "2026-08-18T11:45:42Z",
           "actual_views": 226
+        },
+        {
+          "measured_at": "2026-08-18T13:07:41Z",
+          "actual_views": 225
         }
       ],
       "reuse": null
@@ -1257,14 +1268,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 731,
-      "measured_at": "2026-08-18T11:45:41Z",
-      "measurement_count": 4,
+      "actual_views": 741,
+      "measured_at": "2026-08-18T13:07:41Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": 21,
+      "error_pct": 22,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 1.78,
+      "engagement_rate": 1.75,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1310,6 +1321,10 @@
         {
           "measured_at": "2026-08-18T11:45:41Z",
           "actual_views": 731
+        },
+        {
+          "measured_at": "2026-08-18T13:07:41Z",
+          "actual_views": 741
         }
       ],
       "reuse": null
