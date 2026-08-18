@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:07:42.536164Z",
+  "generated_at": "2026-08-18T15:45:55.791771Z",
   "next_runs": [
     "2026-08-18T16:07:00Z",
     "2026-08-19T01:07:00Z",
@@ -7,12 +7,12 @@
   ],
   "summary": {
     "videos": 68,
-    "total_views": 41943,
+    "total_views": 42095,
     "total_likes": 787,
     "total_comments": 14,
     "mean_abs_pct_error": 47.5,
     "measured_videos": 67,
-    "days_of_history": 19,
+    "days_of_history": 20,
     "self_improve_active": false,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": true,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 19,
+    "units_used": 26,
     "daily_cap": 10000,
-    "remaining": 9981,
+    "remaining": 9974,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 52
+    "subscriber_count": 53
   },
   "spotlight": {
     "best": {
@@ -926,13 +926,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1516.9,
+    "used_minutes": 1516.5,
     "budget_minutes": 2000,
     "percent_used": 75.8,
     "runs_counted": 171,
     "per_workflow_minutes": {
       "daily.yml": 1054.3,
-      "followup.yml": 462.6
+      "followup.yml": 462.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1158,14 +1158,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 452,
-      "measured_at": "2026-08-18T13:07:42Z",
-      "measurement_count": 1,
+      "actual_views": 598,
+      "measured_at": "2026-08-18T15:45:55Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -25,
+      "error_pct": -1,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 1.11,
+      "engagement_rate": 0.84,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1193,6 +1193,10 @@
         {
           "measured_at": "2026-08-18T13:07:42Z",
           "actual_views": 452
+        },
+        {
+          "measured_at": "2026-08-18T15:45:55Z",
+          "actual_views": 598
         }
       ],
       "reuse": null
@@ -1209,14 +1213,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 225,
-      "measured_at": "2026-08-18T13:07:41Z",
-      "measurement_count": 3,
+      "actual_views": 226,
+      "measured_at": "2026-08-18T15:45:55Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -63,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.78,
+      "engagement_rate": 1.77,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1252,6 +1256,10 @@
         {
           "measured_at": "2026-08-18T13:07:41Z",
           "actual_views": 225
+        },
+        {
+          "measured_at": "2026-08-18T15:45:55Z",
+          "actual_views": 226
         }
       ],
       "reuse": null
@@ -1268,14 +1276,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 741,
-      "measured_at": "2026-08-18T13:07:41Z",
-      "measurement_count": 5,
+      "actual_views": 746,
+      "measured_at": "2026-08-18T15:45:54Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": 22,
+      "error_pct": 23,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 1.75,
+      "engagement_rate": 1.74,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1325,6 +1333,10 @@
         {
           "measured_at": "2026-08-18T13:07:41Z",
           "actual_views": 741
+        },
+        {
+          "measured_at": "2026-08-18T15:45:54Z",
+          "actual_views": 746
         }
       ],
       "reuse": null
