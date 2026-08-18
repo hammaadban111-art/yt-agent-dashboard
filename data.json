@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:34:09.414541Z",
+  "generated_at": "2026-08-18T01:50:43.037736Z",
   "next_runs": [
     "2026-08-18T06:07:00Z",
     "2026-08-18T11:07:00Z",
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.085
   },
   "quota": {
-    "units_used": 128,
+    "units_used": 129,
     "daily_cap": 10000,
-    "remaining": 9872,
+    "remaining": 9871,
     "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "workflow_dispatch",
     "created_at": "2026-08-18T01:13:39Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32087451818",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1417.0,
+    "used_minutes": 1439.0,
     "budget_minutes": 2000,
-    "percent_used": 70.9,
+    "percent_used": 72.0,
     "runs_counted": 168,
     "per_workflow_minutes": {
-      "daily.yml": 968.4,
-      "followup.yml": 448.6
+      "daily.yml": 991.5,
+      "followup.yml": 447.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1021,14 +1021,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 0,
+    "published_24h": 1,
     "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-08-18T01:13:39Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32087451818",
-        "reason": "This run is still going."
+        "title": "The 1935 Mystery of the Burning Pilot",
+        "video_id": "EIFrkYJo2VI",
+        "url": "https://youtube.com/watch?v=EIFrkYJo2VI"
       },
       {
         "started_at": "2026-08-17T16:36:06Z",
