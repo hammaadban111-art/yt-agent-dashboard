@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-18T09:48:45.980770Z",
+  "generated_at": "2026-08-18T11:45:42.891876Z",
   "next_runs": [
-    "2026-08-18T11:07:00Z",
     "2026-08-18T16:07:00Z",
-    "2026-08-19T01:07:00Z"
+    "2026-08-19T01:07:00Z",
+    "2026-08-19T06:07:00Z"
   ],
   "summary": {
-    "videos": 67,
-    "total_views": 41437,
-    "total_likes": 783,
+    "videos": 68,
+    "total_views": 41482,
+    "total_likes": 782,
     "total_comments": 14,
     "mean_abs_pct_error": 46.3,
     "measured_videos": 66,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 7,
+    "units_used": 12,
     "daily_cap": 10000,
-    "remaining": 9993,
-    "upload_slots_used": 1,
+    "remaining": 9988,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-18T07:00:09Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-18T11:34:08Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1502.3,
+    "used_minutes": 1504.2,
     "budget_minutes": 2000,
-    "percent_used": 75.1,
-    "runs_counted": 170,
+    "percent_used": 75.2,
+    "runs_counted": 171,
     "per_workflow_minutes": {
       "daily.yml": 1040.7,
-      "followup.yml": 461.6
+      "followup.yml": 463.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1018,6 +1018,12 @@
     "expected_24h": 5,
     "slots": [
       {
+        "started_at": "2026-08-18T11:34:08Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
+        "reason": "This run is still going."
+      },
+      {
         "started_at": "2026-08-18T07:00:09Z",
         "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
@@ -1088,16 +1094,56 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
         "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "started_at": "2026-08-15T16:33:03Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31895811937",
-        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "videos": [
+    {
+      "n": 68,
+      "video_id": "46o1TfLNIls",
+      "title": "The Mystery of Japan's Underwater Crop Circles",
+      "url": "https://youtube.com/watch?v=46o1TfLNIls",
+      "uploaded_at": "2026-08-18T11:45:41Z",
+      "topic": "Torquigener albomaculosus",
+      "hook": "Giant seven-foot geometric patterns kept appearing on Japan's seafloor.",
+      "predicted_views": 576,
+      "predicted_range": "166-1,993",
+      "predicted_low": 166,
+      "predicted_high": 1993,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 4,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 67,
       "video_id": "fZjKNuHyzsQ",
@@ -1156,14 +1202,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 181,
-      "measured_at": "2026-08-18T09:48:45Z",
-      "measurement_count": 1,
+      "actual_views": 226,
+      "measured_at": "2026-08-18T11:45:42Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -70,
-      "likes": 5,
+      "error_pct": -63,
+      "likes": 4,
       "comments": 0,
-      "engagement_rate": 2.76,
+      "engagement_rate": 1.77,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1191,6 +1237,10 @@
         {
           "measured_at": "2026-08-18T09:48:45Z",
           "actual_views": 181
+        },
+        {
+          "measured_at": "2026-08-18T11:45:42Z",
+          "actual_views": 226
         }
       ],
       "reuse": null
@@ -1208,8 +1258,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 731,
-      "measured_at": "2026-08-18T09:48:45Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-18T11:45:41Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
       "likes": 13,
@@ -1255,6 +1305,10 @@
         },
         {
           "measured_at": "2026-08-18T09:48:45Z",
+          "actual_views": 731
+        },
+        {
+          "measured_at": "2026-08-18T11:45:41Z",
           "actual_views": 731
         }
       ],
