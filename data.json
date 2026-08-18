@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T01:50:43.037736Z",
+  "generated_at": "2026-08-18T02:47:43.438970Z",
   "next_runs": [
     "2026-08-18T06:07:00Z",
     "2026-08-18T11:07:00Z",
     "2026-08-18T16:07:00Z"
   ],
   "summary": {
-    "videos": 65,
+    "videos": 66,
     "total_views": 40525,
     "total_likes": 765,
     "total_comments": 14,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.085
   },
   "quota": {
-    "units_used": 129,
+    "units_used": 130,
     "daily_cap": 10000,
-    "remaining": 9871,
-    "upload_slots_used": 1,
+    "remaining": 9870,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 51
+    "subscriber_count": 52
   },
   "spotlight": {
     "best": {
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-08-18T01:13:39Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32087451818",
-    "last_successful_step": "Complete job",
+    "status": "in_progress",
+    "conclusion": null,
+    "event": "schedule",
+    "created_at": "2026-08-18T02:18:07Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32091343364",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1439.0,
+    "used_minutes": 1440.6,
     "budget_minutes": 2000,
     "percent_used": 72.0,
-    "runs_counted": 168,
+    "runs_counted": 169,
     "per_workflow_minutes": {
       "daily.yml": 991.5,
-      "followup.yml": 447.5
+      "followup.yml": 449.1
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1025,6 +1025,12 @@
     "expected_24h": 5,
     "slots": [
       {
+        "started_at": "2026-08-18T02:18:07Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32091343364",
+        "reason": "This run is still going."
+      },
+      {
         "started_at": "2026-08-18T01:13:39Z",
         "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32087451818",
@@ -1091,18 +1097,56 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31882142922",
         "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-15T06:54:28Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31870600539",
-        "title": "Earth's 2-Billion-Year-Old Natural Nuclear Reactor",
-        "video_id": "gjzwjd_Wx5o",
-        "url": "https://youtube.com/watch?v=gjzwjd_Wx5o"
       }
     ]
   },
   "videos": [
+    {
+      "n": 66,
+      "video_id": "vUYjX1vFYAI",
+      "title": "The Strange Phenomenon of the Singing Sands",
+      "url": "https://youtube.com/watch?v=vUYjX1vFYAI",
+      "uploaded_at": "2026-08-18T02:47:43Z",
+      "topic": "Singing sand",
+      "hook": "Entire desert dunes suddenly start humming like a pipe organ.",
+      "predicted_views": 606,
+      "predicted_range": "175-2,103",
+      "predicted_low": 175,
+      "predicted_high": 2103,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 4,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 65,
       "video_id": "EIFrkYJo2VI",
