@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T02:47:43.438970Z",
+  "generated_at": "2026-08-18T03:57:59.792612Z",
   "next_runs": [
     "2026-08-18T06:07:00Z",
     "2026-08-18T11:07:00Z",
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.085
   },
   "quota": {
-    "units_used": 130,
+    "units_used": 131,
     "daily_cap": 10000,
-    "remaining": 9870,
+    "remaining": 9869,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-18T02:18:07Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32091343364",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1440.6,
+    "used_minutes": 1471.3,
     "budget_minutes": 2000,
-    "percent_used": 72.0,
+    "percent_used": 73.6,
     "runs_counted": 169,
     "per_workflow_minutes": {
-      "daily.yml": 991.5,
-      "followup.yml": 449.1
+      "daily.yml": 1023.4,
+      "followup.yml": 447.9
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1021,14 +1021,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
+    "published_24h": 2,
     "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-08-18T02:18:07Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32091343364",
-        "reason": "This run is still going."
+        "title": "The Strange Phenomenon of the Singing Sands",
+        "video_id": "vUYjX1vFYAI",
+        "url": "https://youtube.com/watch?v=vUYjX1vFYAI"
       },
       {
         "started_at": "2026-08-18T01:13:39Z",
