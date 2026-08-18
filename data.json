@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T07:17:37.025298Z",
+  "generated_at": "2026-08-18T09:48:45.980770Z",
   "next_runs": [
     "2026-08-18T11:07:00Z",
     "2026-08-18T16:07:00Z",
     "2026-08-19T01:07:00Z"
   ],
   "summary": {
-    "videos": 66,
-    "total_views": 41231,
-    "total_likes": 778,
+    "videos": 67,
+    "total_views": 41437,
+    "total_likes": 783,
     "total_comments": 14,
-    "mean_abs_pct_error": 43.0,
-    "measured_videos": 65,
+    "mean_abs_pct_error": 46.3,
+    "measured_videos": 66,
     "days_of_history": 19,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 16,
-    "mean_drop_at": 0.128,
-    "mean_drop_size": 0.085
+    "n": 15,
+    "mean_drop_at": 0.127,
+    "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 2,
+    "units_used": 7,
     "daily_cap": 10000,
-    "remaining": 9998,
-    "upload_slots_used": 0,
+    "remaining": 9993,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -926,13 +926,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1488.6,
+    "used_minutes": 1502.3,
     "budget_minutes": 2000,
-    "percent_used": 74.4,
+    "percent_used": 75.1,
     "runs_counted": 170,
     "per_workflow_minutes": {
       "daily.yml": 1040.7,
-      "followup.yml": 447.9
+      "followup.yml": 461.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1014,14 +1014,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-08-18T07:00:09Z",
-        "state": "not_uploaded",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
-        "reason": "The run finished successfully but did not publish a video."
+        "title": "The 1898 Ship That Vanished Inside London",
+        "video_id": "fZjKNuHyzsQ",
+        "url": "https://youtube.com/watch?v=fZjKNuHyzsQ"
       },
       {
         "started_at": "2026-08-18T02:18:07Z",
@@ -1097,13 +1099,13 @@
   },
   "videos": [
     {
-      "n": 66,
-      "video_id": "vUYjX1vFYAI",
-      "title": "The Strange Phenomenon of the Singing Sands",
-      "url": "https://youtube.com/watch?v=vUYjX1vFYAI",
-      "uploaded_at": "2026-08-18T02:47:43Z",
-      "topic": "Singing sand",
-      "hook": "Entire desert dunes suddenly start humming like a pipe organ.",
+      "n": 67,
+      "video_id": "fZjKNuHyzsQ",
+      "title": "The 1898 Ship That Vanished Inside London",
+      "url": "https://youtube.com/watch?v=fZjKNuHyzsQ",
+      "uploaded_at": "2026-08-18T07:14:54Z",
+      "topic": "SS Huronian disappearance Thames",
+      "hook": "Three thousand tons of steel vanished off a landlocked river.",
       "predicted_views": 606,
       "predicted_range": "175-2,103",
       "predicted_low": 175,
@@ -1119,11 +1121,11 @@
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
-        "status": "checked",
-        "checked": 4,
+        "status": "no_source_found",
+        "checked": 0,
         "contradicted": 0,
         "misleading": 0,
-        "resolution_grounded": true,
+        "resolution_grounded": false,
         "unverified_source": false
       },
       "retention": {
@@ -1143,6 +1145,57 @@
       "reuse": null
     },
     {
+      "n": 66,
+      "video_id": "vUYjX1vFYAI",
+      "title": "The Strange Phenomenon of the Singing Sands",
+      "url": "https://youtube.com/watch?v=vUYjX1vFYAI",
+      "uploaded_at": "2026-08-18T02:47:43Z",
+      "topic": "Singing sand",
+      "hook": "Entire desert dunes suddenly start humming like a pipe organ.",
+      "predicted_views": 606,
+      "predicted_range": "175-2,103",
+      "predicted_low": 175,
+      "predicted_high": 2103,
+      "actual_views": 181,
+      "measured_at": "2026-08-18T09:48:45Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": -70,
+      "likes": 5,
+      "comments": 0,
+      "engagement_rate": 2.76,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 4,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-18T09:48:45Z",
+          "actual_views": 181
+        }
+      ],
+      "reuse": null
+    },
+    {
       "n": 65,
       "video_id": "EIFrkYJo2VI",
       "title": "The 1935 Mystery of the Burning Pilot",
@@ -1154,14 +1207,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 706,
-      "measured_at": "2026-08-18T07:17:37Z",
-      "measurement_count": 1,
+      "actual_views": 731,
+      "measured_at": "2026-08-18T09:48:45Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": 17,
+      "error_pct": 21,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 1.84,
+      "engagement_rate": 1.78,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1193,8 +1246,16 @@
       "replaced_by": null,
       "history": [
         {
+          "measured_at": "2026-08-18T07:14:54Z",
+          "actual_views": 706
+        },
+        {
           "measured_at": "2026-08-18T07:17:37Z",
           "actual_views": 706
+        },
+        {
+          "measured_at": "2026-08-18T09:48:45Z",
+          "actual_views": 731
         }
       ],
       "reuse": null
