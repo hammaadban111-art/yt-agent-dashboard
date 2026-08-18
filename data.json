@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T15:45:55.791771Z",
+  "generated_at": "2026-08-18T17:17:56.525837Z",
   "next_runs": [
-    "2026-08-18T16:07:00Z",
     "2026-08-19T01:07:00Z",
-    "2026-08-19T06:07:00Z"
+    "2026-08-19T06:07:00Z",
+    "2026-08-19T11:07:00Z"
   ],
   "summary": {
-    "videos": 68,
-    "total_views": 42095,
-    "total_likes": 787,
+    "videos": 69,
+    "total_views": 42420,
+    "total_likes": 790,
     "total_comments": 14,
-    "mean_abs_pct_error": 47.5,
-    "measured_videos": 67,
+    "mean_abs_pct_error": 48.9,
+    "measured_videos": 68,
     "days_of_history": 20,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 15,
-    "mean_drop_at": 0.127,
-    "mean_drop_size": 0.086
+    "n": 14,
+    "mean_drop_at": 0.126,
+    "mean_drop_size": 0.088
   },
   "quota": {
-    "units_used": 26,
+    "units_used": 35,
     "daily_cap": 10000,
-    "remaining": 9974,
-    "upload_slots_used": 2,
+    "remaining": 9965,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -916,23 +916,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-18T11:34:08Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-18T16:39:07Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32161429669",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1516.5,
+    "used_minutes": 1517.7,
     "budget_minutes": 2000,
-    "percent_used": 75.8,
-    "runs_counted": 171,
+    "percent_used": 75.9,
+    "runs_counted": 172,
     "per_workflow_minutes": {
       "daily.yml": 1054.3,
-      "followup.yml": 462.2
+      "followup.yml": 463.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1018,6 +1018,12 @@
     "expected_24h": 5,
     "slots": [
       {
+        "started_at": "2026-08-18T16:39:07Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32161429669",
+        "reason": "This run is still going."
+      },
+      {
         "started_at": "2026-08-18T11:34:08Z",
         "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
@@ -1090,28 +1096,22 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
         "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "started_at": "2026-08-16T02:23:50Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
-        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "videos": [
     {
-      "n": 68,
-      "video_id": "46o1TfLNIls",
-      "title": "The Mystery of Japan's Underwater Crop Circles",
-      "url": "https://youtube.com/watch?v=46o1TfLNIls",
-      "uploaded_at": "2026-08-18T11:45:41Z",
-      "topic": "Torquigener albomaculosus",
-      "hook": "Giant seven-foot geometric patterns kept appearing on Japan's seafloor.",
-      "predicted_views": 576,
-      "predicted_range": "166-1,993",
-      "predicted_low": 166,
-      "predicted_high": 1993,
+      "n": 69,
+      "video_id": "E3ZRYi2YUZc",
+      "title": "The 2,000-Year-Old Forts Melted Into Solid Glass",
+      "url": "https://youtube.com/watch?v=E3ZRYi2YUZc",
+      "uploaded_at": "2026-08-18T17:17:53Z",
+      "topic": "Vitrified hill fort",
+      "hook": "Ancient stone forts across Scotland were mysteriously melted into glass.",
+      "predicted_views": 525,
+      "predicted_range": "152-1,814",
+      "predicted_low": 152,
+      "predicted_high": 1814,
       "actual_views": null,
       "measured_at": null,
       "measurement_count": 0,
@@ -1126,7 +1126,7 @@
         "status": "checked",
         "checked": 4,
         "contradicted": 0,
-        "misleading": 0,
+        "misleading": 1,
         "resolution_grounded": true,
         "unverified_source": false
       },
@@ -1147,6 +1147,57 @@
       "reuse": null
     },
     {
+      "n": 68,
+      "video_id": "46o1TfLNIls",
+      "title": "The Mystery of Japan's Underwater Crop Circles",
+      "url": "https://youtube.com/watch?v=46o1TfLNIls",
+      "uploaded_at": "2026-08-18T11:45:41Z",
+      "topic": "Torquigener albomaculosus",
+      "hook": "Giant seven-foot geometric patterns kept appearing on Japan's seafloor.",
+      "predicted_views": 576,
+      "predicted_range": "166-1,993",
+      "predicted_low": 166,
+      "predicted_high": 1993,
+      "actual_views": 319,
+      "measured_at": "2026-08-18T17:17:56Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": -45,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 0.94,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 4,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-18T17:17:56Z",
+          "actual_views": 319
+        }
+      ],
+      "reuse": null
+    },
+    {
       "n": 67,
       "video_id": "fZjKNuHyzsQ",
       "title": "The 1898 Ship That Vanished Inside London",
@@ -1158,14 +1209,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 598,
-      "measured_at": "2026-08-18T15:45:55Z",
-      "measurement_count": 2,
+      "actual_views": 599,
+      "measured_at": "2026-08-18T17:17:55Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -1,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 0.84,
+      "engagement_rate": 0.83,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1197,6 +1248,10 @@
         {
           "measured_at": "2026-08-18T15:45:55Z",
           "actual_views": 598
+        },
+        {
+          "measured_at": "2026-08-18T17:17:55Z",
+          "actual_views": 599
         }
       ],
       "reuse": null
@@ -1213,14 +1268,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 226,
-      "measured_at": "2026-08-18T15:45:55Z",
-      "measurement_count": 4,
+      "actual_views": 231,
+      "measured_at": "2026-08-18T17:17:55Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": -63,
+      "error_pct": -62,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.77,
+      "engagement_rate": 1.73,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1260,6 +1315,10 @@
         {
           "measured_at": "2026-08-18T15:45:55Z",
           "actual_views": 226
+        },
+        {
+          "measured_at": "2026-08-18T17:17:55Z",
+          "actual_views": 231
         }
       ],
       "reuse": null
@@ -1277,8 +1336,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 746,
-      "measured_at": "2026-08-18T15:45:54Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-18T17:17:54Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 23,
       "likes": 13,
@@ -1336,6 +1395,10 @@
         },
         {
           "measured_at": "2026-08-18T15:45:54Z",
+          "actual_views": 746
+        },
+        {
+          "measured_at": "2026-08-18T17:17:54Z",
           "actual_views": 746
         }
       ],
