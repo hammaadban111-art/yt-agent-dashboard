@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T07:14:54.921493Z",
+  "generated_at": "2026-08-18T07:17:37.025298Z",
   "next_runs": [
     "2026-08-18T11:07:00Z",
     "2026-08-18T16:07:00Z",
     "2026-08-19T01:07:00Z"
   ],
   "summary": {
-    "videos": 67,
+    "videos": 66,
     "total_views": 41231,
     "total_likes": 778,
     "total_comments": 14,
@@ -28,7 +28,7 @@
     "units_used": 2,
     "daily_cap": 10000,
     "remaining": 9998,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -916,22 +916,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-18T07:00:09Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1471.3,
+    "used_minutes": 1488.6,
     "budget_minutes": 2000,
-    "percent_used": 73.6,
-    "runs_counted": 169,
+    "percent_used": 74.4,
+    "runs_counted": 170,
     "per_workflow_minutes": {
-      "daily.yml": 1023.4,
+      "daily.yml": 1040.7,
       "followup.yml": 447.9
     },
     "measurement_source": "run_duration",
@@ -1019,9 +1019,9 @@
     "slots": [
       {
         "started_at": "2026-08-18T07:00:09Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-08-18T02:18:07Z",
@@ -1097,52 +1097,6 @@
   },
   "videos": [
     {
-      "n": 67,
-      "video_id": "fZjKNuHyzsQ",
-      "title": "The 1898 Ship That Vanished Inside London",
-      "url": "https://youtube.com/watch?v=fZjKNuHyzsQ",
-      "uploaded_at": "2026-08-18T07:14:54Z",
-      "topic": "SS Huronian disappearance Thames",
-      "hook": "Three thousand tons of steel vanished off a landlocked river.",
-      "predicted_views": 606,
-      "predicted_range": "175-2,103",
-      "predicted_low": 175,
-      "predicted_high": 2103,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "no_source_found",
-        "checked": 0,
-        "contradicted": 0,
-        "misleading": 0,
-        "resolution_grounded": false,
-        "unverified_source": false
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 66,
       "video_id": "vUYjX1vFYAI",
       "title": "The Strange Phenomenon of the Singing Sands",
@@ -1201,7 +1155,7 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 706,
-      "measured_at": "2026-08-18T07:14:54Z",
+      "measured_at": "2026-08-18T07:17:37Z",
       "measurement_count": 1,
       "system_version": "phase1-stabilize",
       "error_pct": 17,
@@ -1239,7 +1193,7 @@
       "replaced_by": null,
       "history": [
         {
-          "measured_at": "2026-08-18T07:14:54Z",
+          "measured_at": "2026-08-18T07:17:37Z",
           "actual_views": 706
         }
       ],
