@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:57:57.218628Z",
+  "generated_at": "2026-08-19T13:08:17.919917Z",
   "next_runs": [
     "2026-08-19T16:07:00Z",
     "2026-08-20T01:07:00Z",
@@ -7,11 +7,11 @@
   ],
   "summary": {
     "videos": 73,
-    "total_views": 43453,
-    "total_likes": 815,
+    "total_views": 43632,
+    "total_likes": 817,
     "total_comments": 15,
-    "mean_abs_pct_error": 46.9,
-    "measured_videos": 71,
+    "mean_abs_pct_error": 45.2,
+    "measured_videos": 72,
     "days_of_history": 20,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 11,
-    "mean_drop_at": 0.12,
-    "mean_drop_size": 0.082
+    "n": 10,
+    "mean_drop_at": 0.121,
+    "mean_drop_size": 0.074
   },
   "quota": {
-    "units_used": 44,
+    "units_used": 61,
     "daily_cap": 10000,
-    "remaining": 9956,
+    "remaining": 9939,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -924,23 +924,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-19T11:33:56Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32248202249",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1620.2,
+    "used_minutes": 1644.2,
     "budget_minutes": 2000,
-    "percent_used": 81.0,
+    "percent_used": 82.2,
     "runs_counted": 175,
     "per_workflow_minutes": {
-      "daily.yml": 1155.7,
-      "followup.yml": 464.5
+      "daily.yml": 1181.2,
+      "followup.yml": 463.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1008,14 +1008,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-19T11:33:56Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32248202249",
-        "reason": "This run is still going."
+        "title": "The 1948 Mystery of the Vanishing Flight 19",
+        "video_id": "I1CCufDDmgc",
+        "url": "https://youtube.com/watch?v=I1CCufDDmgc"
       },
       {
         "started_at": "2026-08-19T07:01:34Z",
@@ -1156,14 +1158,14 @@
       "predicted_range": "107-1,275",
       "predicted_low": 107,
       "predicted_high": 1275,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 179,
+      "measured_at": "2026-08-19T13:08:17Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -52,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate": 1.12,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1176,7 +1178,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1193,7 +1195,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-19T13:08:17Z",
+          "actual_views": 179
+        }
+      ],
       "reuse": null
     },
     {
@@ -1209,8 +1216,8 @@
       "predicted_low": 124,
       "predicted_high": 1480,
       "actual_views": 591,
-      "measured_at": "2026-08-19T11:57:57Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-19T13:08:17Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": 38,
       "likes": 19,
@@ -1255,6 +1262,10 @@
         {
           "measured_at": "2026-08-19T11:57:57Z",
           "actual_views": 591
+        },
+        {
+          "measured_at": "2026-08-19T13:08:17Z",
+          "actual_views": 591
         }
       ],
       "reuse": null
@@ -1272,8 +1283,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 43,
-      "measured_at": "2026-08-19T11:57:56Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-19T13:08:16Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -93,
       "likes": 0,
@@ -1318,6 +1329,10 @@
         {
           "measured_at": "2026-08-19T11:57:56Z",
           "actual_views": 43
+        },
+        {
+          "measured_at": "2026-08-19T13:08:16Z",
+          "actual_views": 43
         }
       ],
       "reuse": null
@@ -1335,8 +1350,8 @@
       "predicted_low": 152,
       "predicted_high": 1814,
       "actual_views": 228,
-      "measured_at": "2026-08-19T11:57:55Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-19T13:08:16Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -57,
       "likes": 3,
@@ -1389,6 +1404,10 @@
         {
           "measured_at": "2026-08-19T11:57:55Z",
           "actual_views": 228
+        },
+        {
+          "measured_at": "2026-08-19T13:08:16Z",
+          "actual_views": 228
         }
       ],
       "reuse": null
@@ -1406,8 +1425,8 @@
       "predicted_low": 166,
       "predicted_high": 1993,
       "actual_views": 438,
-      "measured_at": "2026-08-19T11:57:55Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-19T13:08:15Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -24,
       "likes": 3,
@@ -1472,6 +1491,10 @@
         {
           "measured_at": "2026-08-19T11:57:55Z",
           "actual_views": 438
+        },
+        {
+          "measured_at": "2026-08-19T13:08:15Z",
+          "actual_views": 438
         }
       ],
       "reuse": null
@@ -1489,8 +1512,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 608,
-      "measured_at": "2026-08-19T11:57:54Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-19T13:08:14Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
@@ -1563,6 +1586,10 @@
         {
           "measured_at": "2026-08-19T11:57:54Z",
           "actual_views": 608
+        },
+        {
+          "measured_at": "2026-08-19T13:08:14Z",
+          "actual_views": 608
         }
       ],
       "reuse": null
@@ -1580,8 +1607,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 235,
-      "measured_at": "2026-08-19T11:57:54Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-19T13:08:14Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -61,
       "likes": 5,
@@ -1662,6 +1689,10 @@
         {
           "measured_at": "2026-08-19T11:57:54Z",
           "actual_views": 235
+        },
+        {
+          "measured_at": "2026-08-19T13:08:14Z",
+          "actual_views": 235
         }
       ],
       "reuse": null
@@ -1679,8 +1710,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 755,
-      "measured_at": "2026-08-19T11:57:53Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-19T13:08:13Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
@@ -1774,6 +1805,10 @@
         },
         {
           "measured_at": "2026-08-19T11:57:53Z",
+          "actual_views": 755
+        },
+        {
+          "measured_at": "2026-08-19T13:08:13Z",
           "actual_views": 755
         }
       ],
