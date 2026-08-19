@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T21:38:10.875276Z",
+  "generated_at": "2026-08-19T00:54:05.589678Z",
   "next_runs": [
     "2026-08-19T01:07:00Z",
     "2026-08-19T06:07:00Z",
     "2026-08-19T11:07:00Z"
   ],
   "summary": {
-    "videos": 69,
+    "videos": 71,
     "total_views": 42562,
     "total_likes": 791,
     "total_comments": 15,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.087
   },
   "quota": {
-    "units_used": 181,
+    "units_used": 182,
     "daily_cap": 10000,
-    "remaining": 9819,
-    "upload_slots_used": 3,
+    "remaining": 9818,
+    "upload_slots_used": 5,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -923,193 +923,114 @@
     }
   ],
   "last_run": {
-    "available": true,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "schedule",
-    "created_at": "2026-08-18T16:39:07Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32161429669",
-    "last_successful_step": "Complete job",
-    "failed_step": null
+    "available": false
   },
   "ci": {
-    "available": true,
-    "used_minutes": 1557.0,
-    "budget_minutes": 2000,
-    "percent_used": 77.8,
-    "runs_counted": 172,
-    "per_workflow_minutes": {
-      "daily.yml": 1094.5,
-      "followup.yml": 462.5
-    },
-    "measurement_source": "run_duration",
-    "month_start": "2026-08-01"
+    "available": false
   },
   "failures": {
-    "available": true,
-    "failures": [
-      {
-        "workflow": "daily.yml",
-        "run_id": 32046353701,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32046353701",
-        "created_at": "2026-08-17T16:36:06Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 32025585021,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32025585021",
-        "created_at": "2026-08-17T11:34:34Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 32004825627,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
-        "created_at": "2026-08-17T07:12:58Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31987764872,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
-        "created_at": "2026-08-17T02:22:04Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31958959073,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
-        "created_at": "2026-08-16T16:33:32Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31944421780,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
-        "created_at": "2026-08-16T11:28:32Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31932620378,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
-        "created_at": "2026-08-16T06:56:08Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31921793506,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
-        "created_at": "2026-08-16T02:23:50Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31895811937,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31895811937",
-        "created_at": "2026-08-15T16:33:03Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31882142922,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31882142922",
-        "created_at": "2026-08-15T11:28:56Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      }
-    ]
+    "available": false,
+    "failures": []
   },
   "scheduled_uploads": {
-    "available": true,
-    "published_24h": 5,
-    "expected_24h": 5,
-    "slots": [
-      {
-        "started_at": "2026-08-18T16:39:07Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32161429669",
-        "title": "The 2,000-Year-Old Forts Melted Into Solid Glass",
-        "video_id": "E3ZRYi2YUZc",
-        "url": "https://youtube.com/watch?v=E3ZRYi2YUZc"
-      },
-      {
-        "started_at": "2026-08-18T11:34:08Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32132368687",
-        "title": "The Mystery of Japan's Underwater Crop Circles",
-        "video_id": "46o1TfLNIls",
-        "url": "https://youtube.com/watch?v=46o1TfLNIls"
-      },
-      {
-        "started_at": "2026-08-18T07:00:09Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32109385096",
-        "title": "The 1898 Ship That Vanished Inside London",
-        "video_id": "fZjKNuHyzsQ",
-        "url": "https://youtube.com/watch?v=fZjKNuHyzsQ"
-      },
-      {
-        "started_at": "2026-08-18T02:18:07Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32091343364",
-        "title": "The Strange Phenomenon of the Singing Sands",
-        "video_id": "vUYjX1vFYAI",
-        "url": "https://youtube.com/watch?v=vUYjX1vFYAI"
-      },
-      {
-        "started_at": "2026-08-18T01:13:39Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32087451818",
-        "title": "The 1935 Mystery of the Burning Pilot",
-        "video_id": "EIFrkYJo2VI",
-        "url": "https://youtube.com/watch?v=EIFrkYJo2VI"
-      },
-      {
-        "started_at": "2026-08-17T16:36:06Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32046353701",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-17T11:34:34Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32025585021",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-17T07:12:58Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-17T02:22:04Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
-        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "started_at": "2026-08-16T16:33:32Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-16T11:28:32Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-16T06:56:08Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
-        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      }
-    ]
+    "available": false,
+    "published_24h": 0,
+    "expected_24h": 0,
+    "slots": []
   },
   "videos": [
+    {
+      "n": 71,
+      "video_id": "8ciIGsPAT54",
+      "title": "Why Caesar Locked a Weed in Rome's Gold Vault",
+      "url": "https://youtube.com/watch?v=8ciIGsPAT54",
+      "uploaded_at": "2026-08-19T00:54:05Z",
+      "topic": "Silphium",
+      "hook": "",
+      "predicted_views": 429,
+      "predicted_range": "124-1,480",
+      "predicted_low": 124,
+      "predicted_high": 1480,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 70,
+      "video_id": "PBdJxbjUDwQ",
+      "title": "The Secret 18-Story City Found Behind a Basement Wall",
+      "url": "https://youtube.com/watch?v=PBdJxbjUDwQ",
+      "uploaded_at": "2026-08-19T00:50:00Z",
+      "topic": "Derinkuyu",
+      "hook": "",
+      "predicted_views": 606,
+      "predicted_range": "175-2,103",
+      "predicted_low": 175,
+      "predicted_high": 2103,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": null,
+        "checked": null,
+        "contradicted": null,
+        "misleading": null,
+        "resolution_grounded": null,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 69,
       "video_id": "E3ZRYi2YUZc",
