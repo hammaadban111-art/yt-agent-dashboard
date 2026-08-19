@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T09:49:08.683730Z",
+  "generated_at": "2026-08-19T11:57:57.218628Z",
   "next_runs": [
-    "2026-08-19T11:07:00Z",
     "2026-08-19T16:07:00Z",
-    "2026-08-20T01:07:00Z"
+    "2026-08-20T01:07:00Z",
+    "2026-08-20T06:07:00Z"
   ],
   "summary": {
-    "videos": 72,
-    "total_views": 43431,
+    "videos": 73,
+    "total_views": 43453,
     "total_likes": 815,
     "total_comments": 15,
     "mean_abs_pct_error": 46.9,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.082
   },
   "quota": {
-    "units_used": 29,
+    "units_used": 44,
     "daily_cap": 10000,
-    "remaining": 9971,
-    "upload_slots_used": 1,
+    "remaining": 9956,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -924,23 +924,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-19T07:01:34Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32225928520",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-19T11:33:56Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32248202249",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1619.0,
+    "used_minutes": 1620.2,
     "budget_minutes": 2000,
     "percent_used": 81.0,
-    "runs_counted": 174,
+    "runs_counted": 175,
     "per_workflow_minutes": {
       "daily.yml": 1155.7,
-      "followup.yml": 463.3
+      "followup.yml": 464.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1003,21 +1003,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
         "created_at": "2026-08-16T06:56:08Z",
         "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31921793506,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
-        "created_at": "2026-08-16T02:23:50Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-19T11:33:56Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32248202249",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-19T07:01:34Z",
         "state": "published",
@@ -1095,16 +1094,56 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
         "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "started_at": "2026-08-16T16:33:32Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
   "videos": [
+    {
+      "n": 73,
+      "video_id": "I1CCufDDmgc",
+      "title": "The 1948 Mystery of the Vanishing Flight 19",
+      "url": "https://youtube.com/watch?v=I1CCufDDmgc",
+      "uploaded_at": "2026-08-19T11:57:52Z",
+      "topic": "Flight 19",
+      "hook": "Fourteen men walked into the Florida sky and never returned.",
+      "predicted_views": 369,
+      "predicted_range": "107-1,268",
+      "predicted_low": 107,
+      "predicted_high": 1268,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 1,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 72,
       "video_id": "4wToYfy0DJo",
@@ -1170,8 +1209,8 @@
       "predicted_low": 124,
       "predicted_high": 1480,
       "actual_views": 591,
-      "measured_at": "2026-08-19T09:49:08Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-19T11:57:57Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": 38,
       "likes": 19,
@@ -1212,6 +1251,10 @@
         {
           "measured_at": "2026-08-19T09:49:08Z",
           "actual_views": 591
+        },
+        {
+          "measured_at": "2026-08-19T11:57:57Z",
+          "actual_views": 591
         }
       ],
       "reuse": null
@@ -1228,11 +1271,11 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 34,
-      "measured_at": "2026-08-19T09:49:08Z",
-      "measurement_count": 3,
+      "actual_views": 43,
+      "measured_at": "2026-08-19T11:57:56Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -94,
+      "error_pct": -93,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1271,6 +1314,10 @@
         {
           "measured_at": "2026-08-19T09:49:08Z",
           "actual_views": 34
+        },
+        {
+          "measured_at": "2026-08-19T11:57:56Z",
+          "actual_views": 43
         }
       ],
       "reuse": null
@@ -1287,14 +1334,14 @@
       "predicted_range": "152-1,814",
       "predicted_low": 152,
       "predicted_high": 1814,
-      "actual_views": 224,
-      "measured_at": "2026-08-19T09:49:07Z",
-      "measurement_count": 5,
+      "actual_views": 228,
+      "measured_at": "2026-08-19T11:57:55Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -57,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.34,
+      "engagement_rate": 1.32,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1338,6 +1385,10 @@
         {
           "measured_at": "2026-08-19T09:49:07Z",
           "actual_views": 224
+        },
+        {
+          "measured_at": "2026-08-19T11:57:55Z",
+          "actual_views": 228
         }
       ],
       "reuse": null
@@ -1354,14 +1405,14 @@
       "predicted_range": "166-1,993",
       "predicted_low": 166,
       "predicted_high": 1993,
-      "actual_views": 430,
-      "measured_at": "2026-08-19T09:49:06Z",
-      "measurement_count": 8,
+      "actual_views": 438,
+      "measured_at": "2026-08-19T11:57:55Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
-      "error_pct": -25,
+      "error_pct": -24,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 0.7,
+      "engagement_rate": 0.68,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1417,6 +1468,10 @@
         {
           "measured_at": "2026-08-19T09:49:06Z",
           "actual_views": 430
+        },
+        {
+          "measured_at": "2026-08-19T11:57:55Z",
+          "actual_views": 438
         }
       ],
       "reuse": null
@@ -1433,14 +1488,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 606,
-      "measured_at": "2026-08-19T09:49:06Z",
-      "measurement_count": 10,
+      "actual_views": 608,
+      "measured_at": "2026-08-19T11:57:54Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 0.83,
+      "engagement_rate": 0.82,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1504,6 +1559,10 @@
         {
           "measured_at": "2026-08-19T09:49:06Z",
           "actual_views": 606
+        },
+        {
+          "measured_at": "2026-08-19T11:57:54Z",
+          "actual_views": 608
         }
       ],
       "reuse": null
@@ -1520,14 +1579,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 233,
-      "measured_at": "2026-08-19T09:49:05Z",
-      "measurement_count": 12,
+      "actual_views": 235,
+      "measured_at": "2026-08-19T11:57:54Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": -62,
+      "error_pct": -61,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 2.15,
+      "engagement_rate": 2.13,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1599,6 +1658,10 @@
         {
           "measured_at": "2026-08-19T09:49:05Z",
           "actual_views": 233
+        },
+        {
+          "measured_at": "2026-08-19T11:57:54Z",
+          "actual_views": 235
         }
       ],
       "reuse": null
@@ -1615,9 +1678,9 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 758,
-      "measured_at": "2026-08-19T09:49:05Z",
-      "measurement_count": 14,
+      "actual_views": 755,
+      "measured_at": "2026-08-19T11:57:53Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
@@ -1708,6 +1771,10 @@
         {
           "measured_at": "2026-08-19T09:49:05Z",
           "actual_views": 758
+        },
+        {
+          "measured_at": "2026-08-19T11:57:53Z",
+          "actual_views": 755
         }
       ],
       "reuse": null
