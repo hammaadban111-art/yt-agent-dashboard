@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-19T03:58:54.302553Z",
+  "generated_at": "2026-08-19T07:15:27.830371Z",
   "next_runs": [
-    "2026-08-19T06:07:00Z",
     "2026-08-19T11:07:00Z",
-    "2026-08-19T16:07:00Z"
+    "2026-08-19T16:07:00Z",
+    "2026-08-20T01:07:00Z"
   ],
   "summary": {
-    "videos": 71,
-    "total_views": 42786,
-    "total_likes": 795,
+    "videos": 72,
+    "total_views": 43256,
+    "total_likes": 815,
     "total_comments": 15,
-    "mean_abs_pct_error": 47.9,
-    "measured_videos": 69,
+    "mean_abs_pct_error": 46.9,
+    "measured_videos": 71,
     "days_of_history": 20,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 13,
-    "mean_drop_at": 0.127,
-    "mean_drop_size": 0.086
+    "n": 11,
+    "mean_drop_at": 0.12,
+    "mean_drop_size": 0.082
   },
   "quota": {
-    "units_used": 204,
+    "units_used": 14,
     "daily_cap": 10000,
-    "remaining": 9796,
-    "upload_slots_used": 5,
+    "remaining": 9986,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -924,23 +924,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "cancelled",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-19T02:21:24Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-19T07:01:34Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32225928520",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1589.1,
+    "used_minutes": 1589.4,
     "budget_minutes": 2000,
     "percent_used": 79.5,
     "runs_counted": 173,
     "per_workflow_minutes": {
       "daily.yml": 1139.8,
-      "followup.yml": 449.3
+      "followup.yml": 449.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1010,21 +1010,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31921793506",
         "created_at": "2026-08-16T02:23:50Z",
         "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31895811937,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31895811937",
-        "created_at": "2026-08-15T16:33:03Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-19T07:01:34Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32225928520",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-19T02:21:24Z",
         "state": "uploaded_no_record",
@@ -1100,16 +1099,62 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
         "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-16T11:28:32Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
   "videos": [
+    {
+      "n": 72,
+      "video_id": "4wToYfy0DJo",
+      "title": "The Civil War Mystery of Angel's Glow",
+      "url": "https://youtube.com/watch?v=4wToYfy0DJo",
+      "uploaded_at": "2026-08-19T07:15:20Z",
+      "topic": "Angel's Glow",
+      "hook": "Wounded Civil War soldiers suddenly began glowing in the dark.",
+      "predicted_views": 370,
+      "predicted_range": "107-1,275",
+      "predicted_low": 107,
+      "predicted_high": 1275,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "pexels",
+          "detail": "segment 1 query 'bioluminescent blue glow dark field' failed: HTTPError: 503 Server Error: Service Unavailable for url: https://api.pexels.com/videos/search?query=glowing+blue+light&orientation=portrait&per_page=15",
+          "fallback": "used generic query 'dark atmospheric background'"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 71,
       "video_id": "8ciIGsPAT54",
@@ -1122,14 +1167,14 @@
       "predicted_range": "124-1,480",
       "predicted_low": 124,
       "predicted_high": 1480,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 431,
+      "measured_at": "2026-08-19T07:15:27Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": 0,
+      "likes": 19,
+      "comments": 0,
+      "engagement_rate": 4.41,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1142,7 +1187,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1153,7 +1198,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-19T07:15:27Z",
+          "actual_views": 431
+        }
+      ],
       "reuse": null
     },
     {
@@ -1168,14 +1218,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 32,
+      "measured_at": "2026-08-19T07:15:26Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -95,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1188,7 +1238,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1199,7 +1249,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-19T07:15:26Z",
+          "actual_views": 32
+        }
+      ],
       "reuse": null
     },
     {
@@ -1215,8 +1270,8 @@
       "predicted_low": 152,
       "predicted_high": 1814,
       "actual_views": 212,
-      "measured_at": "2026-08-19T03:58:54Z",
-      "measurement_count": 2,
+      "measured_at": "2026-08-19T07:15:25Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -60,
       "likes": 3,
@@ -1253,6 +1308,10 @@
         {
           "measured_at": "2026-08-19T03:58:54Z",
           "actual_views": 212
+        },
+        {
+          "measured_at": "2026-08-19T07:15:25Z",
+          "actual_views": 212
         }
       ],
       "reuse": null
@@ -1269,14 +1328,14 @@
       "predicted_range": "166-1,993",
       "predicted_low": 166,
       "predicted_high": 1993,
-      "actual_views": 422,
-      "measured_at": "2026-08-19T03:58:53Z",
-      "measurement_count": 5,
+      "actual_views": 430,
+      "measured_at": "2026-08-19T07:15:24Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": -27,
+      "error_pct": -25,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 0.71,
+      "engagement_rate": 0.7,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1320,6 +1379,10 @@
         {
           "measured_at": "2026-08-19T03:58:53Z",
           "actual_views": 422
+        },
+        {
+          "measured_at": "2026-08-19T07:15:24Z",
+          "actual_views": 430
         }
       ],
       "reuse": null
@@ -1337,8 +1400,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 606,
-      "measured_at": "2026-08-19T03:58:52Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-19T07:15:23Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
@@ -1395,6 +1458,10 @@
         {
           "measured_at": "2026-08-19T03:58:52Z",
           "actual_views": 606
+        },
+        {
+          "measured_at": "2026-08-19T07:15:23Z",
+          "actual_views": 606
         }
       ],
       "reuse": null
@@ -1411,14 +1478,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 233,
-      "measured_at": "2026-08-19T03:58:51Z",
-      "measurement_count": 9,
+      "actual_views": 231,
+      "measured_at": "2026-08-19T07:15:22Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -62,
-      "likes": 4,
+      "likes": 5,
       "comments": 0,
-      "engagement_rate": 1.72,
+      "engagement_rate": 2.16,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1478,6 +1545,10 @@
         {
           "measured_at": "2026-08-19T03:58:51Z",
           "actual_views": 233
+        },
+        {
+          "measured_at": "2026-08-19T07:15:22Z",
+          "actual_views": 231
         }
       ],
       "reuse": null
@@ -1494,14 +1565,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 758,
-      "measured_at": "2026-08-19T03:58:50Z",
-      "measurement_count": 11,
+      "actual_views": 759,
+      "measured_at": "2026-08-19T07:15:21Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
       "comments": 0,
-      "engagement_rate": 1.85,
+      "engagement_rate": 1.84,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1575,6 +1646,10 @@
         {
           "measured_at": "2026-08-19T03:58:50Z",
           "actual_views": 758
+        },
+        {
+          "measured_at": "2026-08-19T07:15:21Z",
+          "actual_views": 759
         }
       ],
       "reuse": null
