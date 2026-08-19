@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T01:53:10.682373Z",
+  "generated_at": "2026-08-19T03:58:54.302553Z",
   "next_runs": [
     "2026-08-19T06:07:00Z",
     "2026-08-19T11:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 71,
-    "total_views": 42781,
+    "total_views": 42786,
     "total_likes": 795,
     "total_comments": 15,
     "mean_abs_pct_error": 47.9,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 193,
+    "units_used": 204,
     "daily_cap": 10000,
-    "remaining": 9807,
+    "remaining": 9796,
     "upload_slots_used": 5,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 53
+    "subscriber_count": 54
   },
   "spotlight": {
     "best": {
@@ -925,22 +925,22 @@
   "last_run": {
     "available": true,
     "status": "completed",
-    "conclusion": "success",
+    "conclusion": "cancelled",
     "event": "schedule",
-    "created_at": "2026-08-18T16:39:07Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32161429669",
+    "created_at": "2026-08-19T02:21:24Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
     "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1543.7,
+    "used_minutes": 1589.1,
     "budget_minutes": 2000,
-    "percent_used": 77.2,
-    "runs_counted": 172,
+    "percent_used": 79.5,
+    "runs_counted": 173,
     "per_workflow_minutes": {
-      "daily.yml": 1094.5,
-      "followup.yml": 449.2
+      "daily.yml": 1139.8,
+      "followup.yml": 449.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -948,6 +948,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 32208257623,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
+        "created_at": "2026-08-19T02:21:24Z",
+        "error": "Install ffmpeg: This run was cancelled."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 32046353701,
@@ -1010,21 +1017,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31895811937",
         "created_at": "2026-08-15T16:33:03Z",
         "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31882142922,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31882142922",
-        "created_at": "2026-08-15T11:28:56Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-19T02:21:24Z",
+        "state": "uploaded_no_record",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
+        "reason": "The video was uploaded, but saving its record failed - it is probably live on the channel without appearing here. scripts/backfill_orphan_records.py rebuilds the record."
+      },
       {
         "started_at": "2026-08-18T16:39:07Z",
         "state": "published",
@@ -1100,12 +1106,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
         "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-16T06:56:08Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31932620378",
-        "reason": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
@@ -1214,14 +1214,14 @@
       "predicted_range": "152-1,814",
       "predicted_low": 152,
       "predicted_high": 1814,
-      "actual_views": 210,
-      "measured_at": "2026-08-19T01:53:10Z",
-      "measurement_count": 1,
+      "actual_views": 212,
+      "measured_at": "2026-08-19T03:58:54Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -60,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.43,
+      "engagement_rate": 1.42,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1249,6 +1249,10 @@
         {
           "measured_at": "2026-08-19T01:53:10Z",
           "actual_views": 210
+        },
+        {
+          "measured_at": "2026-08-19T03:58:54Z",
+          "actual_views": 212
         }
       ],
       "reuse": null
@@ -1265,9 +1269,9 @@
       "predicted_range": "166-1,993",
       "predicted_low": 166,
       "predicted_high": 1993,
-      "actual_views": 420,
-      "measured_at": "2026-08-19T01:53:10Z",
-      "measurement_count": 4,
+      "actual_views": 422,
+      "measured_at": "2026-08-19T03:58:53Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -27,
       "likes": 3,
@@ -1312,6 +1316,10 @@
         {
           "measured_at": "2026-08-19T01:53:10Z",
           "actual_views": 420
+        },
+        {
+          "measured_at": "2026-08-19T03:58:53Z",
+          "actual_views": 422
         }
       ],
       "reuse": null
@@ -1329,8 +1337,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 606,
-      "measured_at": "2026-08-19T01:53:09Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-19T03:58:52Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
@@ -1383,6 +1391,10 @@
         {
           "measured_at": "2026-08-19T01:53:09Z",
           "actual_views": 606
+        },
+        {
+          "measured_at": "2026-08-19T03:58:52Z",
+          "actual_views": 606
         }
       ],
       "reuse": null
@@ -1400,8 +1412,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 233,
-      "measured_at": "2026-08-19T01:53:09Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-19T03:58:51Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -62,
       "likes": 4,
@@ -1462,6 +1474,10 @@
         {
           "measured_at": "2026-08-19T01:53:09Z",
           "actual_views": 233
+        },
+        {
+          "measured_at": "2026-08-19T03:58:51Z",
+          "actual_views": 233
         }
       ],
       "reuse": null
@@ -1478,9 +1494,9 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 757,
-      "measured_at": "2026-08-19T01:53:08Z",
-      "measurement_count": 10,
+      "actual_views": 758,
+      "measured_at": "2026-08-19T03:58:50Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
@@ -1555,6 +1571,10 @@
         {
           "measured_at": "2026-08-19T01:53:08Z",
           "actual_views": 757
+        },
+        {
+          "measured_at": "2026-08-19T03:58:50Z",
+          "actual_views": 758
         }
       ],
       "reuse": null
