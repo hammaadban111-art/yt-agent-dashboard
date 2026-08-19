@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T07:17:50.483324Z",
+  "generated_at": "2026-08-19T09:49:08.683730Z",
   "next_runs": [
     "2026-08-19T11:07:00Z",
     "2026-08-19T16:07:00Z",
     "2026-08-20T01:07:00Z"
   ],
   "summary": {
-    "videos": 71,
-    "total_views": 43268,
+    "videos": 72,
+    "total_views": 43431,
     "total_likes": 815,
     "total_comments": 15,
     "mean_abs_pct_error": 46.9,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.082
   },
   "quota": {
-    "units_used": 14,
+    "units_used": 29,
     "daily_cap": 10000,
-    "remaining": 9986,
-    "upload_slots_used": 0,
+    "remaining": 9971,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -934,13 +934,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1605.3,
+    "used_minutes": 1619.0,
     "budget_minutes": 2000,
-    "percent_used": 80.3,
+    "percent_used": 81.0,
     "runs_counted": 174,
     "per_workflow_minutes": {
       "daily.yml": 1155.7,
-      "followup.yml": 449.6
+      "followup.yml": 463.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1015,14 +1015,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-19T07:01:34Z",
-        "state": "not_uploaded",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32225928520",
-        "reason": "The run finished successfully but did not publish a video."
+        "title": "The Civil War Mystery of Angel's Glow",
+        "video_id": "4wToYfy0DJo",
+        "url": "https://youtube.com/watch?v=4wToYfy0DJo"
       },
       {
         "started_at": "2026-08-19T02:21:24Z",
@@ -1104,6 +1106,58 @@
   },
   "videos": [
     {
+      "n": 72,
+      "video_id": "4wToYfy0DJo",
+      "title": "The Civil War Mystery of Angel's Glow",
+      "url": "https://youtube.com/watch?v=4wToYfy0DJo",
+      "uploaded_at": "2026-08-19T07:15:20Z",
+      "topic": "Angel's Glow",
+      "hook": "Wounded Civil War soldiers suddenly began glowing in the dark.",
+      "predicted_views": 370,
+      "predicted_range": "107-1,275",
+      "predicted_low": 107,
+      "predicted_high": 1275,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "pexels",
+          "detail": "segment 1 query 'bioluminescent blue glow dark field' failed: HTTPError: 503 Server Error: Service Unavailable for url: https://api.pexels.com/videos/search?query=glowing+blue+light&orientation=portrait&per_page=15",
+          "fallback": "used generic query 'dark atmospheric background'"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
       "n": 71,
       "video_id": "8ciIGsPAT54",
       "title": "Why Caesar Locked a Weed in Rome's Gold Vault",
@@ -1115,14 +1169,14 @@
       "predicted_range": "124-1,480",
       "predicted_low": 124,
       "predicted_high": 1480,
-      "actual_views": 431,
-      "measured_at": "2026-08-19T07:17:50Z",
-      "measurement_count": 1,
+      "actual_views": 591,
+      "measured_at": "2026-08-19T09:49:08Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": 0,
+      "error_pct": 38,
       "likes": 19,
       "comments": 0,
-      "engagement_rate": 4.41,
+      "engagement_rate": 3.21,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1148,8 +1202,16 @@
       "replaced_by": null,
       "history": [
         {
+          "measured_at": "2026-08-19T07:15:27Z",
+          "actual_views": 431
+        },
+        {
           "measured_at": "2026-08-19T07:17:50Z",
           "actual_views": 431
+        },
+        {
+          "measured_at": "2026-08-19T09:49:08Z",
+          "actual_views": 591
         }
       ],
       "reuse": null
@@ -1166,11 +1228,11 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 32,
-      "measured_at": "2026-08-19T07:17:49Z",
-      "measurement_count": 1,
+      "actual_views": 34,
+      "measured_at": "2026-08-19T09:49:08Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -95,
+      "error_pct": -94,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1199,8 +1261,16 @@
       "replaced_by": null,
       "history": [
         {
+          "measured_at": "2026-08-19T07:15:26Z",
+          "actual_views": 32
+        },
+        {
           "measured_at": "2026-08-19T07:17:49Z",
           "actual_views": 32
+        },
+        {
+          "measured_at": "2026-08-19T09:49:08Z",
+          "actual_views": 34
         }
       ],
       "reuse": null
@@ -1218,8 +1288,8 @@
       "predicted_low": 152,
       "predicted_high": 1814,
       "actual_views": 224,
-      "measured_at": "2026-08-19T07:17:48Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-19T09:49:07Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -57,
       "likes": 3,
@@ -1258,7 +1328,15 @@
           "actual_views": 212
         },
         {
+          "measured_at": "2026-08-19T07:15:25Z",
+          "actual_views": 212
+        },
+        {
           "measured_at": "2026-08-19T07:17:48Z",
+          "actual_views": 224
+        },
+        {
+          "measured_at": "2026-08-19T09:49:07Z",
           "actual_views": 224
         }
       ],
@@ -1277,8 +1355,8 @@
       "predicted_low": 166,
       "predicted_high": 1993,
       "actual_views": 430,
-      "measured_at": "2026-08-19T07:17:47Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-19T09:49:06Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -25,
       "likes": 3,
@@ -1329,7 +1407,15 @@
           "actual_views": 422
         },
         {
+          "measured_at": "2026-08-19T07:15:24Z",
+          "actual_views": 430
+        },
+        {
           "measured_at": "2026-08-19T07:17:47Z",
+          "actual_views": 430
+        },
+        {
+          "measured_at": "2026-08-19T09:49:06Z",
           "actual_views": 430
         }
       ],
@@ -1348,8 +1434,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 606,
-      "measured_at": "2026-08-19T07:17:46Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-19T09:49:06Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
@@ -1408,7 +1494,15 @@
           "actual_views": 606
         },
         {
+          "measured_at": "2026-08-19T07:15:23Z",
+          "actual_views": 606
+        },
+        {
           "measured_at": "2026-08-19T07:17:46Z",
+          "actual_views": 606
+        },
+        {
+          "measured_at": "2026-08-19T09:49:06Z",
           "actual_views": 606
         }
       ],
@@ -1426,14 +1520,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 231,
-      "measured_at": "2026-08-19T07:17:45Z",
-      "measurement_count": 10,
+      "actual_views": 233,
+      "measured_at": "2026-08-19T09:49:05Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -62,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 2.16,
+      "engagement_rate": 2.15,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1495,8 +1589,16 @@
           "actual_views": 233
         },
         {
+          "measured_at": "2026-08-19T07:15:22Z",
+          "actual_views": 231
+        },
+        {
           "measured_at": "2026-08-19T07:17:45Z",
           "actual_views": 231
+        },
+        {
+          "measured_at": "2026-08-19T09:49:05Z",
+          "actual_views": 233
         }
       ],
       "reuse": null
@@ -1513,14 +1615,14 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 759,
-      "measured_at": "2026-08-19T07:17:44Z",
-      "measurement_count": 12,
+      "actual_views": 758,
+      "measured_at": "2026-08-19T09:49:05Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
       "comments": 0,
-      "engagement_rate": 1.84,
+      "engagement_rate": 1.85,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1596,8 +1698,16 @@
           "actual_views": 758
         },
         {
+          "measured_at": "2026-08-19T07:15:21Z",
+          "actual_views": 759
+        },
+        {
           "measured_at": "2026-08-19T07:17:44Z",
           "actual_views": 759
+        },
+        {
+          "measured_at": "2026-08-19T09:49:05Z",
+          "actual_views": 758
         }
       ],
       "reuse": null
