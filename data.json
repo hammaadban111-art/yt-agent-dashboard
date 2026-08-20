@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-20T07:27:23.378608Z",
+  "generated_at": "2026-08-20T09:50:08.330091Z",
   "next_runs": [
     "2026-08-20T11:07:00Z",
     "2026-08-20T16:07:00Z",
     "2026-08-21T01:07:00Z"
   ],
   "summary": {
-    "videos": 75,
-    "total_views": 44565,
-    "total_likes": 828,
+    "videos": 76,
+    "total_views": 44681,
+    "total_likes": 830,
     "total_comments": 16,
-    "mean_abs_pct_error": 49.3,
-    "measured_videos": 74,
+    "mean_abs_pct_error": 52.6,
+    "measured_videos": 75,
     "days_of_history": 21,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 8,
+    "n": 7,
     "mean_drop_at": 0.126,
-    "mean_drop_size": 0.074
+    "mean_drop_size": 0.079
   },
   "quota": {
-    "units_used": 14,
+    "units_used": 31,
     "daily_cap": 10000,
-    "remaining": 9986,
-    "upload_slots_used": 0,
+    "remaining": 9969,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -942,13 +942,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1728.8,
+    "used_minutes": 1750.3,
     "budget_minutes": 2000,
-    "percent_used": 86.4,
+    "percent_used": 87.5,
     "runs_counted": 178,
     "per_workflow_minutes": {
       "daily.yml": 1262.3,
-      "followup.yml": 466.5
+      "followup.yml": 487.9
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -995,14 +995,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 4,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-20T07:02:03Z",
-        "state": "not_uploaded",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32342146752",
-        "reason": "The run finished successfully but did not publish a video."
+        "title": "The Mystery Ocean Sound Louder Than a Blue Whale",
+        "video_id": "H1fBnvkjF7w",
+        "url": "https://youtube.com/watch?v=H1fBnvkjF7w"
       },
       {
         "started_at": "2026-08-20T02:19:56Z",
@@ -1092,13 +1094,13 @@
   },
   "videos": [
     {
-      "n": 75,
-      "video_id": "L77ebYRaJkg",
-      "title": "The Ghost Ships That Sailed Out of a Desert",
-      "url": "https://youtube.com/watch?v=L77ebYRaJkg",
-      "uploaded_at": "2026-08-20T02:36:41Z",
-      "topic": "Salton Sea history",
-      "hook": "An ocean liner sits rotting in the middle of a desert.",
+      "n": 76,
+      "video_id": "H1fBnvkjF7w",
+      "title": "The Mystery Ocean Sound Louder Than a Blue Whale",
+      "url": "https://youtube.com/watch?v=H1fBnvkjF7w",
+      "uploaded_at": "2026-08-20T07:25:40Z",
+      "topic": "The Bloop",
+      "hook": "Sensors thousands of miles apart suddenly recorded the exact same noise.",
       "predicted_views": 416,
       "predicted_range": "121-1,425",
       "predicted_low": 121,
@@ -1117,7 +1119,7 @@
         "status": "checked",
         "checked": 5,
         "contradicted": 0,
-        "misleading": 0,
+        "misleading": 1,
         "resolution_grounded": true,
         "unverified_source": false
       },
@@ -1129,12 +1131,69 @@
         "biggest_drop_size": null,
         "retention_at_end": null
       },
-      "degradations": [],
+      "degradations": [
+        {
+          "stage": "script-duplicate-topic",
+          "detail": "both attempts returned 'The Bloop', the same subject as the already-published 'The Bloop'",
+          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
+        }
+      ],
       "final": false,
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
       "history": [],
+      "reuse": null
+    },
+    {
+      "n": 75,
+      "video_id": "L77ebYRaJkg",
+      "title": "The Ghost Ships That Sailed Out of a Desert",
+      "url": "https://youtube.com/watch?v=L77ebYRaJkg",
+      "uploaded_at": "2026-08-20T02:36:41Z",
+      "topic": "Salton Sea history",
+      "hook": "An ocean liner sits rotting in the middle of a desert.",
+      "predicted_views": 416,
+      "predicted_range": "121-1,425",
+      "predicted_low": 121,
+      "predicted_high": 1425,
+      "actual_views": 101,
+      "measured_at": "2026-08-20T09:50:08Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": -76,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate": 1.98,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [
+        {
+          "measured_at": "2026-08-20T09:50:08Z",
+          "actual_views": 101
+        }
+      ],
       "reuse": null
     },
     {
@@ -1150,8 +1209,8 @@
       "predicted_low": 105,
       "predicted_high": 1239,
       "actual_views": 164,
-      "measured_at": "2026-08-20T07:27:23Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-20T09:50:07Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -55,
       "likes": 1,
@@ -1194,7 +1253,15 @@
           "actual_views": 156
         },
         {
+          "measured_at": "2026-08-20T07:25:45Z",
+          "actual_views": 156
+        },
+        {
           "measured_at": "2026-08-20T07:27:23Z",
+          "actual_views": 164
+        },
+        {
+          "measured_at": "2026-08-20T09:50:07Z",
           "actual_views": 164
         }
       ],
@@ -1212,14 +1279,14 @@
       "predicted_range": "107-1,268",
       "predicted_low": 107,
       "predicted_high": 1268,
-      "actual_views": 629,
-      "measured_at": "2026-08-20T07:27:22Z",
-      "measurement_count": 7,
+      "actual_views": 632,
+      "measured_at": "2026-08-20T09:50:06Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
-      "error_pct": 70,
+      "error_pct": 71,
       "likes": 8,
       "comments": 1,
-      "engagement_rate": 1.43,
+      "engagement_rate": 1.42,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1269,8 +1336,16 @@
           "actual_views": 628
         },
         {
+          "measured_at": "2026-08-20T07:25:44Z",
+          "actual_views": 629
+        },
+        {
           "measured_at": "2026-08-20T07:27:22Z",
           "actual_views": 629
+        },
+        {
+          "measured_at": "2026-08-20T09:50:06Z",
+          "actual_views": 632
         }
       ],
       "reuse": null
@@ -1287,14 +1362,14 @@
       "predicted_range": "107-1,275",
       "predicted_low": 107,
       "predicted_high": 1275,
-      "actual_views": 242,
-      "measured_at": "2026-08-20T07:27:22Z",
-      "measurement_count": 9,
+      "actual_views": 244,
+      "measured_at": "2026-08-20T09:50:05Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
-      "error_pct": -35,
+      "error_pct": -34,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.24,
+      "engagement_rate": 1.23,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1358,8 +1433,16 @@
           "actual_views": 240
         },
         {
+          "measured_at": "2026-08-20T07:25:43Z",
+          "actual_views": 242
+        },
+        {
           "measured_at": "2026-08-20T07:27:22Z",
           "actual_views": 242
+        },
+        {
+          "measured_at": "2026-08-20T09:50:05Z",
+          "actual_views": 244
         }
       ],
       "reuse": null
@@ -1376,14 +1459,14 @@
       "predicted_range": "124-1,480",
       "predicted_low": 124,
       "predicted_high": 1480,
-      "actual_views": 605,
-      "measured_at": "2026-08-20T07:27:21Z",
-      "measurement_count": 13,
+      "actual_views": 612,
+      "measured_at": "2026-08-20T09:50:04Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
-      "error_pct": 41,
+      "error_pct": 43,
       "likes": 19,
       "comments": 0,
-      "engagement_rate": 3.14,
+      "engagement_rate": 3.1,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1457,8 +1540,16 @@
           "actual_views": 598
         },
         {
+          "measured_at": "2026-08-20T07:25:43Z",
+          "actual_views": 605
+        },
+        {
           "measured_at": "2026-08-20T07:27:21Z",
           "actual_views": 605
+        },
+        {
+          "measured_at": "2026-08-20T09:50:04Z",
+          "actual_views": 612
         }
       ],
       "reuse": null
@@ -1476,8 +1567,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 54,
-      "measured_at": "2026-08-20T07:27:21Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-20T09:50:03Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -91,
       "likes": 0,
@@ -1556,7 +1647,15 @@
           "actual_views": 53
         },
         {
+          "measured_at": "2026-08-20T07:25:42Z",
+          "actual_views": 54
+        },
+        {
           "measured_at": "2026-08-20T07:27:21Z",
+          "actual_views": 54
+        },
+        {
+          "measured_at": "2026-08-20T09:50:03Z",
           "actual_views": 54
         }
       ],
@@ -1574,14 +1673,14 @@
       "predicted_range": "152-1,814",
       "predicted_low": 152,
       "predicted_high": 1814,
-      "actual_views": 254,
-      "measured_at": "2026-08-20T07:27:20Z",
-      "measurement_count": 15,
+      "actual_views": 256,
+      "measured_at": "2026-08-20T09:50:02Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
-      "error_pct": -52,
+      "error_pct": -51,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.57,
+      "engagement_rate": 1.56,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1663,8 +1762,16 @@
           "actual_views": 253
         },
         {
+          "measured_at": "2026-08-20T07:25:41Z",
+          "actual_views": 254
+        },
+        {
           "measured_at": "2026-08-20T07:27:20Z",
           "actual_views": 254
+        },
+        {
+          "measured_at": "2026-08-20T09:50:02Z",
+          "actual_views": 256
         }
       ],
       "reuse": null
@@ -1681,9 +1788,9 @@
       "predicted_range": "166-1,993",
       "predicted_low": 166,
       "predicted_high": 1993,
-      "actual_views": 461,
-      "measured_at": "2026-08-20T07:27:20Z",
-      "measurement_count": 18,
+      "actual_views": 462,
+      "measured_at": "2026-08-20T09:50:01Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -20,
       "likes": 3,
@@ -1782,8 +1889,16 @@
           "actual_views": 460
         },
         {
+          "measured_at": "2026-08-20T07:25:41Z",
+          "actual_views": 461
+        },
+        {
           "measured_at": "2026-08-20T07:27:20Z",
           "actual_views": 461
+        },
+        {
+          "measured_at": "2026-08-20T09:50:01Z",
+          "actual_views": 462
         }
       ],
       "reuse": null
