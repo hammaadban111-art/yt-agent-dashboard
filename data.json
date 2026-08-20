@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T01:51:47.108692Z",
+  "generated_at": "2026-08-20T02:36:46.959645Z",
   "next_runs": [
     "2026-08-20T06:07:00Z",
     "2026-08-20T11:07:00Z",
     "2026-08-20T16:07:00Z"
   ],
   "summary": {
-    "videos": 74,
+    "videos": 75,
     "total_views": 44539,
     "total_likes": 828,
     "total_comments": 16,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.074
   },
   "quota": {
-    "units_used": 282,
+    "units_used": 301,
     "daily_cap": 10000,
-    "remaining": 9718,
-    "upload_slots_used": 3,
+    "remaining": 9699,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -932,23 +932,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-19T16:38:44Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32277086491",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-20T02:19:56Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32324247381",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1683.7,
+    "used_minutes": 1684.9,
     "budget_minutes": 2000,
     "percent_used": 84.2,
-    "runs_counted": 176,
+    "runs_counted": 177,
     "per_workflow_minutes": {
       "daily.yml": 1218.8,
-      "followup.yml": 465.0
+      "followup.yml": 466.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -997,13 +997,6 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31958959073",
         "created_at": "2026-08-16T16:33:32Z",
         "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31944421780,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31944421780",
-        "created_at": "2026-08-16T11:28:32Z",
-        "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
@@ -1012,6 +1005,12 @@
     "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-20T02:19:56Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32324247381",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-19T16:38:44Z",
         "state": "published",
@@ -1093,16 +1092,56 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32025585021",
         "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "started_at": "2026-08-17T07:12:58Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
   "videos": [
+    {
+      "n": 75,
+      "video_id": "L77ebYRaJkg",
+      "title": "The Ghost Ships That Sailed Out of a Desert",
+      "url": "https://youtube.com/watch?v=L77ebYRaJkg",
+      "uploaded_at": "2026-08-20T02:36:41Z",
+      "topic": "Salton Sea history",
+      "hook": "An ocean liner sits rotting in the middle of a desert.",
+      "predicted_views": 416,
+      "predicted_range": "121-1,425",
+      "predicted_low": 121,
+      "predicted_high": 1425,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 74,
       "video_id": "uy5n3n70nLM",
@@ -1116,8 +1155,8 @@
       "predicted_low": 105,
       "predicted_high": 1239,
       "actual_views": 156,
-      "measured_at": "2026-08-20T01:51:47Z",
-      "measurement_count": 1,
+      "measured_at": "2026-08-20T02:36:46Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -57,
       "likes": 1,
@@ -1150,6 +1189,10 @@
         {
           "measured_at": "2026-08-20T01:51:47Z",
           "actual_views": 156
+        },
+        {
+          "measured_at": "2026-08-20T02:36:46Z",
+          "actual_views": 156
         }
       ],
       "reuse": null
@@ -1167,8 +1210,8 @@
       "predicted_low": 107,
       "predicted_high": 1268,
       "actual_views": 628,
-      "measured_at": "2026-08-20T01:51:46Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-20T02:36:46Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": 70,
       "likes": 8,
@@ -1213,6 +1256,10 @@
         {
           "measured_at": "2026-08-20T01:51:46Z",
           "actual_views": 628
+        },
+        {
+          "measured_at": "2026-08-20T02:36:46Z",
+          "actual_views": 628
         }
       ],
       "reuse": null
@@ -1230,8 +1277,8 @@
       "predicted_low": 107,
       "predicted_high": 1275,
       "actual_views": 240,
-      "measured_at": "2026-08-20T01:51:45Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-20T02:36:45Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -35,
       "likes": 3,
@@ -1290,6 +1337,10 @@
         {
           "measured_at": "2026-08-20T01:51:45Z",
           "actual_views": 240
+        },
+        {
+          "measured_at": "2026-08-20T02:36:45Z",
+          "actual_views": 240
         }
       ],
       "reuse": null
@@ -1307,8 +1358,8 @@
       "predicted_low": 124,
       "predicted_high": 1480,
       "actual_views": 598,
-      "measured_at": "2026-08-20T01:51:45Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-20T02:36:45Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 39,
       "likes": 19,
@@ -1377,6 +1428,10 @@
         {
           "measured_at": "2026-08-20T01:51:45Z",
           "actual_views": 598
+        },
+        {
+          "measured_at": "2026-08-20T02:36:45Z",
+          "actual_views": 598
         }
       ],
       "reuse": null
@@ -1394,8 +1449,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 53,
-      "measured_at": "2026-08-20T01:51:44Z",
-      "measurement_count": 10,
+      "measured_at": "2026-08-20T02:36:44Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -91,
       "likes": 0,
@@ -1464,6 +1519,10 @@
         {
           "measured_at": "2026-08-20T01:51:44Z",
           "actual_views": 53
+        },
+        {
+          "measured_at": "2026-08-20T02:36:44Z",
+          "actual_views": 53
         }
       ],
       "reuse": null
@@ -1481,8 +1540,8 @@
       "predicted_low": 152,
       "predicted_high": 1814,
       "actual_views": 248,
-      "measured_at": "2026-08-20T01:51:44Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-20T02:36:44Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -53,
       "likes": 4,
@@ -1559,6 +1618,10 @@
         {
           "measured_at": "2026-08-20T01:51:44Z",
           "actual_views": 248
+        },
+        {
+          "measured_at": "2026-08-20T02:36:44Z",
+          "actual_views": 248
         }
       ],
       "reuse": null
@@ -1576,8 +1639,8 @@
       "predicted_low": 166,
       "predicted_high": 1993,
       "actual_views": 459,
-      "measured_at": "2026-08-20T01:51:43Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-20T02:36:43Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -20,
       "likes": 3,
@@ -1666,6 +1729,10 @@
         {
           "measured_at": "2026-08-20T01:51:43Z",
           "actual_views": 459
+        },
+        {
+          "measured_at": "2026-08-20T02:36:43Z",
+          "actual_views": 459
         }
       ],
       "reuse": null
@@ -1683,8 +1750,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 608,
-      "measured_at": "2026-08-20T01:51:42Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-20T02:36:43Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 5,
@@ -1781,6 +1848,10 @@
         {
           "measured_at": "2026-08-20T01:51:42Z",
           "actual_views": 608
+        },
+        {
+          "measured_at": "2026-08-20T02:36:43Z",
+          "actual_views": 608
         }
       ],
       "reuse": null
@@ -1798,8 +1869,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 235,
-      "measured_at": "2026-08-20T01:51:42Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-20T02:36:42Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -61,
       "likes": 5,
@@ -1903,6 +1974,10 @@
         },
         {
           "measured_at": "2026-08-20T01:51:42Z",
+          "actual_views": 235
+        },
+        {
+          "measured_at": "2026-08-20T02:36:42Z",
           "actual_views": 235
         }
       ],
