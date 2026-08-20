@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T09:50:08.330091Z",
+  "generated_at": "2026-08-20T11:54:29.852127Z",
   "next_runs": [
-    "2026-08-20T11:07:00Z",
     "2026-08-20T16:07:00Z",
-    "2026-08-21T01:07:00Z"
+    "2026-08-21T01:07:00Z",
+    "2026-08-21T06:07:00Z"
   ],
   "summary": {
-    "videos": 76,
+    "videos": 77,
     "total_views": 44681,
     "total_likes": 830,
     "total_comments": 16,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.079
   },
   "quota": {
-    "units_used": 31,
+    "units_used": 46,
     "daily_cap": 10000,
-    "remaining": 9969,
-    "upload_slots_used": 1,
+    "remaining": 9954,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 55
+    "subscriber_count": 56
   },
   "spotlight": {
     "best": {
@@ -932,23 +932,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-20T07:02:03Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32342146752",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-20T11:35:51Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32364575658",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1750.3,
+    "used_minutes": 1751.8,
     "budget_minutes": 2000,
-    "percent_used": 87.5,
-    "runs_counted": 178,
+    "percent_used": 87.6,
+    "runs_counted": 179,
     "per_workflow_minutes": {
       "daily.yml": 1262.3,
-      "followup.yml": 487.9
+      "followup.yml": 489.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -983,21 +983,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32004825627",
         "created_at": "2026-08-17T07:12:58Z",
         "error": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 31987764872,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/31987764872",
-        "created_at": "2026-08-17T02:22:04Z",
-        "error": "Run agent: The YouTube login expired. Re-run get_refresh_token.py and update the YT_REFRESH_TOKEN secret. (Google expires these every 7 days while the OAuth app is in Testing.)"
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-20T11:35:51Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32364575658",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-20T07:02:03Z",
         "state": "published",
@@ -1083,16 +1082,56 @@
         "title": "The 1935 Mystery of the Burning Pilot",
         "video_id": "EIFrkYJo2VI",
         "url": "https://youtube.com/watch?v=EIFrkYJo2VI"
-      },
-      {
-        "started_at": "2026-08-17T16:36:06Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32046353701",
-        "reason": "Run agent: Google's AI model was overloaded and still refusing after several minutes of retries, so the run stopped before rendering. No video was published for this slot. This is a temporary problem on Google's side, not a fault in the channel."
       }
     ]
   },
   "videos": [
+    {
+      "n": 77,
+      "video_id": "0_fGersAH80",
+      "title": "The Mysterious Sound That Baffled Deep Ocean Scientists",
+      "url": "https://youtube.com/watch?v=0_fGersAH80",
+      "uploaded_at": "2026-08-20T11:54:23Z",
+      "topic": "Bloop acoustic signal",
+      "hook": "Deep ocean hydrophones recorded an impossible, house-shaking roar in 1997.",
+      "predicted_views": 360,
+      "predicted_range": "105-1,232",
+      "predicted_low": 105,
+      "predicted_high": 1232,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 76,
       "video_id": "H1fBnvkjF7w",
@@ -1158,8 +1197,8 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 101,
-      "measured_at": "2026-08-20T09:50:08Z",
-      "measurement_count": 1,
+      "measured_at": "2026-08-20T11:54:29Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -76,
       "likes": 2,
@@ -1192,6 +1231,10 @@
         {
           "measured_at": "2026-08-20T09:50:08Z",
           "actual_views": 101
+        },
+        {
+          "measured_at": "2026-08-20T11:54:29Z",
+          "actual_views": 101
         }
       ],
       "reuse": null
@@ -1209,8 +1252,8 @@
       "predicted_low": 105,
       "predicted_high": 1239,
       "actual_views": 164,
-      "measured_at": "2026-08-20T09:50:07Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-20T11:54:28Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -55,
       "likes": 1,
@@ -1263,6 +1306,10 @@
         {
           "measured_at": "2026-08-20T09:50:07Z",
           "actual_views": 164
+        },
+        {
+          "measured_at": "2026-08-20T11:54:28Z",
+          "actual_views": 164
         }
       ],
       "reuse": null
@@ -1280,8 +1327,8 @@
       "predicted_low": 107,
       "predicted_high": 1268,
       "actual_views": 632,
-      "measured_at": "2026-08-20T09:50:06Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-20T11:54:28Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 71,
       "likes": 8,
@@ -1346,6 +1393,10 @@
         {
           "measured_at": "2026-08-20T09:50:06Z",
           "actual_views": 632
+        },
+        {
+          "measured_at": "2026-08-20T11:54:28Z",
+          "actual_views": 632
         }
       ],
       "reuse": null
@@ -1363,8 +1414,8 @@
       "predicted_low": 107,
       "predicted_high": 1275,
       "actual_views": 244,
-      "measured_at": "2026-08-20T09:50:05Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-20T11:54:27Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -34,
       "likes": 3,
@@ -1443,6 +1494,10 @@
         {
           "measured_at": "2026-08-20T09:50:05Z",
           "actual_views": 244
+        },
+        {
+          "measured_at": "2026-08-20T11:54:27Z",
+          "actual_views": 244
         }
       ],
       "reuse": null
@@ -1460,8 +1515,8 @@
       "predicted_low": 124,
       "predicted_high": 1480,
       "actual_views": 612,
-      "measured_at": "2026-08-20T09:50:04Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-20T11:54:26Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": 43,
       "likes": 19,
@@ -1550,6 +1605,10 @@
         {
           "measured_at": "2026-08-20T09:50:04Z",
           "actual_views": 612
+        },
+        {
+          "measured_at": "2026-08-20T11:54:26Z",
+          "actual_views": 612
         }
       ],
       "reuse": null
@@ -1567,8 +1626,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 54,
-      "measured_at": "2026-08-20T09:50:03Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-20T11:54:25Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -91,
       "likes": 0,
@@ -1657,6 +1716,10 @@
         {
           "measured_at": "2026-08-20T09:50:03Z",
           "actual_views": 54
+        },
+        {
+          "measured_at": "2026-08-20T11:54:25Z",
+          "actual_views": 54
         }
       ],
       "reuse": null
@@ -1674,8 +1737,8 @@
       "predicted_low": 152,
       "predicted_high": 1814,
       "actual_views": 256,
-      "measured_at": "2026-08-20T09:50:02Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-20T11:54:24Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -51,
       "likes": 4,
@@ -1772,6 +1835,10 @@
         {
           "measured_at": "2026-08-20T09:50:02Z",
           "actual_views": 256
+        },
+        {
+          "measured_at": "2026-08-20T11:54:24Z",
+          "actual_views": 256
         }
       ],
       "reuse": null
@@ -1817,7 +1884,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
