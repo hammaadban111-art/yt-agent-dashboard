@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:03:23.331141Z",
+  "generated_at": "2026-08-20T18:59:12.400964Z",
   "next_runs": [
     "2026-08-21T01:07:00Z",
     "2026-08-21T06:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 78,
-    "total_views": 45710,
+    "total_views": 45804,
     "total_likes": 850,
     "total_comments": 16,
     "mean_abs_pct_error": 54.3,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.079
   },
   "quota": {
-    "units_used": 227,
+    "units_used": 246,
     "daily_cap": 10000,
-    "remaining": 9773,
+    "remaining": 9754,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -940,23 +940,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-20T16:41:39Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32393424209",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1773.3,
+    "used_minutes": 1796.5,
     "budget_minutes": 2000,
-    "percent_used": 88.7,
+    "percent_used": 89.8,
     "runs_counted": 180,
     "per_workflow_minutes": {
-      "daily.yml": 1282.9,
-      "followup.yml": 490.4
+      "daily.yml": 1306.7,
+      "followup.yml": 489.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -989,14 +989,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 4,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-20T16:41:39Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32393424209",
-        "reason": "This run is still going."
+        "title": "The 1838 Submarine That Literally Ate Its Crew",
+        "video_id": "meFWawfsQ2o",
+        "url": "https://youtube.com/watch?v=meFWawfsQ2o"
       },
       {
         "started_at": "2026-08-20T11:35:51Z",
@@ -1151,14 +1153,14 @@
       "predicted_range": "105-1,232",
       "predicted_low": 105,
       "predicted_high": 1232,
-      "actual_views": 798,
-      "measured_at": "2026-08-20T17:03:23Z",
-      "measurement_count": 1,
+      "actual_views": 874,
+      "measured_at": "2026-08-20T18:59:12Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 122,
+      "error_pct": 143,
       "likes": 14,
       "comments": 0,
-      "engagement_rate": 1.75,
+      "engagement_rate": 1.6,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1186,6 +1188,10 @@
         {
           "measured_at": "2026-08-20T17:03:23Z",
           "actual_views": 798
+        },
+        {
+          "measured_at": "2026-08-20T18:59:12Z",
+          "actual_views": 874
         }
       ],
       "reuse": null
@@ -1202,14 +1208,14 @@
       "predicted_range": "121-1,425",
       "predicted_low": 121,
       "predicted_high": 1425,
-      "actual_views": 204,
-      "measured_at": "2026-08-20T17:03:22Z",
-      "measurement_count": 3,
+      "actual_views": 215,
+      "measured_at": "2026-08-20T18:59:11Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -51,
+      "error_pct": -48,
       "likes": 6,
       "comments": 0,
-      "engagement_rate": 2.94,
+      "engagement_rate": 2.79,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1251,6 +1257,10 @@
         {
           "measured_at": "2026-08-20T17:03:22Z",
           "actual_views": 204
+        },
+        {
+          "measured_at": "2026-08-20T18:59:11Z",
+          "actual_views": 215
         }
       ],
       "reuse": null
@@ -1267,14 +1277,14 @@
       "predicted_range": "121-1,425",
       "predicted_low": 121,
       "predicted_high": 1425,
-      "actual_views": 103,
-      "measured_at": "2026-08-20T17:03:21Z",
-      "measurement_count": 5,
+      "actual_views": 104,
+      "measured_at": "2026-08-20T18:59:10Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -75,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.94,
+      "engagement_rate": 1.92,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1318,6 +1328,10 @@
         {
           "measured_at": "2026-08-20T17:03:21Z",
           "actual_views": 103
+        },
+        {
+          "measured_at": "2026-08-20T18:59:10Z",
+          "actual_views": 104
         }
       ],
       "reuse": null
@@ -1334,14 +1348,14 @@
       "predicted_range": "105-1,239",
       "predicted_low": 105,
       "predicted_high": 1239,
-      "actual_views": 176,
-      "measured_at": "2026-08-20T17:03:20Z",
-      "measurement_count": 10,
+      "actual_views": 178,
+      "measured_at": "2026-08-20T18:59:10Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -51,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.57,
+      "engagement_rate": 0.56,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1405,6 +1419,10 @@
         {
           "measured_at": "2026-08-20T17:03:20Z",
           "actual_views": 176
+        },
+        {
+          "measured_at": "2026-08-20T18:59:10Z",
+          "actual_views": 178
         }
       ],
       "reuse": null
@@ -1421,14 +1439,14 @@
       "predicted_range": "107-1,268",
       "predicted_low": 107,
       "predicted_high": 1268,
-      "actual_views": 633,
-      "measured_at": "2026-08-20T17:03:19Z",
-      "measurement_count": 13,
+      "actual_views": 637,
+      "measured_at": "2026-08-20T18:59:09Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
-      "error_pct": 72,
+      "error_pct": 73,
       "likes": 8,
       "comments": 1,
-      "engagement_rate": 1.42,
+      "engagement_rate": 1.41,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1504,6 +1522,10 @@
         {
           "measured_at": "2026-08-20T17:03:19Z",
           "actual_views": 633
+        },
+        {
+          "measured_at": "2026-08-20T18:59:09Z",
+          "actual_views": 637
         }
       ],
       "reuse": null
@@ -1521,8 +1543,8 @@
       "predicted_low": 107,
       "predicted_high": 1275,
       "actual_views": 251,
-      "measured_at": "2026-08-20T17:03:17Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-20T18:59:08Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -32,
       "likes": 3,
@@ -1617,6 +1639,10 @@
         {
           "measured_at": "2026-08-20T17:03:17Z",
           "actual_views": 251
+        },
+        {
+          "measured_at": "2026-08-20T18:59:08Z",
+          "actual_views": 251
         }
       ],
       "reuse": null
@@ -1634,8 +1660,8 @@
       "predicted_low": 124,
       "predicted_high": 1480,
       "actual_views": 613,
-      "measured_at": "2026-08-20T17:03:17Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-20T18:59:07Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": 43,
       "likes": 19,
@@ -1740,6 +1766,10 @@
         {
           "measured_at": "2026-08-20T17:03:17Z",
           "actual_views": 613
+        },
+        {
+          "measured_at": "2026-08-20T18:59:07Z",
+          "actual_views": 613
         }
       ],
       "reuse": null
@@ -1757,8 +1787,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 56,
-      "measured_at": "2026-08-20T17:03:15Z",
-      "measurement_count": 19,
+      "measured_at": "2026-08-20T18:59:07Z",
+      "measurement_count": 20,
       "system_version": "phase1-stabilize",
       "error_pct": -91,
       "likes": 0,
@@ -1863,6 +1893,10 @@
         {
           "measured_at": "2026-08-20T17:03:15Z",
           "actual_views": 56
+        },
+        {
+          "measured_at": "2026-08-20T18:59:07Z",
+          "actual_views": 56
         }
       ],
       "reuse": null
@@ -1908,7 +1942,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -2388,8 +2422,8 @@
       "predicted_low": 175,
       "predicted_high": 2103,
       "actual_views": 755,
-      "measured_at": "2026-08-19T21:40:45Z",
-      "measurement_count": 20,
+      "measured_at": "2026-08-20T18:59:06Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": 25,
       "likes": 14,
@@ -2503,6 +2537,10 @@
         },
         {
           "measured_at": "2026-08-19T21:40:45Z",
+          "actual_views": 755
+        },
+        {
+          "measured_at": "2026-08-20T18:59:06Z",
           "actual_views": 755
         }
       ],
