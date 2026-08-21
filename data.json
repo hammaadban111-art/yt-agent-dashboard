@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T07:28:06.195971Z",
+  "generated_at": "2026-08-21T07:30:10.667049Z",
   "next_runs": [
     "2026-08-21T11:07:00Z",
     "2026-08-21T16:07:00Z",
     "2026-08-22T01:07:00Z"
   ],
   "summary": {
-    "videos": 80,
-    "total_views": 46930,
+    "videos": 79,
+    "total_views": 46925,
     "total_likes": 870,
     "total_comments": 16,
     "mean_abs_pct_error": 60.6,
@@ -28,7 +28,7 @@
     "units_used": 14,
     "daily_cap": 10000,
     "remaining": 9986,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -940,22 +940,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-21T07:03:47Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32456988292",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1817.2,
+    "used_minutes": 1843.3,
     "budget_minutes": 2000,
-    "percent_used": 90.9,
-    "runs_counted": 181,
+    "percent_used": 92.2,
+    "runs_counted": 182,
     "per_workflow_minutes": {
-      "daily.yml": 1326.5,
+      "daily.yml": 1352.5,
       "followup.yml": 490.7
     },
     "measurement_source": "run_duration",
@@ -980,9 +980,9 @@
     "slots": [
       {
         "started_at": "2026-08-21T07:03:47Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32456988292",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-08-21T02:26:01Z",
@@ -1074,58 +1074,6 @@
   },
   "videos": [
     {
-      "n": 80,
-      "video_id": "9sEhyQcod_k",
-      "title": "The Day It Rained Raw Meat Over Kentucky",
-      "url": "https://youtube.com/watch?v=9sEhyQcod_k",
-      "uploaded_at": "2026-08-21T07:28:01Z",
-      "topic": "Kentucky meat shower",
-      "hook": "Fresh raw meat once rained out of a clear sky.",
-      "predicted_views": 359,
-      "predicted_range": "105-1,225",
-      "predicted_low": 105,
-      "predicted_high": 1225,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "checked",
-        "checked": 5,
-        "contradicted": 0,
-        "misleading": 0,
-        "resolution_grounded": true,
-        "unverified_source": false
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [
-        {
-          "stage": "script-duplicate-topic",
-          "detail": "both attempts returned 'Kentucky meat shower', the same subject as the already-published 'Kentucky meat shower'",
-          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
-        }
-      ],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 79,
       "video_id": "JHkCUktC1Hg",
       "title": "The Ghost Ships Found Sailing on a Dry Desert",
@@ -1190,7 +1138,7 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 986,
-      "measured_at": "2026-08-21T07:28:06Z",
+      "measured_at": "2026-08-21T07:30:10Z",
       "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": 229,
@@ -1240,7 +1188,7 @@
           "actual_views": 984
         },
         {
-          "measured_at": "2026-08-21T07:28:06Z",
+          "measured_at": "2026-08-21T07:30:10Z",
           "actual_views": 986
         }
       ],
@@ -1259,7 +1207,7 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 917,
-      "measured_at": "2026-08-21T07:28:05Z",
+      "measured_at": "2026-08-21T07:30:09Z",
       "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 155,
@@ -1315,7 +1263,7 @@
           "actual_views": 904
         },
         {
-          "measured_at": "2026-08-21T07:28:05Z",
+          "measured_at": "2026-08-21T07:30:09Z",
           "actual_views": 917
         }
       ],
@@ -1333,14 +1281,14 @@
       "predicted_range": "121-1,425",
       "predicted_low": 121,
       "predicted_high": 1425,
-      "actual_views": 237,
-      "measured_at": "2026-08-21T07:28:04Z",
+      "actual_views": 236,
+      "measured_at": "2026-08-21T07:30:08Z",
       "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -43,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 3.8,
+      "engagement_rate": 3.81,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1404,8 +1352,8 @@
           "actual_views": 226
         },
         {
-          "measured_at": "2026-08-21T07:28:04Z",
-          "actual_views": 237
+          "measured_at": "2026-08-21T07:30:08Z",
+          "actual_views": 236
         }
       ],
       "reuse": null
@@ -1423,7 +1371,7 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 115,
-      "measured_at": "2026-08-21T07:28:04Z",
+      "measured_at": "2026-08-21T07:30:08Z",
       "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -72,
@@ -1495,7 +1443,7 @@
           "actual_views": 113
         },
         {
-          "measured_at": "2026-08-21T07:28:04Z",
+          "measured_at": "2026-08-21T07:30:08Z",
           "actual_views": 115
         }
       ],
@@ -1513,14 +1461,14 @@
       "predicted_range": "105-1,239",
       "predicted_low": 105,
       "predicted_high": 1239,
-      "actual_views": 220,
-      "measured_at": "2026-08-21T07:28:03Z",
+      "actual_views": 218,
+      "measured_at": "2026-08-21T07:30:07Z",
       "measurement_count": 16,
       "system_version": "phase1-stabilize",
-      "error_pct": -39,
+      "error_pct": -40,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.45,
+      "engagement_rate": 0.46,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1606,8 +1554,8 @@
           "actual_views": 217
         },
         {
-          "measured_at": "2026-08-21T07:28:03Z",
-          "actual_views": 220
+          "measured_at": "2026-08-21T07:30:07Z",
+          "actual_views": 218
         }
       ],
       "reuse": null
@@ -1624,14 +1572,14 @@
       "predicted_range": "107-1,268",
       "predicted_low": 107,
       "predicted_high": 1268,
-      "actual_views": 646,
-      "measured_at": "2026-08-21T07:28:03Z",
+      "actual_views": 644,
+      "measured_at": "2026-08-21T07:30:06Z",
       "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": 75,
       "likes": 8,
       "comments": 1,
-      "engagement_rate": 1.39,
+      "engagement_rate": 1.4,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1729,8 +1677,8 @@
           "actual_views": 644
         },
         {
-          "measured_at": "2026-08-21T07:28:03Z",
-          "actual_views": 646
+          "measured_at": "2026-08-21T07:30:06Z",
+          "actual_views": 644
         }
       ],
       "reuse": null
@@ -2274,7 +2222,7 @@
       "predicted_low": 166,
       "predicted_high": 1993,
       "actual_views": 469,
-      "measured_at": "2026-08-21T07:28:02Z",
+      "measured_at": "2026-08-21T07:30:05Z",
       "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
@@ -2787,7 +2735,7 @@
           "actual_views": 462
         },
         {
-          "measured_at": "2026-08-21T07:28:02Z",
+          "measured_at": "2026-08-21T07:30:05Z",
           "actual_views": 469
         }
       ],
