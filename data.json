@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:10:23.637569Z",
+  "generated_at": "2026-08-21T18:55:49.302155Z",
   "next_runs": [
     "2026-08-22T01:07:00Z",
     "2026-08-22T06:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 81,
-    "total_views": 48198,
+    "total_views": 48207,
     "total_likes": 892,
     "total_comments": 16,
     "mean_abs_pct_error": 68.8,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.117
   },
   "quota": {
-    "units_used": 206,
+    "units_used": 223,
     "daily_cap": 10000,
-    "remaining": 9794,
+    "remaining": 9777,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -948,23 +948,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-21T16:42:02Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32504270708",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1878.7,
+    "used_minutes": 1908.1,
     "budget_minutes": 2000,
-    "percent_used": 93.9,
+    "percent_used": 95.4,
     "runs_counted": 184,
     "per_workflow_minutes": {
-      "daily.yml": 1362.6,
-      "followup.yml": 516.1
+      "daily.yml": 1393.2,
+      "followup.yml": 515.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -990,14 +990,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-21T16:42:02Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32504270708",
-        "reason": "This run is still going."
+        "title": "The Ghost Ship That Sailed Itself",
+        "video_id": "ZGpqpaZyYq8",
+        "url": "https://youtube.com/watch?v=ZGpqpaZyYq8"
       },
       {
         "started_at": "2026-08-21T11:34:34Z",
@@ -1145,8 +1147,8 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 193,
-      "measured_at": "2026-08-21T17:10:23Z",
-      "measurement_count": 3,
+      "measured_at": "2026-08-21T18:55:49Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -46,
       "likes": 5,
@@ -1193,6 +1195,10 @@
         {
           "measured_at": "2026-08-21T17:10:23Z",
           "actual_views": 193
+        },
+        {
+          "measured_at": "2026-08-21T18:55:49Z",
+          "actual_views": 193
         }
       ],
       "reuse": null
@@ -1209,9 +1215,9 @@
       "predicted_range": "105-1,225",
       "predicted_low": 105,
       "predicted_high": 1225,
-      "actual_views": 970,
-      "measured_at": "2026-08-21T17:10:23Z",
-      "measurement_count": 4,
+      "actual_views": 971,
+      "measured_at": "2026-08-21T18:55:47Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": 170,
       "likes": 19,
@@ -1262,6 +1268,10 @@
         {
           "measured_at": "2026-08-21T17:10:23Z",
           "actual_views": 970
+        },
+        {
+          "measured_at": "2026-08-21T18:55:47Z",
+          "actual_views": 971
         }
       ],
       "reuse": null
@@ -1279,8 +1289,8 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 989,
-      "measured_at": "2026-08-21T17:10:22Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-21T18:55:47Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 230,
       "likes": 16,
@@ -1351,6 +1361,10 @@
         {
           "measured_at": "2026-08-21T17:10:22Z",
           "actual_views": 989
+        },
+        {
+          "measured_at": "2026-08-21T18:55:47Z",
+          "actual_views": 989
         }
       ],
       "reuse": null
@@ -1368,8 +1382,8 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 920,
-      "measured_at": "2026-08-21T17:10:20Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-21T18:55:46Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 156,
       "likes": 14,
@@ -1446,6 +1460,10 @@
         {
           "measured_at": "2026-08-21T17:10:20Z",
           "actual_views": 920
+        },
+        {
+          "measured_at": "2026-08-21T18:55:46Z",
+          "actual_views": 920
         }
       ],
       "reuse": null
@@ -1463,8 +1481,8 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 265,
-      "measured_at": "2026-08-21T17:10:20Z",
-      "measurement_count": 14,
+      "measured_at": "2026-08-21T18:55:45Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -36,
       "likes": 9,
@@ -1555,6 +1573,10 @@
         {
           "measured_at": "2026-08-21T17:10:20Z",
           "actual_views": 265
+        },
+        {
+          "measured_at": "2026-08-21T18:55:45Z",
+          "actual_views": 265
         }
       ],
       "reuse": null
@@ -1572,8 +1594,8 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 117,
-      "measured_at": "2026-08-21T17:10:19Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-21T18:55:44Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -72,
       "likes": 2,
@@ -1666,6 +1688,10 @@
         {
           "measured_at": "2026-08-21T17:10:19Z",
           "actual_views": 117
+        },
+        {
+          "measured_at": "2026-08-21T18:55:44Z",
+          "actual_views": 117
         }
       ],
       "reuse": null
@@ -1711,7 +1737,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -2077,14 +2103,14 @@
       "predicted_range": "124-1,480",
       "predicted_low": 124,
       "predicted_high": 1480,
-      "actual_views": 617,
-      "measured_at": "2026-08-20T21:43:18Z",
-      "measurement_count": 21,
+      "actual_views": 624,
+      "measured_at": "2026-08-21T18:55:43Z",
+      "measurement_count": 22,
       "system_version": "phase1-stabilize",
-      "error_pct": 44,
+      "error_pct": 45,
       "likes": 20,
       "comments": 0,
-      "engagement_rate": 3.24,
+      "engagement_rate": 3.21,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -2192,6 +2218,10 @@
         {
           "measured_at": "2026-08-20T21:43:18Z",
           "actual_views": 617
+        },
+        {
+          "measured_at": "2026-08-21T18:55:43Z",
+          "actual_views": 624
         }
       ],
       "reuse": null
@@ -2208,9 +2238,9 @@
       "predicted_range": "175-2,103",
       "predicted_low": 175,
       "predicted_high": 2103,
-      "actual_views": 58,
-      "measured_at": "2026-08-20T21:43:17Z",
-      "measurement_count": 21,
+      "actual_views": 59,
+      "measured_at": "2026-08-21T18:55:42Z",
+      "measurement_count": 22,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 0,
@@ -2323,6 +2353,10 @@
         {
           "measured_at": "2026-08-20T21:43:17Z",
           "actual_views": 58
+        },
+        {
+          "measured_at": "2026-08-21T18:55:42Z",
+          "actual_views": 59
         }
       ],
       "reuse": null
