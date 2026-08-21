@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-21T07:30:10.667049Z",
+  "generated_at": "2026-08-21T09:52:09.021748Z",
   "next_runs": [
     "2026-08-21T11:07:00Z",
     "2026-08-21T16:07:00Z",
     "2026-08-22T01:07:00Z"
   ],
   "summary": {
-    "videos": 79,
-    "total_views": 46925,
-    "total_likes": 870,
+    "videos": 80,
+    "total_views": 47891,
+    "total_likes": 889,
     "total_comments": 16,
-    "mean_abs_pct_error": 60.6,
-    "measured_videos": 78,
+    "mean_abs_pct_error": 68.3,
+    "measured_videos": 79,
     "days_of_history": 22,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 7,
-    "mean_drop_at": 0.123,
-    "mean_drop_size": 0.086
+    "n": 6,
+    "mean_drop_at": 0.118,
+    "mean_drop_size": 0.089
   },
   "quota": {
-    "units_used": 14,
+    "units_used": 29,
     "daily_cap": 10000,
-    "remaining": 9986,
-    "upload_slots_used": 0,
+    "remaining": 9971,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -950,13 +950,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 1843.3,
+    "used_minutes": 1866.4,
     "budget_minutes": 2000,
-    "percent_used": 92.2,
+    "percent_used": 93.3,
     "runs_counted": 182,
     "per_workflow_minutes": {
       "daily.yml": 1352.5,
-      "followup.yml": 490.7
+      "followup.yml": 513.9
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -975,14 +975,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 4,
     "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-08-21T07:03:47Z",
-        "state": "not_uploaded",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32456988292",
-        "reason": "The run finished successfully but did not publish a video."
+        "title": "The Day It Rained Raw Meat Over Kentucky",
+        "video_id": "9sEhyQcod_k",
+        "url": "https://youtube.com/watch?v=9sEhyQcod_k"
       },
       {
         "started_at": "2026-08-21T02:26:01Z",
@@ -1074,13 +1076,13 @@
   },
   "videos": [
     {
-      "n": 79,
-      "video_id": "JHkCUktC1Hg",
-      "title": "The Ghost Ships Found Sailing on a Dry Desert",
-      "url": "https://youtube.com/watch?v=JHkCUktC1Hg",
-      "uploaded_at": "2026-08-21T02:44:23Z",
-      "topic": "Desert shipwrecks",
-      "hook": "Legends tell of a Spanish galleon or pearl ship trapped deep inside a dry desert, surrounded by endless sand dunes and blistering heat.",
+      "n": 80,
+      "video_id": "9sEhyQcod_k",
+      "title": "The Day It Rained Raw Meat Over Kentucky",
+      "url": "https://youtube.com/watch?v=9sEhyQcod_k",
+      "uploaded_at": "2026-08-21T07:28:01Z",
+      "topic": "Kentucky meat shower",
+      "hook": "Fresh raw meat once rained out of a clear sky.",
       "predicted_views": 359,
       "predicted_range": "105-1,225",
       "predicted_low": 105,
@@ -1097,6 +1099,58 @@
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
         "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "script-duplicate-topic",
+          "detail": "both attempts returned 'Kentucky meat shower', the same subject as the already-published 'Kentucky meat shower'",
+          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 79,
+      "video_id": "JHkCUktC1Hg",
+      "title": "The Ghost Ships Found Sailing on a Dry Desert",
+      "url": "https://youtube.com/watch?v=JHkCUktC1Hg",
+      "uploaded_at": "2026-08-21T02:44:23Z",
+      "topic": "Desert shipwrecks",
+      "hook": "Legends tell of a Spanish galleon or pearl ship trapped deep inside a dry desert, surrounded by endless sand dunes and blistering heat.",
+      "predicted_views": 359,
+      "predicted_range": "105-1,225",
+      "predicted_low": 105,
+      "predicted_high": 1225,
+      "actual_views": 963,
+      "measured_at": "2026-08-21T09:52:09Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": 168,
+      "likes": 19,
+      "comments": 0,
+      "engagement_rate": 1.97,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
         "checked": 4,
         "contradicted": 0,
         "misleading": 1,
@@ -1105,7 +1159,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1122,7 +1176,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-21T09:52:09Z",
+          "actual_views": 963
+        }
+      ],
       "reuse": null
     },
     {
@@ -1138,8 +1197,8 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 986,
-      "measured_at": "2026-08-21T07:30:10Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-21T09:52:08Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": 229,
       "likes": 16,
@@ -1188,7 +1247,15 @@
           "actual_views": 984
         },
         {
+          "measured_at": "2026-08-21T07:28:06Z",
+          "actual_views": 986
+        },
+        {
           "measured_at": "2026-08-21T07:30:10Z",
+          "actual_views": 986
+        },
+        {
+          "measured_at": "2026-08-21T09:52:08Z",
           "actual_views": 986
         }
       ],
@@ -1207,8 +1274,8 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 917,
-      "measured_at": "2026-08-21T07:30:09Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-21T09:52:07Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": 155,
       "likes": 14,
@@ -1263,7 +1330,15 @@
           "actual_views": 904
         },
         {
+          "measured_at": "2026-08-21T07:28:05Z",
+          "actual_views": 917
+        },
+        {
           "measured_at": "2026-08-21T07:30:09Z",
+          "actual_views": 917
+        },
+        {
+          "measured_at": "2026-08-21T09:52:07Z",
           "actual_views": 917
         }
       ],
@@ -1281,14 +1356,14 @@
       "predicted_range": "121-1,425",
       "predicted_low": 121,
       "predicted_high": 1425,
-      "actual_views": 236,
-      "measured_at": "2026-08-21T07:30:08Z",
-      "measurement_count": 9,
+      "actual_views": 237,
+      "measured_at": "2026-08-21T09:52:06Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -43,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 3.81,
+      "engagement_rate": 3.8,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1352,8 +1427,16 @@
           "actual_views": 226
         },
         {
+          "measured_at": "2026-08-21T07:28:04Z",
+          "actual_views": 237
+        },
+        {
           "measured_at": "2026-08-21T07:30:08Z",
           "actual_views": 236
+        },
+        {
+          "measured_at": "2026-08-21T09:52:06Z",
+          "actual_views": 237
         }
       ],
       "reuse": null
@@ -1371,8 +1454,8 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 115,
-      "measured_at": "2026-08-21T07:30:08Z",
-      "measurement_count": 11,
+      "measured_at": "2026-08-21T09:52:05Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -72,
       "likes": 2,
@@ -1443,7 +1526,15 @@
           "actual_views": 113
         },
         {
+          "measured_at": "2026-08-21T07:28:04Z",
+          "actual_views": 115
+        },
+        {
           "measured_at": "2026-08-21T07:30:08Z",
+          "actual_views": 115
+        },
+        {
+          "measured_at": "2026-08-21T09:52:05Z",
           "actual_views": 115
         }
       ],
@@ -1462,8 +1553,8 @@
       "predicted_low": 105,
       "predicted_high": 1239,
       "actual_views": 218,
-      "measured_at": "2026-08-21T07:30:07Z",
-      "measurement_count": 16,
+      "measured_at": "2026-08-21T09:52:04Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
       "likes": 1,
@@ -1554,7 +1645,15 @@
           "actual_views": 217
         },
         {
+          "measured_at": "2026-08-21T07:28:03Z",
+          "actual_views": 220
+        },
+        {
           "measured_at": "2026-08-21T07:30:07Z",
+          "actual_views": 218
+        },
+        {
+          "measured_at": "2026-08-21T09:52:04Z",
           "actual_views": 218
         }
       ],
@@ -1572,14 +1671,14 @@
       "predicted_range": "107-1,268",
       "predicted_low": 107,
       "predicted_high": 1268,
-      "actual_views": 644,
-      "measured_at": "2026-08-21T07:30:06Z",
-      "measurement_count": 19,
+      "actual_views": 646,
+      "measured_at": "2026-08-21T09:52:03Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": 75,
       "likes": 8,
       "comments": 1,
-      "engagement_rate": 1.4,
+      "engagement_rate": 1.39,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1677,8 +1776,16 @@
           "actual_views": 644
         },
         {
+          "measured_at": "2026-08-21T07:28:03Z",
+          "actual_views": 646
+        },
+        {
           "measured_at": "2026-08-21T07:30:06Z",
           "actual_views": 644
+        },
+        {
+          "measured_at": "2026-08-21T09:52:03Z",
+          "actual_views": 646
         }
       ],
       "reuse": null
@@ -2223,7 +2330,7 @@
       "predicted_high": 1993,
       "actual_views": 469,
       "measured_at": "2026-08-21T07:30:05Z",
-      "measurement_count": 21,
+      "measurement_count": 22,
       "system_version": "phase1-stabilize",
       "error_pct": -19,
       "likes": 3,
@@ -2733,6 +2840,10 @@
         {
           "measured_at": "2026-08-20T09:50:01Z",
           "actual_views": 462
+        },
+        {
+          "measured_at": "2026-08-21T07:28:02Z",
+          "actual_views": 469
         },
         {
           "measured_at": "2026-08-21T07:30:05Z",
