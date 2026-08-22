@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T09:43:01.521096Z",
+  "generated_at": "2026-08-22T11:45:08.176075Z",
   "next_runs": [
-    "2026-08-22T11:07:00Z",
     "2026-08-22T16:07:00Z",
-    "2026-08-23T01:07:00Z"
+    "2026-08-23T01:07:00Z",
+    "2026-08-23T06:07:00Z"
   ],
   "summary": {
-    "videos": 83,
-    "total_views": 48564,
-    "total_likes": 900,
+    "videos": 84,
+    "total_views": 48576,
+    "total_likes": 903,
     "total_comments": 16,
     "mean_abs_pct_error": 71.1,
     "measured_videos": 82,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.117
   },
   "quota": {
-    "units_used": 157,
+    "units_used": 170,
     "daily_cap": 10000,
-    "remaining": 9843,
-    "upload_slots_used": 1,
+    "remaining": 9830,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 55
+    "subscriber_count": 56
   },
   "spotlight": {
     "best": {
@@ -956,23 +956,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-22T06:56:01Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32558245650",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-22T11:29:12Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32570406958",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1968.8,
+    "used_minutes": 1970.7,
     "budget_minutes": 2000,
-    "percent_used": 98.4,
-    "runs_counted": 186,
+    "percent_used": 98.5,
+    "runs_counted": 187,
     "per_workflow_minutes": {
       "daily.yml": 1437.5,
-      "followup.yml": 531.4
+      "followup.yml": 533.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -1001,6 +1001,12 @@
     "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-22T11:29:12Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32570406958",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-22T06:56:01Z",
         "state": "published",
@@ -1086,18 +1092,62 @@
         "title": "The 1938 Mystery of the Floating Time Capsule",
         "video_id": "uy5n3n70nLM",
         "url": "https://youtube.com/watch?v=uy5n3n70nLM"
-      },
-      {
-        "started_at": "2026-08-19T11:33:56Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32248202249",
-        "title": "The 1948 Mystery of the Vanishing Flight 19",
-        "video_id": "I1CCufDDmgc",
-        "url": "https://youtube.com/watch?v=I1CCufDDmgc"
       }
     ]
   },
   "videos": [
+    {
+      "n": 84,
+      "video_id": "rZnzOPAR_og",
+      "title": "The Day a 14-Inch Drill Hole Swallowed an Entire Lake",
+      "url": "https://youtube.com/watch?v=rZnzOPAR_og",
+      "uploaded_at": "2026-08-22T11:45:03Z",
+      "topic": "Lake Peigneur",
+      "hook": "A massive whirlpool swallowed eleven barges and an oil rig.",
+      "predicted_views": 260,
+      "predicted_range": "77-884",
+      "predicted_low": 77,
+      "predicted_high": 884,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "script-duplicate-topic",
+          "detail": "both attempts returned 'Lake Peigneur', the same subject as the already-published 'Lake Peigneur sinkhole disaster'",
+          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 83,
       "video_id": "xm5RkDa_LoY",
@@ -1157,8 +1207,8 @@
       "predicted_low": 90,
       "predicted_high": 1037,
       "actual_views": 60,
-      "measured_at": "2026-08-22T09:43:01Z",
-      "measurement_count": 1,
+      "measured_at": "2026-08-22T11:45:08Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -80,
       "likes": 1,
@@ -1191,6 +1241,10 @@
         {
           "measured_at": "2026-08-22T09:43:01Z",
           "actual_views": 60
+        },
+        {
+          "measured_at": "2026-08-22T11:45:08Z",
+          "actual_views": 60
         }
       ],
       "reuse": null
@@ -1207,14 +1261,14 @@
       "predicted_range": "105-1,219",
       "predicted_low": 105,
       "predicted_high": 1219,
-      "actual_views": 249,
-      "measured_at": "2026-08-22T09:43:00Z",
-      "measurement_count": 6,
+      "actual_views": 252,
+      "measured_at": "2026-08-22T11:45:07Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -30,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.61,
+      "engagement_rate": 1.59,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1262,6 +1316,10 @@
         {
           "measured_at": "2026-08-22T09:43:00Z",
           "actual_views": 249
+        },
+        {
+          "measured_at": "2026-08-22T11:45:07Z",
+          "actual_views": 252
         }
       ],
       "reuse": null
@@ -1278,14 +1336,14 @@
       "predicted_range": "105-1,225",
       "predicted_low": 105,
       "predicted_high": 1225,
-      "actual_views": 199,
-      "measured_at": "2026-08-22T09:43:00Z",
-      "measurement_count": 11,
+      "actual_views": 200,
+      "measured_at": "2026-08-22T11:45:06Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
-      "error_pct": -45,
+      "error_pct": -44,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 2.51,
+      "engagement_rate": 2.5,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1359,6 +1417,10 @@
         {
           "measured_at": "2026-08-22T09:43:00Z",
           "actual_views": 199
+        },
+        {
+          "measured_at": "2026-08-22T11:45:06Z",
+          "actual_views": 200
         }
       ],
       "reuse": null
@@ -1375,14 +1437,14 @@
       "predicted_range": "105-1,225",
       "predicted_low": 105,
       "predicted_high": 1225,
-      "actual_views": 962,
-      "measured_at": "2026-08-22T09:42:59Z",
-      "measurement_count": 12,
+      "actual_views": 970,
+      "measured_at": "2026-08-22T11:45:05Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": 168,
-      "likes": 19,
+      "error_pct": 170,
+      "likes": 22,
       "comments": 0,
-      "engagement_rate": 1.98,
+      "engagement_rate": 2.27,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1460,6 +1522,10 @@
         {
           "measured_at": "2026-08-22T09:42:59Z",
           "actual_views": 962
+        },
+        {
+          "measured_at": "2026-08-22T11:45:05Z",
+          "actual_views": 970
         }
       ],
       "reuse": null
@@ -1477,8 +1543,8 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 991,
-      "measured_at": "2026-08-22T09:42:59Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-22T11:45:05Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": 230,
       "likes": 16,
@@ -1581,6 +1647,10 @@
         {
           "measured_at": "2026-08-22T09:42:59Z",
           "actual_views": 991
+        },
+        {
+          "measured_at": "2026-08-22T11:45:05Z",
+          "actual_views": 991
         }
       ],
       "reuse": null
@@ -1598,8 +1668,8 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 917,
-      "measured_at": "2026-08-22T09:42:58Z",
-      "measurement_count": 20,
+      "measured_at": "2026-08-22T11:45:04Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
       "error_pct": 155,
       "likes": 14,
@@ -1707,6 +1777,10 @@
         },
         {
           "measured_at": "2026-08-22T09:42:58Z",
+          "actual_views": 917
+        },
+        {
+          "measured_at": "2026-08-22T11:45:04Z",
           "actual_views": 917
         }
       ],
