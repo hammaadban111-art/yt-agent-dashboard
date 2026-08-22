@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T07:12:53.489854Z",
+  "generated_at": "2026-08-22T07:15:18.006440Z",
   "next_runs": [
     "2026-08-22T11:07:00Z",
     "2026-08-22T16:07:00Z",
     "2026-08-23T01:07:00Z"
   ],
   "summary": {
-    "videos": 83,
-    "total_views": 48504,
-    "total_likes": 898,
+    "videos": 82,
+    "total_views": 48509,
+    "total_likes": 899,
     "total_comments": 16,
     "mean_abs_pct_error": 70.2,
     "measured_videos": 81,
@@ -28,7 +28,7 @@
     "units_used": 14,
     "daily_cap": 10000,
     "remaining": 9986,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -948,22 +948,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-08-22T06:56:01Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32558245650",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1933.8,
+    "used_minutes": 1952.7,
     "budget_minutes": 2000,
-    "percent_used": 96.7,
-    "runs_counted": 185,
+    "percent_used": 97.6,
+    "runs_counted": 186,
     "per_workflow_minutes": {
-      "daily.yml": 1418.5,
+      "daily.yml": 1437.5,
       "followup.yml": 515.2
     },
     "measurement_source": "run_duration",
@@ -995,9 +995,9 @@
     "slots": [
       {
         "started_at": "2026-08-22T06:56:01Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32558245650",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-08-22T02:18:09Z",
@@ -1089,52 +1089,6 @@
   },
   "videos": [
     {
-      "n": 83,
-      "video_id": "xm5RkDa_LoY",
-      "title": "The Mystery of the Singing Mummies of Chachapoyas",
-      "url": "https://youtube.com/watch?v=xm5RkDa_LoY",
-      "uploaded_at": "2026-08-22T07:12:47Z",
-      "topic": "Chachapoyas culture",
-      "hook": "Skeletons hang thousands of feet above the jungle floor.",
-      "predicted_views": 305,
-      "predicted_range": "90-1,037",
-      "predicted_low": 90,
-      "predicted_high": 1037,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "checked",
-        "checked": 5,
-        "contradicted": 0,
-        "misleading": 0,
-        "resolution_grounded": true,
-        "unverified_source": false
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 82,
       "video_id": "ccAC7h9Kxw0",
       "title": "The Ghost Fleet That Steamed Right Through a Highway",
@@ -1192,14 +1146,14 @@
       "predicted_range": "105-1,219",
       "predicted_low": 105,
       "predicted_high": 1219,
-      "actual_views": 247,
-      "measured_at": "2026-08-22T07:12:53Z",
+      "actual_views": 249,
+      "measured_at": "2026-08-22T07:15:18Z",
       "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -31,
+      "error_pct": -30,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.62,
+      "engagement_rate": 1.61,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1237,8 +1191,8 @@
           "actual_views": 245
         },
         {
-          "measured_at": "2026-08-22T07:12:53Z",
-          "actual_views": 247
+          "measured_at": "2026-08-22T07:15:18Z",
+          "actual_views": 249
         }
       ],
       "reuse": null
@@ -1256,7 +1210,7 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 197,
-      "measured_at": "2026-08-22T07:12:52Z",
+      "measured_at": "2026-08-22T07:15:17Z",
       "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -45,
@@ -1326,7 +1280,7 @@
           "actual_views": 195
         },
         {
-          "measured_at": "2026-08-22T07:12:52Z",
+          "measured_at": "2026-08-22T07:15:17Z",
           "actual_views": 197
         }
       ],
@@ -1345,7 +1299,7 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 974,
-      "measured_at": "2026-08-22T07:12:52Z",
+      "measured_at": "2026-08-22T07:15:16Z",
       "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 171,
@@ -1419,7 +1373,7 @@
           "actual_views": 974
         },
         {
-          "measured_at": "2026-08-22T07:12:52Z",
+          "measured_at": "2026-08-22T07:15:16Z",
           "actual_views": 974
         }
       ],
@@ -1438,7 +1392,7 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 991,
-      "measured_at": "2026-08-22T07:12:51Z",
+      "measured_at": "2026-08-22T07:15:15Z",
       "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": 230,
@@ -1532,7 +1486,7 @@
           "actual_views": 990
         },
         {
-          "measured_at": "2026-08-22T07:12:51Z",
+          "measured_at": "2026-08-22T07:15:15Z",
           "actual_views": 991
         }
       ],
@@ -1551,7 +1505,7 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 917,
-      "measured_at": "2026-08-22T07:12:50Z",
+      "measured_at": "2026-08-22T07:15:14Z",
       "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": 155,
@@ -1651,7 +1605,7 @@
           "actual_views": 922
         },
         {
-          "measured_at": "2026-08-22T07:12:50Z",
+          "measured_at": "2026-08-22T07:15:14Z",
           "actual_views": 917
         }
       ],
@@ -1669,14 +1623,14 @@
       "predicted_range": "121-1,425",
       "predicted_low": 121,
       "predicted_high": 1425,
-      "actual_views": 309,
-      "measured_at": "2026-08-22T07:12:49Z",
+      "actual_views": 312,
+      "measured_at": "2026-08-22T07:15:13Z",
       "measurement_count": 20,
       "system_version": "phase1-stabilize",
-      "error_pct": -26,
-      "likes": 11,
+      "error_pct": -25,
+      "likes": 12,
       "comments": 0,
-      "engagement_rate": 3.56,
+      "engagement_rate": 3.85,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1784,8 +1738,8 @@
           "actual_views": 293
         },
         {
-          "measured_at": "2026-08-22T07:12:49Z",
-          "actual_views": 309
+          "measured_at": "2026-08-22T07:15:13Z",
+          "actual_views": 312
         }
       ],
       "reuse": null
@@ -2057,7 +2011,7 @@
       "predicted_low": 107,
       "predicted_high": 1268,
       "actual_views": 647,
-      "measured_at": "2026-08-22T07:12:48Z",
+      "measured_at": "2026-08-22T07:15:12Z",
       "measurement_count": 22,
       "system_version": "phase1-stabilize",
       "error_pct": 75,
@@ -2574,7 +2528,7 @@
           "actual_views": 646
         },
         {
-          "measured_at": "2026-08-22T07:12:48Z",
+          "measured_at": "2026-08-22T07:15:12Z",
           "actual_views": 647
         }
       ],
