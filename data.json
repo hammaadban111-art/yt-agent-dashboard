@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-22T15:34:54.422394Z",
+  "generated_at": "2026-08-22T16:53:59.736233Z",
   "next_runs": [
-    "2026-08-22T16:07:00Z",
     "2026-08-23T01:07:00Z",
-    "2026-08-23T06:07:00Z"
+    "2026-08-23T06:07:00Z",
+    "2026-08-23T11:07:00Z"
   ],
   "summary": {
-    "videos": 84,
-    "total_views": 49337,
-    "total_likes": 918,
-    "total_comments": 16,
-    "mean_abs_pct_error": 68.6,
-    "measured_videos": 83,
+    "videos": 85,
+    "total_views": 50462,
+    "total_likes": 939,
+    "total_comments": 17,
+    "mean_abs_pct_error": 82.7,
+    "measured_videos": 84,
     "days_of_history": 24,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 9,
-    "mean_drop_at": 0.132,
-    "mean_drop_size": 0.114
+    "n": 8,
+    "mean_drop_at": 0.144,
+    "mean_drop_size": 0.118
   },
   "quota": {
-    "units_used": 204,
+    "units_used": 219,
     "daily_cap": 10000,
-    "remaining": 9796,
-    "upload_slots_used": 2,
+    "remaining": 9781,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -956,23 +956,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-22T11:29:12Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32570406958",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-22T16:32:47Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32585029481",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1987.2,
+    "used_minutes": 1988.3,
     "budget_minutes": 2000,
     "percent_used": 99.4,
-    "runs_counted": 187,
+    "runs_counted": 188,
     "per_workflow_minutes": {
       "daily.yml": 1455.8,
-      "followup.yml": 531.4
+      "followup.yml": 532.5
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -986,21 +986,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32477826619",
         "created_at": "2026-08-21T11:34:34Z",
         "error": "Run agent: The script writer could not produce a script that passed the quality checks, twice in a row, so the run stopped before rendering. No video was published for this slot."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 32208257623,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
-        "created_at": "2026-08-19T02:21:24Z",
-        "error": "Install ffmpeg: This run was cancelled."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-22T16:32:47Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32585029481",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-22T11:29:12Z",
         "state": "published",
@@ -1086,30 +1085,22 @@
         "title": "The Ghost Ships That Sailed Out of a Desert",
         "video_id": "L77ebYRaJkg",
         "url": "https://youtube.com/watch?v=L77ebYRaJkg"
-      },
-      {
-        "started_at": "2026-08-19T16:38:44Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32277086491",
-        "title": "The 1938 Mystery of the Floating Time Capsule",
-        "video_id": "uy5n3n70nLM",
-        "url": "https://youtube.com/watch?v=uy5n3n70nLM"
       }
     ]
   },
   "videos": [
     {
-      "n": 84,
-      "video_id": "rZnzOPAR_og",
-      "title": "The Day a 14-Inch Drill Hole Swallowed an Entire Lake",
-      "url": "https://youtube.com/watch?v=rZnzOPAR_og",
-      "uploaded_at": "2026-08-22T11:45:03Z",
-      "topic": "Lake Peigneur",
-      "hook": "A massive whirlpool swallowed eleven barges and an oil rig.",
-      "predicted_views": 260,
-      "predicted_range": "77-884",
-      "predicted_low": 77,
-      "predicted_high": 884,
+      "n": 85,
+      "video_id": "nBl5j7NpgEM",
+      "title": "The Strange 1975 Forest Light That Followed Police",
+      "url": "https://youtube.com/watch?v=nBl5j7NpgEM",
+      "uploaded_at": "2026-08-22T16:53:55Z",
+      "topic": "Mansfield UFO sighting",
+      "hook": "An angry orange orb chased two police cruisers at midnight.",
+      "predicted_views": 304,
+      "predicted_range": "90-1,032",
+      "predicted_low": 90,
+      "predicted_high": 1032,
       "actual_views": null,
       "measured_at": null,
       "measurement_count": 0,
@@ -1126,11 +1117,57 @@
         "contradicted": 0,
         "misleading": 0,
         "resolution_grounded": true,
-        "unverified_source": false
+        "unverified_source": true
       },
       "retention": {
         "available": false,
         "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 84,
+      "video_id": "rZnzOPAR_og",
+      "title": "The Day a 14-Inch Drill Hole Swallowed an Entire Lake",
+      "url": "https://youtube.com/watch?v=rZnzOPAR_og",
+      "uploaded_at": "2026-08-22T11:45:03Z",
+      "topic": "Lake Peigneur",
+      "hook": "A massive whirlpool swallowed eleven barges and an oil rig.",
+      "predicted_views": 260,
+      "predicted_range": "77-884",
+      "predicted_low": 77,
+      "predicted_high": 884,
+      "actual_views": 1036,
+      "measured_at": "2026-08-22T16:53:59Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": 298,
+      "likes": 22,
+      "comments": 1,
+      "engagement_rate": 2.22,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1147,7 +1184,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-08-22T16:53:59Z",
+          "actual_views": 1036
+        }
+      ],
       "reuse": null
     },
     {
@@ -1163,8 +1205,8 @@
       "predicted_low": 90,
       "predicted_high": 1037,
       "actual_views": 552,
-      "measured_at": "2026-08-22T15:34:54Z",
-      "measurement_count": 2,
+      "measured_at": "2026-08-22T16:53:59Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": 81,
       "likes": 14,
@@ -1201,6 +1243,10 @@
         {
           "measured_at": "2026-08-22T15:34:54Z",
           "actual_views": 552
+        },
+        {
+          "measured_at": "2026-08-22T16:53:59Z",
+          "actual_views": 552
         }
       ],
       "reuse": null
@@ -1218,8 +1264,8 @@
       "predicted_low": 90,
       "predicted_high": 1037,
       "actual_views": 92,
-      "measured_at": "2026-08-22T15:34:53Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-22T16:53:58Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -70,
       "likes": 1,
@@ -1264,6 +1310,10 @@
         {
           "measured_at": "2026-08-22T15:34:53Z",
           "actual_views": 92
+        },
+        {
+          "measured_at": "2026-08-22T16:53:58Z",
+          "actual_views": 92
         }
       ],
       "reuse": null
@@ -1281,8 +1331,8 @@
       "predicted_low": 105,
       "predicted_high": 1219,
       "actual_views": 255,
-      "measured_at": "2026-08-22T15:34:53Z",
-      "measurement_count": 9,
+      "measured_at": "2026-08-22T16:53:58Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -29,
       "likes": 4,
@@ -1347,6 +1397,10 @@
         {
           "measured_at": "2026-08-22T15:34:53Z",
           "actual_views": 255
+        },
+        {
+          "measured_at": "2026-08-22T16:53:58Z",
+          "actual_views": 255
         }
       ],
       "reuse": null
@@ -1363,14 +1417,14 @@
       "predicted_range": "105-1,225",
       "predicted_low": 105,
       "predicted_high": 1225,
-      "actual_views": 200,
-      "measured_at": "2026-08-22T15:34:52Z",
-      "measurement_count": 14,
+      "actual_views": 202,
+      "measured_at": "2026-08-22T16:53:57Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -44,
       "likes": 5,
       "comments": 0,
-      "engagement_rate": 2.5,
+      "engagement_rate": 2.48,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1456,6 +1510,10 @@
         {
           "measured_at": "2026-08-22T15:34:52Z",
           "actual_views": 200
+        },
+        {
+          "measured_at": "2026-08-22T16:53:57Z",
+          "actual_views": 202
         }
       ],
       "reuse": null
@@ -1473,8 +1531,8 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 1030,
-      "measured_at": "2026-08-22T15:34:52Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-22T16:53:57Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": 187,
       "likes": 22,
@@ -1569,6 +1627,10 @@
         {
           "measured_at": "2026-08-22T15:34:52Z",
           "actual_views": 1030
+        },
+        {
+          "measured_at": "2026-08-22T16:53:57Z",
+          "actual_views": 1030
         }
       ],
       "reuse": null
@@ -1585,14 +1647,14 @@
       "predicted_range": "88-1,025",
       "predicted_low": 88,
       "predicted_high": 1025,
-      "actual_views": 1088,
-      "measured_at": "2026-08-22T15:34:51Z",
-      "measurement_count": 20,
+      "actual_views": 1175,
+      "measured_at": "2026-08-22T16:53:56Z",
+      "measurement_count": 21,
       "system_version": "phase1-stabilize",
-      "error_pct": 263,
-      "likes": 17,
+      "error_pct": 292,
+      "likes": 16,
       "comments": 0,
-      "engagement_rate": 1.56,
+      "engagement_rate": 1.36,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1702,6 +1764,10 @@
         {
           "measured_at": "2026-08-22T15:34:51Z",
           "actual_views": 1088
+        },
+        {
+          "measured_at": "2026-08-22T16:53:56Z",
+          "actual_views": 1175
         }
       ],
       "reuse": null
