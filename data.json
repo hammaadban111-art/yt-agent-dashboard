@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T01:50:06.675830Z",
+  "generated_at": "2026-08-22T02:39:57.710035Z",
   "next_runs": [
     "2026-08-22T06:07:00Z",
     "2026-08-22T11:07:00Z",
     "2026-08-22T16:07:00Z"
   ],
   "summary": {
-    "videos": 81,
+    "videos": 82,
     "total_views": 48490,
     "total_likes": 898,
     "total_comments": 16,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.121
   },
   "quota": {
-    "units_used": 257,
+    "units_used": 270,
     "daily_cap": 10000,
-    "remaining": 9743,
-    "upload_slots_used": 2,
+    "remaining": 9730,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -948,23 +948,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-21T16:42:02Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32504270708",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-22T02:18:09Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32545877639",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1908.2,
+    "used_minutes": 1909.8,
     "budget_minutes": 2000,
-    "percent_used": 95.4,
-    "runs_counted": 184,
+    "percent_used": 95.5,
+    "runs_counted": 185,
     "per_workflow_minutes": {
       "daily.yml": 1393.2,
-      "followup.yml": 515.1
+      "followup.yml": 516.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -990,9 +990,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-22T02:18:09Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32545877639",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-21T16:42:02Z",
         "state": "published",
@@ -1078,16 +1084,56 @@
         "title": "The Civil War Mystery of Angel's Glow",
         "video_id": "4wToYfy0DJo",
         "url": "https://youtube.com/watch?v=4wToYfy0DJo"
-      },
-      {
-        "started_at": "2026-08-19T02:21:24Z",
-        "state": "uploaded_no_record",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32208257623",
-        "reason": "The video was uploaded, but saving its record failed - it is probably live on the channel without appearing here. scripts/backfill_orphan_records.py rebuilds the record."
       }
     ]
   },
   "videos": [
+    {
+      "n": 82,
+      "video_id": "ccAC7h9Kxw0",
+      "title": "The Ghost Fleet That Steamed Right Through a Highway",
+      "url": "https://youtube.com/watch?v=ccAC7h9Kxw0",
+      "uploaded_at": "2026-08-22T02:39:52Z",
+      "topic": "USS Arizona silver service",
+      "hook": "While a full-sized battleship never rose out of the desert cactus, actual pieces of the historic USS Arizona did travel across the country to find a permanent home in the state.",
+      "predicted_views": 305,
+      "predicted_range": "90-1,037",
+      "predicted_low": 90,
+      "predicted_high": 1037,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 4,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 81,
       "video_id": "ZGpqpaZyYq8",
@@ -1101,8 +1147,8 @@
       "predicted_low": 105,
       "predicted_high": 1219,
       "actual_views": 245,
-      "measured_at": "2026-08-22T01:50:06Z",
-      "measurement_count": 1,
+      "measured_at": "2026-08-22T02:39:57Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -32,
       "likes": 4,
@@ -1135,6 +1181,10 @@
         {
           "measured_at": "2026-08-22T01:50:06Z",
           "actual_views": 245
+        },
+        {
+          "measured_at": "2026-08-22T02:39:57Z",
+          "actual_views": 245
         }
       ],
       "reuse": null
@@ -1152,8 +1202,8 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 195,
-      "measured_at": "2026-08-22T01:50:05Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-22T02:39:56Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -46,
       "likes": 5,
@@ -1212,6 +1262,10 @@
         {
           "measured_at": "2026-08-22T01:50:05Z",
           "actual_views": 195
+        },
+        {
+          "measured_at": "2026-08-22T02:39:56Z",
+          "actual_views": 195
         }
       ],
       "reuse": null
@@ -1229,8 +1283,8 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 974,
-      "measured_at": "2026-08-22T01:50:04Z",
-      "measurement_count": 7,
+      "measured_at": "2026-08-22T02:39:56Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": 171,
       "likes": 19,
@@ -1293,6 +1347,10 @@
         {
           "measured_at": "2026-08-22T01:50:04Z",
           "actual_views": 974
+        },
+        {
+          "measured_at": "2026-08-22T02:39:56Z",
+          "actual_views": 974
         }
       ],
       "reuse": null
@@ -1310,8 +1368,8 @@
       "predicted_low": 88,
       "predicted_high": 1025,
       "actual_views": 990,
-      "measured_at": "2026-08-22T01:50:04Z",
-      "measurement_count": 12,
+      "measured_at": "2026-08-22T02:39:55Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 230,
       "likes": 16,
@@ -1394,6 +1452,10 @@
         {
           "measured_at": "2026-08-22T01:50:04Z",
           "actual_views": 990
+        },
+        {
+          "measured_at": "2026-08-22T02:39:55Z",
+          "actual_views": 990
         }
       ],
       "reuse": null
@@ -1411,8 +1473,8 @@
       "predicted_low": 105,
       "predicted_high": 1232,
       "actual_views": 922,
-      "measured_at": "2026-08-22T01:50:02Z",
-      "measurement_count": 15,
+      "measured_at": "2026-08-22T02:39:54Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": 156,
       "likes": 14,
@@ -1501,6 +1563,10 @@
         {
           "measured_at": "2026-08-22T01:50:02Z",
           "actual_views": 922
+        },
+        {
+          "measured_at": "2026-08-22T02:39:54Z",
+          "actual_views": 922
         }
       ],
       "reuse": null
@@ -1518,8 +1584,8 @@
       "predicted_low": 121,
       "predicted_high": 1425,
       "actual_views": 296,
-      "measured_at": "2026-08-22T01:50:02Z",
-      "measurement_count": 17,
+      "measured_at": "2026-08-22T02:39:53Z",
+      "measurement_count": 18,
       "system_version": "phase1-stabilize",
       "error_pct": -29,
       "likes": 11,
@@ -1622,6 +1688,10 @@
         {
           "measured_at": "2026-08-22T01:50:02Z",
           "actual_views": 296
+        },
+        {
+          "measured_at": "2026-08-22T02:39:53Z",
+          "actual_views": 296
         }
       ],
       "reuse": null
@@ -1667,7 +1737,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
