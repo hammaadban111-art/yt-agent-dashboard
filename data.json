@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T01:59:39.052484Z",
+  "generated_at": "2026-08-23T02:47:34.923229Z",
   "next_runs": [
     "2026-08-23T06:07:00Z",
     "2026-08-23T11:07:00Z",
     "2026-08-23T16:07:00Z"
   ],
   "summary": {
-    "videos": 85,
-    "total_views": 51395,
+    "videos": 86,
+    "total_views": 51410,
     "total_likes": 951,
     "total_comments": 17,
     "mean_abs_pct_error": 90.3,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.092
   },
   "quota": {
-    "units_used": 270,
+    "units_used": 283,
     "daily_cap": 10000,
-    "remaining": 9730,
-    "upload_slots_used": 3,
+    "remaining": 9717,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -956,23 +956,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-08-22T16:32:47Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32585029481",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-08-23T02:26:18Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32612856239",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 2009.4,
+    "used_minutes": 2010.5,
     "budget_minutes": 2000,
     "percent_used": 100.5,
-    "runs_counted": 188,
+    "runs_counted": 189,
     "per_workflow_minutes": {
       "daily.yml": 1479.0,
-      "followup.yml": 530.4
+      "followup.yml": 531.6
     },
     "measurement_source": "run_duration",
     "month_start": "2026-08-01"
@@ -991,9 +991,15 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 4,
     "slots": [
+      {
+        "started_at": "2026-08-23T02:26:18Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32612856239",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-08-22T16:32:47Z",
         "state": "published",
@@ -1079,18 +1085,56 @@
         "title": "The Mystery Ocean Sound Louder Than a Blue Whale",
         "video_id": "H1fBnvkjF7w",
         "url": "https://youtube.com/watch?v=H1fBnvkjF7w"
-      },
-      {
-        "started_at": "2026-08-20T02:19:56Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/32324247381",
-        "title": "The Ghost Ships That Sailed Out of a Desert",
-        "video_id": "L77ebYRaJkg",
-        "url": "https://youtube.com/watch?v=L77ebYRaJkg"
       }
     ]
   },
   "videos": [
+    {
+      "n": 86,
+      "video_id": "m-p1xi6e82c",
+      "title": "The 1925 Plane That Landed Itself Without a Pilot",
+      "url": "https://youtube.com/watch?v=m-p1xi6e82c",
+      "uploaded_at": "2026-08-23T02:47:30Z",
+      "topic": "Hawker Horsley",
+      "hook": "A pilotless fighter plane flew in circles over Dayton for hours.",
+      "predicted_views": 304,
+      "predicted_range": "90-1,030",
+      "predicted_low": 90,
+      "predicted_high": 1030,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 85,
       "video_id": "nBl5j7NpgEM",
@@ -1103,14 +1147,14 @@
       "predicted_range": "90-1,032",
       "predicted_low": 90,
       "predicted_high": 1032,
-      "actual_views": 820,
-      "measured_at": "2026-08-23T01:59:39Z",
-      "measurement_count": 1,
+      "actual_views": 835,
+      "measured_at": "2026-08-23T02:47:34Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 170,
+      "error_pct": 175,
       "likes": 8,
       "comments": 0,
-      "engagement_rate": 0.98,
+      "engagement_rate": 0.96,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1138,6 +1182,10 @@
         {
           "measured_at": "2026-08-23T01:59:39Z",
           "actual_views": 820
+        },
+        {
+          "measured_at": "2026-08-23T02:47:34Z",
+          "actual_views": 835
         }
       ],
       "reuse": null
@@ -1155,8 +1203,8 @@
       "predicted_low": 77,
       "predicted_high": 884,
       "actual_views": 1053,
-      "measured_at": "2026-08-23T01:59:38Z",
-      "measurement_count": 4,
+      "measured_at": "2026-08-23T02:47:34Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": 305,
       "likes": 22,
@@ -1207,6 +1255,10 @@
         {
           "measured_at": "2026-08-23T01:59:38Z",
           "actual_views": 1053
+        },
+        {
+          "measured_at": "2026-08-23T02:47:34Z",
+          "actual_views": 1053
         }
       ],
       "reuse": null
@@ -1224,8 +1276,8 @@
       "predicted_low": 90,
       "predicted_high": 1037,
       "actual_views": 596,
-      "measured_at": "2026-08-23T01:59:37Z",
-      "measurement_count": 6,
+      "measured_at": "2026-08-23T02:47:33Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 95,
       "likes": 18,
@@ -1278,6 +1330,10 @@
         {
           "measured_at": "2026-08-23T01:59:37Z",
           "actual_views": 596
+        },
+        {
+          "measured_at": "2026-08-23T02:47:33Z",
+          "actual_views": 596
         }
       ],
       "reuse": null
@@ -1295,8 +1351,8 @@
       "predicted_low": 90,
       "predicted_high": 1037,
       "actual_views": 109,
-      "measured_at": "2026-08-23T01:59:37Z",
-      "measurement_count": 8,
+      "measured_at": "2026-08-23T02:47:33Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -64,
       "likes": 2,
@@ -1357,6 +1413,10 @@
         {
           "measured_at": "2026-08-23T01:59:37Z",
           "actual_views": 109
+        },
+        {
+          "measured_at": "2026-08-23T02:47:33Z",
+          "actual_views": 109
         }
       ],
       "reuse": null
@@ -1374,8 +1434,8 @@
       "predicted_low": 105,
       "predicted_high": 1219,
       "actual_views": 268,
-      "measured_at": "2026-08-23T01:59:36Z",
-      "measurement_count": 13,
+      "measured_at": "2026-08-23T02:47:32Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -25,
       "likes": 4,
@@ -1456,6 +1516,10 @@
         {
           "measured_at": "2026-08-23T01:59:36Z",
           "actual_views": 268
+        },
+        {
+          "measured_at": "2026-08-23T02:47:32Z",
+          "actual_views": 268
         }
       ],
       "reuse": null
@@ -1473,8 +1537,8 @@
       "predicted_low": 105,
       "predicted_high": 1225,
       "actual_views": 221,
-      "measured_at": "2026-08-23T01:59:36Z",
-      "measurement_count": 18,
+      "measured_at": "2026-08-23T02:47:31Z",
+      "measurement_count": 19,
       "system_version": "phase1-stabilize",
       "error_pct": -38,
       "likes": 5,
@@ -1581,6 +1645,10 @@
         {
           "measured_at": "2026-08-23T01:59:36Z",
           "actual_views": 221
+        },
+        {
+          "measured_at": "2026-08-23T02:47:31Z",
+          "actual_views": 221
         }
       ],
       "reuse": null
@@ -1632,7 +1700,7 @@
       ],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
