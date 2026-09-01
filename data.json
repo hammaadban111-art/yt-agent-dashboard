@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T18:30:32.609490Z",
+  "generated_at": "2026-09-01T19:43:15.283025Z",
   "next_runs": [
     "2026-09-02T01:07:00Z",
     "2026-09-02T06:07:00Z",
     "2026-09-02T11:07:00Z"
   ],
   "summary": {
-    "videos": 89,
+    "videos": 90,
     "total_views": 54035,
     "total_likes": 1007,
     "total_comments": 19,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.095
   },
   "quota": {
-    "units_used": 14,
+    "units_used": 17,
     "daily_cap": 10000,
-    "remaining": 9986,
-    "upload_slots_used": 2,
+    "remaining": 9983,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -972,23 +972,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-01T15:26:33Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33525758975",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-01T19:20:04Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33548893550",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 65.0,
+    "used_minutes": 66.2,
     "budget_minutes": 2000,
-    "percent_used": 3.2,
-    "runs_counted": 6,
+    "percent_used": 3.3,
+    "runs_counted": 7,
     "per_workflow_minutes": {
       "daily.yml": 60.9,
-      "followup.yml": 4.1
+      "followup.yml": 5.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1156,21 +1156,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33253012037",
         "created_at": "2026-08-29T12:38:31Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33241665916,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33241665916",
-        "created_at": "2026-08-29T07:47:49Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
     "published_24h": 2,
-    "expected_24h": 5,
+    "expected_24h": 6,
     "slots": [
+      {
+        "started_at": "2026-09-01T19:20:04Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33548893550",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-09-01T15:26:33Z",
         "state": "published",
@@ -1245,16 +1244,62 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33296984842",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-29T19:21:04Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33270647646",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
+    {
+      "n": 90,
+      "video_id": "Wbq1RtaGOyk",
+      "title": "The 1908 Sky Fire That Wasn't a Meteorite",
+      "url": "https://youtube.com/watch?v=Wbq1RtaGOyk",
+      "uploaded_at": "2026-09-01T19:43:14Z",
+      "topic": "Tunguska event",
+      "hook": "A massive number of trees fell outward in a vast radial pattern.",
+      "predicted_views": 396,
+      "predicted_range": "117-1,340",
+      "predicted_low": 117,
+      "predicted_high": 1340,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 2,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "script-duplicate-topic",
+          "detail": "both attempts returned 'Tunguska event', the same subject as the already-published 'Tunguska event'",
+          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 89,
       "video_id": "1LJF_D9MT0Q",
@@ -1314,8 +1359,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 24,
-      "measured_at": "2026-09-01T18:30:31Z",
-      "measurement_count": 1,
+      "measured_at": "2026-09-01T19:43:15Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
       "likes": 0,
@@ -1347,6 +1392,10 @@
       "history": [
         {
           "measured_at": "2026-09-01T18:30:31Z",
+          "actual_views": 24
+        },
+        {
+          "measured_at": "2026-09-01T19:43:15Z",
           "actual_views": 24
         }
       ],
