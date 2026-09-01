@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-01T15:50:41.745931Z",
+  "generated_at": "2026-09-01T18:30:32.609490Z",
   "next_runs": [
-    "2026-09-01T16:07:00Z",
     "2026-09-02T01:07:00Z",
-    "2026-09-02T06:07:00Z"
+    "2026-09-02T06:07:00Z",
+    "2026-09-02T11:07:00Z"
   ],
   "summary": {
     "videos": 89,
-    "total_views": 54011,
+    "total_views": 54035,
     "total_likes": 1007,
     "total_comments": 19,
-    "mean_abs_pct_error": 107.8,
-    "measured_videos": 87,
+    "mean_abs_pct_error": 110.2,
+    "measured_videos": 88,
     "days_of_history": 34,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 20,
+    "n": 19,
     "mean_drop_at": 0.127,
     "mean_drop_size": 0.095
   },
   "quota": {
-    "units_used": 9,
+    "units_used": 14,
     "daily_cap": 10000,
-    "remaining": 9991,
+    "remaining": 9986,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -972,22 +972,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-01T15:26:33Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33525758975",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 40.0,
+    "used_minutes": 65.0,
     "budget_minutes": 2000,
-    "percent_used": 2.0,
-    "runs_counted": 5,
+    "percent_used": 3.2,
+    "runs_counted": 6,
     "per_workflow_minutes": {
-      "daily.yml": 35.9,
+      "daily.yml": 60.9,
       "followup.yml": 4.1
     },
     "measurement_source": "run_duration",
@@ -1158,13 +1158,6 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 33246910213,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33246910213",
-        "created_at": "2026-08-29T10:03:19Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 33241665916,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33241665916",
@@ -1175,14 +1168,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
-    "expected_24h": 6,
+    "published_24h": 2,
+    "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-09-01T15:26:33Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33525758975",
-        "reason": "This run is still going."
+        "title": "The 1930 Village That Vanished Into Thin Air",
+        "video_id": "1LJF_D9MT0Q",
+        "url": "https://youtube.com/watch?v=1LJF_D9MT0Q"
       },
       {
         "started_at": "2026-09-01T11:33:52Z",
@@ -1318,14 +1313,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 24,
+      "measured_at": "2026-09-01T18:30:31Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -94,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1338,7 +1333,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1349,7 +1344,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-01T18:30:31Z",
+          "actual_views": 24
+        }
+      ],
       "reuse": null
     },
     {
@@ -37373,8 +37373,8 @@
       "predicted_low": 199,
       "predicted_high": 3444,
       "actual_views": 738,
-      "measured_at": "2026-09-01T00:37:22Z",
-      "measurement_count": 94,
+      "measured_at": "2026-09-01T18:30:32Z",
+      "measurement_count": 95,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 8,
@@ -37800,9 +37800,9 @@
         "retention_at_end": 0.2931
       },
       "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-01T18:30:32Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -38179,6 +38179,10 @@
         },
         {
           "measured_at": "2026-09-01T00:37:22Z",
+          "actual_views": 738
+        },
+        {
+          "measured_at": "2026-09-01T18:30:32Z",
           "actual_views": 738
         }
       ],
