@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-01T23:19:23.786717Z",
+  "generated_at": "2026-09-02T04:33:27.173707Z",
   "next_runs": [
-    "2026-09-02T01:07:00Z",
     "2026-09-02T06:07:00Z",
-    "2026-09-02T11:07:00Z"
+    "2026-09-02T11:07:00Z",
+    "2026-09-02T16:07:00Z"
   ],
   "summary": {
     "videos": 90,
-    "total_views": 54051,
-    "total_likes": 1008,
+    "total_views": 54206,
+    "total_likes": 1013,
     "total_comments": 19,
-    "mean_abs_pct_error": 112.2,
-    "measured_videos": 89,
+    "mean_abs_pct_error": 110.5,
+    "measured_videos": 90,
     "days_of_history": 34,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 18,
-    "mean_drop_at": 0.132,
-    "mean_drop_size": 0.095
+    "n": 17,
+    "mean_drop_at": 0.131,
+    "mean_drop_size": 0.091
   },
   "quota": {
-    "units_used": 152,
+    "units_used": 159,
     "daily_cap": 10000,
-    "remaining": 9848,
+    "remaining": 9841,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -990,13 +990,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 90.0,
+    "used_minutes": 92.0,
     "budget_minutes": 2000,
-    "percent_used": 4.5,
-    "runs_counted": 8,
+    "percent_used": 4.6,
+    "runs_counted": 9,
     "per_workflow_minutes": {
       "daily.yml": 84.7,
-      "followup.yml": 5.3
+      "followup.yml": 7.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1131,13 +1131,6 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 33274699425,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33274699425",
-        "created_at": "2026-08-29T20:54:54Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 33270647646,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33270647646",
@@ -1163,7 +1156,7 @@
   "scheduled_uploads": {
     "available": true,
     "published_24h": 3,
-    "expected_24h": 5,
+    "expected_24h": 4,
     "slots": [
       {
         "started_at": "2026-09-01T19:20:04Z",
@@ -1194,11 +1187,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33476553815",
         "reason": "Run agent: httpx.RemoteProtocolError: Server disconnected without sending a response."
-      },
-      {
-        "started_at": "2026-09-01T01:07:00Z",
-        "state": "not_uploaded",
-        "reason": "The scheduled run never started on GitHub's side."
       },
       {
         "started_at": "2026-08-31T21:24:32Z",
@@ -1263,14 +1251,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 148,
+      "measured_at": "2026-09-02T04:33:27Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -63,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 2.03,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1283,7 +1271,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1300,7 +1288,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-02T04:33:27Z",
+          "actual_views": 148
+        }
+      ],
       "reuse": null
     },
     {
@@ -1315,14 +1308,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 5,
-      "measured_at": "2026-09-01T23:19:23Z",
-      "measurement_count": 1,
+      "actual_views": 11,
+      "measured_at": "2026-09-02T04:33:26Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -99,
-      "likes": 1,
+      "error_pct": -97,
+      "likes": 2,
       "comments": 0,
-      "engagement_rate": 20.0,
+      "engagement_rate": 18.18,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1350,6 +1343,10 @@
         {
           "measured_at": "2026-09-01T23:19:23Z",
           "actual_views": 5
+        },
+        {
+          "measured_at": "2026-09-02T04:33:26Z",
+          "actual_views": 11
         }
       ],
       "reuse": null
@@ -1366,14 +1363,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 25,
-      "measured_at": "2026-09-01T23:19:23Z",
-      "measurement_count": 3,
+      "actual_views": 26,
+      "measured_at": "2026-09-02T04:33:25Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -94,
-      "likes": 0,
+      "error_pct": -93,
+      "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.0,
+      "engagement_rate": 3.85,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1409,6 +1406,10 @@
         {
           "measured_at": "2026-09-01T23:19:23Z",
           "actual_views": 25
+        },
+        {
+          "measured_at": "2026-09-02T04:33:25Z",
+          "actual_views": 26
         }
       ],
       "reuse": null
