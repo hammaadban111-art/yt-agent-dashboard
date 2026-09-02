@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-02T04:33:27.173707Z",
+  "generated_at": "2026-09-02T05:59:57.439445Z",
   "next_runs": [
     "2026-09-02T06:07:00Z",
     "2026-09-02T11:07:00Z",
     "2026-09-02T16:07:00Z"
   ],
   "summary": {
-    "videos": 90,
-    "total_views": 54206,
+    "videos": 91,
+    "total_views": 54207,
     "total_likes": 1013,
     "total_comments": 19,
     "mean_abs_pct_error": 110.5,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.091
   },
   "quota": {
-    "units_used": 159,
+    "units_used": 168,
     "daily_cap": 10000,
-    "remaining": 9841,
-    "upload_slots_used": 3,
+    "remaining": 9832,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -980,23 +980,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-01T19:20:04Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33548893550",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-02T05:38:50Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33595514075",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 92.0,
+    "used_minutes": 93.2,
     "budget_minutes": 2000,
-    "percent_used": 4.6,
-    "runs_counted": 9,
+    "percent_used": 4.7,
+    "runs_counted": 10,
     "per_workflow_minutes": {
       "daily.yml": 84.7,
-      "followup.yml": 7.3
+      "followup.yml": 8.4
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1143,21 +1143,25 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33260604923",
         "created_at": "2026-08-29T15:34:07Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33253012037,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33253012037",
-        "created_at": "2026-08-29T12:38:31Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
     "published_24h": 3,
-    "expected_24h": 4,
+    "expected_24h": 6,
     "slots": [
+      {
+        "started_at": "2026-09-02T05:38:50Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33595514075",
+        "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-02T01:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
       {
         "started_at": "2026-09-01T19:20:04Z",
         "state": "published",
@@ -1229,16 +1233,56 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33309906782",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-30T06:28:54Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33296984842",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
+    {
+      "n": 91,
+      "video_id": "WMrKVkdv-OQ",
+      "title": "The Ghost Island That Vanished From Every Map",
+      "url": "https://youtube.com/watch?v=WMrKVkdv-OQ",
+      "uploaded_at": "2026-09-02T05:59:52Z",
+      "topic": "Sandy Island New Caledonia",
+      "hook": "Cartographers marked a massive landmass known as Sandy Island in the Coral Sea between Australia and New Caledonia, even though solid earth wasn't actually there.",
+      "predicted_views": 359,
+      "predicted_range": "106-1,213",
+      "predicted_low": 106,
+      "predicted_high": 1213,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 3,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 90,
       "video_id": "Wbq1RtaGOyk",
@@ -1251,14 +1295,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 148,
-      "measured_at": "2026-09-02T04:33:27Z",
-      "measurement_count": 1,
+      "actual_views": 149,
+      "measured_at": "2026-09-02T05:59:55Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -63,
+      "error_pct": -62,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 2.03,
+      "engagement_rate": 2.01,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1292,6 +1336,10 @@
         {
           "measured_at": "2026-09-02T04:33:27Z",
           "actual_views": 148
+        },
+        {
+          "measured_at": "2026-09-02T05:59:55Z",
+          "actual_views": 149
         }
       ],
       "reuse": null
@@ -1309,8 +1357,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 11,
-      "measured_at": "2026-09-02T04:33:26Z",
-      "measurement_count": 2,
+      "measured_at": "2026-09-02T05:59:54Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -97,
       "likes": 2,
@@ -1347,6 +1395,10 @@
         {
           "measured_at": "2026-09-02T04:33:26Z",
           "actual_views": 11
+        },
+        {
+          "measured_at": "2026-09-02T05:59:54Z",
+          "actual_views": 11
         }
       ],
       "reuse": null
@@ -1364,8 +1416,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 26,
-      "measured_at": "2026-09-02T04:33:25Z",
-      "measurement_count": 4,
+      "measured_at": "2026-09-02T05:59:53Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -93,
       "likes": 1,
@@ -1409,6 +1461,10 @@
         },
         {
           "measured_at": "2026-09-02T04:33:25Z",
+          "actual_views": 26
+        },
+        {
+          "measured_at": "2026-09-02T05:59:53Z",
           "actual_views": 26
         }
       ],
@@ -36875,8 +36931,8 @@
       "predicted_low": 201,
       "predicted_high": 3310,
       "actual_views": 812,
-      "measured_at": "2026-09-01T23:18:17Z",
-      "measurement_count": 93,
+      "measured_at": "2026-09-02T05:59:57Z",
+      "measurement_count": 94,
       "system_version": "phase1-stabilize",
       "error_pct": 0,
       "likes": 18,
@@ -37302,9 +37358,9 @@
         "retention_at_end": 0.2963
       },
       "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-02T05:59:57Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -37677,6 +37733,10 @@
         },
         {
           "measured_at": "2026-09-01T23:18:17Z",
+          "actual_views": 812
+        },
+        {
+          "measured_at": "2026-09-02T05:59:57Z",
           "actual_views": 812
         }
       ],
