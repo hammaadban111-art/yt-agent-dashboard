@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-02T11:56:55.896106Z",
+  "generated_at": "2026-09-02T16:34:48.514873Z",
   "next_runs": [
-    "2026-09-02T16:07:00Z",
     "2026-09-03T01:07:00Z",
-    "2026-09-03T06:07:00Z"
+    "2026-09-03T06:07:00Z",
+    "2026-09-03T11:07:00Z"
   ],
   "summary": {
     "videos": 91,
-    "total_views": 54797,
-    "total_likes": 1035,
+    "total_views": 54856,
+    "total_likes": 1034,
     "total_comments": 19,
     "mean_abs_pct_error": 113.5,
     "measured_videos": 91,
-    "days_of_history": 34,
+    "days_of_history": 35,
     "self_improve_active": false,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": true,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.092
   },
   "quota": {
-    "units_used": 10,
+    "units_used": 21,
     "daily_cap": 10000,
-    "remaining": 9990,
+    "remaining": 9979,
     "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -983,20 +983,20 @@
     "status": "completed",
     "conclusion": "cancelled",
     "event": "schedule",
-    "created_at": "2026-09-02T11:11:15Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
+    "created_at": "2026-09-02T15:02:49Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33646000400",
     "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 160.6,
+    "used_minutes": 245.8,
     "budget_minutes": 2000,
-    "percent_used": 8.0,
-    "runs_counted": 12,
+    "percent_used": 12.3,
+    "runs_counted": 14,
     "per_workflow_minutes": {
-      "daily.yml": 152.1,
-      "followup.yml": 8.4
+      "daily.yml": 197.6,
+      "followup.yml": 48.2
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1004,6 +1004,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 33646000400,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33646000400",
+        "created_at": "2026-09-02T15:02:49Z",
+        "error": "Run agent: This run was cancelled."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 33623291436,
@@ -1122,28 +1129,20 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33296984842",
         "created_at": "2026-08-30T06:28:54Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "followup.yml",
-        "run_id": 33294605321,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33294605321",
-        "created_at": "2026-08-30T05:23:59Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33270647646,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33270647646",
-        "created_at": "2026-08-29T19:21:04Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 2,
     "expected_24h": 6,
     "slots": [
+      {
+        "started_at": "2026-09-02T15:02:49Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33646000400",
+        "reason": "Run agent: This run was cancelled."
+      },
       {
         "started_at": "2026-09-02T11:11:15Z",
         "state": "not_uploaded",
@@ -1227,12 +1226,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33330347261",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-30T15:18:12Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33319250036",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
@@ -1249,14 +1242,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 571,
-      "measured_at": "2026-09-02T11:56:54Z",
-      "measurement_count": 1,
+      "actual_views": 628,
+      "measured_at": "2026-09-02T16:34:47Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 59,
-      "likes": 23,
+      "error_pct": 75,
+      "likes": 22,
       "comments": 0,
-      "engagement_rate": 4.03,
+      "engagement_rate": 3.5,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1269,7 +1262,7 @@
       },
       "retention": {
         "available": false,
-        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
+        "reason": "HttpError: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-09-02&endDate=2026-09-03&metrics=audienceWatchRatio%2CrelativeRetentionPerformance&dimensions=elapsedVideoTimeRatio&filters=video%3D%3DWMrKVkdv-OQ&alt=json returned \"Inte",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1284,6 +1277,10 @@
         {
           "measured_at": "2026-09-02T11:56:54Z",
           "actual_views": 571
+        },
+        {
+          "measured_at": "2026-09-02T16:34:47Z",
+          "actual_views": 628
         }
       ],
       "reuse": null
@@ -1301,8 +1298,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 157,
-      "measured_at": "2026-09-02T11:56:53Z",
-      "measurement_count": 3,
+      "measured_at": "2026-09-02T16:34:46Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -60,
       "likes": 3,
@@ -1349,6 +1346,10 @@
         {
           "measured_at": "2026-09-02T11:56:53Z",
           "actual_views": 157
+        },
+        {
+          "measured_at": "2026-09-02T16:34:46Z",
+          "actual_views": 157
         }
       ],
       "reuse": null
@@ -1366,8 +1367,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 18,
-      "measured_at": "2026-09-02T11:56:52Z",
-      "measurement_count": 4,
+      "measured_at": "2026-09-02T16:34:45Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -95,
       "likes": 2,
@@ -1412,6 +1413,10 @@
         {
           "measured_at": "2026-09-02T11:56:52Z",
           "actual_views": 18
+        },
+        {
+          "measured_at": "2026-09-02T16:34:45Z",
+          "actual_views": 18
         }
       ],
       "reuse": null
@@ -1428,9 +1433,9 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 30,
-      "measured_at": "2026-09-02T11:56:51Z",
-      "measurement_count": 6,
+      "actual_views": 32,
+      "measured_at": "2026-09-02T16:34:44Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -92,
       "likes": 0,
@@ -1483,6 +1488,10 @@
         {
           "measured_at": "2026-09-02T11:56:51Z",
           "actual_views": 30
+        },
+        {
+          "measured_at": "2026-09-02T16:34:44Z",
+          "actual_views": 32
         }
       ],
       "reuse": null
@@ -35493,8 +35502,8 @@
       "predicted_low": 202,
       "predicted_high": 3268,
       "actual_views": 80,
-      "measured_at": "2026-09-01T23:18:19Z",
-      "measurement_count": 89,
+      "measured_at": "2026-09-02T16:34:48Z",
+      "measurement_count": 90,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 2,
@@ -35920,9 +35929,9 @@
         "retention_at_end": 0.1667
       },
       "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-02T16:34:48Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -36279,6 +36288,10 @@
         },
         {
           "measured_at": "2026-09-01T23:18:19Z",
+          "actual_views": 80
+        },
+        {
+          "measured_at": "2026-09-02T16:34:48Z",
           "actual_views": 80
         }
       ],
