@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:45:50.938620Z",
+  "generated_at": "2026-09-02T21:03:11.847079Z",
   "next_runs": [
     "2026-09-03T01:07:00Z",
     "2026-09-03T06:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 92,
-    "total_views": 54937,
-    "total_likes": 1035,
+    "total_views": 54942,
+    "total_likes": 1038,
     "total_comments": 19,
     "mean_abs_pct_error": 113.5,
     "measured_videos": 91,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.092
   },
   "quota": {
-    "units_used": 154,
+    "units_used": 163,
     "daily_cap": 10000,
-    "remaining": 9846,
+    "remaining": 9837,
     "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -988,22 +988,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-02T19:20:02Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33672665070",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 246.9,
+    "used_minutes": 273.4,
     "budget_minutes": 2000,
-    "percent_used": 12.3,
-    "runs_counted": 15,
+    "percent_used": 13.7,
+    "runs_counted": 16,
     "per_workflow_minutes": {
-      "daily.yml": 197.6,
+      "daily.yml": 224.0,
       "followup.yml": 49.3
     },
     "measurement_source": "run_duration",
@@ -1118,13 +1118,6 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 33310082189,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33310082189",
-        "created_at": "2026-08-30T11:54:13Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 33309906782,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33309906782",
@@ -1135,14 +1128,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
+    "published_24h": 2,
     "expected_24h": 6,
     "slots": [
       {
         "started_at": "2026-09-02T19:20:02Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33672665070",
-        "reason": "This run is still going."
+        "title": "The Olympic Marathon Where Everyone Almost Died",
+        "video_id": "YMhpN7qUDDM",
+        "url": "https://youtube.com/watch?v=YMhpN7qUDDM"
       },
       {
         "started_at": "2026-09-02T15:02:49Z",
@@ -1289,14 +1284,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 706,
-      "measured_at": "2026-09-02T19:45:50Z",
-      "measurement_count": 3,
+      "actual_views": 711,
+      "measured_at": "2026-09-02T21:03:11Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": 97,
-      "likes": 23,
+      "error_pct": 98,
+      "likes": 25,
       "comments": 0,
-      "engagement_rate": 3.26,
+      "engagement_rate": 3.52,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1332,6 +1327,10 @@
         {
           "measured_at": "2026-09-02T19:45:50Z",
           "actual_views": 706
+        },
+        {
+          "measured_at": "2026-09-02T21:03:11Z",
+          "actual_views": 711
         }
       ],
       "reuse": null
@@ -1349,8 +1348,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 155,
-      "measured_at": "2026-09-02T19:45:49Z",
-      "measurement_count": 5,
+      "measured_at": "2026-09-02T21:03:11Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -61,
       "likes": 3,
@@ -1405,6 +1404,10 @@
         {
           "measured_at": "2026-09-02T19:45:49Z",
           "actual_views": 155
+        },
+        {
+          "measured_at": "2026-09-02T21:03:11Z",
+          "actual_views": 155
         }
       ],
       "reuse": null
@@ -1422,13 +1425,13 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 17,
-      "measured_at": "2026-09-02T19:45:49Z",
-      "measurement_count": 6,
+      "measured_at": "2026-09-02T21:03:10Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": -96,
-      "likes": 2,
+      "likes": 3,
       "comments": 0,
-      "engagement_rate": 11.76,
+      "engagement_rate": 17.65,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1476,6 +1479,10 @@
         {
           "measured_at": "2026-09-02T19:45:49Z",
           "actual_views": 17
+        },
+        {
+          "measured_at": "2026-09-02T21:03:10Z",
+          "actual_views": 17
         }
       ],
       "reuse": null
@@ -1493,8 +1500,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 31,
-      "measured_at": "2026-09-02T19:45:48Z",
-      "measurement_count": 8,
+      "measured_at": "2026-09-02T21:03:10Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -92,
       "likes": 0,
@@ -1554,6 +1561,10 @@
         },
         {
           "measured_at": "2026-09-02T19:45:48Z",
+          "actual_views": 31
+        },
+        {
+          "measured_at": "2026-09-02T21:03:10Z",
           "actual_views": 31
         }
       ],
