@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-02T05:59:57.439445Z",
+  "generated_at": "2026-09-02T11:56:55.896106Z",
   "next_runs": [
-    "2026-09-02T06:07:00Z",
-    "2026-09-02T11:07:00Z",
-    "2026-09-02T16:07:00Z"
+    "2026-09-02T16:07:00Z",
+    "2026-09-03T01:07:00Z",
+    "2026-09-03T06:07:00Z"
   ],
   "summary": {
     "videos": 91,
-    "total_views": 54207,
-    "total_likes": 1013,
+    "total_views": 54797,
+    "total_likes": 1035,
     "total_comments": 19,
-    "mean_abs_pct_error": 110.5,
-    "measured_videos": 90,
+    "mean_abs_pct_error": 113.5,
+    "measured_videos": 91,
     "days_of_history": 34,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 17,
-    "mean_drop_at": 0.131,
-    "mean_drop_size": 0.091
+    "n": 16,
+    "mean_drop_at": 0.113,
+    "mean_drop_size": 0.092
   },
   "quota": {
-    "units_used": 168,
+    "units_used": 10,
     "daily_cap": 10000,
-    "remaining": 9832,
-    "upload_slots_used": 4,
+    "remaining": 9990,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 58
+    "subscriber_count": 57
   },
   "spotlight": {
     "best": {
@@ -980,22 +980,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "cancelled",
     "event": "schedule",
-    "created_at": "2026-09-02T05:38:50Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33595514075",
-    "last_successful_step": "Restore Pexels footage cache",
+    "created_at": "2026-09-02T11:11:15Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 93.2,
+    "used_minutes": 160.6,
     "budget_minutes": 2000,
-    "percent_used": 4.7,
-    "runs_counted": 10,
+    "percent_used": 8.0,
+    "runs_counted": 12,
     "per_workflow_minutes": {
-      "daily.yml": 84.7,
+      "daily.yml": 152.1,
       "followup.yml": 8.4
     },
     "measurement_source": "run_duration",
@@ -1004,6 +1004,13 @@
   "failures": {
     "available": true,
     "failures": [
+      {
+        "workflow": "daily.yml",
+        "run_id": 33623291436,
+        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
+        "created_at": "2026-09-02T11:11:15Z",
+        "error": "Run agent: This run was cancelled."
+      },
       {
         "workflow": "daily.yml",
         "run_id": 33476553815,
@@ -1124,24 +1131,10 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 33280704012,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33280704012",
-        "created_at": "2026-08-29T23:19:21Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 33270647646,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33270647646",
         "created_at": "2026-08-29T19:21:04Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33260604923,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33260604923",
-        "created_at": "2026-08-29T15:34:07Z",
         "error": "Unknown error \u2014 see run logs."
       }
     ]
@@ -1152,10 +1145,23 @@
     "expected_24h": 6,
     "slots": [
       {
+        "started_at": "2026-09-02T11:11:15Z",
+        "state": "not_uploaded",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
+        "reason": "Run agent: This run was cancelled."
+      },
+      {
+        "started_at": "2026-09-02T06:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
+      {
         "started_at": "2026-09-02T05:38:50Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33595514075",
-        "reason": "This run is still going."
+        "title": "The Ghost Island That Vanished From Every Map",
+        "video_id": "WMrKVkdv-OQ",
+        "url": "https://youtube.com/watch?v=WMrKVkdv-OQ"
       },
       {
         "started_at": "2026-09-02T01:07:00Z",
@@ -1227,12 +1233,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33319250036",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-30T11:50:02Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33309906782",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
@@ -1249,14 +1249,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 571,
+      "measured_at": "2026-09-02T11:56:54Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": 59,
+      "likes": 23,
+      "comments": 0,
+      "engagement_rate": 4.03,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1269,7 +1269,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1280,7 +1280,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-02T11:56:54Z",
+          "actual_views": 571
+        }
+      ],
       "reuse": null
     },
     {
@@ -1295,14 +1300,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 149,
-      "measured_at": "2026-09-02T05:59:55Z",
-      "measurement_count": 2,
+      "actual_views": 157,
+      "measured_at": "2026-09-02T11:56:53Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -62,
+      "error_pct": -60,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 2.01,
+      "engagement_rate": 1.91,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1340,6 +1345,10 @@
         {
           "measured_at": "2026-09-02T05:59:55Z",
           "actual_views": 149
+        },
+        {
+          "measured_at": "2026-09-02T11:56:53Z",
+          "actual_views": 157
         }
       ],
       "reuse": null
@@ -1356,14 +1365,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 11,
-      "measured_at": "2026-09-02T05:59:54Z",
-      "measurement_count": 3,
+      "actual_views": 18,
+      "measured_at": "2026-09-02T11:56:52Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -97,
+      "error_pct": -95,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 18.18,
+      "engagement_rate": 11.11,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1399,6 +1408,10 @@
         {
           "measured_at": "2026-09-02T05:59:54Z",
           "actual_views": 11
+        },
+        {
+          "measured_at": "2026-09-02T11:56:52Z",
+          "actual_views": 18
         }
       ],
       "reuse": null
@@ -1415,14 +1428,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 26,
-      "measured_at": "2026-09-02T05:59:53Z",
-      "measurement_count": 5,
+      "actual_views": 30,
+      "measured_at": "2026-09-02T11:56:51Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": -93,
-      "likes": 1,
+      "error_pct": -92,
+      "likes": 0,
       "comments": 0,
-      "engagement_rate": 3.85,
+      "engagement_rate": 0.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1466,6 +1479,10 @@
         {
           "measured_at": "2026-09-02T05:59:53Z",
           "actual_views": 26
+        },
+        {
+          "measured_at": "2026-09-02T11:56:51Z",
+          "actual_views": 30
         }
       ],
       "reuse": null
@@ -36285,8 +36302,8 @@
       "predicted_low": null,
       "predicted_high": null,
       "actual_views": 642,
-      "measured_at": "2026-09-01T23:18:18Z",
-      "measurement_count": 48,
+      "measured_at": "2026-09-02T11:56:55Z",
+      "measurement_count": 49,
       "system_version": "phase1-stabilize",
       "error_pct": null,
       "likes": 7,
@@ -36718,9 +36735,9 @@
           "instead": "rebuilt from YouTube; generation-time data is gone"
         }
       ],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-02T11:56:55Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -36913,6 +36930,10 @@
         },
         {
           "measured_at": "2026-09-01T23:18:18Z",
+          "actual_views": 642
+        },
+        {
+          "measured_at": "2026-09-02T11:56:55Z",
           "actual_views": 642
         }
       ],
