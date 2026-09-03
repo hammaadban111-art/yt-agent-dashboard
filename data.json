@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-03T11:24:01.855581Z",
+  "generated_at": "2026-09-03T11:25:11.276507Z",
   "next_runs": [
     "2026-09-03T16:07:00Z",
     "2026-09-04T01:07:00Z",
     "2026-09-04T06:07:00Z"
   ],
   "summary": {
-    "videos": 94,
-    "total_views": 55585,
+    "videos": 93,
+    "total_views": 55583,
     "total_likes": 1060,
     "total_comments": 19,
-    "mean_abs_pct_error": 112.6,
+    "mean_abs_pct_error": 112.7,
     "measured_videos": 93,
     "days_of_history": 35,
     "self_improve_active": false,
@@ -28,7 +28,7 @@
     "units_used": 14,
     "daily_cap": 10000,
     "remaining": 9986,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -988,22 +988,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-03T11:07:42Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 296.4,
+    "used_minutes": 313.5,
     "budget_minutes": 2000,
-    "percent_used": 14.8,
-    "runs_counted": 20,
+    "percent_used": 15.7,
+    "runs_counted": 21,
     "per_workflow_minutes": {
-      "daily.yml": 245.0,
+      "daily.yml": 262.1,
       "followup.yml": 51.4
     },
     "measurement_source": "run_duration",
@@ -1098,9 +1098,9 @@
     "slots": [
       {
         "started_at": "2026-09-03T11:07:42Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-09-03T06:07:00Z",
@@ -1194,52 +1194,6 @@
   },
   "videos": [
     {
-      "n": 94,
-      "video_id": "i3lkAM_78x8",
-      "title": "The 1912 Ghost Train That Ran Itself",
-      "url": "https://youtube.com/watch?v=i3lkAM_78x8",
-      "uploaded_at": "2026-09-03T11:23:54Z",
-      "topic": "Le stratostat Korolev",
-      "hook": "An empty iron locomotive vanished into a 1912 Belgian tunnel.",
-      "predicted_views": 373,
-      "predicted_range": "111-1,258",
-      "predicted_low": 111,
-      "predicted_high": 1258,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "checked",
-        "checked": 5,
-        "contradicted": 0,
-        "misleading": 0,
-        "resolution_grounded": true,
-        "unverified_source": true
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 93,
       "video_id": "_nJLLA5pSy0",
       "title": "The 1930s Mystery of the Singing Statues",
@@ -1251,14 +1205,14 @@
       "predicted_range": "111-1,258",
       "predicted_low": 111,
       "predicted_high": 1258,
-      "actual_views": 269,
-      "measured_at": "2026-09-03T11:24:00Z",
+      "actual_views": 265,
+      "measured_at": "2026-09-03T11:25:09Z",
       "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": -28,
+      "error_pct": -29,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 4.83,
+      "engagement_rate": 4.91,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1290,8 +1244,8 @@
       "replaced_by": null,
       "history": [
         {
-          "measured_at": "2026-09-03T11:24:00Z",
-          "actual_views": 269
+          "measured_at": "2026-09-03T11:25:09Z",
+          "actual_views": 265
         }
       ],
       "reuse": null
@@ -1309,7 +1263,7 @@
       "predicted_low": 138,
       "predicted_high": 1573,
       "actual_views": 240,
-      "measured_at": "2026-09-03T11:23:59Z",
+      "measured_at": "2026-09-03T11:25:08Z",
       "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -48,
@@ -1349,7 +1303,7 @@
           "actual_views": 186
         },
         {
-          "measured_at": "2026-09-03T11:23:59Z",
+          "measured_at": "2026-09-03T11:25:08Z",
           "actual_views": 240
         }
       ],
@@ -1367,14 +1321,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 824,
-      "measured_at": "2026-09-03T11:23:58Z",
+      "actual_views": 826,
+      "measured_at": "2026-09-03T11:25:07Z",
       "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": 130,
       "likes": 31,
       "comments": 0,
-      "engagement_rate": 3.76,
+      "engagement_rate": 3.75,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1428,8 +1382,8 @@
           "actual_views": 760
         },
         {
-          "measured_at": "2026-09-03T11:23:58Z",
-          "actual_views": 824
+          "measured_at": "2026-09-03T11:25:07Z",
+          "actual_views": 826
         }
       ],
       "reuse": null
@@ -1447,7 +1401,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 161,
-      "measured_at": "2026-09-03T11:23:57Z",
+      "measured_at": "2026-09-03T11:25:06Z",
       "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -59,
@@ -1521,7 +1475,7 @@
           "actual_views": 155
         },
         {
-          "measured_at": "2026-09-03T11:23:57Z",
+          "measured_at": "2026-09-03T11:25:06Z",
           "actual_views": 161
         }
       ],
@@ -1540,7 +1494,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 25,
-      "measured_at": "2026-09-03T11:23:57Z",
+      "measured_at": "2026-09-03T11:25:05Z",
       "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
@@ -1612,7 +1566,7 @@
           "actual_views": 22
         },
         {
-          "measured_at": "2026-09-03T11:23:57Z",
+          "measured_at": "2026-09-03T11:25:05Z",
           "actual_views": 25
         }
       ],
@@ -1631,7 +1585,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 38,
-      "measured_at": "2026-09-03T11:23:56Z",
+      "measured_at": "2026-09-03T11:25:04Z",
       "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
@@ -1711,7 +1665,7 @@
           "actual_views": 35
         },
         {
-          "measured_at": "2026-09-03T11:23:56Z",
+          "measured_at": "2026-09-03T11:25:04Z",
           "actual_views": 38
         }
       ],
@@ -33202,7 +33156,7 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 1047,
-      "measured_at": "2026-09-03T11:24:01Z",
+      "measured_at": "2026-09-03T11:25:11Z",
       "measurement_count": 83,
       "system_version": "phase1-stabilize",
       "error_pct": 32,
@@ -33630,7 +33584,7 @@
       },
       "degradations": [],
       "final": true,
-      "finalized_at": "2026-09-03T11:24:01Z",
+      "finalized_at": "2026-09-03T11:25:11Z",
       "cadence": "final",
       "replaced_by": null,
       "history": [
@@ -33963,7 +33917,7 @@
           "actual_views": 1047
         },
         {
-          "measured_at": "2026-09-03T11:24:01Z",
+          "measured_at": "2026-09-03T11:25:11Z",
           "actual_views": 1047
         }
       ],
