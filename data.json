@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:02:09.248532Z",
+  "generated_at": "2026-09-03T23:17:01.170962Z",
   "next_runs": [
     "2026-09-04T01:07:00Z",
     "2026-09-04T06:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 96,
-    "total_views": 56420,
-    "total_likes": 1076,
+    "total_views": 56475,
+    "total_likes": 1080,
     "total_comments": 19,
     "mean_abs_pct_error": 112.6,
     "measured_videos": 95,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.086
   },
   "quota": {
-    "units_used": 178,
+    "units_used": 189,
     "daily_cap": 10000,
-    "remaining": 9822,
+    "remaining": 9811,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 57
+    "subscriber_count": 58
   },
   "spotlight": {
     "best": {
@@ -734,8 +734,8 @@
       "predicted_low": 114,
       "predicted_high": 1298,
       "actual_views": 0,
-      "measured_at": "2026-09-03T21:02:09Z",
-      "measurement_count": 1,
+      "measured_at": "2026-09-03T23:17:01Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -100,
       "likes": 0,
@@ -767,6 +767,10 @@
       "history": [
         {
           "measured_at": "2026-09-03T21:02:09Z",
+          "actual_views": 0
+        },
+        {
+          "measured_at": "2026-09-03T23:17:01Z",
           "actual_views": 0
         }
       ],
@@ -812,13 +816,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 376.8,
+    "used_minutes": 377.4,
     "budget_minutes": 2000,
-    "percent_used": 18.8,
-    "runs_counted": 25,
+    "percent_used": 18.9,
+    "runs_counted": 26,
     "per_workflow_minutes": {
       "daily.yml": 311.6,
-      "followup.yml": 65.3
+      "followup.yml": 65.8
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -852,13 +856,6 @@
         "run_id": 33441195954,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33441195954",
         "created_at": "2026-08-31T21:24:32Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "followup.yml",
-        "run_id": 33438145135,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33438145135",
-        "created_at": "2026-08-31T20:49:53Z",
         "error": "Unknown error \u2014 see run logs."
       },
       {
@@ -1044,8 +1041,8 @@
       "predicted_low": 114,
       "predicted_high": 1298,
       "actual_views": 0,
-      "measured_at": "2026-09-03T21:02:09Z",
-      "measurement_count": 1,
+      "measured_at": "2026-09-03T23:17:01Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
       "error_pct": -100,
       "likes": 0,
@@ -1078,6 +1075,10 @@
         {
           "measured_at": "2026-09-03T21:02:09Z",
           "actual_views": 0
+        },
+        {
+          "measured_at": "2026-09-03T23:17:01Z",
+          "actual_views": 0
         }
       ],
       "reuse": null
@@ -1094,14 +1095,14 @@
       "predicted_range": "111-1,258",
       "predicted_low": 111,
       "predicted_high": 1258,
-      "actual_views": 324,
-      "measured_at": "2026-09-03T21:02:08Z",
-      "measurement_count": 3,
+      "actual_views": 343,
+      "measured_at": "2026-09-03T23:17:00Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -13,
-      "likes": 10,
+      "error_pct": -8,
+      "likes": 13,
       "comments": 0,
-      "engagement_rate": 3.09,
+      "engagement_rate": 3.79,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1137,6 +1138,10 @@
         {
           "measured_at": "2026-09-03T21:02:08Z",
           "actual_views": 324
+        },
+        {
+          "measured_at": "2026-09-03T23:17:00Z",
+          "actual_views": 343
         }
       ],
       "reuse": null
@@ -1153,14 +1158,14 @@
       "predicted_range": "111-1,258",
       "predicted_low": 111,
       "predicted_high": 1258,
-      "actual_views": 368,
-      "measured_at": "2026-09-03T21:02:08Z",
-      "measurement_count": 6,
+      "actual_views": 378,
+      "measured_at": "2026-09-03T23:17:00Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
-      "error_pct": -1,
-      "likes": 15,
+      "error_pct": 1,
+      "likes": 16,
       "comments": 0,
-      "engagement_rate": 4.08,
+      "engagement_rate": 4.23,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1214,6 +1219,10 @@
         {
           "measured_at": "2026-09-03T21:02:08Z",
           "actual_views": 368
+        },
+        {
+          "measured_at": "2026-09-03T23:17:00Z",
+          "actual_views": 378
         }
       ],
       "reuse": null
@@ -1230,14 +1239,14 @@
       "predicted_range": "138-1,573",
       "predicted_low": 138,
       "predicted_high": 1573,
-      "actual_views": 559,
-      "measured_at": "2026-09-03T21:02:07Z",
-      "measurement_count": 8,
+      "actual_views": 585,
+      "measured_at": "2026-09-03T23:16:59Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
-      "error_pct": 20,
+      "error_pct": 26,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 0.72,
+      "engagement_rate": 0.68,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1293,6 +1302,10 @@
         {
           "measured_at": "2026-09-03T21:02:07Z",
           "actual_views": 559
+        },
+        {
+          "measured_at": "2026-09-03T23:16:59Z",
+          "actual_views": 585
         }
       ],
       "reuse": null
@@ -1310,8 +1323,8 @@
       "predicted_low": 106,
       "predicted_high": 1213,
       "actual_views": 893,
-      "measured_at": "2026-09-03T21:02:06Z",
-      "measurement_count": 13,
+      "measured_at": "2026-09-03T23:16:58Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": 149,
       "likes": 34,
@@ -1391,6 +1404,10 @@
         },
         {
           "measured_at": "2026-09-03T21:02:06Z",
+          "actual_views": 893
+        },
+        {
+          "measured_at": "2026-09-03T23:16:58Z",
           "actual_views": 893
         }
       ],
