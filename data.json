@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-03T11:25:11.276507Z",
+  "generated_at": "2026-09-03T15:26:14.373675Z",
   "next_runs": [
     "2026-09-03T16:07:00Z",
     "2026-09-04T01:07:00Z",
     "2026-09-04T06:07:00Z"
   ],
   "summary": {
-    "videos": 93,
-    "total_views": 55583,
-    "total_likes": 1060,
+    "videos": 95,
+    "total_views": 55711,
+    "total_likes": 1066,
     "total_comments": 19,
-    "mean_abs_pct_error": 112.7,
+    "mean_abs_pct_error": 112.6,
     "measured_videos": 93,
-    "days_of_history": 35,
+    "days_of_history": 36,
     "self_improve_active": false,
     "self_improve_after_days": 5,
     "self_improve_awaiting_approval": true,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.093
   },
   "quota": {
-    "units_used": 14,
+    "units_used": 27,
     "daily_cap": 10000,
-    "remaining": 9986,
-    "upload_slots_used": 0,
+    "remaining": 9973,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -988,23 +988,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-03T11:07:42Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-03T14:56:57Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33769830404",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 313.5,
+    "used_minutes": 325.5,
     "budget_minutes": 2000,
-    "percent_used": 15.7,
-    "runs_counted": 21,
+    "percent_used": 16.3,
+    "runs_counted": 22,
     "per_workflow_minutes": {
       "daily.yml": 262.1,
-      "followup.yml": 51.4
+      "followup.yml": 63.4
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1081,26 +1081,27 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33360994618",
         "created_at": "2026-08-31T05:34:07Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33330347261,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33330347261",
-        "created_at": "2026-08-30T19:15:13Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
+    "published_24h": 3,
     "expected_24h": 6,
     "slots": [
       {
+        "started_at": "2026-09-03T14:56:57Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33769830404",
+        "reason": "This run is still going."
+      },
+      {
         "started_at": "2026-09-03T11:07:42Z",
-        "state": "not_uploaded",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
-        "reason": "The run finished successfully but did not publish a video."
+        "title": "The 1912 Ghost Train That Ran Itself",
+        "video_id": "i3lkAM_78x8",
+        "url": "https://youtube.com/watch?v=i3lkAM_78x8"
       },
       {
         "started_at": "2026-09-03T06:07:00Z",
@@ -1183,16 +1184,102 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33441195954",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-31T17:58:14Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33422434402",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
+    {
+      "n": 95,
+      "video_id": "8tPWoGLZbQk",
+      "title": "The 1892 Sky That Turned Blood Red",
+      "url": "https://youtube.com/watch?v=8tPWoGLZbQk",
+      "uploaded_at": "2026-09-03T15:26:09Z",
+      "topic": "1892 geomagnetic storm auroras",
+      "hook": "In 1892, a New England night sky turned blood red.",
+      "predicted_views": 385,
+      "predicted_range": "114-1,298",
+      "predicted_low": 114,
+      "predicted_high": 1298,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 94,
+      "video_id": "i3lkAM_78x8",
+      "title": "The 1912 Ghost Train That Ran Itself",
+      "url": "https://youtube.com/watch?v=i3lkAM_78x8",
+      "uploaded_at": "2026-09-03T11:23:54Z",
+      "topic": "Le stratostat Korolev",
+      "hook": "An empty iron locomotive vanished into a 1912 Belgian tunnel.",
+      "predicted_views": 373,
+      "predicted_range": "111-1,258",
+      "predicted_low": 111,
+      "predicted_high": 1258,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 93,
       "video_id": "_nJLLA5pSy0",
@@ -1205,14 +1292,14 @@
       "predicted_range": "111-1,258",
       "predicted_low": 111,
       "predicted_high": 1258,
-      "actual_views": 265,
-      "measured_at": "2026-09-03T11:25:09Z",
-      "measurement_count": 1,
+      "actual_views": 329,
+      "measured_at": "2026-09-03T15:26:13Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -29,
-      "likes": 13,
+      "error_pct": -12,
+      "likes": 15,
       "comments": 0,
-      "engagement_rate": 4.91,
+      "engagement_rate": 4.56,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1244,8 +1331,16 @@
       "replaced_by": null,
       "history": [
         {
+          "measured_at": "2026-09-03T11:24:00Z",
+          "actual_views": 269
+        },
+        {
           "measured_at": "2026-09-03T11:25:09Z",
           "actual_views": 265
+        },
+        {
+          "measured_at": "2026-09-03T15:26:13Z",
+          "actual_views": 329
         }
       ],
       "reuse": null
@@ -1262,14 +1357,14 @@
       "predicted_range": "138-1,573",
       "predicted_low": 138,
       "predicted_high": 1573,
-      "actual_views": 240,
-      "measured_at": "2026-09-03T11:25:08Z",
-      "measurement_count": 3,
+      "actual_views": 274,
+      "measured_at": "2026-09-03T15:26:12Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": -48,
-      "likes": 3,
+      "error_pct": -41,
+      "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.25,
+      "engagement_rate": 1.46,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1303,8 +1398,16 @@
           "actual_views": 186
         },
         {
+          "measured_at": "2026-09-03T11:23:59Z",
+          "actual_views": 240
+        },
+        {
           "measured_at": "2026-09-03T11:25:08Z",
           "actual_views": 240
+        },
+        {
+          "measured_at": "2026-09-03T15:26:12Z",
+          "actual_views": 274
         }
       ],
       "reuse": null
@@ -1321,14 +1424,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 826,
-      "measured_at": "2026-09-03T11:25:07Z",
-      "measurement_count": 8,
+      "actual_views": 856,
+      "measured_at": "2026-09-03T15:26:11Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": 130,
-      "likes": 31,
+      "error_pct": 138,
+      "likes": 33,
       "comments": 0,
-      "engagement_rate": 3.75,
+      "engagement_rate": 3.86,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1382,8 +1485,16 @@
           "actual_views": 760
         },
         {
+          "measured_at": "2026-09-03T11:23:58Z",
+          "actual_views": 824
+        },
+        {
           "measured_at": "2026-09-03T11:25:07Z",
           "actual_views": 826
+        },
+        {
+          "measured_at": "2026-09-03T15:26:11Z",
+          "actual_views": 856
         }
       ],
       "reuse": null
@@ -1401,13 +1512,13 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 161,
-      "measured_at": "2026-09-03T11:25:06Z",
-      "measurement_count": 10,
+      "measured_at": "2026-09-03T15:26:10Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -59,
-      "likes": 3,
+      "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.86,
+      "engagement_rate": 2.48,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1475,7 +1586,15 @@
           "actual_views": 155
         },
         {
+          "measured_at": "2026-09-03T11:23:57Z",
+          "actual_views": 161
+        },
+        {
           "measured_at": "2026-09-03T11:25:06Z",
+          "actual_views": 161
+        },
+        {
+          "measured_at": "2026-09-03T15:26:10Z",
           "actual_views": 161
         }
       ],
@@ -1494,8 +1613,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 25,
-      "measured_at": "2026-09-03T11:25:05Z",
-      "measurement_count": 11,
+      "measured_at": "2026-09-03T15:26:09Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
       "likes": 3,
@@ -1566,7 +1685,15 @@
           "actual_views": 22
         },
         {
+          "measured_at": "2026-09-03T11:23:57Z",
+          "actual_views": 25
+        },
+        {
           "measured_at": "2026-09-03T11:25:05Z",
+          "actual_views": 25
+        },
+        {
+          "measured_at": "2026-09-03T15:26:09Z",
           "actual_views": 25
         }
       ],
@@ -1586,7 +1713,7 @@
       "predicted_high": 1340,
       "actual_views": 38,
       "measured_at": "2026-09-03T11:25:04Z",
-      "measurement_count": 13,
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
       "likes": 0,
@@ -1613,7 +1740,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
@@ -1663,6 +1790,10 @@
         {
           "measured_at": "2026-09-03T05:58:21Z",
           "actual_views": 35
+        },
+        {
+          "measured_at": "2026-09-03T11:23:56Z",
+          "actual_views": 38
         },
         {
           "measured_at": "2026-09-03T11:25:04Z",
@@ -32392,8 +32523,8 @@
       "predicted_low": 202,
       "predicted_high": 3096,
       "actual_views": 702,
-      "measured_at": "2026-09-02T19:44:57Z",
-      "measurement_count": 79,
+      "measured_at": "2026-09-03T15:26:14Z",
+      "measurement_count": 80,
       "system_version": "phase1-stabilize",
       "error_pct": -11,
       "likes": 15,
@@ -32819,9 +32950,9 @@
         "retention_at_end": 0.3836
       },
       "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-03T15:26:14Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -33139,6 +33270,10 @@
         {
           "measured_at": "2026-09-02T19:44:57Z",
           "actual_views": 702
+        },
+        {
+          "measured_at": "2026-09-03T15:26:14Z",
+          "actual_views": 702
         }
       ],
       "reuse": null
@@ -33157,7 +33292,7 @@
       "predicted_high": 3129,
       "actual_views": 1047,
       "measured_at": "2026-09-03T11:25:11Z",
-      "measurement_count": 83,
+      "measurement_count": 84,
       "system_version": "phase1-stabilize",
       "error_pct": 32,
       "likes": 15,
@@ -33914,6 +34049,10 @@
         },
         {
           "measured_at": "2026-09-02T19:44:57Z",
+          "actual_views": 1047
+        },
+        {
+          "measured_at": "2026-09-03T11:24:01Z",
           "actual_views": 1047
         },
         {
