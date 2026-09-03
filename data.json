@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T04:33:20.590067Z",
+  "generated_at": "2026-09-03T05:58:24.779007Z",
   "next_runs": [
     "2026-09-03T06:07:00Z",
     "2026-09-03T11:07:00Z",
     "2026-09-03T16:07:00Z"
   ],
   "summary": {
-    "videos": 92,
-    "total_views": 55122,
-    "total_likes": 1044,
+    "videos": 93,
+    "total_views": 55186,
+    "total_likes": 1046,
     "total_comments": 19,
     "mean_abs_pct_error": 114.3,
     "measured_videos": 92,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.093
   },
   "quota": {
-    "units_used": 185,
+    "units_used": 196,
     "daily_cap": 10000,
-    "remaining": 9815,
-    "upload_slots_used": 1,
+    "remaining": 9804,
+    "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -988,23 +988,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-02T19:20:02Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33672665070",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-03T05:38:14Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 274.7,
+    "used_minutes": 275.4,
     "budget_minutes": 2000,
-    "percent_used": 13.7,
-    "runs_counted": 18,
+    "percent_used": 13.8,
+    "runs_counted": 19,
     "per_workflow_minutes": {
       "daily.yml": 224.0,
-      "followup.yml": 50.7
+      "followup.yml": 51.4
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1102,21 +1102,25 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33319250036",
         "created_at": "2026-08-30T15:18:12Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33309906782,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33309906782",
-        "created_at": "2026-08-30T11:50:02Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 2,
-    "expected_24h": 5,
+    "published_24h": 1,
+    "expected_24h": 6,
     "slots": [
+      {
+        "started_at": "2026-09-03T05:38:14Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
+        "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-03T01:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
       {
         "started_at": "2026-09-02T19:20:02Z",
         "state": "published",
@@ -1197,16 +1201,62 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33397902058",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-31T06:54:41Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33366098118",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
+    {
+      "n": 93,
+      "video_id": "_nJLLA5pSy0",
+      "title": "The 1930s Mystery of the Singing Statues",
+      "url": "https://youtube.com/watch?v=_nJLLA5pSy0",
+      "uploaded_at": "2026-09-03T05:58:19Z",
+      "topic": "Colossi of Memnon",
+      "hook": "In 27 BCE, one of the two giant stone statues suddenly started singing every morning.",
+      "predicted_views": 373,
+      "predicted_range": "111-1,258",
+      "predicted_low": 111,
+      "predicted_high": 1258,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 1,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "script-duplicate-topic",
+          "detail": "both attempts returned 'Colossi of Memnon', the same subject as the already-published 'Colossi of Memnon'",
+          "fallback": "published the repeat rather than losing the slot \u2014 flagged here instead"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 92,
       "video_id": "YMhpN7qUDDM",
@@ -1219,14 +1269,14 @@
       "predicted_range": "138-1,573",
       "predicted_low": 138,
       "predicted_high": 1573,
-      "actual_views": 148,
-      "measured_at": "2026-09-03T04:33:19Z",
-      "measurement_count": 1,
+      "actual_views": 186,
+      "measured_at": "2026-09-03T05:58:24Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -68,
-      "likes": 3,
+      "error_pct": -60,
+      "likes": 4,
       "comments": 0,
-      "engagement_rate": 2.03,
+      "engagement_rate": 2.15,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1254,6 +1304,10 @@
         {
           "measured_at": "2026-09-03T04:33:19Z",
           "actual_views": 148
+        },
+        {
+          "measured_at": "2026-09-03T05:58:24Z",
+          "actual_views": 186
         }
       ],
       "reuse": null
@@ -1270,14 +1324,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 735,
-      "measured_at": "2026-09-03T04:33:19Z",
-      "measurement_count": 6,
+      "actual_views": 760,
+      "measured_at": "2026-09-03T05:58:23Z",
+      "measurement_count": 7,
       "system_version": "phase1-stabilize",
-      "error_pct": 105,
-      "likes": 28,
+      "error_pct": 112,
+      "likes": 29,
       "comments": 0,
-      "engagement_rate": 3.81,
+      "engagement_rate": 3.82,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1325,6 +1379,10 @@
         {
           "measured_at": "2026-09-03T04:33:19Z",
           "actual_views": 735
+        },
+        {
+          "measured_at": "2026-09-03T05:58:23Z",
+          "actual_views": 760
         }
       ],
       "reuse": null
@@ -1342,8 +1400,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 155,
-      "measured_at": "2026-09-03T04:33:18Z",
-      "measurement_count": 8,
+      "measured_at": "2026-09-03T05:58:22Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -61,
       "likes": 3,
@@ -1410,6 +1468,10 @@
         {
           "measured_at": "2026-09-03T04:33:18Z",
           "actual_views": 155
+        },
+        {
+          "measured_at": "2026-09-03T05:58:22Z",
+          "actual_views": 155
         }
       ],
       "reuse": null
@@ -1426,14 +1488,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 21,
-      "measured_at": "2026-09-03T04:33:18Z",
-      "measurement_count": 9,
+      "actual_views": 22,
+      "measured_at": "2026-09-03T05:58:22Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": -95,
+      "error_pct": -94,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 14.29,
+      "engagement_rate": 13.64,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1493,6 +1555,10 @@
         {
           "measured_at": "2026-09-03T04:33:18Z",
           "actual_views": 21
+        },
+        {
+          "measured_at": "2026-09-03T05:58:22Z",
+          "actual_views": 22
         }
       ],
       "reuse": null
@@ -1510,8 +1576,8 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 35,
-      "measured_at": "2026-09-03T04:33:17Z",
-      "measurement_count": 11,
+      "measured_at": "2026-09-03T05:58:21Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": -91,
       "likes": 0,
@@ -1583,6 +1649,10 @@
         },
         {
           "measured_at": "2026-09-03T04:33:17Z",
+          "actual_views": 35
+        },
+        {
+          "measured_at": "2026-09-03T05:58:21Z",
           "actual_views": 35
         }
       ],
