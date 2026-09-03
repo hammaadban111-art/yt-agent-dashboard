@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-03T05:58:24.779007Z",
+  "generated_at": "2026-09-03T11:24:01.855581Z",
   "next_runs": [
-    "2026-09-03T06:07:00Z",
-    "2026-09-03T11:07:00Z",
-    "2026-09-03T16:07:00Z"
+    "2026-09-03T16:07:00Z",
+    "2026-09-04T01:07:00Z",
+    "2026-09-04T06:07:00Z"
   ],
   "summary": {
-    "videos": 93,
-    "total_views": 55186,
-    "total_likes": 1046,
+    "videos": 94,
+    "total_views": 55585,
+    "total_likes": 1060,
     "total_comments": 19,
-    "mean_abs_pct_error": 114.3,
-    "measured_videos": 92,
+    "mean_abs_pct_error": 112.6,
+    "measured_videos": 93,
     "days_of_history": 35,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,15 +20,15 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 15,
+    "n": 14,
     "mean_drop_at": 0.112,
     "mean_drop_size": 0.093
   },
   "quota": {
-    "units_used": 196,
+    "units_used": 14,
     "daily_cap": 10000,
-    "remaining": 9804,
-    "upload_slots_used": 2,
+    "remaining": 9986,
+    "upload_slots_used": 1,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -991,19 +991,19 @@
     "status": "in_progress",
     "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-03T05:38:14Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
+    "created_at": "2026-09-03T11:07:42Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
     "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 275.4,
+    "used_minutes": 296.4,
     "budget_minutes": 2000,
-    "percent_used": 13.8,
-    "runs_counted": 19,
+    "percent_used": 14.8,
+    "runs_counted": 20,
     "per_workflow_minutes": {
-      "daily.yml": 224.0,
+      "daily.yml": 245.0,
       "followup.yml": 51.4
     },
     "measurement_source": "run_duration",
@@ -1083,38 +1083,37 @@
         "error": "Unknown error \u2014 see run logs."
       },
       {
-        "workflow": "followup.yml",
-        "run_id": 33341940002,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33341940002",
-        "created_at": "2026-08-30T23:29:23Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
         "workflow": "daily.yml",
         "run_id": 33330347261,
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33330347261",
         "created_at": "2026-08-30T19:15:13Z",
-        "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33319250036,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33319250036",
-        "created_at": "2026-08-30T15:18:12Z",
         "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 1,
+    "published_24h": 2,
     "expected_24h": 6,
     "slots": [
       {
-        "started_at": "2026-09-03T05:38:14Z",
+        "started_at": "2026-09-03T11:07:42Z",
         "state": "running",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33747983303",
         "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-03T06:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
+      {
+        "started_at": "2026-09-03T05:38:14Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
+        "title": "The 1930s Mystery of the Singing Statues",
+        "video_id": "_nJLLA5pSy0",
+        "url": "https://youtube.com/watch?v=_nJLLA5pSy0"
       },
       {
         "started_at": "2026-09-03T01:07:00Z",
@@ -1140,11 +1139,6 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
         "reason": "Run agent: This run was cancelled."
-      },
-      {
-        "started_at": "2026-09-02T06:07:00Z",
-        "state": "not_uploaded",
-        "reason": "The scheduled run never started on GitHub's side."
       },
       {
         "started_at": "2026-09-02T05:38:50Z",
@@ -1195,24 +1189,18 @@
         "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33422434402",
         "reason": "Unknown error \u2014 see run logs."
-      },
-      {
-        "started_at": "2026-08-31T13:36:31Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33397902058",
-        "reason": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "videos": [
     {
-      "n": 93,
-      "video_id": "_nJLLA5pSy0",
-      "title": "The 1930s Mystery of the Singing Statues",
-      "url": "https://youtube.com/watch?v=_nJLLA5pSy0",
-      "uploaded_at": "2026-09-03T05:58:19Z",
-      "topic": "Colossi of Memnon",
-      "hook": "In 27 BCE, one of the two giant stone statues suddenly started singing every morning.",
+      "n": 94,
+      "video_id": "i3lkAM_78x8",
+      "title": "The 1912 Ghost Train That Ran Itself",
+      "url": "https://youtube.com/watch?v=i3lkAM_78x8",
+      "uploaded_at": "2026-09-03T11:23:54Z",
+      "topic": "Le stratostat Korolev",
+      "hook": "An empty iron locomotive vanished into a 1912 Belgian tunnel.",
       "predicted_views": 373,
       "predicted_range": "111-1,258",
       "predicted_low": 111,
@@ -1231,13 +1219,59 @@
         "status": "checked",
         "checked": 5,
         "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
+    {
+      "n": 93,
+      "video_id": "_nJLLA5pSy0",
+      "title": "The 1930s Mystery of the Singing Statues",
+      "url": "https://youtube.com/watch?v=_nJLLA5pSy0",
+      "uploaded_at": "2026-09-03T05:58:19Z",
+      "topic": "Colossi of Memnon",
+      "hook": "In 27 BCE, one of the two giant stone statues suddenly started singing every morning.",
+      "predicted_views": 373,
+      "predicted_range": "111-1,258",
+      "predicted_low": 111,
+      "predicted_high": 1258,
+      "actual_views": 269,
+      "measured_at": "2026-09-03T11:24:00Z",
+      "measurement_count": 1,
+      "system_version": "phase1-stabilize",
+      "error_pct": -28,
+      "likes": 13,
+      "comments": 0,
+      "engagement_rate": 4.83,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
         "misleading": 1,
         "resolution_grounded": true,
         "unverified_source": false
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1254,7 +1288,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-03T11:24:00Z",
+          "actual_views": 269
+        }
+      ],
       "reuse": null
     },
     {
@@ -1269,14 +1308,14 @@
       "predicted_range": "138-1,573",
       "predicted_low": 138,
       "predicted_high": 1573,
-      "actual_views": 186,
-      "measured_at": "2026-09-03T05:58:24Z",
-      "measurement_count": 2,
+      "actual_views": 240,
+      "measured_at": "2026-09-03T11:23:59Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": -60,
-      "likes": 4,
+      "error_pct": -48,
+      "likes": 3,
       "comments": 0,
-      "engagement_rate": 2.15,
+      "engagement_rate": 1.25,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1308,6 +1347,10 @@
         {
           "measured_at": "2026-09-03T05:58:24Z",
           "actual_views": 186
+        },
+        {
+          "measured_at": "2026-09-03T11:23:59Z",
+          "actual_views": 240
         }
       ],
       "reuse": null
@@ -1324,14 +1367,14 @@
       "predicted_range": "106-1,213",
       "predicted_low": 106,
       "predicted_high": 1213,
-      "actual_views": 760,
-      "measured_at": "2026-09-03T05:58:23Z",
-      "measurement_count": 7,
+      "actual_views": 824,
+      "measured_at": "2026-09-03T11:23:58Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
-      "error_pct": 112,
-      "likes": 29,
+      "error_pct": 130,
+      "likes": 31,
       "comments": 0,
-      "engagement_rate": 3.82,
+      "engagement_rate": 3.76,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1383,6 +1426,10 @@
         {
           "measured_at": "2026-09-03T05:58:23Z",
           "actual_views": 760
+        },
+        {
+          "measured_at": "2026-09-03T11:23:58Z",
+          "actual_views": 824
         }
       ],
       "reuse": null
@@ -1399,14 +1446,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 155,
-      "measured_at": "2026-09-03T05:58:22Z",
-      "measurement_count": 9,
+      "actual_views": 161,
+      "measured_at": "2026-09-03T11:23:57Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": -61,
+      "error_pct": -59,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.94,
+      "engagement_rate": 1.86,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1472,6 +1519,10 @@
         {
           "measured_at": "2026-09-03T05:58:22Z",
           "actual_views": 155
+        },
+        {
+          "measured_at": "2026-09-03T11:23:57Z",
+          "actual_views": 161
         }
       ],
       "reuse": null
@@ -1488,14 +1539,14 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 22,
-      "measured_at": "2026-09-03T05:58:22Z",
-      "measurement_count": 10,
+      "actual_views": 25,
+      "measured_at": "2026-09-03T11:23:57Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 13.64,
+      "engagement_rate": 12.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1559,6 +1610,10 @@
         {
           "measured_at": "2026-09-03T05:58:22Z",
           "actual_views": 22
+        },
+        {
+          "measured_at": "2026-09-03T11:23:57Z",
+          "actual_views": 25
         }
       ],
       "reuse": null
@@ -1575,11 +1630,11 @@
       "predicted_range": "117-1,340",
       "predicted_low": 117,
       "predicted_high": 1340,
-      "actual_views": 35,
-      "measured_at": "2026-09-03T05:58:21Z",
-      "measurement_count": 12,
+      "actual_views": 38,
+      "measured_at": "2026-09-03T11:23:56Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": -91,
+      "error_pct": -90,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1654,6 +1709,10 @@
         {
           "measured_at": "2026-09-03T05:58:21Z",
           "actual_views": 35
+        },
+        {
+          "measured_at": "2026-09-03T11:23:56Z",
+          "actual_views": 38
         }
       ],
       "reuse": null
@@ -33143,8 +33202,8 @@
       "predicted_low": 201,
       "predicted_high": 3129,
       "actual_views": 1047,
-      "measured_at": "2026-09-02T19:44:57Z",
-      "measurement_count": 82,
+      "measured_at": "2026-09-03T11:24:01Z",
+      "measurement_count": 83,
       "system_version": "phase1-stabilize",
       "error_pct": 32,
       "likes": 15,
@@ -33570,9 +33629,9 @@
         "retention_at_end": 0.5778
       },
       "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-03T11:24:01Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -33901,6 +33960,10 @@
         },
         {
           "measured_at": "2026-09-02T19:44:57Z",
+          "actual_views": 1047
+        },
+        {
+          "measured_at": "2026-09-03T11:24:01Z",
           "actual_views": 1047
         }
       ],
