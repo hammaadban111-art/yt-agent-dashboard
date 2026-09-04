@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-04T11:41:43.806724Z",
+  "generated_at": "2026-09-04T11:42:33.212097Z",
   "next_runs": [
     "2026-09-04T16:07:00Z",
     "2026-09-05T01:07:00Z",
     "2026-09-05T06:07:00Z"
   ],
   "summary": {
-    "videos": 98,
-    "total_views": 58303,
+    "videos": 97,
+    "total_views": 58306,
     "total_likes": 1129,
     "total_comments": 20,
     "mean_abs_pct_error": 127.6,
@@ -28,7 +28,7 @@
     "units_used": 18,
     "daily_cap": 10000,
     "remaining": 9982,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -54,7 +54,7 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1406,
-      "measured_at": "2026-09-04T11:41:42Z",
+      "measured_at": "2026-09-04T11:42:30Z",
       "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": 404,
@@ -94,7 +94,7 @@
           "actual_views": 1397
         },
         {
-          "measured_at": "2026-09-04T11:41:42Z",
+          "measured_at": "2026-09-04T11:42:30Z",
           "actual_views": 1406
         }
       ],
@@ -375,22 +375,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-04T11:11:01Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33866726631",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 404.4,
+    "used_minutes": 435.5,
     "budget_minutes": 2000,
-    "percent_used": 20.2,
-    "runs_counted": 29,
+    "percent_used": 21.8,
+    "runs_counted": 30,
     "per_workflow_minutes": {
-      "daily.yml": 337.0,
+      "daily.yml": 368.1,
       "followup.yml": 67.4
     },
     "measurement_source": "run_duration",
@@ -436,9 +436,9 @@
     "slots": [
       {
         "started_at": "2026-09-04T11:11:01Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33866726631",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-09-04T06:07:00Z",
@@ -538,52 +538,6 @@
   },
   "videos": [
     {
-      "n": 98,
-      "video_id": "EkwjWNuLk_s",
-      "title": "The Bridge That Just Forgot How to Hold Itself",
-      "url": "https://youtube.com/watch?v=EkwjWNuLk_s",
-      "uploaded_at": "2026-09-04T11:41:37Z",
-      "topic": "Quebec Bridge",
-      "hook": "Twenty thousand tons of steel folded into the river.",
-      "predicted_views": 385,
-      "predicted_range": "114-1,296",
-      "predicted_low": 114,
-      "predicted_high": 1296,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "checked",
-        "checked": 5,
-        "contradicted": 0,
-        "misleading": 1,
-        "resolution_grounded": true,
-        "unverified_source": false
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 97,
       "video_id": "-Cny6NVxG1o",
       "title": "The 1922 Egypt Hotel That Swallowed Its Guests",
@@ -595,11 +549,11 @@
       "predicted_range": "114-1,296",
       "predicted_low": 114,
       "predicted_high": 1296,
-      "actual_views": 58,
-      "measured_at": "2026-09-04T11:41:43Z",
+      "actual_views": 62,
+      "measured_at": "2026-09-04T11:42:31Z",
       "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": -85,
+      "error_pct": -84,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -628,8 +582,8 @@
       "replaced_by": null,
       "history": [
         {
-          "measured_at": "2026-09-04T11:41:43Z",
-          "actual_views": 58
+          "measured_at": "2026-09-04T11:42:31Z",
+          "actual_views": 62
         }
       ],
       "reuse": null
@@ -647,7 +601,7 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1406,
-      "measured_at": "2026-09-04T11:41:42Z",
+      "measured_at": "2026-09-04T11:42:30Z",
       "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": 404,
@@ -687,7 +641,7 @@
           "actual_views": 1397
         },
         {
-          "measured_at": "2026-09-04T11:41:42Z",
+          "measured_at": "2026-09-04T11:42:30Z",
           "actual_views": 1406
         }
       ],
@@ -705,8 +659,8 @@
       "predicted_range": "114-1,298",
       "predicted_low": 114,
       "predicted_high": 1298,
-      "actual_views": 16,
-      "measured_at": "2026-09-04T11:41:41Z",
+      "actual_views": 15,
+      "measured_at": "2026-09-04T11:42:29Z",
       "measurement_count": 5,
       "system_version": "phase1-stabilize",
       "error_pct": -96,
@@ -754,8 +708,8 @@
           "actual_views": 13
         },
         {
-          "measured_at": "2026-09-04T11:41:41Z",
-          "actual_views": 16
+          "measured_at": "2026-09-04T11:42:29Z",
+          "actual_views": 15
         }
       ],
       "reuse": null
@@ -773,7 +727,7 @@
       "predicted_low": 111,
       "predicted_high": 1258,
       "actual_views": 511,
-      "measured_at": "2026-09-04T11:41:41Z",
+      "measured_at": "2026-09-04T11:42:28Z",
       "measurement_count": 7,
       "system_version": "phase1-stabilize",
       "error_pct": 37,
@@ -829,7 +783,7 @@
           "actual_views": 426
         },
         {
-          "measured_at": "2026-09-04T11:41:41Z",
+          "measured_at": "2026-09-04T11:42:28Z",
           "actual_views": 511
         }
       ],
@@ -848,7 +802,7 @@
       "predicted_low": 111,
       "predicted_high": 1258,
       "actual_views": 451,
-      "measured_at": "2026-09-04T11:41:40Z",
+      "measured_at": "2026-09-04T11:42:27Z",
       "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 21,
@@ -922,7 +876,7 @@
           "actual_views": 399
         },
         {
-          "measured_at": "2026-09-04T11:41:40Z",
+          "measured_at": "2026-09-04T11:42:27Z",
           "actual_views": 451
         }
       ],
@@ -941,7 +895,7 @@
       "predicted_low": 138,
       "predicted_high": 1573,
       "actual_views": 669,
-      "measured_at": "2026-09-04T11:41:40Z",
+      "measured_at": "2026-09-04T11:42:27Z",
       "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": 44,
@@ -1017,7 +971,7 @@
           "actual_views": 613
         },
         {
-          "measured_at": "2026-09-04T11:41:40Z",
+          "measured_at": "2026-09-04T11:42:27Z",
           "actual_views": 669
         }
       ],
@@ -1653,7 +1607,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 25,
-      "measured_at": "2026-09-04T11:41:39Z",
+      "measured_at": "2026-09-04T11:42:26Z",
       "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
@@ -1737,7 +1691,7 @@
           "actual_views": 25
         },
         {
-          "measured_at": "2026-09-04T11:41:39Z",
+          "measured_at": "2026-09-04T11:42:26Z",
           "actual_views": 25
         }
       ],
@@ -1756,7 +1710,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 38,
-      "measured_at": "2026-09-04T11:41:38Z",
+      "measured_at": "2026-09-04T11:42:25Z",
       "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
@@ -2245,7 +2199,7 @@
           "actual_views": 38
         },
         {
-          "measured_at": "2026-09-04T11:41:38Z",
+          "measured_at": "2026-09-04T11:42:25Z",
           "actual_views": 38
         }
       ],
@@ -31361,7 +31315,7 @@
       "predicted_low": 184,
       "predicted_high": 2701,
       "actual_views": 174,
-      "measured_at": "2026-09-04T11:41:43Z",
+      "measured_at": "2026-09-04T11:42:33Z",
       "measurement_count": 74,
       "system_version": "phase1-stabilize",
       "error_pct": -75,
@@ -31789,7 +31743,7 @@
       },
       "degradations": [],
       "final": true,
-      "finalized_at": "2026-09-04T11:41:43Z",
+      "finalized_at": "2026-09-04T11:42:33Z",
       "cadence": "final",
       "replaced_by": null,
       "history": [
@@ -32086,7 +32040,7 @@
           "actual_views": 174
         },
         {
-          "measured_at": "2026-09-04T11:41:43Z",
+          "measured_at": "2026-09-04T11:42:33Z",
           "actual_views": 174
         }
       ],
