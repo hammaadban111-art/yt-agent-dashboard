@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-04T04:33:10.864644Z",
+  "generated_at": "2026-09-04T06:08:37.273514Z",
   "next_runs": [
-    "2026-09-04T06:07:00Z",
     "2026-09-04T11:07:00Z",
-    "2026-09-04T16:07:00Z"
+    "2026-09-04T16:07:00Z",
+    "2026-09-05T01:07:00Z"
   ],
   "summary": {
-    "videos": 96,
-    "total_views": 57991,
+    "videos": 97,
+    "total_views": 58040,
     "total_likes": 1112,
     "total_comments": 20,
     "mean_abs_pct_error": 129.4,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.087
   },
   "quota": {
-    "units_used": 204,
+    "units_used": 215,
     "daily_cap": 10000,
-    "remaining": 9796,
-    "upload_slots_used": 3,
+    "remaining": 9785,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -53,11 +53,11 @@
       "predicted_range": "83-940",
       "predicted_low": 83,
       "predicted_high": 940,
-      "actual_views": 1391,
-      "measured_at": "2026-09-04T04:33:09Z",
-      "measurement_count": 1,
+      "actual_views": 1397,
+      "measured_at": "2026-09-04T06:08:37Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 399,
+      "error_pct": 401,
       "likes": 29,
       "comments": 0,
       "engagement_rate": 2.08,
@@ -88,6 +88,10 @@
         {
           "measured_at": "2026-09-04T04:33:09Z",
           "actual_views": 1391
+        },
+        {
+          "measured_at": "2026-09-04T06:08:37Z",
+          "actual_views": 1397
         }
       ],
       "reuse": null
@@ -342,7 +346,7 @@
     {
       "subject": "DSV Alvin",
       "title": "The Strange 1960s Submarine That Swallowed Itself",
-      "views": 1391
+      "views": 1397
     },
     {
       "subject": "Movile Cave",
@@ -367,23 +371,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-03T19:14:27Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33795260225",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-04T05:43:44Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33841574190",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 378.1,
+    "used_minutes": 378.9,
     "budget_minutes": 2000,
     "percent_used": 18.9,
-    "runs_counted": 27,
+    "runs_counted": 28,
     "per_workflow_minutes": {
       "daily.yml": 311.6,
-      "followup.yml": 66.5
+      "followup.yml": 67.4
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -425,21 +429,25 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33422434402",
         "created_at": "2026-08-31T17:58:14Z",
         "error": "Unknown error \u2014 see run logs."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33397902058,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33397902058",
-        "created_at": "2026-08-31T13:36:31Z",
-        "error": "Unknown error \u2014 see run logs."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 5,
     "slots": [
+      {
+        "started_at": "2026-09-04T05:43:44Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33841574190",
+        "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-04T01:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
       {
         "started_at": "2026-09-03T19:14:27Z",
         "state": "published",
@@ -463,11 +471,6 @@
         "title": "The 1912 Ghost Train That Ran Itself",
         "video_id": "i3lkAM_78x8",
         "url": "https://youtube.com/watch?v=i3lkAM_78x8"
-      },
-      {
-        "started_at": "2026-09-03T06:07:00Z",
-        "state": "not_uploaded",
-        "reason": "The scheduled run never started on GitHub's side."
       },
       {
         "started_at": "2026-09-03T05:38:14Z",
@@ -528,16 +531,56 @@
         "title": "The 1911 Mass Disappearance of a Whole School",
         "video_id": "6BJViW0xcEo",
         "url": "https://youtube.com/watch?v=6BJViW0xcEo"
-      },
-      {
-        "started_at": "2026-09-01T06:11:36Z",
-        "state": "not_uploaded",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33476553815",
-        "reason": "Run agent: httpx.RemoteProtocolError: Server disconnected without sending a response."
       }
     ]
   },
   "videos": [
+    {
+      "n": 97,
+      "video_id": "-Cny6NVxG1o",
+      "title": "The 1922 Egypt Hotel That Swallowed Its Guests",
+      "url": "https://youtube.com/watch?v=-Cny6NVxG1o",
+      "uploaded_at": "2026-09-04T06:08:32Z",
+      "topic": "Helwan Grand Hotel",
+      "hook": "In 1922, the luxury Palace Hotel simply disappeared.",
+      "predicted_views": 385,
+      "predicted_range": "114-1,296",
+      "predicted_low": 114,
+      "predicted_high": 1296,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 96,
       "video_id": "sLYsIUTvEvQ",
@@ -550,11 +593,11 @@
       "predicted_range": "83-940",
       "predicted_low": 83,
       "predicted_high": 940,
-      "actual_views": 1391,
-      "measured_at": "2026-09-04T04:33:09Z",
-      "measurement_count": 1,
+      "actual_views": 1397,
+      "measured_at": "2026-09-04T06:08:37Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 399,
+      "error_pct": 401,
       "likes": 29,
       "comments": 0,
       "engagement_rate": 2.08,
@@ -585,6 +628,10 @@
         {
           "measured_at": "2026-09-04T04:33:09Z",
           "actual_views": 1391
+        },
+        {
+          "measured_at": "2026-09-04T06:08:37Z",
+          "actual_views": 1397
         }
       ],
       "reuse": null
@@ -601,11 +648,11 @@
       "predicted_range": "114-1,298",
       "predicted_low": 114,
       "predicted_high": 1298,
-      "actual_views": 3,
-      "measured_at": "2026-09-04T04:33:08Z",
-      "measurement_count": 3,
+      "actual_views": 13,
+      "measured_at": "2026-09-04T06:08:36Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -99,
+      "error_pct": -97,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -644,6 +691,10 @@
         {
           "measured_at": "2026-09-04T04:33:08Z",
           "actual_views": 3
+        },
+        {
+          "measured_at": "2026-09-04T06:08:36Z",
+          "actual_views": 13
         }
       ],
       "reuse": null
@@ -660,14 +711,14 @@
       "predicted_range": "111-1,258",
       "predicted_low": 111,
       "predicted_high": 1258,
-      "actual_views": 394,
-      "measured_at": "2026-09-04T04:33:07Z",
-      "measurement_count": 5,
+      "actual_views": 426,
+      "measured_at": "2026-09-04T06:08:35Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": 6,
+      "error_pct": 14,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 3.3,
+      "engagement_rate": 3.05,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -711,6 +762,10 @@
         {
           "measured_at": "2026-09-04T04:33:07Z",
           "actual_views": 394
+        },
+        {
+          "measured_at": "2026-09-04T06:08:35Z",
+          "actual_views": 426
         }
       ],
       "reuse": null
@@ -728,8 +783,8 @@
       "predicted_low": 111,
       "predicted_high": 1258,
       "actual_views": 399,
-      "measured_at": "2026-09-04T04:33:07Z",
-      "measurement_count": 8,
+      "measured_at": "2026-09-04T06:08:34Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": 7,
       "likes": 18,
@@ -796,6 +851,10 @@
         {
           "measured_at": "2026-09-04T04:33:07Z",
           "actual_views": 399
+        },
+        {
+          "measured_at": "2026-09-04T06:08:34Z",
+          "actual_views": 399
         }
       ],
       "reuse": null
@@ -812,11 +871,11 @@
       "predicted_range": "138-1,573",
       "predicted_low": 138,
       "predicted_high": 1573,
-      "actual_views": 612,
-      "measured_at": "2026-09-04T04:33:06Z",
-      "measurement_count": 10,
+      "actual_views": 613,
+      "measured_at": "2026-09-04T06:08:34Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
-      "error_pct": 31,
+      "error_pct": 32,
       "likes": 5,
       "comments": 0,
       "engagement_rate": 0.82,
@@ -883,6 +942,10 @@
         {
           "measured_at": "2026-09-04T04:33:06Z",
           "actual_views": 612
+        },
+        {
+          "measured_at": "2026-09-04T06:08:34Z",
+          "actual_views": 613
         }
       ],
       "reuse": null
@@ -928,7 +991,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
