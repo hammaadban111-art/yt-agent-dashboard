@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T10:53:17.961070Z",
+  "generated_at": "2026-09-05T10:54:14.174680Z",
   "next_runs": [
     "2026-09-05T11:07:00Z",
     "2026-09-05T16:07:00Z",
     "2026-09-06T01:07:00Z"
   ],
   "summary": {
-    "videos": 101,
-    "total_views": 59957,
-    "total_likes": 1162,
+    "videos": 100,
+    "total_views": 59967,
+    "total_likes": 1163,
     "total_comments": 21,
-    "mean_abs_pct_error": 111.8,
+    "mean_abs_pct_error": 111.6,
     "measured_videos": 100,
     "days_of_history": 37,
     "self_improve_active": false,
@@ -28,7 +28,7 @@
     "units_used": 20,
     "daily_cap": 10000,
     "remaining": 9980,
-    "upload_slots_used": 1,
+    "upload_slots_used": 0,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -54,7 +54,7 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1453,
-      "measured_at": "2026-09-05T10:53:13Z",
+      "measured_at": "2026-09-05T10:54:10Z",
       "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 421,
@@ -126,7 +126,7 @@
           "actual_views": 1438
         },
         {
-          "measured_at": "2026-09-05T10:53:13Z",
+          "measured_at": "2026-09-05T10:54:10Z",
           "actual_views": 1453
         }
       ],
@@ -411,22 +411,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-05T10:29:37Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33960799793",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 516.1,
+    "used_minutes": 540.4,
     "budget_minutes": 2000,
-    "percent_used": 25.8,
-    "runs_counted": 38,
+    "percent_used": 27.0,
+    "runs_counted": 39,
     "per_workflow_minutes": {
-      "daily.yml": 419.1,
+      "daily.yml": 443.3,
       "followup.yml": 97.1
     },
     "measurement_source": "run_duration",
@@ -465,9 +465,9 @@
     "slots": [
       {
         "started_at": "2026-09-05T10:29:37Z",
-        "state": "running",
+        "state": "not_uploaded",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33960799793",
-        "reason": "This run is still going."
+        "reason": "The run finished successfully but did not publish a video."
       },
       {
         "started_at": "2026-09-05T06:07:00Z",
@@ -567,52 +567,6 @@
   },
   "videos": [
     {
-      "n": 101,
-      "video_id": "7LrZvsPDYsQ",
-      "title": "The Day Concrete Turned to Liquid",
-      "url": "https://youtube.com/watch?v=7LrZvsPDYsQ",
-      "uploaded_at": "2026-09-05T10:53:09Z",
-      "topic": "St. Francis Dam failure",
-      "hook": "A catastrophic collapse erased a canyon overnight.",
-      "predicted_views": 278,
-      "predicted_range": "83-933",
-      "predicted_low": 83,
-      "predicted_high": 933,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
-      "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
-      "top_comments": [],
-      "model_version": "baseline-v2-benchmark",
-      "fact_check": {
-        "status": "checked",
-        "checked": 5,
-        "contradicted": 1,
-        "misleading": 0,
-        "resolution_grounded": true,
-        "unverified_source": false
-      },
-      "retention": {
-        "available": false,
-        "reason": null,
-        "curve": [],
-        "biggest_drop_at": null,
-        "biggest_drop_size": null,
-        "retention_at_end": null
-      },
-      "degradations": [],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "every-run",
-      "replaced_by": null,
-      "history": [],
-      "reuse": null
-    },
-    {
       "n": 100,
       "video_id": "81fDW0vvX18",
       "title": "The Forest That Spontaneously Started Screaming",
@@ -624,14 +578,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 52,
-      "measured_at": "2026-09-05T10:53:17Z",
+      "actual_views": 64,
+      "measured_at": "2026-09-05T10:54:13Z",
       "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": -81,
-      "likes": 1,
+      "error_pct": -77,
+      "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.92,
+      "engagement_rate": 3.12,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -657,8 +611,8 @@
       "replaced_by": null,
       "history": [
         {
-          "measured_at": "2026-09-05T10:53:17Z",
-          "actual_views": 52
+          "measured_at": "2026-09-05T10:54:13Z",
+          "actual_views": 64
         }
       ],
       "reuse": null
@@ -676,7 +630,7 @@
       "predicted_low": 114,
       "predicted_high": 1291,
       "actual_views": 230,
-      "measured_at": "2026-09-05T10:53:16Z",
+      "measured_at": "2026-09-05T10:54:12Z",
       "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -40,
@@ -722,7 +676,7 @@
           "actual_views": 220
         },
         {
-          "measured_at": "2026-09-05T10:53:16Z",
+          "measured_at": "2026-09-05T10:54:12Z",
           "actual_views": 230
         }
       ],
@@ -740,14 +694,14 @@
       "predicted_range": "114-1,296",
       "predicted_low": 114,
       "predicted_high": 1296,
-      "actual_views": 404,
-      "measured_at": "2026-09-05T10:53:15Z",
+      "actual_views": 402,
+      "measured_at": "2026-09-05T10:54:11Z",
       "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": 5,
+      "error_pct": 4,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 2.23,
+      "engagement_rate": 2.24,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -793,8 +747,8 @@
           "actual_views": 390
         },
         {
-          "measured_at": "2026-09-05T10:53:15Z",
-          "actual_views": 404
+          "measured_at": "2026-09-05T10:54:11Z",
+          "actual_views": 402
         }
       ],
       "reuse": null
@@ -812,7 +766,7 @@
       "predicted_low": 114,
       "predicted_high": 1296,
       "actual_views": 110,
-      "measured_at": "2026-09-05T10:53:14Z",
+      "measured_at": "2026-09-05T10:54:10Z",
       "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": -71,
@@ -876,7 +830,7 @@
           "actual_views": 109
         },
         {
-          "measured_at": "2026-09-05T10:53:14Z",
+          "measured_at": "2026-09-05T10:54:10Z",
           "actual_views": 110
         }
       ],
@@ -895,7 +849,7 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1453,
-      "measured_at": "2026-09-05T10:53:13Z",
+      "measured_at": "2026-09-05T10:54:10Z",
       "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 421,
@@ -967,7 +921,7 @@
           "actual_views": 1438
         },
         {
-          "measured_at": "2026-09-05T10:53:13Z",
+          "measured_at": "2026-09-05T10:54:10Z",
           "actual_views": 1453
         }
       ],
@@ -986,7 +940,7 @@
       "predicted_low": 114,
       "predicted_high": 1298,
       "actual_views": 42,
-      "measured_at": "2026-09-05T10:53:13Z",
+      "measured_at": "2026-09-05T10:54:09Z",
       "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": -89,
@@ -1066,7 +1020,7 @@
           "actual_views": 40
         },
         {
-          "measured_at": "2026-09-05T10:53:13Z",
+          "measured_at": "2026-09-05T10:54:09Z",
           "actual_views": 42
         }
       ],
@@ -1085,7 +1039,7 @@
       "predicted_low": 111,
       "predicted_high": 1258,
       "actual_views": 1006,
-      "measured_at": "2026-09-05T10:53:12Z",
+      "measured_at": "2026-09-05T10:54:08Z",
       "measurement_count": 15,
       "system_version": "phase1-stabilize",
       "error_pct": 170,
@@ -1173,7 +1127,7 @@
           "actual_views": 1001
         },
         {
-          "measured_at": "2026-09-05T10:53:12Z",
+          "measured_at": "2026-09-05T10:54:08Z",
           "actual_views": 1006
         }
       ],
@@ -2847,7 +2801,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 25,
-      "measured_at": "2026-09-05T10:53:11Z",
+      "measured_at": "2026-09-05T10:54:07Z",
       "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
@@ -3340,7 +3294,7 @@
           "actual_views": 25
         },
         {
-          "measured_at": "2026-09-05T10:53:11Z",
+          "measured_at": "2026-09-05T10:54:07Z",
           "actual_views": 25
         }
       ],
@@ -3359,7 +3313,7 @@
       "predicted_low": 117,
       "predicted_high": 1340,
       "actual_views": 38,
-      "measured_at": "2026-09-05T10:53:10Z",
+      "measured_at": "2026-09-05T10:54:06Z",
       "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -90,
@@ -3856,7 +3810,7 @@
           "actual_views": 38
         },
         {
-          "measured_at": "2026-09-05T10:53:10Z",
+          "measured_at": "2026-09-05T10:54:06Z",
           "actual_views": 38
         }
       ],
@@ -30803,7 +30757,7 @@
       "predicted_low": 186,
       "predicted_high": 2639,
       "actual_views": 735,
-      "measured_at": "2026-09-05T10:53:17Z",
+      "measured_at": "2026-09-05T10:54:14Z",
       "measurement_count": 64,
       "system_version": "phase1-stabilize",
       "error_pct": 5,
@@ -31231,7 +31185,7 @@
       },
       "degradations": [],
       "final": true,
-      "finalized_at": "2026-09-05T10:53:17Z",
+      "finalized_at": "2026-09-05T10:54:14Z",
       "cadence": "final",
       "replaced_by": null,
       "history": [
@@ -31488,7 +31442,7 @@
           "actual_views": 735
         },
         {
-          "measured_at": "2026-09-05T10:53:17Z",
+          "measured_at": "2026-09-05T10:54:14Z",
           "actual_views": 735
         }
       ],
