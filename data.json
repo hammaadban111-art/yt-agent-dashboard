@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T17:22:39.589792Z",
+  "generated_at": "2026-09-05T18:26:53.227839Z",
   "next_runs": [
     "2026-09-06T01:07:00Z",
     "2026-09-06T06:07:00Z",
     "2026-09-06T11:07:00Z"
   ],
   "summary": {
-    "videos": 102,
-    "total_views": 60147,
-    "total_likes": 1167,
+    "videos": 103,
+    "total_views": 60184,
+    "total_likes": 1168,
     "total_comments": 21,
     "mean_abs_pct_error": 113.4,
     "measured_videos": 101,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.102
   },
   "quota": {
-    "units_used": 165,
+    "units_used": 178,
     "daily_cap": 10000,
-    "remaining": 9835,
-    "upload_slots_used": 2,
+    "remaining": 9822,
+    "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -53,14 +53,14 @@
       "predicted_range": "83-940",
       "predicted_low": 83,
       "predicted_high": 940,
-      "actual_views": 1459,
-      "measured_at": "2026-09-05T17:22:36Z",
-      "measurement_count": 15,
+      "actual_views": 1461,
+      "measured_at": "2026-09-05T18:26:50Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
-      "error_pct": 423,
-      "likes": 32,
+      "error_pct": 424,
+      "likes": 33,
       "comments": 0,
-      "engagement_rate": 2.19,
+      "engagement_rate": 2.26,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -144,6 +144,10 @@
         {
           "measured_at": "2026-09-05T17:22:36Z",
           "actual_views": 1459
+        },
+        {
+          "measured_at": "2026-09-05T18:26:50Z",
+          "actual_views": 1461
         }
       ],
       "reuse": null
@@ -406,7 +410,7 @@
     {
       "subject": "DSV Alvin",
       "title": "The Strange 1960s Submarine That Swallowed Itself",
-      "views": 1459
+      "views": 1461
     },
     {
       "subject": "Movile Cave",
@@ -431,23 +435,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-05T13:49:39Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33970020847",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-05T18:05:40Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33982974911",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 580.5,
+    "used_minutes": 581.1,
     "budget_minutes": 2000,
-    "percent_used": 29.0,
-    "runs_counted": 42,
+    "percent_used": 29.1,
+    "runs_counted": 43,
     "per_workflow_minutes": {
       "daily.yml": 462.5,
-      "followup.yml": 118.0
+      "followup.yml": 118.7
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -481,8 +485,14 @@
   "scheduled_uploads": {
     "available": true,
     "published_24h": 4,
-    "expected_24h": 6,
+    "expected_24h": 7,
     "slots": [
+      {
+        "started_at": "2026-09-05T18:05:40Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33982974911",
+        "reason": "This run is still going."
+      },
       {
         "started_at": "2026-09-05T13:49:39Z",
         "state": "published",
@@ -578,18 +588,56 @@
         "title": "The 1930s Mystery of the Singing Statues",
         "video_id": "_nJLLA5pSy0",
         "url": "https://youtube.com/watch?v=_nJLLA5pSy0"
-      },
-      {
-        "started_at": "2026-09-02T19:20:02Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33672665070",
-        "title": "The Olympic Marathon Where Everyone Almost Died",
-        "video_id": "YMhpN7qUDDM",
-        "url": "https://youtube.com/watch?v=YMhpN7qUDDM"
       }
     ]
   },
   "videos": [
+    {
+      "n": 103,
+      "video_id": "cv8ao1Iai2Y",
+      "title": "The Mysterious Sky Trumpets That Terrified Whole Towns",
+      "url": "https://youtube.com/watch?v=cv8ao1Iai2Y",
+      "uploaded_at": "2026-09-05T18:26:49Z",
+      "topic": "Skyquake",
+      "hook": "People woke up to deafening brass horns in the clouds.",
+      "predicted_views": 265,
+      "predicted_range": "79-889",
+      "predicted_low": 79,
+      "predicted_high": 889,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 3,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 102,
       "video_id": "D56wWSUvboc",
@@ -648,14 +696,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 104,
-      "measured_at": "2026-09-05T17:22:39Z",
-      "measurement_count": 1,
+      "actual_views": 130,
+      "measured_at": "2026-09-05T18:26:53Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -63,
+      "error_pct": -53,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 2.88,
+      "engagement_rate": 2.31,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -683,6 +731,10 @@
         {
           "measured_at": "2026-09-05T17:22:39Z",
           "actual_views": 104
+        },
+        {
+          "measured_at": "2026-09-05T18:26:53Z",
+          "actual_views": 130
         }
       ],
       "reuse": null
@@ -699,14 +751,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 83,
-      "measured_at": "2026-09-05T17:22:38Z",
-      "measurement_count": 5,
+      "actual_views": 85,
+      "measured_at": "2026-09-05T18:26:52Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": -70,
+      "error_pct": -69,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 2.41,
+      "engagement_rate": 2.35,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -750,6 +802,10 @@
         {
           "measured_at": "2026-09-05T17:22:38Z",
           "actual_views": 83
+        },
+        {
+          "measured_at": "2026-09-05T18:26:52Z",
+          "actual_views": 85
         }
       ],
       "reuse": null
@@ -766,14 +822,14 @@
       "predicted_range": "114-1,291",
       "predicted_low": 114,
       "predicted_high": 1291,
-      "actual_views": 242,
-      "measured_at": "2026-09-05T17:22:38Z",
-      "measurement_count": 7,
+      "actual_views": 249,
+      "measured_at": "2026-09-05T18:26:51Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
-      "error_pct": -37,
+      "error_pct": -35,
       "likes": 11,
       "comments": 0,
-      "engagement_rate": 4.55,
+      "engagement_rate": 4.42,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -831,6 +887,10 @@
         {
           "measured_at": "2026-09-05T17:22:38Z",
           "actual_views": 242
+        },
+        {
+          "measured_at": "2026-09-05T18:26:51Z",
+          "actual_views": 249
         }
       ],
       "reuse": null
@@ -848,8 +908,8 @@
       "predicted_low": 114,
       "predicted_high": 1296,
       "actual_views": 420,
-      "measured_at": "2026-09-05T17:22:37Z",
-      "measurement_count": 10,
+      "measured_at": "2026-09-05T18:26:51Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 9,
       "likes": 9,
@@ -918,6 +978,10 @@
         {
           "measured_at": "2026-09-05T17:22:37Z",
           "actual_views": 420
+        },
+        {
+          "measured_at": "2026-09-05T18:26:51Z",
+          "actual_views": 420
         }
       ],
       "reuse": null
@@ -935,8 +999,8 @@
       "predicted_low": 114,
       "predicted_high": 1296,
       "actual_views": 117,
-      "measured_at": "2026-09-05T17:22:36Z",
-      "measurement_count": 13,
+      "measured_at": "2026-09-05T18:26:50Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -70,
       "likes": 0,
@@ -1017,6 +1081,10 @@
         {
           "measured_at": "2026-09-05T17:22:36Z",
           "actual_views": 117
+        },
+        {
+          "measured_at": "2026-09-05T18:26:50Z",
+          "actual_views": 117
         }
       ],
       "reuse": null
@@ -1033,14 +1101,14 @@
       "predicted_range": "83-940",
       "predicted_low": 83,
       "predicted_high": 940,
-      "actual_views": 1459,
-      "measured_at": "2026-09-05T17:22:36Z",
-      "measurement_count": 15,
+      "actual_views": 1461,
+      "measured_at": "2026-09-05T18:26:50Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
-      "error_pct": 423,
-      "likes": 32,
+      "error_pct": 424,
+      "likes": 33,
       "comments": 0,
-      "engagement_rate": 2.19,
+      "engagement_rate": 2.26,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1124,6 +1192,10 @@
         {
           "measured_at": "2026-09-05T17:22:36Z",
           "actual_views": 1459
+        },
+        {
+          "measured_at": "2026-09-05T18:26:50Z",
+          "actual_views": 1461
         }
       ],
       "reuse": null
