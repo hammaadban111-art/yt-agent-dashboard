@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:08:20.780975Z",
+  "generated_at": "2026-09-05T15:13:42.766297Z",
   "next_runs": [
     "2026-09-05T16:07:00Z",
     "2026-09-06T01:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 102,
-    "total_views": 60008,
+    "total_views": 60018,
     "total_likes": 1164,
     "total_comments": 21,
     "mean_abs_pct_error": 111.8,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.1
   },
   "quota": {
-    "units_used": 137,
+    "units_used": 150,
     "daily_cap": 10000,
-    "remaining": 9863,
+    "remaining": 9850,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -54,8 +54,8 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1455,
-      "measured_at": "2026-09-05T14:08:17Z",
-      "measurement_count": 13,
+      "measured_at": "2026-09-05T15:13:39Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": 422,
       "likes": 32,
@@ -135,6 +135,10 @@
         },
         {
           "measured_at": "2026-09-05T14:08:17Z",
+          "actual_views": 1455
+        },
+        {
+          "measured_at": "2026-09-05T15:13:39Z",
           "actual_views": 1455
         }
       ],
@@ -423,22 +427,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-05T13:49:39Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33970020847",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 560.5,
+    "used_minutes": 579.7,
     "budget_minutes": 2000,
-    "percent_used": 28.0,
-    "runs_counted": 40,
+    "percent_used": 29.0,
+    "runs_counted": 41,
     "per_workflow_minutes": {
-      "daily.yml": 443.3,
+      "daily.yml": 462.5,
       "followup.yml": 117.2
     },
     "measurement_source": "run_duration",
@@ -472,14 +476,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
-    "expected_24h": 7,
+    "published_24h": 4,
+    "expected_24h": 6,
     "slots": [
       {
         "started_at": "2026-09-05T13:49:39Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33970020847",
-        "reason": "This run is still going."
+        "title": "The 1930 Mountain That Grew Five Feet",
+        "video_id": "D56wWSUvboc",
+        "url": "https://youtube.com/watch?v=D56wWSUvboc"
       },
       {
         "started_at": "2026-09-05T10:29:37Z",
@@ -684,14 +690,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 73,
-      "measured_at": "2026-09-05T14:08:19Z",
-      "measurement_count": 3,
+      "actual_views": 72,
+      "measured_at": "2026-09-05T15:13:42Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
       "error_pct": -74,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 2.74,
+      "engagement_rate": 2.78,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -727,6 +733,10 @@
         {
           "measured_at": "2026-09-05T14:08:19Z",
           "actual_views": 73
+        },
+        {
+          "measured_at": "2026-09-05T15:13:42Z",
+          "actual_views": 72
         }
       ],
       "reuse": null
@@ -743,14 +753,14 @@
       "predicted_range": "114-1,291",
       "predicted_low": 114,
       "predicted_high": 1291,
-      "actual_views": 234,
-      "measured_at": "2026-09-05T14:08:19Z",
-      "measurement_count": 5,
+      "actual_views": 239,
+      "measured_at": "2026-09-05T15:13:42Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
-      "error_pct": -39,
+      "error_pct": -38,
       "likes": 11,
       "comments": 0,
-      "engagement_rate": 4.7,
+      "engagement_rate": 4.6,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -800,6 +810,10 @@
         {
           "measured_at": "2026-09-05T14:08:19Z",
           "actual_views": 234
+        },
+        {
+          "measured_at": "2026-09-05T15:13:42Z",
+          "actual_views": 239
         }
       ],
       "reuse": null
@@ -817,8 +831,8 @@
       "predicted_low": 114,
       "predicted_high": 1296,
       "actual_views": 412,
-      "measured_at": "2026-09-05T14:08:18Z",
-      "measurement_count": 8,
+      "measured_at": "2026-09-05T15:13:41Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
       "error_pct": 7,
       "likes": 9,
@@ -879,6 +893,10 @@
         {
           "measured_at": "2026-09-05T14:08:18Z",
           "actual_views": 412
+        },
+        {
+          "measured_at": "2026-09-05T15:13:41Z",
+          "actual_views": 412
         }
       ],
       "reuse": null
@@ -895,11 +913,11 @@
       "predicted_range": "114-1,296",
       "predicted_low": 114,
       "predicted_high": 1296,
-      "actual_views": 113,
-      "measured_at": "2026-09-05T14:08:18Z",
-      "measurement_count": 11,
+      "actual_views": 117,
+      "measured_at": "2026-09-05T15:13:40Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
-      "error_pct": -71,
+      "error_pct": -70,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -970,6 +988,10 @@
         {
           "measured_at": "2026-09-05T14:08:18Z",
           "actual_views": 113
+        },
+        {
+          "measured_at": "2026-09-05T15:13:40Z",
+          "actual_views": 117
         }
       ],
       "reuse": null
@@ -987,8 +1009,8 @@
       "predicted_low": 83,
       "predicted_high": 940,
       "actual_views": 1455,
-      "measured_at": "2026-09-05T14:08:17Z",
-      "measurement_count": 13,
+      "measured_at": "2026-09-05T15:13:39Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": 422,
       "likes": 32,
@@ -1069,6 +1091,10 @@
         {
           "measured_at": "2026-09-05T14:08:17Z",
           "actual_views": 1455
+        },
+        {
+          "measured_at": "2026-09-05T15:13:39Z",
+          "actual_views": 1455
         }
       ],
       "reuse": null
@@ -1085,14 +1111,14 @@
       "predicted_range": "114-1,298",
       "predicted_low": 114,
       "predicted_high": 1298,
-      "actual_views": 43,
-      "measured_at": "2026-09-05T14:08:17Z",
-      "measurement_count": 15,
+      "actual_views": 45,
+      "measured_at": "2026-09-05T15:13:38Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
-      "error_pct": -89,
+      "error_pct": -88,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 4.65,
+      "engagement_rate": 4.44,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1176,6 +1202,10 @@
         {
           "measured_at": "2026-09-05T14:08:17Z",
           "actual_views": 43
+        },
+        {
+          "measured_at": "2026-09-05T15:13:38Z",
+          "actual_views": 45
         }
       ],
       "reuse": null
