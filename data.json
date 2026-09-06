@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T04:38:59.498882Z",
+  "generated_at": "2026-09-06T06:08:58.333622Z",
   "next_runs": [
-    "2026-09-06T06:07:00Z",
     "2026-09-06T11:07:00Z",
-    "2026-09-06T16:07:00Z"
+    "2026-09-06T16:07:00Z",
+    "2026-09-07T01:07:00Z"
   ],
   "summary": {
-    "videos": 103,
-    "total_views": 61467,
+    "videos": 104,
+    "total_views": 61533,
     "total_likes": 1187,
     "total_comments": 24,
     "mean_abs_pct_error": 122.9,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.101
   },
   "quota": {
-    "units_used": 225,
+    "units_used": 238,
     "daily_cap": 10000,
-    "remaining": 9775,
-    "upload_slots_used": 3,
+    "remaining": 9762,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -435,23 +435,23 @@
   ],
   "last_run": {
     "available": true,
-    "status": "completed",
-    "conclusion": "success",
+    "status": "in_progress",
+    "conclusion": null,
     "event": "schedule",
-    "created_at": "2026-09-05T18:05:40Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33982974911",
-    "last_successful_step": "Complete job",
+    "created_at": "2026-09-06T05:46:03Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34014796387",
+    "last_successful_step": "Restore Pexels footage cache",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 604.4,
+    "used_minutes": 605.3,
     "budget_minutes": 2000,
-    "percent_used": 30.2,
-    "runs_counted": 46,
+    "percent_used": 30.3,
+    "runs_counted": 47,
     "per_workflow_minutes": {
       "daily.yml": 484.2,
-      "followup.yml": 120.1
+      "followup.yml": 121.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -472,21 +472,25 @@
         "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33646000400",
         "created_at": "2026-09-02T15:02:49Z",
         "error": "Run agent: This run was cancelled."
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 33623291436,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33623291436",
-        "created_at": "2026-09-02T11:11:15Z",
-        "error": "Run agent: This run was cancelled."
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 4,
+    "published_24h": 3,
     "expected_24h": 5,
     "slots": [
+      {
+        "started_at": "2026-09-06T05:46:03Z",
+        "state": "running",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34014796387",
+        "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-06T01:07:00Z",
+        "state": "not_uploaded",
+        "reason": "The scheduled run never started on GitHub's side."
+      },
       {
         "started_at": "2026-09-05T18:05:40Z",
         "state": "published",
@@ -510,11 +514,6 @@
         "title": "The Day Concrete Turned to Liquid",
         "video_id": "7LrZvsPDYsQ",
         "url": "https://youtube.com/watch?v=7LrZvsPDYsQ"
-      },
-      {
-        "started_at": "2026-09-05T06:07:00Z",
-        "state": "not_uploaded",
-        "reason": "The scheduled run never started on GitHub's side."
       },
       {
         "started_at": "2026-09-05T05:33:31Z",
@@ -577,18 +576,62 @@
         "title": "The 1912 Ghost Train That Ran Itself",
         "video_id": "i3lkAM_78x8",
         "url": "https://youtube.com/watch?v=i3lkAM_78x8"
-      },
-      {
-        "started_at": "2026-09-03T05:38:14Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33719690306",
-        "title": "The 1930s Mystery of the Singing Statues",
-        "video_id": "_nJLLA5pSy0",
-        "url": "https://youtube.com/watch?v=_nJLLA5pSy0"
       }
     ]
   },
   "videos": [
+    {
+      "n": 104,
+      "video_id": "i_BlPmYJMXo",
+      "title": "The 1833 Storm That Set the Ocean on Fire",
+      "url": "https://youtube.com/watch?v=i_BlPmYJMXo",
+      "uploaded_at": "2026-09-06T06:08:55Z",
+      "topic": "Leonids 1833",
+      "hook": "Hundreds of thousands of shooting stars turned the night sky into fire.",
+      "predicted_views": 277,
+      "predicted_range": "83-928",
+      "predicted_low": 83,
+      "predicted_high": 928,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 2,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "pexels",
+          "detail": "segment 2 anchored query 'historic manuscript page drawing' failed: NoRelevantResults: No Pexels results for 'historic manuscript page drawing' met the relevance floor of 1",
+          "fallback": "used segment fallback query 'vintage book page'"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 103,
       "video_id": "cv8ao1Iai2Y",
@@ -601,14 +644,14 @@
       "predicted_range": "79-889",
       "predicted_low": 79,
       "predicted_high": 889,
-      "actual_views": 1018,
-      "measured_at": "2026-09-06T04:38:58Z",
-      "measurement_count": 1,
+      "actual_views": 1040,
+      "measured_at": "2026-09-06T06:08:58Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 284,
+      "error_pct": 292,
       "likes": 15,
       "comments": 3,
-      "engagement_rate": 1.77,
+      "engagement_rate": 1.73,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -636,6 +679,10 @@
         {
           "measured_at": "2026-09-06T04:38:58Z",
           "actual_views": 1018
+        },
+        {
+          "measured_at": "2026-09-06T06:08:58Z",
+          "actual_views": 1040
         }
       ],
       "reuse": null
@@ -652,14 +699,14 @@
       "predicted_range": "79-889",
       "predicted_low": 79,
       "predicted_high": 889,
-      "actual_views": 219,
-      "measured_at": "2026-09-06T04:38:57Z",
-      "measurement_count": 3,
+      "actual_views": 247,
+      "measured_at": "2026-09-06T06:08:57Z",
+      "measurement_count": 4,
       "system_version": "phase1-stabilize",
-      "error_pct": -17,
+      "error_pct": -7,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 1.83,
+      "engagement_rate": 1.62,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -695,6 +742,10 @@
         {
           "measured_at": "2026-09-06T04:38:57Z",
           "actual_views": 219
+        },
+        {
+          "measured_at": "2026-09-06T06:08:57Z",
+          "actual_views": 247
         }
       ],
       "reuse": null
@@ -711,14 +762,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 140,
-      "measured_at": "2026-09-06T04:38:56Z",
-      "measurement_count": 5,
+      "actual_views": 138,
+      "measured_at": "2026-09-06T06:08:57Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": -50,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 2.14,
+      "engagement_rate": 2.17,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -762,6 +813,10 @@
         {
           "measured_at": "2026-09-06T04:38:56Z",
           "actual_views": 140
+        },
+        {
+          "measured_at": "2026-09-06T06:08:57Z",
+          "actual_views": 138
         }
       ],
       "reuse": null
@@ -778,14 +833,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 91,
-      "measured_at": "2026-09-06T04:38:56Z",
-      "measurement_count": 9,
+      "actual_views": 92,
+      "measured_at": "2026-09-06T06:08:56Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -67,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 2.2,
+      "engagement_rate": 2.17,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -845,6 +900,10 @@
         {
           "measured_at": "2026-09-06T04:38:56Z",
           "actual_views": 91
+        },
+        {
+          "measured_at": "2026-09-06T06:08:56Z",
+          "actual_views": 92
         }
       ],
       "reuse": null
@@ -861,14 +920,14 @@
       "predicted_range": "114-1,291",
       "predicted_low": 114,
       "predicted_high": 1291,
-      "actual_views": 259,
-      "measured_at": "2026-09-06T04:38:54Z",
-      "measurement_count": 11,
+      "actual_views": 273,
+      "measured_at": "2026-09-06T06:08:56Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
-      "error_pct": -33,
+      "error_pct": -29,
       "likes": 11,
       "comments": 0,
-      "engagement_rate": 4.25,
+      "engagement_rate": 4.03,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -942,6 +1001,10 @@
         {
           "measured_at": "2026-09-06T04:38:54Z",
           "actual_views": 259
+        },
+        {
+          "measured_at": "2026-09-06T06:08:56Z",
+          "actual_views": 273
         }
       ],
       "reuse": null
@@ -958,14 +1021,14 @@
       "predicted_range": "114-1,296",
       "predicted_low": 114,
       "predicted_high": 1296,
-      "actual_views": 427,
-      "measured_at": "2026-09-06T04:38:54Z",
-      "measurement_count": 14,
+      "actual_views": 430,
+      "measured_at": "2026-09-06T06:08:55Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
-      "error_pct": 11,
+      "error_pct": 12,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 2.11,
+      "engagement_rate": 2.09,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1045,6 +1108,10 @@
         {
           "measured_at": "2026-09-06T04:38:54Z",
           "actual_views": 427
+        },
+        {
+          "measured_at": "2026-09-06T06:08:55Z",
+          "actual_views": 430
         }
       ],
       "reuse": null
@@ -1090,7 +1157,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
