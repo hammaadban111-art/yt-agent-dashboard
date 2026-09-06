@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:34:49.856648Z",
+  "generated_at": "2026-09-06T15:27:59.724578Z",
   "next_runs": [
     "2026-09-06T16:07:00Z",
     "2026-09-07T01:07:00Z",
@@ -7,8 +7,8 @@
   ],
   "summary": {
     "videos": 106,
-    "total_views": 61974,
-    "total_likes": 1201,
+    "total_views": 62041,
+    "total_likes": 1199,
     "total_comments": 24,
     "mean_abs_pct_error": 109.3,
     "measured_videos": 104,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.091
   },
   "quota": {
-    "units_used": 137,
+    "units_used": 150,
     "daily_cap": 10000,
-    "remaining": 9863,
+    "remaining": 9850,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 62
+    "subscriber_count": 64
   },
   "spotlight": {
     "best": {
@@ -848,22 +848,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-06T14:06:33Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34038131359",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 658.8,
+    "used_minutes": 687.9,
     "budget_minutes": 2000,
-    "percent_used": 32.9,
-    "runs_counted": 50,
+    "percent_used": 34.4,
+    "runs_counted": 51,
     "per_workflow_minutes": {
-      "daily.yml": 525.0,
+      "daily.yml": 554.2,
       "followup.yml": 133.7
     },
     "measurement_source": "run_duration",
@@ -883,14 +883,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
+    "published_24h": 4,
     "expected_24h": 6,
     "slots": [
       {
         "started_at": "2026-09-06T14:06:33Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34038131359",
-        "reason": "This run is still going."
+        "title": "The Strange Town That Slept Through a Meteor",
+        "video_id": "w9AgLqMa9E8",
+        "url": "https://youtube.com/watch?v=w9AgLqMa9E8"
       },
       {
         "started_at": "2026-09-06T10:49:44Z",
@@ -1112,14 +1114,14 @@
       "predicted_range": "83-928",
       "predicted_low": 83,
       "predicted_high": 928,
-      "actual_views": 204,
-      "measured_at": "2026-09-06T14:34:49Z",
-      "measurement_count": 1,
+      "actual_views": 244,
+      "measured_at": "2026-09-06T15:27:59Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": -26,
-      "likes": 8,
+      "error_pct": -12,
+      "likes": 7,
       "comments": 0,
-      "engagement_rate": 3.92,
+      "engagement_rate": 2.87,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1153,6 +1155,10 @@
         {
           "measured_at": "2026-09-06T14:34:49Z",
           "actual_views": 204
+        },
+        {
+          "measured_at": "2026-09-06T15:27:59Z",
+          "actual_views": 244
         }
       ],
       "reuse": null
@@ -1170,8 +1176,8 @@
       "predicted_low": 79,
       "predicted_high": 889,
       "actual_views": 1063,
-      "measured_at": "2026-09-06T14:34:49Z",
-      "measurement_count": 5,
+      "measured_at": "2026-09-06T15:27:58Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": 301,
       "likes": 15,
@@ -1220,6 +1226,10 @@
         {
           "measured_at": "2026-09-06T14:34:49Z",
           "actual_views": 1063
+        },
+        {
+          "measured_at": "2026-09-06T15:27:58Z",
+          "actual_views": 1063
         }
       ],
       "reuse": null
@@ -1236,14 +1246,14 @@
       "predicted_range": "79-889",
       "predicted_low": 79,
       "predicted_high": 889,
-      "actual_views": 354,
-      "measured_at": "2026-09-06T14:34:48Z",
-      "measurement_count": 7,
+      "actual_views": 375,
+      "measured_at": "2026-09-06T15:27:58Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
-      "error_pct": 34,
+      "error_pct": 42,
       "likes": 7,
       "comments": 0,
-      "engagement_rate": 1.98,
+      "engagement_rate": 1.87,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1256,7 +1266,7 @@
       },
       "retention": {
         "available": false,
-        "reason": "HttpError: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-09-05&endDate=2026-09-07&metrics=audienceWatchRatio%2CrelativeRetentionPerformance&dimensions=elapsedVideoTimeRatio&filters=video%3D%3DD56wWSUvboc&alt=json returned \"Inte",
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1295,6 +1305,10 @@
         {
           "measured_at": "2026-09-06T14:34:48Z",
           "actual_views": 354
+        },
+        {
+          "measured_at": "2026-09-06T15:27:58Z",
+          "actual_views": 375
         }
       ],
       "reuse": null
@@ -1311,14 +1325,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 151,
-      "measured_at": "2026-09-06T14:34:47Z",
-      "measurement_count": 9,
+      "actual_views": 156,
+      "measured_at": "2026-09-06T15:27:57Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": -46,
+      "error_pct": -44,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 1.99,
+      "engagement_rate": 1.92,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1378,6 +1392,10 @@
         {
           "measured_at": "2026-09-06T14:34:47Z",
           "actual_views": 151
+        },
+        {
+          "measured_at": "2026-09-06T15:27:57Z",
+          "actual_views": 156
         }
       ],
       "reuse": null
@@ -1394,14 +1412,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 103,
-      "measured_at": "2026-09-06T14:34:46Z",
-      "measurement_count": 13,
+      "actual_views": 104,
+      "measured_at": "2026-09-06T15:27:56Z",
+      "measurement_count": 14,
       "system_version": "phase1-stabilize",
       "error_pct": -63,
-      "likes": 3,
+      "likes": 2,
       "comments": 0,
-      "engagement_rate": 2.91,
+      "engagement_rate": 1.92,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1477,6 +1495,10 @@
         {
           "measured_at": "2026-09-06T14:34:46Z",
           "actual_views": 103
+        },
+        {
+          "measured_at": "2026-09-06T15:27:56Z",
+          "actual_views": 104
         }
       ],
       "reuse": null
@@ -1494,8 +1516,8 @@
       "predicted_low": 114,
       "predicted_high": 1291,
       "actual_views": 296,
-      "measured_at": "2026-09-06T14:34:45Z",
-      "measurement_count": 15,
+      "measured_at": "2026-09-06T15:27:55Z",
+      "measurement_count": 16,
       "system_version": "phase1-stabilize",
       "error_pct": -23,
       "likes": 13,
@@ -1589,6 +1611,10 @@
         },
         {
           "measured_at": "2026-09-06T14:34:45Z",
+          "actual_views": 296
+        },
+        {
+          "measured_at": "2026-09-06T15:27:55Z",
           "actual_views": 296
         }
       ],
