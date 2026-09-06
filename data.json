@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:23:55.069126Z",
+  "generated_at": "2026-09-06T22:53:10.417289Z",
   "next_runs": [
     "2026-09-07T01:07:00Z",
     "2026-09-07T06:07:00Z",
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "videos": 107,
-    "total_views": 63921,
+    "total_views": 64101,
     "total_likes": 1247,
     "total_comments": 24,
     "mean_abs_pct_error": 109.6,
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.09
   },
   "quota": {
-    "units_used": 180,
+    "units_used": 195,
     "daily_cap": 10000,
-    "remaining": 9820,
+    "remaining": 9805,
     "upload_slots_used": 3,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -858,13 +858,13 @@
   },
   "ci": {
     "available": true,
-    "used_minutes": 715.7,
+    "used_minutes": 716.3,
     "budget_minutes": 2000,
     "percent_used": 35.8,
-    "runs_counted": 53,
+    "runs_counted": 54,
     "per_workflow_minutes": {
       "daily.yml": 581.3,
-      "followup.yml": 134.4
+      "followup.yml": 135.0
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1051,14 +1051,14 @@
       "predicted_range": "83-928",
       "predicted_low": 83,
       "predicted_high": 928,
-      "actual_views": 726,
-      "measured_at": "2026-09-06T20:23:55Z",
-      "measurement_count": 1,
+      "actual_views": 858,
+      "measured_at": "2026-09-06T22:53:10Z",
+      "measurement_count": 2,
       "system_version": "phase1-stabilize",
-      "error_pct": 162,
+      "error_pct": 210,
       "likes": 8,
       "comments": 0,
-      "engagement_rate": 1.1,
+      "engagement_rate": 0.93,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1097,6 +1097,10 @@
         {
           "measured_at": "2026-09-06T20:23:55Z",
           "actual_views": 726
+        },
+        {
+          "measured_at": "2026-09-06T22:53:10Z",
+          "actual_views": 858
         }
       ],
       "reuse": null
@@ -1113,14 +1117,14 @@
       "predicted_range": "83-928",
       "predicted_low": 83,
       "predicted_high": 928,
-      "actual_views": 1027,
-      "measured_at": "2026-09-06T20:23:54Z",
-      "measurement_count": 2,
+      "actual_views": 1032,
+      "measured_at": "2026-09-06T22:53:09Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
-      "error_pct": 271,
+      "error_pct": 273,
       "likes": 36,
       "comments": 0,
-      "engagement_rate": 3.51,
+      "engagement_rate": 3.49,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1158,6 +1162,10 @@
         {
           "measured_at": "2026-09-06T20:23:54Z",
           "actual_views": 1027
+        },
+        {
+          "measured_at": "2026-09-06T22:53:09Z",
+          "actual_views": 1032
         }
       ],
       "reuse": null
@@ -1174,14 +1182,14 @@
       "predicted_range": "83-928",
       "predicted_low": 83,
       "predicted_high": 928,
-      "actual_views": 291,
-      "measured_at": "2026-09-06T20:23:53Z",
-      "measurement_count": 4,
+      "actual_views": 310,
+      "measured_at": "2026-09-06T22:53:09Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": 5,
+      "error_pct": 12,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 3.09,
+      "engagement_rate": 2.9,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1227,6 +1235,10 @@
         {
           "measured_at": "2026-09-06T20:23:53Z",
           "actual_views": 291
+        },
+        {
+          "measured_at": "2026-09-06T22:53:09Z",
+          "actual_views": 310
         }
       ],
       "reuse": null
@@ -1243,14 +1255,14 @@
       "predicted_range": "79-889",
       "predicted_low": 79,
       "predicted_high": 889,
-      "actual_views": 1076,
-      "measured_at": "2026-09-06T20:23:53Z",
-      "measurement_count": 8,
+      "actual_views": 1086,
+      "measured_at": "2026-09-06T22:53:08Z",
+      "measurement_count": 9,
       "system_version": "phase1-stabilize",
-      "error_pct": 306,
+      "error_pct": 310,
       "likes": 15,
       "comments": 3,
-      "engagement_rate": 1.67,
+      "engagement_rate": 1.66,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1306,6 +1318,10 @@
         {
           "measured_at": "2026-09-06T20:23:53Z",
           "actual_views": 1076
+        },
+        {
+          "measured_at": "2026-09-06T22:53:08Z",
+          "actual_views": 1086
         }
       ],
       "reuse": null
@@ -1322,14 +1338,14 @@
       "predicted_range": "79-889",
       "predicted_low": 79,
       "predicted_high": 889,
-      "actual_views": 426,
-      "measured_at": "2026-09-06T20:23:52Z",
-      "measurement_count": 10,
+      "actual_views": 428,
+      "measured_at": "2026-09-06T22:53:07Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
-      "error_pct": 61,
+      "error_pct": 62,
       "likes": 8,
       "comments": 0,
-      "engagement_rate": 1.88,
+      "engagement_rate": 1.87,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1393,6 +1409,10 @@
         {
           "measured_at": "2026-09-06T20:23:52Z",
           "actual_views": 426
+        },
+        {
+          "measured_at": "2026-09-06T22:53:07Z",
+          "actual_views": 428
         }
       ],
       "reuse": null
@@ -1409,14 +1429,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 161,
-      "measured_at": "2026-09-06T20:23:52Z",
-      "measurement_count": 12,
+      "actual_views": 172,
+      "measured_at": "2026-09-06T22:53:07Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
-      "error_pct": -42,
+      "error_pct": -38,
       "likes": 4,
       "comments": 0,
-      "engagement_rate": 2.48,
+      "engagement_rate": 2.33,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1488,6 +1508,10 @@
         {
           "measured_at": "2026-09-06T20:23:52Z",
           "actual_views": 161
+        },
+        {
+          "measured_at": "2026-09-06T22:53:07Z",
+          "actual_views": 172
         }
       ],
       "reuse": null
@@ -1504,14 +1528,14 @@
       "predicted_range": "83-933",
       "predicted_low": 83,
       "predicted_high": 933,
-      "actual_views": 117,
-      "measured_at": "2026-09-06T20:23:51Z",
-      "measurement_count": 16,
+      "actual_views": 118,
+      "measured_at": "2026-09-06T22:53:06Z",
+      "measurement_count": 17,
       "system_version": "phase1-stabilize",
       "error_pct": -58,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.71,
+      "engagement_rate": 1.69,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1599,6 +1623,10 @@
         {
           "measured_at": "2026-09-06T20:23:51Z",
           "actual_views": 117
+        },
+        {
+          "measured_at": "2026-09-06T22:53:06Z",
+          "actual_views": 118
         }
       ],
       "reuse": null
