@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:01:00.548576Z",
+  "generated_at": "2026-09-07T23:29:51.364884Z",
   "next_runs": [
     "2026-09-08T01:07:00Z",
     "2026-09-08T06:07:00Z",
@@ -7,11 +7,11 @@
   ],
   "summary": {
     "videos": 113,
-    "total_views": 65091,
-    "total_likes": 1264,
+    "total_views": 65224,
+    "total_likes": 1268,
     "total_comments": 24,
-    "mean_abs_pct_error": 102.3,
-    "measured_videos": 109,
+    "mean_abs_pct_error": 102.7,
+    "measured_videos": 110,
     "days_of_history": 40,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -20,14 +20,14 @@
   },
   "retention_summary": {
     "available": true,
-    "n": 9,
-    "mean_drop_at": 0.127,
+    "n": 8,
+    "mean_drop_at": 0.124,
     "mean_drop_size": 0.084
   },
   "quota": {
-    "units_used": 201,
+    "units_used": 218,
     "daily_cap": 10000,
-    "remaining": 9799,
+    "remaining": 9782,
     "upload_slots_used": 5,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -38,7 +38,7 @@
   "repo": "hammaadban111-art/my-youtube-agent",
   "channel": {
     "available": true,
-    "subscriber_count": 65
+    "subscriber_count": 66
   },
   "spotlight": {
     "best": {
@@ -864,22 +864,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "workflow_dispatch",
     "created_at": "2026-09-07T19:52:05Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34157209074",
-    "last_successful_step": "Restore pipeline checkpoint",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 783.0,
+    "used_minutes": 792.9,
     "budget_minutes": 2000,
-    "percent_used": 39.1,
-    "runs_counted": 64,
+    "percent_used": 39.6,
+    "runs_counted": 65,
     "per_workflow_minutes": {
-      "daily.yml": 637.9,
+      "daily.yml": 647.8,
       "followup.yml": 145.1
     },
     "measurement_source": "run_duration",
@@ -899,14 +899,16 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 5,
+    "published_24h": 6,
     "expected_24h": 9,
     "slots": [
       {
         "started_at": "2026-09-07T19:52:05Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34157209074",
-        "reason": "This run is still going."
+        "title": "A Telescope Heard Something For 72 Seconds And Never Again",
+        "video_id": "gkLPvVVLPAU",
+        "url": "https://youtube.com/watch?v=gkLPvVVLPAU"
       },
       {
         "started_at": "2026-09-07T19:48:55Z",
@@ -1179,14 +1181,14 @@
       "predicted_range": "75-842",
       "predicted_low": 75,
       "predicted_high": 842,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 70,
+      "measured_at": "2026-09-07T23:29:50Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": -72,
+      "likes": 4,
+      "comments": 0,
+      "engagement_rate": 5.71,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1199,7 +1201,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1210,7 +1212,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-07T23:29:50Z",
+          "actual_views": 70
+        }
+      ],
       "reuse": null
     },
     {
@@ -1225,11 +1232,11 @@
       "predicted_range": "75-843",
       "predicted_low": 75,
       "predicted_high": 843,
-      "actual_views": 123,
-      "measured_at": "2026-09-07T20:01:00Z",
-      "measurement_count": 4,
+      "actual_views": 135,
+      "measured_at": "2026-09-07T23:29:49Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": -51,
+      "error_pct": -46,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1272,6 +1279,10 @@
         {
           "measured_at": "2026-09-07T20:01:00Z",
           "actual_views": 123
+        },
+        {
+          "measured_at": "2026-09-07T23:29:49Z",
+          "actual_views": 135
         }
       ],
       "reuse": null
@@ -1288,14 +1299,14 @@
       "predicted_range": "75-843",
       "predicted_low": 75,
       "predicted_high": 843,
-      "actual_views": 578,
-      "measured_at": "2026-09-07T20:00:59Z",
-      "measurement_count": 7,
+      "actual_views": 586,
+      "measured_at": "2026-09-07T23:29:48Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
-      "error_pct": 129,
+      "error_pct": 133,
       "likes": 9,
       "comments": 0,
-      "engagement_rate": 1.56,
+      "engagement_rate": 1.54,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1347,6 +1358,10 @@
         {
           "measured_at": "2026-09-07T20:00:59Z",
           "actual_views": 578
+        },
+        {
+          "measured_at": "2026-09-07T23:29:48Z",
+          "actual_views": 586
         }
       ],
       "reuse": null
@@ -1363,11 +1378,11 @@
       "predicted_range": "75-844",
       "predicted_low": 75,
       "predicted_high": 844,
-      "actual_views": 13,
-      "measured_at": "2026-09-07T20:00:58Z",
-      "measurement_count": 9,
+      "actual_views": 16,
+      "measured_at": "2026-09-07T23:29:47Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": -95,
+      "error_pct": -94,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1430,6 +1445,10 @@
         {
           "measured_at": "2026-09-07T20:00:58Z",
           "actual_views": 13
+        },
+        {
+          "measured_at": "2026-09-07T23:29:47Z",
+          "actual_views": 16
         }
       ],
       "reuse": null
@@ -1447,8 +1466,8 @@
       "predicted_low": 83,
       "predicted_high": 928,
       "actual_views": 868,
-      "measured_at": "2026-09-07T20:00:56Z",
-      "measurement_count": 11,
+      "measured_at": "2026-09-07T23:29:46Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
       "error_pct": 213,
       "likes": 8,
@@ -1532,6 +1551,10 @@
         {
           "measured_at": "2026-09-07T20:00:56Z",
           "actual_views": 868
+        },
+        {
+          "measured_at": "2026-09-07T23:29:46Z",
+          "actual_views": 868
         }
       ],
       "reuse": null
@@ -1549,8 +1572,8 @@
       "predicted_low": 83,
       "predicted_high": 928,
       "actual_views": 1042,
-      "measured_at": "2026-09-07T20:00:54Z",
-      "measurement_count": 12,
+      "measured_at": "2026-09-07T23:29:45Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 276,
       "likes": 36,
@@ -1633,6 +1656,10 @@
         {
           "measured_at": "2026-09-07T20:00:54Z",
           "actual_views": 1042
+        },
+        {
+          "measured_at": "2026-09-07T23:29:45Z",
+          "actual_views": 1042
         }
       ],
       "reuse": null
@@ -1649,14 +1676,14 @@
       "predicted_range": "83-928",
       "predicted_low": 83,
       "predicted_high": 928,
-      "actual_views": 401,
-      "measured_at": "2026-09-07T20:00:53Z",
-      "measurement_count": 14,
+      "actual_views": 441,
+      "measured_at": "2026-09-07T23:29:44Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
-      "error_pct": 45,
+      "error_pct": 59,
       "likes": 13,
       "comments": 0,
-      "engagement_rate": 3.24,
+      "engagement_rate": 2.95,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1742,6 +1769,10 @@
         {
           "measured_at": "2026-09-07T20:00:53Z",
           "actual_views": 401
+        },
+        {
+          "measured_at": "2026-09-07T23:29:44Z",
+          "actual_views": 441
         }
       ],
       "reuse": null
@@ -32562,8 +32593,8 @@
       "predicted_low": 198,
       "predicted_high": 2701,
       "actual_views": 898,
-      "measured_at": "2026-09-07T12:38:03Z",
-      "measurement_count": 56,
+      "measured_at": "2026-09-07T23:29:51Z",
+      "measurement_count": 57,
       "system_version": "phase1-stabilize",
       "error_pct": 23,
       "likes": 29,
@@ -32995,9 +33026,9 @@
           "instead": "published with title, description and subject only"
         }
       ],
-      "final": false,
-      "finalized_at": null,
-      "cadence": "daily",
+      "final": true,
+      "finalized_at": "2026-09-07T23:29:51Z",
+      "cadence": "final",
       "replaced_by": null,
       "history": [
         {
@@ -33222,6 +33253,10 @@
         },
         {
           "measured_at": "2026-09-07T12:38:03Z",
+          "actual_views": 898
+        },
+        {
+          "measured_at": "2026-09-07T23:29:51Z",
           "actual_views": 898
         }
       ],
