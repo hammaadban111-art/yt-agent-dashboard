@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T16:37:09.212832Z",
+  "generated_at": "2026-09-07T18:21:59.941184Z",
   "next_runs": [
     "2026-09-08T01:07:00Z",
     "2026-09-08T06:07:00Z",
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.094
   },
   "quota": {
-    "units_used": 147,
+    "units_used": 148,
     "daily_cap": 10000,
-    "remaining": 9853,
+    "remaining": 9852,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -864,22 +864,22 @@
   ],
   "last_run": {
     "available": true,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "schedule",
     "created_at": "2026-09-07T16:23:34Z",
     "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34143040420",
-    "last_successful_step": "Restore Pexels footage cache",
+    "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 753.9,
+    "used_minutes": 768.0,
     "budget_minutes": 2000,
-    "percent_used": 37.7,
-    "runs_counted": 59,
+    "percent_used": 38.4,
+    "runs_counted": 60,
     "per_workflow_minutes": {
-      "daily.yml": 609.6,
+      "daily.yml": 623.8,
       "followup.yml": 144.3
     },
     "measurement_source": "run_duration",
@@ -900,13 +900,15 @@
   "scheduled_uploads": {
     "available": true,
     "published_24h": 3,
-    "expected_24h": 6,
+    "expected_24h": 5,
     "slots": [
       {
         "started_at": "2026-09-07T16:23:34Z",
-        "state": "running",
+        "state": "published",
         "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34143040420",
-        "reason": "This run is still going."
+        "title": "The Swiss Clock That Ran Backwards Forever",
+        "video_id": "PKRwuYYfp74",
+        "url": "https://youtube.com/watch?v=PKRwuYYfp74"
       },
       {
         "started_at": "2026-09-07T12:21:28Z",
