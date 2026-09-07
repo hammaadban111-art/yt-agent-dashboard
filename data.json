@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:21:59.941184Z",
+  "generated_at": "2026-09-07T18:28:01.813747Z",
   "next_runs": [
     "2026-09-08T01:07:00Z",
     "2026-09-08T06:07:00Z",
@@ -25,9 +25,9 @@
     "mean_drop_size": 0.094
   },
   "quota": {
-    "units_used": 148,
+    "units_used": 149,
     "daily_cap": 10000,
-    "remaining": 9852,
+    "remaining": 9851,
     "upload_slots_used": 2,
     "upload_slots_cap": 100,
     "delete_cost": 50,
@@ -1534,7 +1534,7 @@
       "degradations": [],
       "final": false,
       "finalized_at": null,
-      "cadence": "every-run",
+      "cadence": "daily",
       "replaced_by": null,
       "history": [
         {
