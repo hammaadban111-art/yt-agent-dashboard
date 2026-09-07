@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T19:33:44.625500Z",
+  "generated_at": "2026-09-07T19:43:44.887617Z",
   "next_runs": [
     "2026-09-08T01:07:00Z",
     "2026-09-08T06:07:00Z",
     "2026-09-08T11:07:00Z"
   ],
   "summary": {
-    "videos": 111,
+    "videos": 112,
     "total_views": 65095,
     "total_likes": 1264,
     "total_comments": 24,
@@ -25,10 +25,10 @@
     "mean_drop_size": 0.084
   },
   "quota": {
-    "units_used": 175,
+    "units_used": 188,
     "daily_cap": 10000,
-    "remaining": 9825,
-    "upload_slots_used": 3,
+    "remaining": 9812,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -867,19 +867,19 @@
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
-    "created_at": "2026-09-07T19:27:10Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34155635732",
+    "created_at": "2026-09-07T19:38:20Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34156344954",
     "last_successful_step": "Restore pipeline checkpoint",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 768.9,
+    "used_minutes": 776.1,
     "budget_minutes": 2000,
-    "percent_used": 38.4,
-    "runs_counted": 61,
+    "percent_used": 38.8,
+    "runs_counted": 62,
     "per_workflow_minutes": {
-      "daily.yml": 623.8,
+      "daily.yml": 631.0,
       "followup.yml": 145.1
     },
     "measurement_source": "run_duration",
@@ -899,14 +899,22 @@
   },
   "scheduled_uploads": {
     "available": true,
-    "published_24h": 3,
-    "expected_24h": 6,
+    "published_24h": 4,
+    "expected_24h": 7,
     "slots": [
       {
-        "started_at": "2026-09-07T19:27:10Z",
+        "started_at": "2026-09-07T19:38:20Z",
         "state": "running",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34155635732",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34156344954",
         "reason": "This run is still going."
+      },
+      {
+        "started_at": "2026-09-07T19:27:10Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34155635732",
+        "title": "Nine Hikers Cut Their Tent Open And Ran Into The Snow",
+        "video_id": "62l2DjA1IMU",
+        "url": "https://youtube.com/watch?v=62l2DjA1IMU"
       },
       {
         "started_at": "2026-09-07T16:23:34Z",
@@ -997,18 +1005,67 @@
         "title": "The Day Concrete Turned to Liquid",
         "video_id": "7LrZvsPDYsQ",
         "url": "https://youtube.com/watch?v=7LrZvsPDYsQ"
-      },
-      {
-        "started_at": "2026-09-05T05:33:31Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/33947520332",
-        "title": "The Forest That Spontaneously Started Screaming",
-        "video_id": "81fDW0vvX18",
-        "url": "https://youtube.com/watch?v=81fDW0vvX18"
       }
     ]
   },
   "videos": [
+    {
+      "n": 112,
+      "video_id": "SvucVWynzzo",
+      "title": "A 600-Year-Old Book Nobody Has Ever Been Able To Read",
+      "url": "https://youtube.com/watch?v=SvucVWynzzo",
+      "uploaded_at": "2026-09-07T19:43:41Z",
+      "topic": "Voynich manuscript",
+      "hook": "There is a book no one on Earth can read.",
+      "predicted_views": 228,
+      "predicted_range": "68-762",
+      "predicted_low": 68,
+      "predicted_high": 762,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "pexels",
+          "detail": "segment 1 anchored query 'medieval vellum parchment closeup' failed: NoRelevantResults: No Pexels results for 'medieval vellum parchment closeup' met the relevance floor of 1",
+          "fallback": "used segment fallback query 'aged paper'"
+        },
+        {
+          "stage": "pexels",
+          "detail": "segment 2 anchored query 'botanical illustration medieval herbal' failed: NoRelevantResults: No Pexels results for 'botanical illustration medieval herbal' met the relevance floor of 1",
+          "fallback": "used segment fallback query 'hand drawn plants'"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 111,
       "video_id": "62l2DjA1IMU",
@@ -1114,8 +1171,8 @@
       "predicted_low": 75,
       "predicted_high": 843,
       "actual_views": 126,
-      "measured_at": "2026-09-07T19:33:44Z",
-      "measurement_count": 2,
+      "measured_at": "2026-09-07T19:43:44Z",
+      "measurement_count": 3,
       "system_version": "phase1-stabilize",
       "error_pct": -50,
       "likes": 0,
@@ -1152,6 +1209,10 @@
         {
           "measured_at": "2026-09-07T19:33:44Z",
           "actual_views": 126
+        },
+        {
+          "measured_at": "2026-09-07T19:43:44Z",
+          "actual_views": 126
         }
       ],
       "reuse": null
@@ -1169,8 +1230,8 @@
       "predicted_low": 75,
       "predicted_high": 843,
       "actual_views": 578,
-      "measured_at": "2026-09-07T19:33:43Z",
-      "measurement_count": 5,
+      "measured_at": "2026-09-07T19:43:44Z",
+      "measurement_count": 6,
       "system_version": "phase1-stabilize",
       "error_pct": 129,
       "likes": 9,
@@ -1219,6 +1280,10 @@
         {
           "measured_at": "2026-09-07T19:33:43Z",
           "actual_views": 578
+        },
+        {
+          "measured_at": "2026-09-07T19:43:44Z",
+          "actual_views": 578
         }
       ],
       "reuse": null
@@ -1236,8 +1301,8 @@
       "predicted_low": 75,
       "predicted_high": 844,
       "actual_views": 14,
-      "measured_at": "2026-09-07T19:33:43Z",
-      "measurement_count": 7,
+      "measured_at": "2026-09-07T19:43:43Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -94,
       "likes": 0,
@@ -1294,6 +1359,10 @@
         {
           "measured_at": "2026-09-07T19:33:43Z",
           "actual_views": 14
+        },
+        {
+          "measured_at": "2026-09-07T19:43:43Z",
+          "actual_views": 14
         }
       ],
       "reuse": null
@@ -1311,8 +1380,8 @@
       "predicted_low": 83,
       "predicted_high": 928,
       "actual_views": 868,
-      "measured_at": "2026-09-07T19:33:42Z",
-      "measurement_count": 9,
+      "measured_at": "2026-09-07T19:43:43Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": 213,
       "likes": 8,
@@ -1388,6 +1457,10 @@
         {
           "measured_at": "2026-09-07T19:33:42Z",
           "actual_views": 868
+        },
+        {
+          "measured_at": "2026-09-07T19:43:43Z",
+          "actual_views": 868
         }
       ],
       "reuse": null
@@ -1405,8 +1478,8 @@
       "predicted_low": 83,
       "predicted_high": 928,
       "actual_views": 1042,
-      "measured_at": "2026-09-07T19:33:41Z",
-      "measurement_count": 10,
+      "measured_at": "2026-09-07T19:43:42Z",
+      "measurement_count": 11,
       "system_version": "phase1-stabilize",
       "error_pct": 276,
       "likes": 36,
@@ -1481,6 +1554,10 @@
         {
           "measured_at": "2026-09-07T19:33:41Z",
           "actual_views": 1042
+        },
+        {
+          "measured_at": "2026-09-07T19:43:42Z",
+          "actual_views": 1042
         }
       ],
       "reuse": null
@@ -1498,8 +1575,8 @@
       "predicted_low": 83,
       "predicted_high": 928,
       "actual_views": 401,
-      "measured_at": "2026-09-07T19:33:41Z",
-      "measurement_count": 12,
+      "measured_at": "2026-09-07T19:43:42Z",
+      "measurement_count": 13,
       "system_version": "phase1-stabilize",
       "error_pct": 45,
       "likes": 13,
@@ -1581,6 +1658,10 @@
         },
         {
           "measured_at": "2026-09-07T19:33:41Z",
+          "actual_views": 401
+        },
+        {
+          "measured_at": "2026-09-07T19:43:42Z",
           "actual_views": 401
         }
       ],
