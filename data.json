@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-22T18:50:21.199336Z",
+  "generated_at": "2026-09-23T02:27:17.131921Z",
   "next_runs": [
-    "2026-09-23T01:07:00Z",
     "2026-09-23T06:07:00Z",
-    "2026-09-23T11:07:00Z"
+    "2026-09-23T11:07:00Z",
+    "2026-09-23T16:07:00Z"
   ],
   "summary": {
-    "videos": 164,
-    "total_views": 77303,
-    "total_likes": 1468,
+    "videos": 165,
+    "total_views": 77432,
+    "total_likes": 1471,
     "total_comments": 31,
-    "mean_abs_pct_error": 86.6,
-    "measured_videos": 162,
+    "mean_abs_pct_error": 84.2,
+    "measured_videos": 163,
     "days_of_history": 55,
     "self_improve_active": false,
     "self_improve_after_days": 5,
@@ -24,10 +24,10 @@
     "mean_drop_size": 0.11
   },
   "quota": {
-    "units_used": 164,
+    "units_used": 209,
     "daily_cap": 10000,
-    "remaining": 9836,
-    "upload_slots_used": 3,
+    "remaining": 9791,
+    "upload_slots_used": 4,
     "upload_slots_cap": 100,
     "delete_cost": 50,
     "reupload_cost": 50,
@@ -39,7 +39,7 @@
     "available": true,
     "subscriber_count": 73,
     "total_views": 77184,
-    "total_videos": 163,
+    "total_videos": 164,
     "hidden_subscriber_count": false
   },
   "channel_history": [
@@ -154,38 +154,38 @@
       "watch_time_minutes": null
     },
     {
-      "measured_at": "2026-09-22T18:46:13Z",
+      "measured_at": "2026-09-22T22:58:16Z",
       "day": "2026-09-22",
       "available": true,
       "reason": null,
       "source": "youtube_data_api",
       "subscriber_count": 73,
       "total_views": 77184,
-      "total_videos": 162,
+      "total_videos": 164,
       "watch_time_minutes": null
     }
   ],
   "channel_growth": {
-    "from_day": "2026-09-15",
+    "from_day": "2026-09-16",
     "to_day": "2026-09-22",
     "span_days": 6,
     "covers_requested_window": true,
-    "subscribers_gained": 1,
+    "subscribers_gained": 0,
     "subscribers_now": 73,
-    "views_gained": 3616
+    "views_gained": 3333
   },
   "analytics_capabilities": {
-    "probed_at": "2026-09-18T08:26:53Z",
+    "probed_at": "2026-09-22T18:51:31Z",
     "window_days": 30,
     "metrics": {
       "impressions": {
         "available": false,
-        "reason": "HttpError: <HttpError 400 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-08-19&endDate=2026-09-18&metrics=impressions&alt=json returned \"Unknown identifier (impressions) given in field parameters.metrics.\". Details: \"[{'message': 'Unknown iden",
+        "reason": "HttpError: <HttpError 400 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-08-23&endDate=2026-09-22&metrics=impressions&alt=json returned \"Unknown identifier (impressions) given in field parameters.metrics.\". Details: \"[{'message': 'Unknown iden",
         "rows": 0
       },
       "impressionClickThroughRate": {
         "available": false,
-        "reason": "HttpError: <HttpError 400 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-08-19&endDate=2026-09-18&metrics=impressionClickThroughRate&alt=json returned \"Unknown identifier (impressionClickThroughRate) given in field parameters.metrics.\". Detail",
+        "reason": "HttpError: <HttpError 400 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-08-23&endDate=2026-09-22&metrics=impressionClickThroughRate&alt=json returned \"Unknown identifier (impressionClickThroughRate) given in field parameters.metrics.\". Detail",
         "rows": 0
       },
       "estimatedMinutesWatched": {
@@ -196,7 +196,7 @@
       "trafficSources": {
         "available": true,
         "reason": null,
-        "rows": 11
+        "rows": 10
       },
       "demographics": {
         "available": true,
@@ -215,18 +215,18 @@
     },
     "stale_after_days": 8,
     "records": {
-      "verified": 98,
+      "verified": 99,
       "stale": 64,
       "unavailable": 2,
       "failed": 0
     },
     "retention": {
       "verified": 128,
-      "unavailable": 35,
+      "unavailable": 36,
       "failed": 1
     },
     "comments": {
-      "verified": 9,
+      "verified": 10,
       "failed": 95,
       "disabled": 0,
       "unknown": 60
@@ -1117,21 +1117,26 @@
     "available": true,
     "status": "completed",
     "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-09-22T18:39:45Z",
-    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/35768648941",
+    "event": "schedule",
+    "created_at": "2026-09-22T19:41:01Z",
+    "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/35775354244",
     "last_successful_step": "Complete job",
     "failed_step": null
   },
   "ci": {
     "available": true,
-    "used_minutes": 1257.1,
+    "used_minutes": 1316.3,
     "budget_minutes": 2000,
-    "percent_used": 62.9,
-    "runs_counted": 187,
+    "percent_used": 65.8,
+    "runs_counted": 228,
     "per_workflow_minutes": {
-      "daily.yml": 1049.3,
-      "followup.yml": 207.8
+      "daily.yml": 1054.8,
+      "editorial-brief.yml": 0.5,
+      "followup.yml": 210.5,
+      "niche_scan.yml": 1.5,
+      "story-packet.yml": 9.6,
+      "tests.yml": 28.2,
+      "weekly.yml": 11.3
     },
     "measurement_source": "run_duration",
     "month_start": "2026-09-01"
@@ -1178,22 +1183,22 @@
         "created_at": "2026-09-15T06:01:52Z",
         "error": "Run agent: RuntimeError: Narration is 40.7s but VIDEO_LENGTH_SECONDS is 35.0s. Required playback speed 1.16 is outside the safe 0.85-1.15 range; repair the packet's prose length instead of publishing distorted narration.",
         "recovered": true
-      },
-      {
-        "workflow": "daily.yml",
-        "run_id": 34891812915,
-        "url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/34891812915",
-        "created_at": "2026-09-14T20:15:29Z",
-        "error": "Run agent: RuntimeError: Narration is 40.7s but VIDEO_LENGTH_SECONDS is 35.0s. Required playback speed 1.16 is outside the safe 0.85-1.15 range; repair the packet's prose length instead of publishing distorted narration.",
-        "recovered": true
       }
     ]
   },
   "scheduled_uploads": {
     "available": true,
     "published_24h": 4,
-    "expected_24h": 6,
+    "expected_24h": 5,
     "slots": [
+      {
+        "started_at": "2026-09-22T19:41:01Z",
+        "state": "published",
+        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/35775354244",
+        "title": "Sixty People Were Left On A Sandbank For Fifteen Years",
+        "video_id": "1IPwADgqunU",
+        "url": "https://youtube.com/watch?v=1IPwADgqunU"
+      },
       {
         "started_at": "2026-09-22T15:28:49Z",
         "state": "published",
@@ -1222,11 +1227,6 @@
         "title": "Two Percent Of This Town Hear A Noise Nobody Else Can",
         "video_id": "HGFhd2ljubI",
         "url": "https://youtube.com/watch?v=HGFhd2ljubI"
-      },
-      {
-        "started_at": "2026-09-22T01:07:00Z",
-        "state": "not_uploaded",
-        "reason": "The scheduled run never started on GitHub's side."
       },
       {
         "started_at": "2026-09-21T20:22:21Z",
@@ -1283,18 +1283,70 @@
         "title": "This Abandoned Cargo Ship Drifted For 38 Years",
         "video_id": "QFS9tmDjgIg",
         "url": "https://youtube.com/watch?v=QFS9tmDjgIg"
-      },
-      {
-        "started_at": "2026-09-20T06:00:31Z",
-        "state": "published",
-        "run_url": "https://github.com/hammaadban111-art/my-youtube-agent/actions/runs/35493098540",
-        "title": "Soviet Engineers Drilled 12 Kilometres Down, Then Quit",
-        "video_id": "wSs36Ce6-d0",
-        "url": "https://youtube.com/watch?v=wSs36Ce6-d0"
       }
     ]
   },
   "videos": [
+    {
+      "n": 165,
+      "video_id": "1IPwADgqunU",
+      "title": "Sixty People Were Left On A Sandbank For Fifteen Years",
+      "url": "https://youtube.com/watch?v=1IPwADgqunU",
+      "uploaded_at": "2026-09-22T19:46:19Z",
+      "topic": "Tromelin Island",
+      "hook": "Sixty people were left on a sandbank for fifteen years.",
+      "predicted_views": 90,
+      "predicted_range": "27-296",
+      "predicted_low": 27,
+      "predicted_high": 296,
+      "actual_views": null,
+      "measured_at": null,
+      "measurement_count": 0,
+      "system_version": "phase1-stabilize",
+      "error_pct": null,
+      "likes": null,
+      "comments": null,
+      "engagement_rate": null,
+      "top_comments": [],
+      "model_version": "baseline-v2-benchmark",
+      "fact_check": {
+        "status": "checked",
+        "checked": 5,
+        "supported": 5,
+        "silent": 0,
+        "contradicted": 0,
+        "misleading": 0,
+        "resolution_grounded": true,
+        "unverified_source": false,
+        "fully_verified": true
+      },
+      "retention": {
+        "available": false,
+        "reason": null,
+        "curve": [],
+        "biggest_drop_at": null,
+        "biggest_drop_size": null,
+        "retention_at_end": null
+      },
+      "degradations": [
+        {
+          "stage": "pexels",
+          "detail": "segment 0 anchored query 'flat sand island indian ocean' failed: NoRelevantResults: No Pexels results for 'flat sand island indian ocean' met the relevance floor of 2",
+          "fallback": "used segment fallback query 'sand island'"
+        },
+        {
+          "stage": "pexels",
+          "detail": "segment 3 anchored query 'coral stone shelter windswept island' failed: NoRelevantResults: No Pexels results for 'coral stone shelter windswept island' met the relevance floor of 2",
+          "fallback": "used segment fallback query 'stone shelter'"
+        }
+      ],
+      "final": false,
+      "finalized_at": null,
+      "cadence": "every-run",
+      "replaced_by": null,
+      "history": [],
+      "reuse": null
+    },
     {
       "n": 164,
       "video_id": "MctImQN34H0",
@@ -1382,14 +1434,14 @@
       "predicted_range": "23-243",
       "predicted_low": 23,
       "predicted_high": 243,
-      "actual_views": null,
-      "measured_at": null,
-      "measurement_count": 0,
+      "actual_views": 100,
+      "measured_at": "2026-09-22T22:58:16Z",
+      "measurement_count": 1,
       "system_version": "phase1-stabilize",
-      "error_pct": null,
-      "likes": null,
-      "comments": null,
-      "engagement_rate": null,
+      "error_pct": 35,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 3.0,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1405,7 +1457,7 @@
       },
       "retention": {
         "available": false,
-        "reason": null,
+        "reason": "Analytics returned no retention rows yet (too few views, or data not processed \u2014 usually needs ~24-48h).",
         "curve": [],
         "biggest_drop_at": null,
         "biggest_drop_size": null,
@@ -1427,7 +1479,12 @@
       "finalized_at": null,
       "cadence": "every-run",
       "replaced_by": null,
-      "history": [],
+      "history": [
+        {
+          "measured_at": "2026-09-22T22:58:16Z",
+          "actual_views": 100
+        }
+      ],
       "reuse": null
     },
     {
@@ -1442,14 +1499,14 @@
       "predicted_range": "29-312",
       "predicted_low": 29,
       "predicted_high": 312,
-      "actual_views": 128,
-      "measured_at": "2026-09-22T18:46:13Z",
-      "measurement_count": 2,
+      "actual_views": 157,
+      "measured_at": "2026-09-22T22:58:15Z",
+      "measurement_count": 5,
       "system_version": "phase1-stabilize",
-      "error_pct": 35,
+      "error_pct": 65,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.56,
+      "engagement_rate": 1.27,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1495,6 +1552,18 @@
         {
           "measured_at": "2026-09-22T18:46:13Z",
           "actual_views": 128
+        },
+        {
+          "measured_at": "2026-09-22T19:46:24Z",
+          "actual_views": 151
+        },
+        {
+          "measured_at": "2026-09-22T19:46:48Z",
+          "actual_views": 152
+        },
+        {
+          "measured_at": "2026-09-22T22:58:15Z",
+          "actual_views": 157
         }
       ],
       "reuse": null
@@ -1512,8 +1581,8 @@
       "predicted_low": 29,
       "predicted_high": 312,
       "actual_views": 42,
-      "measured_at": "2026-09-22T18:46:12Z",
-      "measurement_count": 5,
+      "measured_at": "2026-09-22T22:58:14Z",
+      "measurement_count": 8,
       "system_version": "phase1-stabilize",
       "error_pct": -56,
       "likes": 0,
@@ -1581,6 +1650,18 @@
         {
           "measured_at": "2026-09-22T18:46:12Z",
           "actual_views": 42
+        },
+        {
+          "measured_at": "2026-09-22T19:46:23Z",
+          "actual_views": 42
+        },
+        {
+          "measured_at": "2026-09-22T19:46:47Z",
+          "actual_views": 42
+        },
+        {
+          "measured_at": "2026-09-22T22:58:14Z",
+          "actual_views": 42
         }
       ],
       "reuse": null
@@ -1597,14 +1678,14 @@
       "predicted_range": "29-319",
       "predicted_low": 29,
       "predicted_high": 319,
-      "actual_views": 118,
-      "measured_at": "2026-09-22T18:46:11Z",
-      "measurement_count": 7,
+      "actual_views": 116,
+      "measured_at": "2026-09-22T22:58:13Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
-      "error_pct": 22,
+      "error_pct": 20,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.69,
+      "engagement_rate": 1.72,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1675,6 +1756,18 @@
         {
           "measured_at": "2026-09-22T18:46:11Z",
           "actual_views": 118
+        },
+        {
+          "measured_at": "2026-09-22T19:46:23Z",
+          "actual_views": 118
+        },
+        {
+          "measured_at": "2026-09-22T19:46:46Z",
+          "actual_views": 118
+        },
+        {
+          "measured_at": "2026-09-22T22:58:13Z",
+          "actual_views": 116
         }
       ],
       "reuse": null
@@ -1692,8 +1785,8 @@
       "predicted_low": 29,
       "predicted_high": 319,
       "actual_views": 26,
-      "measured_at": "2026-09-22T18:46:10Z",
-      "measurement_count": 7,
+      "measured_at": "2026-09-22T22:58:12Z",
+      "measurement_count": 10,
       "system_version": "phase1-stabilize",
       "error_pct": -73,
       "likes": 0,
@@ -1759,6 +1852,18 @@
         {
           "measured_at": "2026-09-22T18:46:10Z",
           "actual_views": 26
+        },
+        {
+          "measured_at": "2026-09-22T19:46:22Z",
+          "actual_views": 26
+        },
+        {
+          "measured_at": "2026-09-22T19:46:45Z",
+          "actual_views": 26
+        },
+        {
+          "measured_at": "2026-09-22T22:58:12Z",
+          "actual_views": 26
         }
       ],
       "reuse": null
@@ -1775,14 +1880,14 @@
       "predicted_range": "24-257",
       "predicted_low": 24,
       "predicted_high": 257,
-      "actual_views": 93,
-      "measured_at": "2026-09-22T18:46:09Z",
-      "measurement_count": 9,
+      "actual_views": 92,
+      "measured_at": "2026-09-22T22:58:11Z",
+      "measurement_count": 12,
       "system_version": "phase1-stabilize",
-      "error_pct": 19,
+      "error_pct": 18,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 1.08,
+      "engagement_rate": 1.09,
       "top_comments": [],
       "model_version": "baseline-v2-benchmark",
       "fact_check": {
@@ -1851,6 +1956,18 @@
         {
           "measured_at": "2026-09-22T18:46:09Z",
           "actual_views": 93
+        },
+        {
+          "measured_at": "2026-09-22T19:46:21Z",
+          "actual_views": 92
+        },
+        {
+          "measured_at": "2026-09-22T19:46:44Z",
+          "actual_views": 92
+        },
+        {
+          "measured_at": "2026-09-22T22:58:11Z",
+          "actual_views": 92
         }
       ],
       "reuse": null
@@ -1867,11 +1984,11 @@
       "predicted_range": "24-257",
       "predicted_low": 24,
       "predicted_high": 257,
-      "actual_views": 27,
-      "measured_at": "2026-09-22T18:46:09Z",
-      "measurement_count": 12,
+      "actual_views": 30,
+      "measured_at": "2026-09-22T22:58:10Z",
+      "measurement_count": 15,
       "system_version": "phase1-stabilize",
-      "error_pct": -65,
+      "error_pct": -62,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -1960,6 +2077,18 @@
         {
           "measured_at": "2026-09-22T18:46:09Z",
           "actual_views": 27
+        },
+        {
+          "measured_at": "2026-09-22T19:46:21Z",
+          "actual_views": 28
+        },
+        {
+          "measured_at": "2026-09-22T19:46:44Z",
+          "actual_views": 28
+        },
+        {
+          "measured_at": "2026-09-22T22:58:10Z",
+          "actual_views": 30
         }
       ],
       "reuse": null
